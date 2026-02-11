@@ -1,0 +1,1 @@
+{"version":3,"file":"github-collector.d.ts","sourceRoot":"","sources":["../../src/collectors/github-collector.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,UAAU,EAAc,MAAM,aAAa,CAAC;AAErD,qBAAa,eAAe;IAC1B,OAAO,CAAC,UAAU,CAA4B;IAExC,OAAO,IAAI,OAAO,CAAC,UAAU,CAAC;YAsBtB,kBAAkB;YA0BlB,aAAa;IA0B3B,OAAO,CAAC,UAAU;IAelB,OAAO,CAAC,cAAc;CAKvB"}

@@ -1,0 +1,26 @@
+{
+  "sources": [
+    {
+      "name": "On-Chain Data",
+      "lastFetch": "2026-02-10T11:15:00Z",
+      "status": "healthy",
+      "records": 154320,
+      "description": "Transaction data, program interactions, and TVL metrics"
+    },
+    {
+      "name": "GitHub",
+      "lastFetch": "2026-02-10T10:45:00Z",
+      "status": "healthy",
+      "records": 892,
+      "description": "Repository activity, commits, and new project launches"
+    },
+    {
+      "name": "Social Signals",
+      "lastFetch": "2026-02-10T11:00:00Z",
+      "status": "healthy",
+      "records": 45231,
+      "description": "Twitter, Discord, and community sentiment analysis"
+    }
+  ],
+  "nextRefresh": "2026-02-10T17:30:00Z"
+}

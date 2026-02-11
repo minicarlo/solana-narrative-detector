@@ -1,0 +1,42 @@
+{
+  "name": "solana-narrative-detector",
+  "version": "1.0.0",
+  "description": "Real-time detection of emerging narratives in the Solana ecosystem",
+  "main": "dist/index.js",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "tsc",
+    "detect": "npm run build && node dist/run-detection.js",
+    "start": "npm run build && node dist/index.js cron",
+    "start:once": "npm run build && node dist/index.js once",
+    "test:collectors": "npm run build && node dist/index.js test",
+    "dev": "ts-node --esm src/index.ts cron",
+    "deploy": "npm run build && npm run start:once"
+  },
+  "keywords": [
+    "solana",
+    "narrative-detection",
+    "crypto",
+    "web3",
+    "helius",
+    "github",
+    "superteam"
+  ],
+  "author": "OpenClaw Agent",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "@types/node-cron": "^3.0.11",
+    "node-fetch": "^3.3.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.4",
+    "node-cron": "^3.0.3",
+    "web3": "^4.16.0"
+  }
+}

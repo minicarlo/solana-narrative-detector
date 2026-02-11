@@ -1,0 +1,42 @@
+name: Daily Narrative Update
+
+on:
+  schedule:
+    # Run at 08:00 UTC every day
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Run detection pipeline
+        run: npm run detect
+        env:
+          HELIUS_API_KEY: ${{ secrets.HELIUS_API_KEY }}
+
+      - name: Commit and push updated data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: Update narrative data [automated]'
+          file_pattern: 'data/*.json'
+          commit_user_name: 'Narrative Bot'
+          commit_user_email: 'bot@narrative-detector.local'
