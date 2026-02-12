@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-10T15:49:01.074Z",
+  "timestamp": "2026-02-12T10:30:10.359Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -9,7 +9,8 @@
       "trendingKeywords": [
         "agent",
         "bot",
-        "autonomous"
+        "intelligence",
+        "inference"
       ],
       "topProjects": [
         {
@@ -31,12 +32,12 @@
           "source": "github"
         },
         {
-          "name": "solana-messenger",
+          "name": "openclaw_trading_arena",
           "description": "",
           "source": "github"
         },
         {
-          "name": "openclaw_trading_arena",
+          "name": "agent-poi",
           "description": "",
           "source": "github"
         }
@@ -49,65 +50,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 15,
         "social": 0
       },
-      "lastUpdated": "2026-02-10T15:49:01.074Z"
-    },
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.49054000000000003,
-      "trendingKeywords": [
-        "liquidity",
-        "perp",
-        "dex"
-      ],
-      "topProjects": [
-        {
-          "name": "whirlpools",
-          "description": "",
-          "url": "https://github.com/orca-so/whirlpools",
-          "source": "github"
-        },
-        {
-          "name": "percolator-launch",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "Solana_LP_Sniffer",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "limitless",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 4,
-        "social": 0
-      },
-      "lastUpdated": "2026-02-10T15:49:01.073Z"
+      "lastUpdated": "2026-02-12T10:30:10.359Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.46086,
+      "confidence": 0.8209799999999999,
       "trendingKeywords": [
         "validator",
-        "node"
+        "node",
+        "indexer",
+        "bridge",
+        "oracle"
       ],
       "topProjects": [
         {
@@ -127,6 +85,16 @@
           "description": "",
           "url": "https://github.com/jito-foundation/jito-solana",
           "source": "github"
+        },
+        {
+          "name": "uho-indexing",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "Bridge-to-Base.github.io",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -137,19 +105,66 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-02-10T15:49:01.074Z"
+      "lastUpdated": "2026-02-12T10:30:10.359Z"
+    },
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.49066,
+      "trendingKeywords": [
+        "liquidity",
+        "swap",
+        "dex",
+        "stake"
+      ],
+      "topProjects": [
+        {
+          "name": "whirlpools",
+          "description": "",
+          "url": "https://github.com/orca-so/whirlpools",
+          "source": "github"
+        },
+        {
+          "name": "onchain-receipt-card-api",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "uho-indexing",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "agent-reputation-oracle",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 4,
+        "social": 0
+      },
+      "lastUpdated": "2026-02-12T10:30:10.358Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.43484,
+      "confidence": 0.3149,
       "trendingKeywords": [
-        "deploy",
-        "build"
+        "build",
+        "deploy"
       ],
       "topProjects": [
         {
@@ -163,11 +178,6 @@
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
-        },
-        {
-          "name": "percolator-launch",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -178,30 +188,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-02-10T15:49:01.074Z"
+      "lastUpdated": "2026-02-12T10:30:10.359Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.16,
       "trendingKeywords": [
-        "community",
-        "governance"
+        "community"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "gsd-community-hub",
-          "description": "",
           "source": "github"
         }
       ],
@@ -213,10 +217,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-02-10T15:49:01.074Z"
+      "lastUpdated": "2026-02-12T10:30:10.359Z"
     },
     {
       "id": "gaming-nft",
@@ -228,7 +232,7 @@
       ],
       "topProjects": [
         {
-          "name": "Sol_Dice",
+          "name": "clawkingdomrpg",
           "description": "",
           "source": "github"
         }
@@ -244,7 +248,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-02-10T15:49:01.073Z"
+      "lastUpdated": "2026-02-12T10:30:10.359Z"
     }
   ]
 }
