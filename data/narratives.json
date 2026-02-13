@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-12T10:30:10.359Z",
+  "timestamp": "2026-02-13T10:09:08.322Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -9,8 +9,8 @@
       "trendingKeywords": [
         "agent",
         "bot",
-        "intelligence",
-        "inference"
+        "autonomous",
+        "intelligence"
       ],
       "topProjects": [
         {
@@ -32,12 +32,12 @@
           "source": "github"
         },
         {
-          "name": "openclaw_trading_arena",
+          "name": "agentgate",
           "description": "",
           "source": "github"
         },
         {
-          "name": "agent-poi",
+          "name": "uho-indexing",
           "description": "",
           "source": "github"
         }
@@ -50,22 +50,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 15,
+        "github": 14,
         "social": 0
       },
-      "lastUpdated": "2026-02-12T10:30:10.359Z"
+      "lastUpdated": "2026-02-13T10:09:08.322Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.8209799999999999,
+      "confidence": 0.58098,
       "trendingKeywords": [
         "validator",
         "node",
-        "indexer",
-        "bridge",
-        "oracle"
+        "indexer"
       ],
       "topProjects": [
         {
@@ -90,11 +88,6 @@
           "name": "uho-indexing",
           "description": "",
           "source": "github"
-        },
-        {
-          "name": "Bridge-to-Base.github.io",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -105,21 +98,107 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-02-12T10:30:10.359Z"
+      "lastUpdated": "2026-02-13T10:09:08.322Z"
+    },
+    {
+      "id": "dev-tools",
+      "name": "Developer Tools",
+      "description": "Tools and infrastructure for developers",
+      "confidence": 0.55496,
+      "trendingKeywords": [
+        "build",
+        "framework",
+        "deploy"
+      ],
+      "topProjects": [
+        {
+          "name": "anchor",
+          "description": "",
+          "url": "https://github.com/solana-foundation/anchor",
+          "source": "github"
+        },
+        {
+          "name": "solana-playground",
+          "description": "",
+          "url": "https://github.com/solana-playground/solana-playground",
+          "source": "github"
+        },
+        {
+          "name": "sol-scan",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "Trailblazer",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create a Solana program testing framework with auto-generated tests",
+        "Build a no-code contract deployment platform",
+        "Develop a real-time program monitoring and alerting tool",
+        "Create an IDE extension for Solana development"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 4,
+        "social": 0
+      },
+      "lastUpdated": "2026-02-13T10:09:08.322Z"
+    },
+    {
+      "id": "social-consumer",
+      "name": "Social & Consumer",
+      "description": "Social platforms and consumer applications",
+      "confidence": 0.4,
+      "trendingKeywords": [
+        "community",
+        "social",
+        "profile"
+      ],
+      "topProjects": [
+        {
+          "name": "app-monorepo",
+          "description": "",
+          "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "Trailblazer",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "iq-workspace",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized social graph protocol",
+        "Create a creator monetization platform with micro-tipping",
+        "Develop a DAO governance participation reward system",
+        "Build a reputation-based social discovery app"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 3,
+        "social": 0
+      },
+      "lastUpdated": "2026-02-13T10:09:08.322Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.49066,
+      "confidence": 0.37072000000000005,
       "trendingKeywords": [
-        "liquidity",
-        "swap",
         "dex",
-        "stake"
+        "liquidity"
       ],
       "topProjects": [
         {
@@ -129,17 +208,12 @@
           "source": "github"
         },
         {
-          "name": "onchain-receipt-card-api",
-          "description": "",
-          "source": "github"
-        },
-        {
           "name": "uho-indexing",
           "description": "",
           "source": "github"
         },
         {
-          "name": "agent-reputation-oracle",
+          "name": "jup-cli",
           "description": "",
           "source": "github"
         }
@@ -152,91 +226,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-02-12T10:30:10.358Z"
-    },
-    {
-      "id": "dev-tools",
-      "name": "Developer Tools",
-      "description": "Tools and infrastructure for developers",
-      "confidence": 0.3149,
-      "trendingKeywords": [
-        "build",
-        "deploy"
-      ],
-      "topProjects": [
-        {
-          "name": "ant-design-web3",
-          "description": "",
-          "url": "https://github.com/ant-design/ant-design-web3",
-          "source": "github"
-        },
-        {
-          "name": "solana-playground",
-          "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a Solana program testing framework with auto-generated tests",
-        "Build a no-code contract deployment platform",
-        "Develop a real-time program monitoring and alerting tool",
-        "Create an IDE extension for Solana development"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 2,
-        "social": 0
-      },
-      "lastUpdated": "2026-02-12T10:30:10.359Z"
-    },
-    {
-      "id": "social-consumer",
-      "name": "Social & Consumer",
-      "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
-      "trendingKeywords": [
-        "community"
-      ],
-      "topProjects": [
-        {
-          "name": "app-monorepo",
-          "description": "",
-          "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized social graph protocol",
-        "Create a creator monetization platform with micro-tipping",
-        "Develop a DAO governance participation reward system",
-        "Build a reputation-based social discovery app"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 1,
-        "social": 0
-      },
-      "lastUpdated": "2026-02-12T10:30:10.359Z"
+      "lastUpdated": "2026-02-13T10:09:08.322Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.1,
       "trendingKeywords": [
-        "game"
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "clawkingdomrpg",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -245,10 +252,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-02-12T10:30:10.359Z"
+      "lastUpdated": "2026-02-13T10:09:08.322Z"
     }
   ]
 }
