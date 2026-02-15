@@ -1,15 +1,14 @@
 {
-  "timestamp": "2026-02-14T09:02:44.893Z",
+  "timestamp": "2026-02-15T09:03:11.574Z",
   "narratives": [
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 1,
+      "confidence": 0.9535199999999999,
       "trendingKeywords": [
-        "agent",
         "bot",
-        "autonomous"
+        "agent"
       ],
       "topProjects": [
         {
@@ -31,12 +30,12 @@
           "source": "github"
         },
         {
-          "name": "escrowagent",
+          "name": "solana-copy-bot",
           "description": "",
           "source": "github"
         },
         {
-          "name": "solana_nft_mev_bot",
+          "name": "solana-roast-bot",
           "description": "",
           "source": "github"
         }
@@ -49,20 +48,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-02-14T09:02:44.893Z"
+      "lastUpdated": "2026-02-15T09:03:11.574Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.83496,
+      "confidence": 0.5949000000000001,
       "trendingKeywords": [
-        "build",
         "deploy",
-        "framework"
+        "framework",
+        "build"
       ],
       "topProjects": [
         {
@@ -84,12 +83,7 @@
           "source": "github"
         },
         {
-          "name": "Vibeproof",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "OctSSH",
+          "name": "deploy-ai",
           "description": "",
           "source": "github"
         }
@@ -102,64 +96,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
-        "social": 0
-      },
-      "lastUpdated": "2026-02-14T09:02:44.893Z"
-    },
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.49066,
-      "trendingKeywords": [
-        "liquidity",
-        "swap"
-      ],
-      "topProjects": [
-        {
-          "name": "whirlpools",
-          "description": "",
-          "url": "https://github.com/orca-so/whirlpools",
-          "source": "github"
-        },
-        {
-          "name": "Reclaim",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana_nft_mev_bot",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "limitless",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-02-14T09:02:44.892Z"
+      "lastUpdated": "2026-02-15T09:03:11.574Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.46104,
+      "confidence": 0.58098,
       "trendingKeywords": [
         "validator",
-        "node"
+        "node",
+        "bridge"
       ],
       "topProjects": [
         {
@@ -179,6 +129,11 @@
           "description": "",
           "url": "https://github.com/jito-foundation/jito-solana",
           "source": "github"
+        },
+        {
+          "name": "web3-mcp-hub",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -189,24 +144,36 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-02-14T09:02:44.892Z"
+      "lastUpdated": "2026-02-15T09:03:11.574Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
+      "confidence": 0.4,
       "trendingKeywords": [
-        "community"
+        "community",
+        "vote",
+        "social"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "Solana_Voting_Contract_-_Buy_Tokens_to_vote",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-narrative-tracker",
+          "description": "",
           "source": "github"
         }
       ],
@@ -218,26 +185,60 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-02-14T09:02:44.893Z"
+      "lastUpdated": "2026-02-15T09:03:11.574Z"
+    },
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.25078,
+      "trendingKeywords": [
+        "liquidity",
+        "lending",
+        "swap"
+      ],
+      "topProjects": [
+        {
+          "name": "whirlpools",
+          "description": "",
+          "url": "https://github.com/orca-so/whirlpools",
+          "source": "github"
+        },
+        {
+          "name": "web3-mcp-hub",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 2,
+        "social": 0
+      },
+      "lastUpdated": "2026-02-15T09:03:11.574Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.1,
       "trendingKeywords": [
-        "game"
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "EVM-Solana-Casino-Games",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -246,10 +247,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-02-14T09:02:44.892Z"
+      "lastUpdated": "2026-02-15T09:03:11.574Z"
     }
   ]
 }
