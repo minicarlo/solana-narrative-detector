@@ -1,14 +1,16 @@
 {
-  "timestamp": "2026-02-15T09:03:11.574Z",
+  "timestamp": "2026-02-16T10:35:54.827Z",
   "narratives": [
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.9535199999999999,
+      "confidence": 1,
       "trendingKeywords": [
         "bot",
-        "agent"
+        "agent",
+        "autonomous",
+        "intelligence"
       ],
       "topProjects": [
         {
@@ -24,18 +26,17 @@
           "source": "github"
         },
         {
-          "name": "pumpfun-bonkfun-bot",
-          "description": "",
-          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
-          "source": "github"
-        },
-        {
           "name": "solana-copy-bot",
           "description": "",
           "source": "github"
         },
         {
-          "name": "solana-roast-bot",
+          "name": "insentives-crypto-games",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "ai-scoring-oracle-docs",
           "description": "",
           "source": "github"
         }
@@ -48,68 +49,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 10,
         "social": 0
       },
-      "lastUpdated": "2026-02-15T09:03:11.574Z"
-    },
-    {
-      "id": "dev-tools",
-      "name": "Developer Tools",
-      "description": "Tools and infrastructure for developers",
-      "confidence": 0.5949000000000001,
-      "trendingKeywords": [
-        "deploy",
-        "framework",
-        "build"
-      ],
-      "topProjects": [
-        {
-          "name": "anchor",
-          "description": "",
-          "url": "https://github.com/solana-foundation/anchor",
-          "source": "github"
-        },
-        {
-          "name": "ant-design-web3",
-          "description": "",
-          "url": "https://github.com/ant-design/ant-design-web3",
-          "source": "github"
-        },
-        {
-          "name": "solana-playground",
-          "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
-          "source": "github"
-        },
-        {
-          "name": "deploy-ai",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a Solana program testing framework with auto-generated tests",
-        "Build a no-code contract deployment platform",
-        "Develop a real-time program monitoring and alerting tool",
-        "Create an IDE extension for Solana development"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 4,
-        "social": 0
-      },
-      "lastUpdated": "2026-02-15T09:03:11.574Z"
+      "lastUpdated": "2026-02-16T10:35:54.827Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.58098,
+      "confidence": 0.8209799999999999,
       "trendingKeywords": [
-        "validator",
         "node",
-        "bridge"
+        "validator",
+        "oracle"
       ],
       "topProjects": [
         {
@@ -131,7 +84,12 @@
           "source": "github"
         },
         {
-          "name": "web3-mcp-hub",
+          "name": "ai-scoring-oracle-docs",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "agent-reputation-oracle",
           "description": "",
           "source": "github"
         }
@@ -144,61 +102,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-02-15T09:03:11.574Z"
-    },
-    {
-      "id": "social-consumer",
-      "name": "Social & Consumer",
-      "description": "Social platforms and consumer applications",
-      "confidence": 0.4,
-      "trendingKeywords": [
-        "community",
-        "vote",
-        "social"
-      ],
-      "topProjects": [
-        {
-          "name": "app-monorepo",
-          "description": "",
-          "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "Solana_Voting_Contract_-_Buy_Tokens_to_vote",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-narrative-tracker",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized social graph protocol",
-        "Create a creator monetization platform with micro-tipping",
-        "Develop a DAO governance participation reward system",
-        "Build a reputation-based social discovery app"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 3,
-        "social": 0
-      },
-      "lastUpdated": "2026-02-15T09:03:11.574Z"
+      "lastUpdated": "2026-02-16T10:35:54.827Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.25078,
+      "confidence": 0.73968,
       "trendingKeywords": [
+        "dex",
         "liquidity",
-        "lending",
-        "swap"
+        "perp",
+        "stake",
+        "derivative"
       ],
       "topProjects": [
         {
@@ -208,7 +127,24 @@
           "source": "github"
         },
         {
-          "name": "web3-mcp-hub",
+          "name": "QuillAudit_smart_contract_audit_Reports",
+          "description": "",
+          "url": "https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports",
+          "source": "github"
+        },
+        {
+          "name": "protocol-v2",
+          "description": "",
+          "url": "https://github.com/drift-labs/protocol-v2",
+          "source": "github"
+        },
+        {
+          "name": "agent-reputation-oracle",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "deriverse-analytics",
           "description": "",
           "source": "github"
         }
@@ -221,24 +157,116 @@
       ],
       "dataSources": {
         "helius": 0,
+        "github": 6,
+        "social": 0
+      },
+      "lastUpdated": "2026-02-16T10:35:54.827Z"
+    },
+    {
+      "id": "dev-tools",
+      "name": "Developer Tools",
+      "description": "Tools and infrastructure for developers",
+      "confidence": 0.7211200000000001,
+      "trendingKeywords": [
+        "build",
+        "framework",
+        "deploy",
+        "testing"
+      ],
+      "topProjects": [
+        {
+          "name": "anchor",
+          "description": "",
+          "url": "https://github.com/solana-foundation/anchor",
+          "source": "github"
+        },
+        {
+          "name": "ant-design-web3",
+          "description": "",
+          "url": "https://github.com/ant-design/ant-design-web3",
+          "source": "github"
+        },
+        {
+          "name": "solana-playground",
+          "description": "",
+          "url": "https://github.com/solana-playground/solana-playground",
+          "source": "github"
+        },
+        {
+          "name": "QuillAudit_smart_contract_audit_Reports",
+          "description": "",
+          "url": "https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports",
+          "source": "github"
+        },
+        {
+          "name": "Vibeproof",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create a Solana program testing framework with auto-generated tests",
+        "Build a no-code contract deployment platform",
+        "Develop a real-time program monitoring and alerting tool",
+        "Create an IDE extension for Solana development"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 5,
+        "social": 0
+      },
+      "lastUpdated": "2026-02-16T10:35:54.827Z"
+    },
+    {
+      "id": "social-consumer",
+      "name": "Social & Consumer",
+      "description": "Social platforms and consumer applications",
+      "confidence": 0.27999999999999997,
+      "trendingKeywords": [
+        "community"
+      ],
+      "topProjects": [
+        {
+          "name": "app-monorepo",
+          "description": "",
+          "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "PEACE",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized social graph protocol",
+        "Create a creator monetization platform with micro-tipping",
+        "Develop a DAO governance participation reward system",
+        "Build a reputation-based social discovery app"
+      ],
+      "dataSources": {
+        "helius": 0,
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-02-15T09:03:11.574Z"
+      "lastUpdated": "2026-02-16T10:35:54.827Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.1,
+      "confidence": 0.12,
       "trendingKeywords": [
         "game",
-        "gaming",
-        "NFT",
-        "metaverse",
         "play-to-earn"
       ],
-      "topProjects": [],
+      "topProjects": [
+        {
+          "name": "insentives-crypto-games",
+          "description": "",
+          "source": "github"
+        }
+      ],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -247,10 +275,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 0,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-02-15T09:03:11.574Z"
+      "lastUpdated": "2026-02-16T10:35:54.827Z"
     }
   ]
 }
