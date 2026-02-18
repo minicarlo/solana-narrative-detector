@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-17T10:32:00.700Z",
+  "timestamp": "2026-02-18T10:28:09.783Z",
   "narratives": [
     {
       "id": "dev-tools",
@@ -8,9 +8,9 @@
       "confidence": 1,
       "trendingKeywords": [
         "build",
+        "library",
         "deploy",
-        "framework",
-        "library"
+        "framework"
       ],
       "topProjects": [
         {
@@ -26,19 +26,18 @@
           "source": "github"
         },
         {
-          "name": "ant-design-web3",
-          "description": "",
-          "url": "https://github.com/ant-design/ant-design-web3",
-          "source": "github"
-        },
-        {
           "name": "solana-playground",
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
         },
         {
-          "name": "sol-scan",
+          "name": "trading-bot-platform",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "demo-claude-marketplace",
           "description": "",
           "source": "github"
         }
@@ -51,28 +50,74 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-02-17T10:32:00.700Z"
+      "lastUpdated": "2026-02-18T10:28:09.783Z"
+    },
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 0.8004,
+      "trendingKeywords": [
+        "bot",
+        "agent"
+      ],
+      "topProjects": [
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "pumpfun-bonkfun-bot",
+          "description": "",
+          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
+          "source": "github"
+        },
+        {
+          "name": "solana-arbitrage-bot",
+          "description": "",
+          "url": "https://github.com/katlogic/solana-arbitrage-bot",
+          "source": "github"
+        },
+        {
+          "name": "trading-bot-platform",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "drip-bot",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 6,
+        "social": 0
+      },
+      "lastUpdated": "2026-02-18T10:28:09.783Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.7411000000000001,
+      "confidence": 0.5811000000000001,
       "trendingKeywords": [
-        "node",
         "validator",
-        "bridge"
+        "bridge",
+        "network"
       ],
       "topProjects": [
-        {
-          "name": "solana-web3.js",
-          "description": "",
-          "url": "https://github.com/solana-foundation/solana-web3.js",
-          "source": "github"
-        },
         {
           "name": "firedancer",
           "description": "",
@@ -92,7 +137,7 @@
           "source": "github"
         },
         {
-          "name": "sof",
+          "name": "ika-tensei",
           "description": "",
           "source": "github"
         }
@@ -105,67 +150,57 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-02-17T10:32:00.700Z"
+      "lastUpdated": "2026-02-18T10:28:09.783Z"
     },
     {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.67364,
+      "id": "social-consumer",
+      "name": "Social & Consumer",
+      "description": "Social platforms and consumer applications",
+      "confidence": 0.4,
       "trendingKeywords": [
-        "bot",
-        "agent"
+        "community",
+        "creator",
+        "vote"
       ],
       "topProjects": [
         {
-          "name": "OctoBot",
+          "name": "app-monorepo",
           "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "url": "https://github.com/OneKeyHQ/app-monorepo",
           "source": "github"
         },
         {
-          "name": "pumpfun-bonkfun-bot",
-          "description": "",
-          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
-          "source": "github"
-        },
-        {
-          "name": "solana-copy-bot",
+          "name": "drip-bot",
           "description": "",
           "source": "github"
         },
         {
-          "name": "Solana-AI-Agent-Interface",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "trading-bot-platform",
+          "name": "quadatric-voting-solana-turbine-2026-q1-async-builders",
           "description": "",
           "source": "github"
         }
       ],
       "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
+        "Build a decentralized social graph protocol",
+        "Create a creator monetization platform with micro-tipping",
+        "Develop a DAO governance participation reward system",
+        "Build a reputation-based social discovery app"
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-02-17T10:32:00.700Z"
+      "lastUpdated": "2026-02-18T10:28:09.783Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.41078000000000003,
+      "confidence": 0.29072,
       "trendingKeywords": [
         "swap",
         "liquidity"
@@ -182,11 +217,6 @@
           "description": "",
           "url": "https://github.com/orca-so/whirlpools",
           "source": "github"
-        },
-        {
-          "name": "swap-io-limit-orders-v1",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -197,28 +227,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-02-17T10:32:00.700Z"
+      "lastUpdated": "2026-02-18T10:28:09.783Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.24,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "game",
-        "virtual"
+        "game"
       ],
       "topProjects": [
         {
-          "name": "proof-of-play",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-memecoin-trading-simulator",
+          "name": "Solprize",
           "description": "",
           "source": "github"
         }
@@ -231,39 +255,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
-        "social": 0
-      },
-      "lastUpdated": "2026-02-17T10:32:00.700Z"
-    },
-    {
-      "id": "social-consumer",
-      "name": "Social & Consumer",
-      "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
-      "trendingKeywords": [
-        "community"
-      ],
-      "topProjects": [
-        {
-          "name": "app-monorepo",
-          "description": "",
-          "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized social graph protocol",
-        "Create a creator monetization platform with micro-tipping",
-        "Develop a DAO governance participation reward system",
-        "Build a reputation-based social discovery app"
-      ],
-      "dataSources": {
-        "helius": 0,
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-02-17T10:32:00.700Z"
+      "lastUpdated": "2026-02-18T10:28:09.783Z"
     }
   ]
 }
