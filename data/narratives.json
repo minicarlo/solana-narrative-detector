@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-19T10:28:00.689Z",
+  "timestamp": "2026-02-20T10:01:46.519Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -7,9 +7,8 @@
       "description": "Artificial intelligence meets blockchain",
       "confidence": 1,
       "trendingKeywords": [
-        "agent",
         "bot",
-        "autonomous",
+        "agent",
         "intelligence"
       ],
       "topProjects": [
@@ -26,18 +25,18 @@
           "source": "github"
         },
         {
-          "name": "solana-arbitrage-bot",
+          "name": "solana-trading-cli",
           "description": "",
-          "url": "https://github.com/katlogic/solana-arbitrage-bot",
+          "url": "https://github.com/outsmartchad/solana-trading-cli",
           "source": "github"
         },
         {
-          "name": "solana-narrative-detector",
+          "name": "Solana-agentic-wallet",
           "description": "",
           "source": "github"
         },
         {
-          "name": "agenticWallet",
+          "name": "soltrace",
           "description": "",
           "source": "github"
         }
@@ -50,21 +49,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 10,
+        "github": 9,
         "social": 0
       },
-      "lastUpdated": "2026-02-19T10:28:00.688Z"
+      "lastUpdated": "2026-02-20T10:01:46.519Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.7149000000000001,
+      "confidence": 0.83514,
       "trendingKeywords": [
         "build",
+        "deploy",
         "framework",
-        "library",
-        "deploy"
+        "library"
       ],
       "topProjects": [
         {
@@ -86,12 +85,12 @@
           "source": "github"
         },
         {
-          "name": "solana-narrative-detector",
+          "name": "solana-api-key-manager",
           "description": "",
           "source": "github"
         },
         {
-          "name": "solana-ai-builder-tools",
+          "name": "trading-bot-platform",
           "description": "",
           "source": "github"
         }
@@ -104,19 +103,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-02-19T10:28:00.689Z"
+      "lastUpdated": "2026-02-20T10:01:46.519Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.46110000000000007,
+      "confidence": 0.58116,
       "trendingKeywords": [
         "validator",
-        "bridge"
+        "bridge",
+        "indexer"
       ],
       "topProjects": [
         {
@@ -136,6 +136,11 @@
           "description": "",
           "url": "https://github.com/jito-foundation/jito-solana",
           "source": "github"
+        },
+        {
+          "name": "soltrace",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -146,20 +151,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-02-19T10:28:00.688Z"
+      "lastUpdated": "2026-02-20T10:01:46.519Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.41072,
+      "confidence": 0.54462,
       "trendingKeywords": [
+        "dex",
         "swap",
-        "liquidity",
-        "dex"
+        "liquidity"
       ],
       "topProjects": [
         {
@@ -169,13 +174,19 @@
           "source": "github"
         },
         {
+          "name": "solana-trading-cli",
+          "description": "",
+          "url": "https://github.com/outsmartchad/solana-trading-cli",
+          "source": "github"
+        },
+        {
           "name": "whirlpools",
           "description": "",
           "url": "https://github.com/orca-so/whirlpools",
           "source": "github"
         },
         {
-          "name": "solana-codex",
+          "name": "soltrace",
           "description": "",
           "source": "github"
         }
@@ -188,49 +199,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-02-19T10:28:00.688Z"
-    },
-    {
-      "id": "gaming-nft",
-      "name": "Gaming & NFT",
-      "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.36,
-      "trendingKeywords": [
-        "game",
-        "gaming"
-      ],
-      "topProjects": [
-        {
-          "name": "zoot-games",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "Solana-Fair-Dice-Game",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "anchor-dice-game-q4-25-solana-turbine-week4",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a no-code NFT collection launcher with built-in marketplace",
-        "Build a gaming guild management platform with scholarship tracking",
-        "Develop an on-chain achievement system for games",
-        "Create a metaverse land rental marketplace"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 3,
-        "social": 0
-      },
-      "lastUpdated": "2026-02-19T10:28:00.688Z"
+      "lastUpdated": "2026-02-20T10:01:46.519Z"
     },
     {
       "id": "social-consumer",
@@ -259,7 +231,33 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-02-19T10:28:00.688Z"
+      "lastUpdated": "2026-02-20T10:01:46.519Z"
+    },
+    {
+      "id": "gaming-nft",
+      "name": "Gaming & NFT",
+      "description": "Blockchain gaming and NFT ecosystems",
+      "confidence": 0.1,
+      "trendingKeywords": [
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
+      ],
+      "topProjects": [],
+      "projectIdeas": [
+        "Create a no-code NFT collection launcher with built-in marketplace",
+        "Build a gaming guild management platform with scholarship tracking",
+        "Develop an on-chain achievement system for games",
+        "Create a metaverse land rental marketplace"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 0,
+        "social": 0
+      },
+      "lastUpdated": "2026-02-20T10:01:46.519Z"
     }
   ]
 }
