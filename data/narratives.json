@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-20T10:01:46.519Z",
+  "timestamp": "2026-02-21T09:01:10.469Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -7,9 +7,11 @@
       "description": "Artificial intelligence meets blockchain",
       "confidence": 1,
       "trendingKeywords": [
-        "bot",
         "agent",
-        "intelligence"
+        "bot",
+        "model",
+        "intelligence",
+        "autonomous"
       ],
       "topProjects": [
         {
@@ -25,18 +27,18 @@
           "source": "github"
         },
         {
-          "name": "solana-trading-cli",
+          "name": "outsmart-cli",
           "description": "",
-          "url": "https://github.com/outsmartchad/solana-trading-cli",
+          "url": "https://github.com/outsmartchad/outsmart-cli",
           "source": "github"
         },
         {
-          "name": "Solana-agentic-wallet",
+          "name": "bastion-mcp-server",
           "description": "",
           "source": "github"
         },
         {
-          "name": "soltrace",
+          "name": "pixel-wars",
           "description": "",
           "source": "github"
         }
@@ -49,19 +51,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 11,
         "social": 0
       },
-      "lastUpdated": "2026-02-20T10:01:46.519Z"
+      "lastUpdated": "2026-02-21T09:01:10.469Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.83514,
+      "confidence": 0.7151400000000001,
       "trendingKeywords": [
-        "build",
         "deploy",
+        "build",
         "framework",
         "library"
       ],
@@ -85,12 +87,12 @@
           "source": "github"
         },
         {
-          "name": "solana-api-key-manager",
+          "name": "trading-bot-platform",
           "description": "",
           "source": "github"
         },
         {
-          "name": "trading-bot-platform",
+          "name": "demo-claude-marketplace",
           "description": "",
           "source": "github"
         }
@@ -103,20 +105,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-02-20T10:01:46.519Z"
+      "lastUpdated": "2026-02-21T09:01:10.469Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.58116,
+      "confidence": 0.58122,
       "trendingKeywords": [
         "validator",
         "bridge",
-        "indexer"
+        "network"
       ],
       "topProjects": [
         {
@@ -138,7 +140,7 @@
           "source": "github"
         },
         {
-          "name": "soltrace",
+          "name": "Luck.io-casino-game",
           "description": "",
           "source": "github"
         }
@@ -154,17 +156,17 @@
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-02-20T10:01:46.519Z"
+      "lastUpdated": "2026-02-21T09:01:10.469Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.54462,
+      "confidence": 0.54468,
       "trendingKeywords": [
-        "dex",
+        "liquidity",
         "swap",
-        "liquidity"
+        "dex"
       ],
       "topProjects": [
         {
@@ -174,9 +176,9 @@
           "source": "github"
         },
         {
-          "name": "solana-trading-cli",
+          "name": "outsmart-cli",
           "description": "",
-          "url": "https://github.com/outsmartchad/solana-trading-cli",
+          "url": "https://github.com/outsmartchad/outsmart-cli",
           "source": "github"
         },
         {
@@ -186,7 +188,7 @@
           "source": "github"
         },
         {
-          "name": "soltrace",
+          "name": "pump.fun-smart-contract",
           "description": "",
           "source": "github"
         }
@@ -202,21 +204,33 @@
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-02-20T10:01:46.519Z"
+      "lastUpdated": "2026-02-21T09:01:10.469Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
+      "confidence": 0.4,
       "trendingKeywords": [
-        "community"
+        "social",
+        "community",
+        "content"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "KeySocial",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "ai-social-media-agent",
+          "description": "",
           "source": "github"
         }
       ],
@@ -228,24 +242,32 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-02-20T10:01:46.519Z"
+      "lastUpdated": "2026-02-21T09:01:10.469Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.1,
+      "confidence": 0.24,
       "trendingKeywords": [
         "game",
-        "gaming",
-        "NFT",
-        "metaverse",
-        "play-to-earn"
+        "gaming"
       ],
-      "topProjects": [],
+      "topProjects": [
+        {
+          "name": "Luck.io-casino-game",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-gamefi",
+          "description": "",
+          "source": "github"
+        }
+      ],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -254,10 +276,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 0,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-02-20T10:01:46.519Z"
+      "lastUpdated": "2026-02-21T09:01:10.469Z"
     }
   ]
 }
