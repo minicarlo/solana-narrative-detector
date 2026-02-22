@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-21T09:01:10.469Z",
+  "timestamp": "2026-02-22T09:01:55.295Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -7,17 +7,23 @@
       "description": "Artificial intelligence meets blockchain",
       "confidence": 1,
       "trendingKeywords": [
-        "agent",
         "bot",
+        "agent",
+        "autonomous",
         "model",
-        "intelligence",
-        "autonomous"
+        "intelligence"
       ],
       "topProjects": [
         {
           "name": "OctoBot",
           "description": "",
           "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "Solana-Arbitrage-Bot",
+          "description": "",
+          "url": "https://github.com/x89/Solana-Arbitrage-Bot",
           "source": "github"
         },
         {
@@ -36,11 +42,6 @@
           "name": "bastion-mcp-server",
           "description": "",
           "source": "github"
-        },
-        {
-          "name": "pixel-wars",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -51,21 +52,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 11,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-02-21T09:01:10.469Z"
+      "lastUpdated": "2026-02-22T09:01:55.295Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.7151400000000001,
+      "confidence": 0.9551399999999999,
       "trendingKeywords": [
         "deploy",
-        "build",
         "framework",
-        "library"
+        "library",
+        "build"
       ],
       "topProjects": [
         {
@@ -87,12 +88,12 @@
           "source": "github"
         },
         {
-          "name": "trading-bot-platform",
+          "name": "solana-api-key-manager",
           "description": "",
           "source": "github"
         },
         {
-          "name": "demo-claude-marketplace",
+          "name": "solana-dapp-cicd",
           "description": "",
           "source": "github"
         }
@@ -105,16 +106,16 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-02-21T09:01:10.469Z"
+      "lastUpdated": "2026-02-22T09:01:55.295Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.58122,
+      "confidence": 0.58128,
       "trendingKeywords": [
         "validator",
         "bridge",
@@ -140,7 +141,7 @@
           "source": "github"
         },
         {
-          "name": "Luck.io-casino-game",
+          "name": "zootokenpayment",
           "description": "",
           "source": "github"
         }
@@ -156,17 +157,18 @@
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-02-21T09:01:10.469Z"
+      "lastUpdated": "2026-02-22T09:01:55.295Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.54468,
+      "confidence": 0.54474,
       "trendingKeywords": [
-        "liquidity",
         "swap",
-        "dex"
+        "dex",
+        "liquidity",
+        "vault"
       ],
       "topProjects": [
         {
@@ -188,7 +190,7 @@
           "source": "github"
         },
         {
-          "name": "pump.fun-smart-contract",
+          "name": "solana-staking-escrow-vault",
           "description": "",
           "source": "github"
         }
@@ -204,7 +206,7 @@
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-02-21T09:01:10.469Z"
+      "lastUpdated": "2026-02-22T09:01:55.295Z"
     },
     {
       "id": "social-consumer",
@@ -212,8 +214,9 @@
       "description": "Social platforms and consumer applications",
       "confidence": 0.4,
       "trendingKeywords": [
-        "social",
         "community",
+        "governance",
+        "social",
         "content"
       ],
       "topProjects": [
@@ -224,7 +227,7 @@
           "source": "github"
         },
         {
-          "name": "KeySocial",
+          "name": "Cosol",
           "description": "",
           "source": "github"
         },
@@ -245,29 +248,21 @@
         "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-02-21T09:01:10.469Z"
+      "lastUpdated": "2026-02-22T09:01:55.295Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.24,
+      "confidence": 0.1,
       "trendingKeywords": [
         "game",
-        "gaming"
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "Luck.io-casino-game",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-gamefi",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -276,10 +271,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-02-21T09:01:10.469Z"
+      "lastUpdated": "2026-02-22T09:01:55.295Z"
     }
   ]
 }
