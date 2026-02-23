@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-22T09:01:55.295Z",
+  "timestamp": "2026-02-23T10:36:21.645Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -9,9 +9,7 @@
       "trendingKeywords": [
         "bot",
         "agent",
-        "autonomous",
-        "model",
-        "intelligence"
+        "autonomous"
       ],
       "topProjects": [
         {
@@ -39,8 +37,9 @@
           "source": "github"
         },
         {
-          "name": "bastion-mcp-server",
+          "name": "solana-arbitrage-bot",
           "description": "",
+          "url": "https://github.com/katlogic/solana-arbitrage-bot",
           "source": "github"
         }
       ],
@@ -52,21 +51,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 11,
         "social": 0
       },
-      "lastUpdated": "2026-02-22T09:01:55.295Z"
+      "lastUpdated": "2026-02-23T10:36:21.644Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.9551399999999999,
+      "confidence": 0.7151400000000001,
       "trendingKeywords": [
-        "deploy",
         "framework",
-        "library",
-        "build"
+        "deploy",
+        "library"
       ],
       "topProjects": [
         {
@@ -88,12 +86,12 @@
           "source": "github"
         },
         {
-          "name": "solana-api-key-manager",
+          "name": "autonomous-web3-ai-agent",
           "description": "",
           "source": "github"
         },
         {
-          "name": "solana-dapp-cicd",
+          "name": "ag402",
           "description": "",
           "source": "github"
         }
@@ -106,69 +104,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-02-22T09:01:55.295Z"
-    },
-    {
-      "id": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.58128,
-      "trendingKeywords": [
-        "validator",
-        "bridge",
-        "network"
-      ],
-      "topProjects": [
-        {
-          "name": "firedancer",
-          "description": "",
-          "url": "https://github.com/firedancer-io/firedancer",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "jito-solana",
-          "description": "",
-          "url": "https://github.com/jito-foundation/jito-solana",
-          "source": "github"
-        },
-        {
-          "name": "zootokenpayment",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized RPC load balancer for Solana",
-        "Create a validator performance monitoring dashboard",
-        "Develop a bridge aggregator for cross-chain transfers",
-        "Build an oracle comparison and aggregation service"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 4,
-        "social": 0
-      },
-      "lastUpdated": "2026-02-22T09:01:55.295Z"
+      "lastUpdated": "2026-02-23T10:36:21.645Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.54474,
+      "confidence": 0.66474,
       "trendingKeywords": [
-        "swap",
         "dex",
+        "swap",
         "liquidity",
-        "vault"
+        "perp"
       ],
       "topProjects": [
         {
@@ -190,7 +140,12 @@
           "source": "github"
         },
         {
-          "name": "solana-staking-escrow-vault",
+          "name": "percolator-apps",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "mev",
           "description": "",
           "source": "github"
         }
@@ -203,19 +158,60 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-02-22T09:01:55.295Z"
+      "lastUpdated": "2026-02-23T10:36:21.644Z"
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Core blockchain infrastructure and tooling",
+      "confidence": 0.46121999999999996,
+      "trendingKeywords": [
+        "validator",
+        "bridge"
+      ],
+      "topProjects": [
+        {
+          "name": "firedancer",
+          "description": "",
+          "url": "https://github.com/firedancer-io/firedancer",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "jito-solana",
+          "description": "",
+          "url": "https://github.com/jito-foundation/jito-solana",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized RPC load balancer for Solana",
+        "Create a validator performance monitoring dashboard",
+        "Develop a bridge aggregator for cross-chain transfers",
+        "Build an oracle comparison and aggregation service"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 3,
+        "social": 0
+      },
+      "lastUpdated": "2026-02-23T10:36:21.644Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.4,
+      "confidence": 0.27999999999999997,
       "trendingKeywords": [
         "community",
-        "governance",
         "social",
         "content"
       ],
@@ -224,11 +220,6 @@
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "Cosol",
-          "description": "",
           "source": "github"
         },
         {
@@ -245,10 +236,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-02-22T09:01:55.295Z"
+      "lastUpdated": "2026-02-23T10:36:21.645Z"
     },
     {
       "id": "gaming-nft",
@@ -274,7 +265,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-02-22T09:01:55.295Z"
+      "lastUpdated": "2026-02-23T10:36:21.644Z"
     }
   ]
 }
