@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-26T10:31:07.093Z",
+  "timestamp": "2026-02-27T10:05:14.309Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -9,6 +9,7 @@
       "trendingKeywords": [
         "bot",
         "agent",
+        "autonomous",
         "intelligence"
       ],
       "topProjects": [
@@ -51,19 +52,73 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 10,
+        "github": 12,
         "social": 0
       },
-      "lastUpdated": "2026-02-26T10:31:07.093Z"
+      "lastUpdated": "2026-02-27T10:05:14.309Z"
+    },
+    {
+      "id": "dev-tools",
+      "name": "Developer Tools",
+      "description": "Tools and infrastructure for developers",
+      "confidence": 0.71538,
+      "trendingKeywords": [
+        "deploy",
+        "framework",
+        "library",
+        "build"
+      ],
+      "topProjects": [
+        {
+          "name": "anchor",
+          "description": "",
+          "url": "https://github.com/solana-foundation/anchor",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "solana-playground",
+          "description": "",
+          "url": "https://github.com/solana-playground/solana-playground",
+          "source": "github"
+        },
+        {
+          "name": "autonomous-web3-ai-agent",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "cave-bazaar",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create a Solana program testing framework with auto-generated tests",
+        "Build a no-code contract deployment platform",
+        "Develop a real-time program monitoring and alerting tool",
+        "Create an IDE extension for Solana development"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 5,
+        "social": 0
+      },
+      "lastUpdated": "2026-02-27T10:05:14.309Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.74128,
+      "confidence": 0.62128,
       "trendingKeywords": [
-        "validator",
         "bridge",
+        "validator",
         "node"
       ],
       "topProjects": [
@@ -90,11 +145,6 @@
           "description": "",
           "url": "https://github.com/jito-foundation/jito-solana",
           "source": "github"
-        },
-        {
-          "name": "ferret",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -105,20 +155,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-02-26T10:31:07.092Z"
+      "lastUpdated": "2026-02-27T10:05:14.309Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.68,
+      "confidence": 0.56,
       "trendingKeywords": [
         "swap",
-        "yield",
-        "stake"
+        "vault"
       ],
       "topProjects": [
         {
@@ -134,17 +183,12 @@
           "source": "github"
         },
         {
-          "name": "Solana-Stablecoin-Yield-Landscape",
+          "name": "spl-vault-anchor",
           "description": "",
           "source": "github"
         },
         {
-          "name": "solana-agent-scalper",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "SolSnap",
+          "name": "vesting",
           "description": "",
           "source": "github"
         }
@@ -157,63 +201,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-02-26T10:31:07.092Z"
-    },
-    {
-      "id": "dev-tools",
-      "name": "Developer Tools",
-      "description": "Tools and infrastructure for developers",
-      "confidence": 0.47531999999999996,
-      "trendingKeywords": [
-        "framework",
-        "library",
-        "deploy"
-      ],
-      "topProjects": [
-        {
-          "name": "anchor",
-          "description": "",
-          "url": "https://github.com/solana-foundation/anchor",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "solana-playground",
-          "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a Solana program testing framework with auto-generated tests",
-        "Build a no-code contract deployment platform",
-        "Develop a real-time program monitoring and alerting tool",
-        "Create an IDE extension for Solana development"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 3,
-        "social": 0
-      },
-      "lastUpdated": "2026-02-26T10:31:07.093Z"
+      "lastUpdated": "2026-02-27T10:05:14.309Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.4,
+      "confidence": 0.27999999999999997,
       "trendingKeywords": [
         "community",
-        "content",
-        "social"
+        "social",
+        "content"
       ],
       "topProjects": [
         {
@@ -223,12 +224,7 @@
           "source": "github"
         },
         {
-          "name": "mocha",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "twirvo",
+          "name": "ai-social-media-agent",
           "description": "",
           "source": "github"
         }
@@ -241,10 +237,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-02-26T10:31:07.093Z"
+      "lastUpdated": "2026-02-27T10:05:14.309Z"
     },
     {
       "id": "gaming-nft",
@@ -270,7 +266,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-02-26T10:31:07.092Z"
+      "lastUpdated": "2026-02-27T10:05:14.309Z"
     }
   ]
 }
