@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-27T10:05:14.309Z",
+  "timestamp": "2026-02-28T08:56:12.434Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -9,8 +9,9 @@
       "trendingKeywords": [
         "bot",
         "agent",
+        "inference",
         "autonomous",
-        "intelligence"
+        "model"
       ],
       "topProjects": [
         {
@@ -26,6 +27,12 @@
           "source": "github"
         },
         {
+          "name": "pumpfun-bonkfun-bot",
+          "description": "",
+          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
+          "source": "github"
+        },
+        {
           "name": "solana-trading-bot",
           "description": "",
           "url": "https://github.com/warp-specke/solana-trading-bot",
@@ -35,12 +42,6 @@
           "name": "solana-pumpfun-sniper-bot",
           "description": "",
           "url": "https://github.com/HaiderFlorez/solana-pumpfun-sniper-bot",
-          "source": "github"
-        },
-        {
-          "name": "Solana-Arbitrage-Bot",
-          "description": "",
-          "url": "https://github.com/insionCEO/Solana-Arbitrage-Bot",
           "source": "github"
         }
       ],
@@ -55,67 +56,13 @@
         "github": 12,
         "social": 0
       },
-      "lastUpdated": "2026-02-27T10:05:14.309Z"
-    },
-    {
-      "id": "dev-tools",
-      "name": "Developer Tools",
-      "description": "Tools and infrastructure for developers",
-      "confidence": 0.71538,
-      "trendingKeywords": [
-        "deploy",
-        "framework",
-        "library",
-        "build"
-      ],
-      "topProjects": [
-        {
-          "name": "anchor",
-          "description": "",
-          "url": "https://github.com/solana-foundation/anchor",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "solana-playground",
-          "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
-          "source": "github"
-        },
-        {
-          "name": "autonomous-web3-ai-agent",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "cave-bazaar",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a Solana program testing framework with auto-generated tests",
-        "Build a no-code contract deployment platform",
-        "Develop a real-time program monitoring and alerting tool",
-        "Create an IDE extension for Solana development"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 5,
-        "social": 0
-      },
-      "lastUpdated": "2026-02-27T10:05:14.309Z"
+      "lastUpdated": "2026-02-28T08:56:12.434Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.62128,
+      "confidence": 0.7413400000000001,
       "trendingKeywords": [
         "bridge",
         "validator",
@@ -145,6 +92,11 @@
           "description": "",
           "url": "https://github.com/jito-foundation/jito-solana",
           "source": "github"
+        },
+        {
+          "name": "Solana-Cross-Chain-Bridge-Wormhole",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -155,19 +107,70 @@
       ],
       "dataSources": {
         "helius": 0,
+        "github": 5,
+        "social": 0
+      },
+      "lastUpdated": "2026-02-28T08:56:12.434Z"
+    },
+    {
+      "id": "dev-tools",
+      "name": "Developer Tools",
+      "description": "Tools and infrastructure for developers",
+      "confidence": 0.5954400000000001,
+      "trendingKeywords": [
+        "framework",
+        "library",
+        "deploy",
+        "build"
+      ],
+      "topProjects": [
+        {
+          "name": "anchor",
+          "description": "",
+          "url": "https://github.com/solana-foundation/anchor",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "solana-playground",
+          "description": "",
+          "url": "https://github.com/solana-playground/solana-playground",
+          "source": "github"
+        },
+        {
+          "name": "kazt-app",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create a Solana program testing framework with auto-generated tests",
+        "Build a no-code contract deployment platform",
+        "Develop a real-time program monitoring and alerting tool",
+        "Create an IDE extension for Solana development"
+      ],
+      "dataSources": {
+        "helius": 0,
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-02-27T10:05:14.309Z"
+      "lastUpdated": "2026-02-28T08:56:12.434Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.56,
+      "confidence": 0.44000000000000006,
       "trendingKeywords": [
         "swap",
-        "vault"
+        "yield",
+        "vault",
+        "farm"
       ],
       "topProjects": [
         {
@@ -183,12 +186,7 @@
           "source": "github"
         },
         {
-          "name": "spl-vault-anchor",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "vesting",
+          "name": "Solana-Yield-Farming-Vaults-Smart-Contract",
           "description": "",
           "source": "github"
         }
@@ -201,31 +199,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-02-27T10:05:14.309Z"
+      "lastUpdated": "2026-02-28T08:56:12.434Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.16,
       "trendingKeywords": [
-        "community",
-        "social",
-        "content"
+        "community"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "ai-social-media-agent",
-          "description": "",
           "source": "github"
         }
       ],
@@ -237,24 +228,26 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-02-27T10:05:14.309Z"
+      "lastUpdated": "2026-02-28T08:56:12.434Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.1,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "game",
-        "gaming",
-        "NFT",
-        "metaverse",
-        "play-to-earn"
+        "game"
       ],
-      "topProjects": [],
+      "topProjects": [
+        {
+          "name": "Solana-Mines-Game",
+          "description": "",
+          "source": "github"
+        }
+      ],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -263,10 +256,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 0,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-02-27T10:05:14.309Z"
+      "lastUpdated": "2026-02-28T08:56:12.434Z"
     }
   ]
 }
