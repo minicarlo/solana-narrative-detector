@@ -1,17 +1,15 @@
 {
-  "timestamp": "2026-02-28T08:56:12.434Z",
+  "timestamp": "2026-03-01T08:59:08.625Z",
   "narratives": [
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 1,
+      "confidence": 0.99674,
       "trendingKeywords": [
         "bot",
-        "agent",
-        "inference",
         "autonomous",
-        "model"
+        "agent"
       ],
       "topProjects": [
         {
@@ -53,20 +51,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 12,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-02-28T08:56:12.434Z"
+      "lastUpdated": "2026-03-01T08:59:08.624Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.7413400000000001,
+      "confidence": 0.8614600000000001,
       "trendingKeywords": [
         "bridge",
+        "node",
         "validator",
-        "node"
+        "network",
+        "indexer"
       ],
       "topProjects": [
         {
@@ -94,7 +94,7 @@
           "source": "github"
         },
         {
-          "name": "Solana-Cross-Chain-Bridge-Wormhole",
+          "name": "deerhacks-v",
           "description": "",
           "source": "github"
         }
@@ -107,20 +107,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-02-28T08:56:12.434Z"
+      "lastUpdated": "2026-03-01T08:59:08.624Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.5954400000000001,
+      "confidence": 0.83544,
       "trendingKeywords": [
         "framework",
         "library",
         "deploy",
+        "testing",
         "build"
       ],
       "topProjects": [
@@ -143,7 +144,12 @@
           "source": "github"
         },
         {
-          "name": "kazt-app",
+          "name": "solana-testing",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "selix",
           "description": "",
           "source": "github"
         }
@@ -156,21 +162,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-02-28T08:56:12.434Z"
+      "lastUpdated": "2026-03-01T08:59:08.625Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.44000000000000006,
+      "confidence": 0.68,
       "trendingKeywords": [
         "swap",
-        "yield",
-        "vault",
-        "farm"
+        "dex"
       ],
       "topProjects": [
         {
@@ -186,7 +190,17 @@
           "source": "github"
         },
         {
-          "name": "Solana-Yield-Farming-Vaults-Smart-Contract",
+          "name": "selix",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "AI-Skills",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "freezedry-node",
           "description": "",
           "source": "github"
         }
@@ -199,24 +213,36 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-02-28T08:56:12.434Z"
+      "lastUpdated": "2026-03-01T08:59:08.624Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
+      "confidence": 0.4,
       "trendingKeywords": [
-        "community"
+        "community",
+        "vote",
+        "content"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "solana-api-for-agents",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "freezedry-node",
+          "description": "",
           "source": "github"
         }
       ],
@@ -228,22 +254,32 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-02-28T08:56:12.434Z"
+      "lastUpdated": "2026-03-01T08:59:08.624Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.36,
       "trendingKeywords": [
         "game"
       ],
       "topProjects": [
         {
-          "name": "Solana-Mines-Game",
+          "name": "solana-casino-game",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-poker-casino-game",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "SNAP",
           "description": "",
           "source": "github"
         }
@@ -256,10 +292,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-02-28T08:56:12.434Z"
+      "lastUpdated": "2026-03-01T08:59:08.624Z"
     }
   ]
 }
