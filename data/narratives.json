@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-02T10:31:09.420Z",
+  "timestamp": "2026-03-03T10:06:01.687Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -8,9 +8,9 @@
       "confidence": 1,
       "trendingKeywords": [
         "bot",
-        "autonomous",
         "agent",
-        "model"
+        "intelligence",
+        "autonomous"
       ],
       "topProjects": [
         {
@@ -52,21 +52,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 11,
         "social": 0
       },
-      "lastUpdated": "2026-03-02T10:31:09.420Z"
+      "lastUpdated": "2026-03-03T10:06:01.687Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.5954400000000001,
+      "confidence": 0.8755000000000001,
       "trendingKeywords": [
         "framework",
         "library",
-        "deploy",
-        "build"
+        "build",
+        "deploy"
       ],
       "topProjects": [
         {
@@ -82,13 +82,19 @@
           "source": "github"
         },
         {
+          "name": "ant-design-web3",
+          "description": "",
+          "url": "https://github.com/ant-design/ant-design-web3",
+          "source": "github"
+        },
+        {
           "name": "solana-playground",
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
         },
         {
-          "name": "chainkit",
+          "name": "fermat-math",
           "description": "",
           "source": "github"
         }
@@ -101,16 +107,16 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-03-02T10:31:09.420Z"
+      "lastUpdated": "2026-03-03T10:06:01.687Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.5814600000000001,
+      "confidence": 0.46152,
       "trendingKeywords": [
         "validator",
         "bridge"
@@ -133,11 +139,6 @@
           "description": "",
           "url": "https://github.com/jito-foundation/jito-solana",
           "source": "github"
-        },
-        {
-          "name": "validator-com",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -148,21 +149,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-03-02T10:31:09.420Z"
+      "lastUpdated": "2026-03-03T10:06:01.687Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.52,
+      "confidence": 0.27999999999999997,
       "trendingKeywords": [
         "swap",
-        "dex",
-        "vault",
-        "liquidity"
+        "vault"
       ],
       "topProjects": [
         {
@@ -172,17 +171,7 @@
           "source": "github"
         },
         {
-          "name": "solana_dexscreener_application",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-anchor-custom-vault",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "liquidity-os",
+          "name": "stablepay-protocol",
           "description": "",
           "source": "github"
         }
@@ -195,10 +184,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-03-02T10:31:09.420Z"
+      "lastUpdated": "2026-03-03T10:06:01.687Z"
     },
     {
       "id": "social-consumer",
@@ -227,7 +216,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-03-02T10:31:09.420Z"
+      "lastUpdated": "2026-03-03T10:06:01.687Z"
     },
     {
       "id": "gaming-nft",
@@ -253,7 +242,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-03-02T10:31:09.420Z"
+      "lastUpdated": "2026-03-03T10:06:01.687Z"
     }
   ]
 }
