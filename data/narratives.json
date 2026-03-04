@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-03T10:06:01.687Z",
+  "timestamp": "2026-03-04T10:01:44.369Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -9,7 +9,6 @@
       "trendingKeywords": [
         "bot",
         "agent",
-        "intelligence",
         "autonomous"
       ],
       "topProjects": [
@@ -52,19 +51,66 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 11,
+        "github": 10,
         "social": 0
       },
-      "lastUpdated": "2026-03-03T10:06:01.687Z"
+      "lastUpdated": "2026-03-04T10:01:44.369Z"
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Core blockchain infrastructure and tooling",
+      "confidence": 0.55446,
+      "trendingKeywords": [
+        "validator",
+        "layer2",
+        "bridge"
+      ],
+      "topProjects": [
+        {
+          "name": "firedancer",
+          "description": "",
+          "url": "https://github.com/firedancer-io/firedancer",
+          "source": "github"
+        },
+        {
+          "name": "jito-solana",
+          "description": "",
+          "url": "https://github.com/jito-foundation/jito-solana",
+          "source": "github"
+        },
+        {
+          "name": "howcryptoworksbook",
+          "description": "",
+          "url": "https://github.com/lawmaster10/howcryptoworksbook",
+          "source": "github"
+        },
+        {
+          "name": "sol-gateway-dcc-zk-proof",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized RPC load balancer for Solana",
+        "Create a validator performance monitoring dashboard",
+        "Develop a bridge aggregator for cross-chain transfers",
+        "Build an oracle comparison and aggregation service"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 4,
+        "social": 0
+      },
+      "lastUpdated": "2026-03-04T10:01:44.369Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.8755000000000001,
+      "confidence": 0.4755000000000001,
       "trendingKeywords": [
         "framework",
-        "library",
         "build",
         "deploy"
       ],
@@ -73,12 +119,6 @@
           "name": "anchor",
           "description": "",
           "url": "https://github.com/solana-foundation/anchor",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
         },
         {
@@ -92,11 +132,6 @@
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
-        },
-        {
-          "name": "fermat-math",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -107,71 +142,34 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
-        "social": 0
-      },
-      "lastUpdated": "2026-03-03T10:06:01.687Z"
-    },
-    {
-      "id": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.46152,
-      "trendingKeywords": [
-        "validator",
-        "bridge"
-      ],
-      "topProjects": [
-        {
-          "name": "firedancer",
-          "description": "",
-          "url": "https://github.com/firedancer-io/firedancer",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "jito-solana",
-          "description": "",
-          "url": "https://github.com/jito-foundation/jito-solana",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized RPC load balancer for Solana",
-        "Create a validator performance monitoring dashboard",
-        "Develop a bridge aggregator for cross-chain transfers",
-        "Build an oracle comparison and aggregation service"
-      ],
-      "dataSources": {
-        "helius": 0,
         "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-03-03T10:06:01.687Z"
+      "lastUpdated": "2026-03-04T10:01:44.369Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.36,
       "trendingKeywords": [
         "swap",
+        "dex",
         "vault"
       ],
       "topProjects": [
         {
-          "name": "rango-client",
+          "name": "trader",
           "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
         },
         {
-          "name": "stablepay-protocol",
+          "name": "dexbuyalertsbot",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "agentvault",
           "description": "",
           "source": "github"
         }
@@ -184,24 +182,31 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-03-03T10:06:01.687Z"
+      "lastUpdated": "2026-03-04T10:01:44.369Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
+      "confidence": 0.29288,
       "trendingKeywords": [
-        "community"
+        "community",
+        "governance"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "howcryptoworksbook",
+          "description": "",
+          "url": "https://github.com/lawmaster10/howcryptoworksbook",
           "source": "github"
         }
       ],
@@ -213,10 +218,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-03-03T10:06:01.687Z"
+      "lastUpdated": "2026-03-04T10:01:44.369Z"
     },
     {
       "id": "gaming-nft",
@@ -242,7 +247,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-03-03T10:06:01.687Z"
+      "lastUpdated": "2026-03-04T10:01:44.369Z"
     }
   ]
 }
