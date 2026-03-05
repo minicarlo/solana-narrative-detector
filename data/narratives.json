@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-04T10:01:44.369Z",
+  "timestamp": "2026-03-05T10:07:49.819Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -51,32 +51,27 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 10,
+        "github": 12,
         "social": 0
       },
-      "lastUpdated": "2026-03-04T10:01:44.369Z"
+      "lastUpdated": "2026-03-05T10:07:49.819Z"
     },
     {
-      "id": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.55446,
+      "id": "social-consumer",
+      "name": "Social & Consumer",
+      "description": "Social platforms and consumer applications",
+      "confidence": 0.6533,
       "trendingKeywords": [
-        "validator",
-        "layer2",
-        "bridge"
+        "community",
+        "governance",
+        "content",
+        "fan"
       ],
       "topProjects": [
         {
-          "name": "firedancer",
+          "name": "app-monorepo",
           "description": "",
-          "url": "https://github.com/firedancer-io/firedancer",
-          "source": "github"
-        },
-        {
-          "name": "jito-solana",
-          "description": "",
-          "url": "https://github.com/jito-foundation/jito-solana",
+          "url": "https://github.com/OneKeyHQ/app-monorepo",
           "source": "github"
         },
         {
@@ -86,23 +81,33 @@
           "source": "github"
         },
         {
-          "name": "sol-gateway-dcc-zk-proof",
+          "name": "OpenFlux0",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "NeonDugout",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "superteam-malaysia",
           "description": "",
           "source": "github"
         }
       ],
       "projectIdeas": [
-        "Build a decentralized RPC load balancer for Solana",
-        "Create a validator performance monitoring dashboard",
-        "Develop a bridge aggregator for cross-chain transfers",
-        "Build an oracle comparison and aggregation service"
+        "Build a decentralized social graph protocol",
+        "Create a creator monetization platform with micro-tipping",
+        "Develop a DAO governance participation reward system",
+        "Build a reputation-based social discovery app"
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-03-04T10:01:44.369Z"
+      "lastUpdated": "2026-03-05T10:07:49.819Z"
     },
     {
       "id": "dev-tools",
@@ -145,7 +150,49 @@
         "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-03-04T10:01:44.369Z"
+      "lastUpdated": "2026-03-05T10:07:49.819Z"
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Core blockchain infrastructure and tooling",
+      "confidence": 0.43488,
+      "trendingKeywords": [
+        "validator",
+        "layer2"
+      ],
+      "topProjects": [
+        {
+          "name": "firedancer",
+          "description": "",
+          "url": "https://github.com/firedancer-io/firedancer",
+          "source": "github"
+        },
+        {
+          "name": "jito-solana",
+          "description": "",
+          "url": "https://github.com/jito-foundation/jito-solana",
+          "source": "github"
+        },
+        {
+          "name": "howcryptoworksbook",
+          "description": "",
+          "url": "https://github.com/lawmaster10/howcryptoworksbook",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized RPC load balancer for Solana",
+        "Create a validator performance monitoring dashboard",
+        "Develop a bridge aggregator for cross-chain transfers",
+        "Build an oracle comparison and aggregation service"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 3,
+        "social": 0
+      },
+      "lastUpdated": "2026-03-05T10:07:49.819Z"
     },
     {
       "id": "defi-innovation",
@@ -154,22 +201,21 @@
       "confidence": 0.36,
       "trendingKeywords": [
         "swap",
-        "dex",
-        "vault"
+        "dex"
       ],
       "topProjects": [
+        {
+          "name": "solana-token-swap",
+          "description": "",
+          "source": "github"
+        },
         {
           "name": "trader",
           "description": "",
           "source": "github"
         },
         {
-          "name": "dexbuyalertsbot",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "agentvault",
+          "name": "byreal-mcp",
           "description": "",
           "source": "github"
         }
@@ -185,57 +231,23 @@
         "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-03-04T10:01:44.369Z"
-    },
-    {
-      "id": "social-consumer",
-      "name": "Social & Consumer",
-      "description": "Social platforms and consumer applications",
-      "confidence": 0.29288,
-      "trendingKeywords": [
-        "community",
-        "governance"
-      ],
-      "topProjects": [
-        {
-          "name": "app-monorepo",
-          "description": "",
-          "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "howcryptoworksbook",
-          "description": "",
-          "url": "https://github.com/lawmaster10/howcryptoworksbook",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized social graph protocol",
-        "Create a creator monetization platform with micro-tipping",
-        "Develop a DAO governance participation reward system",
-        "Build a reputation-based social discovery app"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 2,
-        "social": 0
-      },
-      "lastUpdated": "2026-03-04T10:01:44.369Z"
+      "lastUpdated": "2026-03-05T10:07:49.819Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.1,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "game",
-        "gaming",
-        "NFT",
-        "metaverse",
-        "play-to-earn"
+        "game"
       ],
-      "topProjects": [],
+      "topProjects": [
+        {
+          "name": "game",
+          "description": "",
+          "source": "github"
+        }
+      ],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -244,10 +256,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 0,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-03-04T10:01:44.369Z"
+      "lastUpdated": "2026-03-05T10:07:49.819Z"
     }
   ]
 }
