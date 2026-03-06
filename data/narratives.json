@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-05T10:07:49.819Z",
+  "timestamp": "2026-03-06T09:58:30.443Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -25,12 +25,6 @@
           "source": "github"
         },
         {
-          "name": "pumpfun-bonkfun-bot",
-          "description": "",
-          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
-          "source": "github"
-        },
-        {
           "name": "solana-trading-bot",
           "description": "",
           "url": "https://github.com/warp-specke/solana-trading-bot",
@@ -40,6 +34,11 @@
           "name": "solana-pumpfun-sniper-bot",
           "description": "",
           "url": "https://github.com/HaiderFlorez/solana-pumpfun-sniper-bot",
+          "source": "github"
+        },
+        {
+          "name": "etep-agent-bounty-skill",
+          "description": "",
           "source": "github"
         }
       ],
@@ -51,21 +50,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 12,
+        "github": 10,
         "social": 0
       },
-      "lastUpdated": "2026-03-05T10:07:49.819Z"
+      "lastUpdated": "2026-03-06T09:58:30.443Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.6533,
+      "confidence": 0.8951600000000001,
       "trendingKeywords": [
         "community",
         "governance",
+        "social",
         "content",
-        "fan"
+        "creator"
       ],
       "topProjects": [
         {
@@ -81,17 +81,17 @@
           "source": "github"
         },
         {
-          "name": "OpenFlux0",
+          "name": "etep-agent-bounty-skill",
           "description": "",
           "source": "github"
         },
         {
-          "name": "NeonDugout",
+          "name": "solanacz-community-site",
           "description": "",
           "source": "github"
         },
         {
-          "name": "superteam-malaysia",
+          "name": "GENIE-Ecosystem",
           "description": "",
           "source": "github"
         }
@@ -104,19 +104,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-03-05T10:07:49.819Z"
+      "lastUpdated": "2026-03-06T09:58:30.443Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.4755000000000001,
+      "confidence": 0.5955000000000001,
       "trendingKeywords": [
-        "framework",
         "build",
+        "framework",
         "deploy"
       ],
       "topProjects": [
@@ -137,6 +137,11 @@
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
+        },
+        {
+          "name": "solanacz-community-site",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -147,19 +152,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-03-05T10:07:49.819Z"
+      "lastUpdated": "2026-03-06T09:58:30.443Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.43488,
+      "confidence": 0.5568000000000001,
       "trendingKeywords": [
         "validator",
-        "layer2"
+        "layer2",
+        "bridge"
       ],
       "topProjects": [
         {
@@ -179,6 +185,11 @@
           "description": "",
           "url": "https://github.com/lawmaster10/howcryptoworksbook",
           "source": "github"
+        },
+        {
+          "name": "GENIE-Ecosystem",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -189,33 +200,34 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-03-05T10:07:49.819Z"
+      "lastUpdated": "2026-03-06T09:58:30.443Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.36,
+      "confidence": 0.37107999999999997,
       "trendingKeywords": [
         "swap",
-        "dex"
+        "liquidity"
       ],
       "topProjects": [
         {
-          "name": "solana-token-swap",
+          "name": "whirlpools",
+          "description": "",
+          "url": "https://github.com/orca-so/whirlpools",
+          "source": "github"
+        },
+        {
+          "name": "agentic-bags",
           "description": "",
           "source": "github"
         },
         {
-          "name": "trader",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "byreal-mcp",
+          "name": "Sentiment-Swap",
           "description": "",
           "source": "github"
         }
@@ -231,7 +243,7 @@
         "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-03-05T10:07:49.819Z"
+      "lastUpdated": "2026-03-06T09:58:30.443Z"
     },
     {
       "id": "gaming-nft",
@@ -239,11 +251,11 @@
       "description": "Blockchain gaming and NFT ecosystems",
       "confidence": 0.12,
       "trendingKeywords": [
-        "game"
+        "world"
       ],
       "topProjects": [
         {
-          "name": "game",
+          "name": "Sentiment-Swap",
           "description": "",
           "source": "github"
         }
@@ -259,7 +271,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-03-05T10:07:49.819Z"
+      "lastUpdated": "2026-03-06T09:58:30.443Z"
     }
   ]
 }
