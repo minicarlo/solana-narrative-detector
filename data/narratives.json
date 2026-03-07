@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-06T09:58:30.443Z",
+  "timestamp": "2026-03-07T08:59:37.733Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -7,21 +7,16 @@
       "description": "Artificial intelligence meets blockchain",
       "confidence": 1,
       "trendingKeywords": [
-        "bot",
         "agent",
-        "autonomous"
+        "bot",
+        "autonomous",
+        "intelligence"
       ],
       "topProjects": [
         {
           "name": "OctoBot",
           "description": "",
           "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "Solana-Arbitrage-Bot",
-          "description": "",
-          "url": "https://github.com/x89/Solana-Arbitrage-Bot",
           "source": "github"
         },
         {
@@ -37,7 +32,13 @@
           "source": "github"
         },
         {
-          "name": "etep-agent-bounty-skill",
+          "name": "outsmart-cli",
+          "description": "",
+          "url": "https://github.com/outsmartchad/outsmart-cli",
+          "source": "github"
+        },
+        {
+          "name": "agent-stack",
           "description": "",
           "source": "github"
         }
@@ -50,28 +51,39 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 10,
+        "github": 11,
         "social": 0
       },
-      "lastUpdated": "2026-03-06T09:58:30.443Z"
+      "lastUpdated": "2026-03-07T08:59:37.733Z"
     },
     {
-      "id": "social-consumer",
-      "name": "Social & Consumer",
-      "description": "Social platforms and consumer applications",
-      "confidence": 0.8951600000000001,
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Core blockchain infrastructure and tooling",
+      "confidence": 0.7225600000000001,
       "trendingKeywords": [
-        "community",
-        "governance",
-        "social",
-        "content",
-        "creator"
+        "validator",
+        "node",
+        "layer2",
+        "oracle"
       ],
       "topProjects": [
         {
-          "name": "app-monorepo",
+          "name": "solana-web3.js",
           "description": "",
-          "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "url": "https://github.com/solana-foundation/solana-web3.js",
+          "source": "github"
+        },
+        {
+          "name": "firedancer",
+          "description": "",
+          "url": "https://github.com/firedancer-io/firedancer",
+          "source": "github"
+        },
+        {
+          "name": "jito-solana",
+          "description": "",
+          "url": "https://github.com/jito-foundation/jito-solana",
           "source": "github"
         },
         {
@@ -81,42 +93,32 @@
           "source": "github"
         },
         {
-          "name": "etep-agent-bounty-skill",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solanacz-community-site",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "GENIE-Ecosystem",
+          "name": "OracleV101",
           "description": "",
           "source": "github"
         }
       ],
       "projectIdeas": [
-        "Build a decentralized social graph protocol",
-        "Create a creator monetization platform with micro-tipping",
-        "Develop a DAO governance participation reward system",
-        "Build a reputation-based social discovery app"
+        "Build a decentralized RPC load balancer for Solana",
+        "Create a validator performance monitoring dashboard",
+        "Develop a bridge aggregator for cross-chain transfers",
+        "Build an oracle comparison and aggregation service"
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-03-06T09:58:30.443Z"
+      "lastUpdated": "2026-03-07T08:59:37.733Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.5955000000000001,
+      "confidence": 0.4755000000000001,
       "trendingKeywords": [
-        "build",
         "framework",
+        "build",
         "deploy"
       ],
       "topProjects": [
@@ -137,11 +139,6 @@
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
-        },
-        {
-          "name": "solanacz-community-site",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -152,32 +149,25 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-03-06T09:58:30.443Z"
+      "lastUpdated": "2026-03-07T08:59:37.733Z"
     },
     {
-      "id": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.5568000000000001,
+      "id": "social-consumer",
+      "name": "Social & Consumer",
+      "description": "Social platforms and consumer applications",
+      "confidence": 0.30091999999999997,
       "trendingKeywords": [
-        "validator",
-        "layer2",
-        "bridge"
+        "community",
+        "governance"
       ],
       "topProjects": [
         {
-          "name": "firedancer",
+          "name": "app-monorepo",
           "description": "",
-          "url": "https://github.com/firedancer-io/firedancer",
-          "source": "github"
-        },
-        {
-          "name": "jito-solana",
-          "description": "",
-          "url": "https://github.com/jito-foundation/jito-solana",
+          "url": "https://github.com/OneKeyHQ/app-monorepo",
           "source": "github"
         },
         {
@@ -185,49 +175,38 @@
           "description": "",
           "url": "https://github.com/lawmaster10/howcryptoworksbook",
           "source": "github"
-        },
-        {
-          "name": "GENIE-Ecosystem",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
-        "Build a decentralized RPC load balancer for Solana",
-        "Create a validator performance monitoring dashboard",
-        "Develop a bridge aggregator for cross-chain transfers",
-        "Build an oracle comparison and aggregation service"
+        "Build a decentralized social graph protocol",
+        "Create a creator monetization platform with micro-tipping",
+        "Develop a DAO governance participation reward system",
+        "Build a reputation-based social discovery app"
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-03-06T09:58:30.443Z"
+      "lastUpdated": "2026-03-07T08:59:37.733Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.37107999999999997,
+      "confidence": 0.25414,
       "trendingKeywords": [
-        "swap",
-        "liquidity"
+        "dex"
       ],
       "topProjects": [
         {
-          "name": "whirlpools",
+          "name": "outsmart-cli",
           "description": "",
-          "url": "https://github.com/orca-so/whirlpools",
+          "url": "https://github.com/outsmartchad/outsmart-cli",
           "source": "github"
         },
         {
-          "name": "agentic-bags",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "Sentiment-Swap",
+          "name": "solana-decentralized-exchange-DEX",
           "description": "",
           "source": "github"
         }
@@ -240,10 +219,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-03-06T09:58:30.443Z"
+      "lastUpdated": "2026-03-07T08:59:37.733Z"
     },
     {
       "id": "gaming-nft",
@@ -255,7 +234,7 @@
       ],
       "topProjects": [
         {
-          "name": "Sentiment-Swap",
+          "name": "Doltcoin",
           "description": "",
           "source": "github"
         }
@@ -271,7 +250,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-03-06T09:58:30.443Z"
+      "lastUpdated": "2026-03-07T08:59:37.733Z"
     }
   ]
 }
