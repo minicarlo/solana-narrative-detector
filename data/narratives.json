@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-10T08:38:29.570Z",
+  "timestamp": "2026-03-11T08:38:04.481Z",
   "narratives": [
     {
       "id": "infrastructure",
@@ -8,11 +8,9 @@
       "confidence": 1,
       "trendingKeywords": [
         "node",
-        "bridge",
         "validator",
-        "network",
-        "layer2",
-        "oracle"
+        "bridge",
+        "layer2"
       ],
       "topProjects": [
         {
@@ -54,10 +52,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-03-10T08:38:29.570Z"
+      "lastUpdated": "2026-03-11T08:38:04.481Z"
     },
     {
       "id": "ai-crypto",
@@ -67,8 +65,8 @@
       "trendingKeywords": [
         "bot",
         "agent",
-        "autonomous",
-        "neural"
+        "intelligence",
+        "model"
       ],
       "topProjects": [
         {
@@ -90,13 +88,12 @@
           "source": "github"
         },
         {
-          "name": "outsmart-cli",
+          "name": "j33t-intel",
           "description": "",
-          "url": "https://github.com/outsmartchad/outsmart-cli",
           "source": "github"
         },
         {
-          "name": "ragnarok",
+          "name": "wzrd-mcp",
           "description": "",
           "source": "github"
         }
@@ -109,75 +106,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 11,
+        "github": 12,
         "social": 0
       },
-      "lastUpdated": "2026-03-10T08:38:29.570Z"
-    },
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.6941400000000001,
-      "trendingKeywords": [
-        "swap",
-        "dex",
-        "liquidity",
-        "vault"
-      ],
-      "topProjects": [
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "outsmart-cli",
-          "description": "",
-          "url": "https://github.com/outsmartchad/outsmart-cli",
-          "source": "github"
-        },
-        {
-          "name": "meteora-dlmm-monitor",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "kage",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 5,
-        "social": 0
-      },
-      "lastUpdated": "2026-03-10T08:38:29.570Z"
+      "lastUpdated": "2026-03-11T08:38:04.481Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.6355600000000001,
+      "confidence": 0.7322200000000001,
       "trendingKeywords": [
         "framework",
-        "library",
-        "build",
-        "deploy"
+        "deploy",
+        "library"
       ],
       "topProjects": [
         {
@@ -193,15 +135,20 @@
           "source": "github"
         },
         {
-          "name": "ant-design-web3",
-          "description": "",
-          "url": "https://github.com/ant-design/ant-design-web3",
-          "source": "github"
-        },
-        {
           "name": "solana-playground",
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
+          "source": "github"
+        },
+        {
+          "name": "create-solana-dapp",
+          "description": "",
+          "url": "https://github.com/solana-foundation/create-solana-dapp",
+          "source": "github"
+        },
+        {
+          "name": "programlens",
+          "description": "",
           "source": "github"
         }
       ],
@@ -213,19 +160,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-03-10T08:38:29.570Z"
+      "lastUpdated": "2026-03-11T08:38:04.481Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.3029,
+      "confidence": 0.42325999999999997,
       "trendingKeywords": [
         "community",
-        "governance"
+        "governance",
+        "creator"
       ],
       "topProjects": [
         {
@@ -239,6 +187,11 @@
           "description": "",
           "url": "https://github.com/lawmaster10/howcryptoworksbook",
           "source": "github"
+        },
+        {
+          "name": "anvil-solana",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -249,10 +202,45 @@
       ],
       "dataSources": {
         "helius": 0,
+        "github": 3,
+        "social": 0
+      },
+      "lastUpdated": "2026-03-11T08:38:04.481Z"
+    },
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.32,
+      "trendingKeywords": [
+        "swap"
+      ],
+      "topProjects": [
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-03-10T08:38:29.570Z"
+      "lastUpdated": "2026-03-11T08:38:04.481Z"
     },
     {
       "id": "gaming-nft",
@@ -278,7 +266,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-03-10T08:38:29.570Z"
+      "lastUpdated": "2026-03-11T08:38:04.481Z"
     }
   ]
 }
