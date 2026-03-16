@@ -1,59 +1,6 @@
 {
-  "timestamp": "2026-03-15T08:33:52.227Z",
+  "timestamp": "2026-03-16T08:54:07.918Z",
   "narratives": [
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 1,
-      "trendingKeywords": [
-        "bot",
-        "autonomous",
-        "agent",
-        "intelligence"
-      ],
-      "topProjects": [
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "solana-pumpfun-sniper-bot",
-          "description": "",
-          "url": "https://github.com/HaiderFlorez/solana-pumpfun-sniper-bot",
-          "source": "github"
-        },
-        {
-          "name": "solana-ai-trade-bot",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "fundflow-ai",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "-pmarshal-pro-max",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 8,
-        "social": 0
-      },
-      "lastUpdated": "2026-03-15T08:33:52.227Z"
-    },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
@@ -61,9 +8,10 @@
       "confidence": 1,
       "trendingKeywords": [
         "framework",
-        "library",
+        "compile",
         "build",
-        "deploy"
+        "deploy",
+        "library"
       ],
       "topProjects": [
         {
@@ -73,9 +21,9 @@
           "source": "github"
         },
         {
-          "name": "rango-client",
+          "name": "solang",
           "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
+          "url": "https://github.com/hyperledger-solang/solang",
           "source": "github"
         },
         {
@@ -105,39 +53,85 @@
       ],
       "dataSources": {
         "helius": 0,
+        "github": 8,
+        "social": 0
+      },
+      "lastUpdated": "2026-03-16T08:54:07.918Z"
+    },
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 0.89252,
+      "trendingKeywords": [
+        "bot",
+        "agent",
+        "inference"
+      ],
+      "topProjects": [
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "getgrass-bot-js",
+          "description": "",
+          "url": "https://github.com/cmalf/getgrass-bot-js",
+          "source": "github"
+        },
+        {
+          "name": "solana-ai-trade-bot",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-ai-agent",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-ai-trading-bot",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
         "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-03-15T08:33:52.227Z"
+      "lastUpdated": "2026-03-16T08:54:07.918Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.7662800000000001,
+      "confidence": 0.85892,
       "trendingKeywords": [
-        "bridge",
-        "validator",
         "node",
-        "layer2"
+        "validator",
+        "layer2",
+        "network"
       ],
       "topProjects": [
         {
-          "name": "rango-sdk",
+          "name": "solana-web3.js",
           "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
+          "url": "https://github.com/solana-foundation/solana-web3.js",
           "source": "github"
         },
         {
           "name": "firedancer",
           "description": "",
           "url": "https://github.com/firedancer-io/firedancer",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
         },
         {
@@ -151,6 +145,12 @@
           "description": "",
           "url": "https://github.com/jito-foundation/jito-solana",
           "source": "github"
+        },
+        {
+          "name": "getgrass-bot-js",
+          "description": "",
+          "url": "https://github.com/cmalf/getgrass-bot-js",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -161,16 +161,69 @@
       ],
       "dataSources": {
         "helius": 0,
+        "github": 6,
+        "social": 0
+      },
+      "lastUpdated": "2026-03-16T08:54:07.918Z"
+    },
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.6125200000000001,
+      "trendingKeywords": [
+        "farm",
+        "perp",
+        "dex",
+        "liquidity",
+        "yield"
+      ],
+      "topProjects": [
+        {
+          "name": "getgrass-bot-js",
+          "description": "",
+          "url": "https://github.com/cmalf/getgrass-bot-js",
+          "source": "github"
+        },
+        {
+          "name": "cli",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-dex-rpc-traits",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-new-pair-sniper-jupiter-v6",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "polyworld",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
         "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-03-15T08:33:52.227Z"
+      "lastUpdated": "2026-03-16T08:54:07.917Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.42434000000000005,
+      "confidence": 0.30446,
       "trendingKeywords": [
         "community",
         "governance"
@@ -187,11 +240,6 @@
           "description": "",
           "url": "https://github.com/lawmaster10/howcryptoworksbook",
           "source": "github"
-        },
-        {
-          "name": "LimeLight",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -202,45 +250,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
-        "social": 0
-      },
-      "lastUpdated": "2026-03-15T08:33:52.227Z"
-    },
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.32,
-      "trendingKeywords": [
-        "swap"
-      ],
-      "topProjects": [
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-03-15T08:33:52.227Z"
+      "lastUpdated": "2026-03-16T08:54:07.918Z"
     },
     {
       "id": "gaming-nft",
@@ -248,17 +261,17 @@
       "description": "Blockchain gaming and NFT ecosystems",
       "confidence": 0.24,
       "trendingKeywords": [
-        "game",
-        "world"
+        "world",
+        "virtual"
       ],
       "topProjects": [
         {
-          "name": "SolFlipGame",
+          "name": "polyworld",
           "description": "",
           "source": "github"
         },
         {
-          "name": "Solvio",
+          "name": "impacttreasury-giggybank",
           "description": "",
           "source": "github"
         }
@@ -274,7 +287,7 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-03-15T08:33:52.227Z"
+      "lastUpdated": "2026-03-16T08:54:07.917Z"
     }
   ]
 }
