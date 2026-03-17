@@ -1,72 +1,16 @@
 {
-  "timestamp": "2026-03-16T08:54:07.918Z",
+  "timestamp": "2026-03-17T08:51:51.939Z",
   "narratives": [
-    {
-      "id": "dev-tools",
-      "name": "Developer Tools",
-      "description": "Tools and infrastructure for developers",
-      "confidence": 1,
-      "trendingKeywords": [
-        "framework",
-        "compile",
-        "build",
-        "deploy",
-        "library"
-      ],
-      "topProjects": [
-        {
-          "name": "anchor",
-          "description": "",
-          "url": "https://github.com/solana-foundation/anchor",
-          "source": "github"
-        },
-        {
-          "name": "solang",
-          "description": "",
-          "url": "https://github.com/hyperledger-solang/solang",
-          "source": "github"
-        },
-        {
-          "name": "ant-design-web3",
-          "description": "",
-          "url": "https://github.com/ant-design/ant-design-web3",
-          "source": "github"
-        },
-        {
-          "name": "solana-playground",
-          "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
-          "source": "github"
-        },
-        {
-          "name": "metaplex-program-library",
-          "description": "",
-          "url": "https://github.com/metaplex-foundation/metaplex-program-library",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a Solana program testing framework with auto-generated tests",
-        "Build a no-code contract deployment platform",
-        "Develop a real-time program monitoring and alerting tool",
-        "Create an IDE extension for Solana development"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 8,
-        "social": 0
-      },
-      "lastUpdated": "2026-03-16T08:54:07.918Z"
-    },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.89252,
+      "confidence": 1,
       "trendingKeywords": [
         "bot",
         "agent",
-        "inference"
+        "model",
+        "autonomous"
       ],
       "topProjects": [
         {
@@ -82,17 +26,18 @@
           "source": "github"
         },
         {
-          "name": "solana-ai-trade-bot",
+          "name": "Dawn-Validator-BOT",
+          "description": "",
+          "url": "https://github.com/Justi1980/Dawn-Validator-BOT",
+          "source": "github"
+        },
+        {
+          "name": "refundyoursol-mcp",
           "description": "",
           "source": "github"
         },
         {
-          "name": "solana-ai-agent",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-ai-trading-bot",
+          "name": "leanstral-solana-skill",
           "description": "",
           "source": "github"
         }
@@ -105,16 +50,73 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-03-16T08:54:07.918Z"
+      "lastUpdated": "2026-03-17T08:51:51.939Z"
+    },
+    {
+      "id": "dev-tools",
+      "name": "Developer Tools",
+      "description": "Tools and infrastructure for developers",
+      "confidence": 0.8712799999999999,
+      "trendingKeywords": [
+        "framework",
+        "compile",
+        "deploy",
+        "library",
+        "build"
+      ],
+      "topProjects": [
+        {
+          "name": "anchor",
+          "description": "",
+          "url": "https://github.com/solana-foundation/anchor",
+          "source": "github"
+        },
+        {
+          "name": "solang",
+          "description": "",
+          "url": "https://github.com/hyperledger-solang/solang",
+          "source": "github"
+        },
+        {
+          "name": "solana-playground",
+          "description": "",
+          "url": "https://github.com/solana-playground/solana-playground",
+          "source": "github"
+        },
+        {
+          "name": "metaplex-program-library",
+          "description": "",
+          "url": "https://github.com/metaplex-foundation/metaplex-program-library",
+          "source": "github"
+        },
+        {
+          "name": "create-solana-dapp",
+          "description": "",
+          "url": "https://github.com/solana-foundation/create-solana-dapp",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create a Solana program testing framework with auto-generated tests",
+        "Build a no-code contract deployment platform",
+        "Develop a real-time program monitoring and alerting tool",
+        "Create an IDE extension for Solana development"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 6,
+        "social": 0
+      },
+      "lastUpdated": "2026-03-17T08:51:51.939Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.85892,
+      "confidence": 0.87126,
       "trendingKeywords": [
         "node",
         "validator",
@@ -164,69 +166,18 @@
         "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-03-16T08:54:07.918Z"
-    },
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.6125200000000001,
-      "trendingKeywords": [
-        "farm",
-        "perp",
-        "dex",
-        "liquidity",
-        "yield"
-      ],
-      "topProjects": [
-        {
-          "name": "getgrass-bot-js",
-          "description": "",
-          "url": "https://github.com/cmalf/getgrass-bot-js",
-          "source": "github"
-        },
-        {
-          "name": "cli",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-dex-rpc-traits",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-new-pair-sniper-jupiter-v6",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "polyworld",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 5,
-        "social": 0
-      },
-      "lastUpdated": "2026-03-16T08:54:07.917Z"
+      "lastUpdated": "2026-03-17T08:51:51.939Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.30446,
+      "confidence": 0.5445200000000001,
       "trendingKeywords": [
+        "creator",
         "community",
-        "governance"
+        "governance",
+        "social"
       ],
       "topProjects": [
         {
@@ -240,6 +191,16 @@
           "description": "",
           "url": "https://github.com/lawmaster10/howcryptoworksbook",
           "source": "github"
+        },
+        {
+          "name": "SOLANA_TOKEN_TRACKER",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "accio-dashboard",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -250,32 +211,71 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-03-16T08:54:07.918Z"
+      "lastUpdated": "2026-03-17T08:51:51.939Z"
+    },
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.49252,
+      "trendingKeywords": [
+        "dex",
+        "farm",
+        "yield",
+        "swap"
+      ],
+      "topProjects": [
+        {
+          "name": "getgrass-bot-js",
+          "description": "",
+          "url": "https://github.com/cmalf/getgrass-bot-js",
+          "source": "github"
+        },
+        {
+          "name": "ArbStrategy-ASTY",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "byreal-sdk",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-mev-sandwich-detector",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 4,
+        "social": 0
+      },
+      "lastUpdated": "2026-03-17T08:51:51.939Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.24,
+      "confidence": 0.1,
       "trendingKeywords": [
-        "world",
-        "virtual"
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "polyworld",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "impacttreasury-giggybank",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -284,10 +284,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-03-16T08:54:07.917Z"
+      "lastUpdated": "2026-03-17T08:51:51.939Z"
     }
   ]
 }
