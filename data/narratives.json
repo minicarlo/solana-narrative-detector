@@ -1,250 +1,19 @@
 {
-  "timestamp": "2026-03-19T08:39:17.708Z",
+  "timestamp": "2026-03-20T08:37:47.879Z",
   "narratives": [
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 1,
-      "trendingKeywords": [
-        "agent",
-        "bot",
-        "autonomous"
-      ],
-      "topProjects": [
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "solana-trading-bot",
-          "description": "",
-          "url": "https://github.com/warp-specke/solana-trading-bot",
-          "source": "github"
-        },
-        {
-          "name": "defi-signal-agent",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "uniswap-arbitrage-bot-2026",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "plamen",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 10,
-        "social": 0
-      },
-      "lastUpdated": "2026-03-19T08:39:17.708Z"
-    },
-    {
-      "id": "dev-tools",
-      "name": "Developer Tools",
-      "description": "Tools and infrastructure for developers",
-      "confidence": 1,
-      "trendingKeywords": [
-        "framework",
-        "compile",
-        "build",
-        "deploy",
-        "library"
-      ],
-      "topProjects": [
-        {
-          "name": "anchor",
-          "description": "",
-          "url": "https://github.com/solana-foundation/anchor",
-          "source": "github"
-        },
-        {
-          "name": "solang",
-          "description": "",
-          "url": "https://github.com/hyperledger-solang/solang",
-          "source": "github"
-        },
-        {
-          "name": "ant-design-web3",
-          "description": "",
-          "url": "https://github.com/ant-design/ant-design-web3",
-          "source": "github"
-        },
-        {
-          "name": "solana-playground",
-          "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
-          "source": "github"
-        },
-        {
-          "name": "metaplex-program-library",
-          "description": "",
-          "url": "https://github.com/metaplex-foundation/metaplex-program-library",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a Solana program testing framework with auto-generated tests",
-        "Build a no-code contract deployment platform",
-        "Develop a real-time program monitoring and alerting tool",
-        "Create an IDE extension for Solana development"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 7,
-        "social": 0
-      },
-      "lastUpdated": "2026-03-19T08:39:17.708Z"
-    },
-    {
-      "id": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.72694,
-      "trendingKeywords": [
-        "validator",
-        "node",
-        "layer2",
-        "oracle"
-      ],
-      "topProjects": [
-        {
-          "name": "solana-web3.js",
-          "description": "",
-          "url": "https://github.com/solana-foundation/solana-web3.js",
-          "source": "github"
-        },
-        {
-          "name": "firedancer",
-          "description": "",
-          "url": "https://github.com/firedancer-io/firedancer",
-          "source": "github"
-        },
-        {
-          "name": "howcryptoworksbook",
-          "description": "",
-          "url": "https://github.com/lawmaster10/howcryptoworksbook",
-          "source": "github"
-        },
-        {
-          "name": "jito-solana",
-          "description": "",
-          "url": "https://github.com/jito-foundation/jito-solana",
-          "source": "github"
-        },
-        {
-          "name": "verified-agent-oracles",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized RPC load balancer for Solana",
-        "Create a validator performance monitoring dashboard",
-        "Develop a bridge aggregator for cross-chain transfers",
-        "Build an oracle comparison and aggregation service"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 5,
-        "social": 0
-      },
-      "lastUpdated": "2026-03-19T08:39:17.708Z"
-    },
-    {
-      "id": "social-consumer",
-      "name": "Social & Consumer",
-      "description": "Social platforms and consumer applications",
-      "confidence": 0.54488,
-      "trendingKeywords": [
-        "community",
-        "governance",
-        "social",
-        "creator"
-      ],
-      "topProjects": [
-        {
-          "name": "app-monorepo",
-          "description": "",
-          "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "howcryptoworksbook",
-          "description": "",
-          "url": "https://github.com/lawmaster10/howcryptoworksbook",
-          "source": "github"
-        },
-        {
-          "name": "xhuntr-docs",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "accio-dashboard",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized social graph protocol",
-        "Create a creator monetization platform with micro-tipping",
-        "Develop a DAO governance participation reward system",
-        "Build a reputation-based social discovery app"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 4,
-        "social": 0
-      },
-      "lastUpdated": "2026-03-19T08:39:17.708Z"
-    },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.48,
+      "confidence": 0.1,
       "trendingKeywords": [
-        "dex",
+        "yield",
         "liquidity",
-        "swap"
+        "AMM",
+        "vault",
+        "lending"
       ],
-      "topProjects": [
-        {
-          "name": "defi-signal-agent",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "uniswap-arbitrage-bot-2026",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "dexter-mpp",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-dex-demo",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
         "Create a decentralized lending platform with isolated risk markets",
@@ -253,26 +22,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-03-19T08:39:17.708Z"
+      "lastUpdated": "2026-03-20T08:37:47.879Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.1,
       "trendingKeywords": [
-        "world"
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "impacttreasury-giggybank",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -281,10 +48,114 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-03-19T08:39:17.708Z"
+      "lastUpdated": "2026-03-20T08:37:47.879Z"
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Core blockchain infrastructure and tooling",
+      "confidence": 0.1,
+      "trendingKeywords": [
+        "validator",
+        "RPC",
+        "indexer",
+        "oracle",
+        "bridge"
+      ],
+      "topProjects": [],
+      "projectIdeas": [
+        "Build a decentralized RPC load balancer for Solana",
+        "Create a validator performance monitoring dashboard",
+        "Develop a bridge aggregator for cross-chain transfers",
+        "Build an oracle comparison and aggregation service"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 0,
+        "social": 0
+      },
+      "lastUpdated": "2026-03-20T08:37:47.879Z"
+    },
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 0.1,
+      "trendingKeywords": [
+        "AI",
+        "agent",
+        "model",
+        "inference",
+        "ML"
+      ],
+      "topProjects": [],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 0,
+        "social": 0
+      },
+      "lastUpdated": "2026-03-20T08:37:47.879Z"
+    },
+    {
+      "id": "social-consumer",
+      "name": "Social & Consumer",
+      "description": "Social platforms and consumer applications",
+      "confidence": 0.1,
+      "trendingKeywords": [
+        "social",
+        "community",
+        "DAO",
+        "governance",
+        "vote"
+      ],
+      "topProjects": [],
+      "projectIdeas": [
+        "Build a decentralized social graph protocol",
+        "Create a creator monetization platform with micro-tipping",
+        "Develop a DAO governance participation reward system",
+        "Build a reputation-based social discovery app"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 0,
+        "social": 0
+      },
+      "lastUpdated": "2026-03-20T08:37:47.879Z"
+    },
+    {
+      "id": "dev-tools",
+      "name": "Developer Tools",
+      "description": "Tools and infrastructure for developers",
+      "confidence": 0.1,
+      "trendingKeywords": [
+        "SDK",
+        "framework",
+        "CLI",
+        "testing",
+        "debug"
+      ],
+      "topProjects": [],
+      "projectIdeas": [
+        "Create a Solana program testing framework with auto-generated tests",
+        "Build a no-code contract deployment platform",
+        "Develop a real-time program monitoring and alerting tool",
+        "Create an IDE extension for Solana development"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 0,
+        "social": 0
+      },
+      "lastUpdated": "2026-03-20T08:37:47.879Z"
     }
   ]
 }
