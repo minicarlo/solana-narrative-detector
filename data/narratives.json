@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-21T08:30:01.453Z",
+  "timestamp": "2026-03-22T08:32:03.888Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -9,7 +9,8 @@
       "trendingKeywords": [
         "bot",
         "agent",
-        "autonomous"
+        "autonomous",
+        "model"
       ],
       "topProjects": [
         {
@@ -31,12 +32,13 @@
           "source": "github"
         },
         {
-          "name": "uniswap-arbitrage-bot-2026",
+          "name": "Solana-Arbitrage-Bot",
           "description": "",
+          "url": "https://github.com/insionCEO/Solana-Arbitrage-Bot",
           "source": "github"
         },
         {
-          "name": "solana-sniper-bot",
+          "name": "polymarket-agent",
           "description": "",
           "source": "github"
         }
@@ -49,34 +51,26 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 13,
+        "github": 12,
         "social": 0
       },
-      "lastUpdated": "2026-03-21T08:30:01.453Z"
+      "lastUpdated": "2026-03-22T08:32:03.888Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.8927000000000002,
+      "confidence": 0.6127,
       "trendingKeywords": [
         "framework",
-        "compile",
         "build",
-        "deploy",
-        "library"
+        "deploy"
       ],
       "topProjects": [
         {
           "name": "anchor",
           "description": "",
           "url": "https://github.com/solana-foundation/anchor",
-          "source": "github"
-        },
-        {
-          "name": "solang",
-          "description": "",
-          "url": "https://github.com/hyperledger-solang/solang",
           "source": "github"
         },
         {
@@ -106,31 +100,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-03-21T08:30:01.453Z"
+      "lastUpdated": "2026-03-22T08:32:03.888Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.44711999999999996,
+      "confidence": 0.30212000000000006,
       "trendingKeywords": [
-        "validator",
-        "layer2"
+        "validator"
       ],
       "topProjects": [
         {
           "name": "firedancer",
           "description": "",
           "url": "https://github.com/firedancer-io/firedancer",
-          "source": "github"
-        },
-        {
-          "name": "howcryptoworksbook",
-          "description": "",
-          "url": "https://github.com/lawmaster10/howcryptoworksbook",
           "source": "github"
         },
         {
@@ -148,31 +135,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-03-21T08:30:01.453Z"
+      "lastUpdated": "2026-03-22T08:32:03.888Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.305,
+      "confidence": 0.16,
       "trendingKeywords": [
-        "community",
-        "governance"
+        "community"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "howcryptoworksbook",
-          "description": "",
-          "url": "https://github.com/lawmaster10/howcryptoworksbook",
           "source": "github"
         }
       ],
@@ -184,28 +164,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-03-21T08:30:01.453Z"
+      "lastUpdated": "2026-03-22T08:32:03.888Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.24,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "swap",
-        "vault"
+        "lending"
       ],
       "topProjects": [
         {
-          "name": "uniswap-arbitrage-bot-2026",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "ranger-vault",
+          "name": "credagent",
           "description": "",
           "source": "github"
         }
@@ -218,10 +192,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-03-21T08:30:01.453Z"
+      "lastUpdated": "2026-03-22T08:32:03.888Z"
     },
     {
       "id": "gaming-nft",
@@ -229,11 +203,11 @@
       "description": "Blockchain gaming and NFT ecosystems",
       "confidence": 0.12,
       "trendingKeywords": [
-        "game"
+        "world"
       ],
       "topProjects": [
         {
-          "name": "Reversi-King",
+          "name": "SkillProof",
           "description": "",
           "source": "github"
         }
@@ -249,7 +223,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-03-21T08:30:01.453Z"
+      "lastUpdated": "2026-03-22T08:32:03.888Z"
     }
   ]
 }
