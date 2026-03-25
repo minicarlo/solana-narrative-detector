@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-24T08:51:05.185Z",
+  "timestamp": "2026-03-25T08:48:53.701Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -15,6 +15,12 @@
           "name": "OctoBot",
           "description": "",
           "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "Solana-Arbitrage-Bot",
+          "description": "",
+          "url": "https://github.com/x89/Solana-Arbitrage-Bot",
           "source": "github"
         },
         {
@@ -34,11 +40,6 @@
           "description": "",
           "url": "https://github.com/insionCEO/Solana-Arbitrage-Bot",
           "source": "github"
-        },
-        {
-          "name": "uniswap-arbitrage-bot-2026",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -49,21 +50,72 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 11,
+        "github": 14,
         "social": 0
       },
-      "lastUpdated": "2026-03-24T08:51:05.185Z"
+      "lastUpdated": "2026-03-25T08:48:53.701Z"
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Core blockchain infrastructure and tooling",
+      "confidence": 0.66212,
+      "trendingKeywords": [
+        "validator",
+        "network",
+        "indexer"
+      ],
+      "topProjects": [
+        {
+          "name": "firedancer",
+          "description": "",
+          "url": "https://github.com/firedancer-io/firedancer",
+          "source": "github"
+        },
+        {
+          "name": "jito-solana",
+          "description": "",
+          "url": "https://github.com/jito-foundation/jito-solana",
+          "source": "github"
+        },
+        {
+          "name": "orin-core",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "Solana-Validator",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-indexer",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized RPC load balancer for Solana",
+        "Create a validator performance monitoring dashboard",
+        "Develop a bridge aggregator for cross-chain transfers",
+        "Build an oracle comparison and aggregation service"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 5,
+        "social": 0
+      },
+      "lastUpdated": "2026-03-25T08:48:53.700Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.61126,
+      "confidence": 0.61132,
       "trendingKeywords": [
+        "dex",
         "liquidity",
-        "swap",
-        "vault",
-        "perp"
+        "swap"
       ],
       "topProjects": [
         {
@@ -73,22 +125,22 @@
           "source": "github"
         },
         {
-          "name": "uniswap-arbitrage-bot-2026",
+          "name": "Pumpswap-Migration-Sniper",
           "description": "",
           "source": "github"
         },
         {
-          "name": "seeker-iou",
+          "name": "Solana_sniper_copy_bot",
           "description": "",
           "source": "github"
         },
         {
-          "name": "standx",
+          "name": "solana-indexer",
           "description": "",
           "source": "github"
         },
         {
-          "name": "Ai-Trading-alert-Bot",
+          "name": "solana-arb-bot",
           "description": "",
           "source": "github"
         }
@@ -104,16 +156,15 @@
         "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-03-24T08:51:05.184Z"
+      "lastUpdated": "2026-03-25T08:48:53.700Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.47586000000000006,
+      "confidence": 0.5558000000000001,
       "trendingKeywords": [
         "framework",
-        "build",
         "deploy"
       ],
       "topProjects": [
@@ -124,15 +175,19 @@
           "source": "github"
         },
         {
-          "name": "ant-design-web3",
-          "description": "",
-          "url": "https://github.com/ant-design/ant-design-web3",
-          "source": "github"
-        },
-        {
           "name": "solana-playground",
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
+          "source": "github"
+        },
+        {
+          "name": "gleam-openclaw-framework",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "sealevel-guard",
+          "description": "",
           "source": "github"
         }
       ],
@@ -144,36 +199,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-03-24T08:51:05.185Z"
+      "lastUpdated": "2026-03-25T08:48:53.701Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.4,
+      "confidence": 0.16,
       "trendingKeywords": [
-        "community",
-        "governance",
-        "vote"
+        "community"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "Solana-ballot",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "keyfi",
-          "description": "",
           "source": "github"
         }
       ],
@@ -185,59 +228,26 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-03-24T08:51:05.185Z"
-    },
-    {
-      "id": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.27999999999999997,
-      "trendingKeywords": [
-        "validator",
-        "network"
-      ],
-      "topProjects": [
-        {
-          "name": "firedancer",
-          "description": "",
-          "url": "https://github.com/firedancer-io/firedancer",
-          "source": "github"
-        },
-        {
-          "name": "orin-core",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized RPC load balancer for Solana",
-        "Create a validator performance monitoring dashboard",
-        "Develop a bridge aggregator for cross-chain transfers",
-        "Build an oracle comparison and aggregation service"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 2,
-        "social": 0
-      },
-      "lastUpdated": "2026-03-24T08:51:05.185Z"
+      "lastUpdated": "2026-03-25T08:48:53.701Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.1,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "game",
-        "gaming",
-        "NFT",
-        "metaverse",
-        "play-to-earn"
+        "gaming"
       ],
-      "topProjects": [],
+      "topProjects": [
+        {
+          "name": "Racer",
+          "description": "",
+          "source": "github"
+        }
+      ],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -246,10 +256,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 0,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-03-24T08:51:05.184Z"
+      "lastUpdated": "2026-03-25T08:48:53.700Z"
     }
   ]
 }
