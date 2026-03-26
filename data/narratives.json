@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-25T08:48:53.701Z",
+  "timestamp": "2026-03-26T08:52:42.870Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -8,7 +8,9 @@
       "confidence": 1,
       "trendingKeywords": [
         "bot",
-        "agent"
+        "agent",
+        "autonomous",
+        "model"
       ],
       "topProjects": [
         {
@@ -36,9 +38,8 @@
           "source": "github"
         },
         {
-          "name": "Solana-Arbitrage-Bot",
+          "name": "hummingbird",
           "description": "",
-          "url": "https://github.com/insionCEO/Solana-Arbitrage-Bot",
           "source": "github"
         }
       ],
@@ -50,20 +51,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 14,
+        "github": 10,
         "social": 0
       },
-      "lastUpdated": "2026-03-25T08:48:53.701Z"
+      "lastUpdated": "2026-03-26T08:52:42.870Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.66212,
+      "confidence": 0.7821800000000001,
       "trendingKeywords": [
         "validator",
-        "network",
-        "indexer"
+        "indexer",
+        "network"
       ],
       "topProjects": [
         {
@@ -79,17 +80,17 @@
           "source": "github"
         },
         {
+          "name": "SolTrace",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "bubblegum",
+          "description": "",
+          "source": "github"
+        },
+        {
           "name": "orin-core",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "Solana-Validator",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-indexer",
           "description": "",
           "source": "github"
         }
@@ -102,20 +103,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-03-25T08:48:53.700Z"
+      "lastUpdated": "2026-03-26T08:52:42.870Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.61132,
+      "confidence": 0.7382600000000001,
       "trendingKeywords": [
         "dex",
         "liquidity",
-        "swap"
+        "vault"
       ],
       "topProjects": [
         {
@@ -125,22 +126,23 @@
           "source": "github"
         },
         {
-          "name": "Pumpswap-Migration-Sniper",
+          "name": "QuillAudit_smart_contract_audit_Reports",
+          "description": "",
+          "url": "https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports",
+          "source": "github"
+        },
+        {
+          "name": "SolTrace",
           "description": "",
           "source": "github"
         },
         {
-          "name": "Solana_sniper_copy_bot",
+          "name": "bubblegum",
           "description": "",
           "source": "github"
         },
         {
-          "name": "solana-indexer",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-arb-bot",
+          "name": "solana-token-indexing-pipeline",
           "description": "",
           "source": "github"
         }
@@ -153,19 +155,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-03-25T08:48:53.700Z"
+      "lastUpdated": "2026-03-26T08:52:42.870Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.5558000000000001,
+      "confidence": 0.44268,
       "trendingKeywords": [
         "framework",
-        "deploy"
+        "deploy",
+        "testing"
       ],
       "topProjects": [
         {
@@ -181,13 +184,9 @@
           "source": "github"
         },
         {
-          "name": "gleam-openclaw-framework",
+          "name": "QuillAudit_smart_contract_audit_Reports",
           "description": "",
-          "source": "github"
-        },
-        {
-          "name": "sealevel-guard",
-          "description": "",
+          "url": "https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports",
           "source": "github"
         }
       ],
@@ -199,10 +198,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-03-25T08:48:53.701Z"
+      "lastUpdated": "2026-03-26T08:52:42.870Z"
     },
     {
       "id": "social-consumer",
@@ -231,23 +230,21 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-03-25T08:48:53.701Z"
+      "lastUpdated": "2026-03-26T08:52:42.870Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.1,
       "trendingKeywords": [
-        "gaming"
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "Racer",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -256,10 +253,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-03-25T08:48:53.700Z"
+      "lastUpdated": "2026-03-26T08:52:42.870Z"
     }
   ]
 }
