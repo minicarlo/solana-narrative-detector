@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-26T08:52:42.870Z",
+  "timestamp": "2026-03-27T08:50:05.884Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -10,7 +10,7 @@
         "bot",
         "agent",
         "autonomous",
-        "model"
+        "machine learning"
       ],
       "topProjects": [
         {
@@ -20,15 +20,15 @@
           "source": "github"
         },
         {
-          "name": "Solana-Arbitrage-Bot",
+          "name": "solana-agent-kit",
           "description": "",
-          "url": "https://github.com/x89/Solana-Arbitrage-Bot",
+          "url": "https://github.com/sendaifun/solana-agent-kit",
           "source": "github"
         },
         {
-          "name": "pumpfun-bonkfun-bot",
+          "name": "Solana-Arbitrage-Bot",
           "description": "",
-          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
+          "url": "https://github.com/x89/Solana-Arbitrage-Bot",
           "source": "github"
         },
         {
@@ -38,8 +38,9 @@
           "source": "github"
         },
         {
-          "name": "hummingbird",
+          "name": "solana-dev-skill",
           "description": "",
+          "url": "https://github.com/solana-foundation/solana-dev-skill",
           "source": "github"
         }
       ],
@@ -51,70 +52,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 10,
+        "github": 11,
         "social": 0
       },
-      "lastUpdated": "2026-03-26T08:52:42.870Z"
-    },
-    {
-      "id": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.7821800000000001,
-      "trendingKeywords": [
-        "validator",
-        "indexer",
-        "network"
-      ],
-      "topProjects": [
-        {
-          "name": "firedancer",
-          "description": "",
-          "url": "https://github.com/firedancer-io/firedancer",
-          "source": "github"
-        },
-        {
-          "name": "jito-solana",
-          "description": "",
-          "url": "https://github.com/jito-foundation/jito-solana",
-          "source": "github"
-        },
-        {
-          "name": "SolTrace",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "bubblegum",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "orin-core",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized RPC load balancer for Solana",
-        "Create a validator performance monitoring dashboard",
-        "Develop a bridge aggregator for cross-chain transfers",
-        "Build an oracle comparison and aggregation service"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 6,
-        "social": 0
-      },
-      "lastUpdated": "2026-03-26T08:52:42.870Z"
+      "lastUpdated": "2026-03-27T08:50:05.884Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.7382600000000001,
+      "confidence": 0.98292,
       "trendingKeywords": [
         "dex",
+        "swap",
+        "perp",
         "liquidity",
         "vault"
       ],
@@ -132,17 +83,18 @@
           "source": "github"
         },
         {
-          "name": "SolTrace",
+          "name": "solana-dev-skill",
+          "description": "",
+          "url": "https://github.com/solana-foundation/solana-dev-skill",
+          "source": "github"
+        },
+        {
+          "name": "uniswap-arbitrage-bot-2026",
           "description": "",
           "source": "github"
         },
         {
-          "name": "bubblegum",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-token-indexing-pipeline",
+          "name": "perk-protocol-public",
           "description": "",
           "source": "github"
         }
@@ -155,10 +107,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-03-26T08:52:42.870Z"
+      "lastUpdated": "2026-03-27T08:50:05.884Z"
     },
     {
       "id": "dev-tools",
@@ -201,7 +153,47 @@
         "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-03-26T08:52:42.870Z"
+      "lastUpdated": "2026-03-27T08:50:05.884Z"
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Core blockchain infrastructure and tooling",
+      "confidence": 0.42218,
+      "trendingKeywords": [
+        "validator"
+      ],
+      "topProjects": [
+        {
+          "name": "firedancer",
+          "description": "",
+          "url": "https://github.com/firedancer-io/firedancer",
+          "source": "github"
+        },
+        {
+          "name": "jito-solana",
+          "description": "",
+          "url": "https://github.com/jito-foundation/jito-solana",
+          "source": "github"
+        },
+        {
+          "name": "Mini-Solana-Validator",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized RPC load balancer for Solana",
+        "Create a validator performance monitoring dashboard",
+        "Develop a bridge aggregator for cross-chain transfers",
+        "Build an oracle comparison and aggregation service"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 3,
+        "social": 0
+      },
+      "lastUpdated": "2026-03-27T08:50:05.884Z"
     },
     {
       "id": "social-consumer",
@@ -230,7 +222,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-03-26T08:52:42.870Z"
+      "lastUpdated": "2026-03-27T08:50:05.884Z"
     },
     {
       "id": "gaming-nft",
@@ -256,7 +248,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-03-26T08:52:42.870Z"
+      "lastUpdated": "2026-03-27T08:50:05.884Z"
     }
   ]
 }
