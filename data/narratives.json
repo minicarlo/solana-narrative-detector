@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-27T08:50:05.884Z",
+  "timestamp": "2026-03-28T08:36:17.654Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -9,14 +9,19 @@
       "trendingKeywords": [
         "bot",
         "agent",
-        "autonomous",
-        "machine learning"
+        "intelligence"
       ],
       "topProjects": [
         {
           "name": "OctoBot",
           "description": "",
           "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "Solana-Sniper-Bot",
+          "description": "",
+          "url": "https://github.com/AV1080p/Solana-Sniper-Bot",
           "source": "github"
         },
         {
@@ -36,12 +41,6 @@
           "description": "",
           "url": "https://github.com/warp-specke/solana-trading-bot",
           "source": "github"
-        },
-        {
-          "name": "solana-dev-skill",
-          "description": "",
-          "url": "https://github.com/solana-foundation/solana-dev-skill",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -52,116 +51,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 11,
+        "github": 13,
         "social": 0
       },
-      "lastUpdated": "2026-03-27T08:50:05.884Z"
-    },
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.98292,
-      "trendingKeywords": [
-        "dex",
-        "swap",
-        "perp",
-        "liquidity",
-        "vault"
-      ],
-      "topProjects": [
-        {
-          "name": "whirlpools",
-          "description": "",
-          "url": "https://github.com/orca-so/whirlpools",
-          "source": "github"
-        },
-        {
-          "name": "QuillAudit_smart_contract_audit_Reports",
-          "description": "",
-          "url": "https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports",
-          "source": "github"
-        },
-        {
-          "name": "solana-dev-skill",
-          "description": "",
-          "url": "https://github.com/solana-foundation/solana-dev-skill",
-          "source": "github"
-        },
-        {
-          "name": "uniswap-arbitrage-bot-2026",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "perk-protocol-public",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 8,
-        "social": 0
-      },
-      "lastUpdated": "2026-03-27T08:50:05.884Z"
-    },
-    {
-      "id": "dev-tools",
-      "name": "Developer Tools",
-      "description": "Tools and infrastructure for developers",
-      "confidence": 0.44268,
-      "trendingKeywords": [
-        "framework",
-        "deploy",
-        "testing"
-      ],
-      "topProjects": [
-        {
-          "name": "anchor",
-          "description": "",
-          "url": "https://github.com/solana-foundation/anchor",
-          "source": "github"
-        },
-        {
-          "name": "solana-playground",
-          "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
-          "source": "github"
-        },
-        {
-          "name": "QuillAudit_smart_contract_audit_Reports",
-          "description": "",
-          "url": "https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a Solana program testing framework with auto-generated tests",
-        "Build a no-code contract deployment platform",
-        "Develop a real-time program monitoring and alerting tool",
-        "Create an IDE extension for Solana development"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 3,
-        "social": 0
-      },
-      "lastUpdated": "2026-03-27T08:50:05.884Z"
+      "lastUpdated": "2026-03-28T08:36:17.654Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.42218,
+      "confidence": 0.54218,
       "trendingKeywords": [
-        "validator"
+        "validator",
+        "network",
+        "oracle"
       ],
       "topProjects": [
         {
@@ -177,7 +80,12 @@
           "source": "github"
         },
         {
-          "name": "Mini-Solana-Validator",
+          "name": "AgentPay",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "isnad-oracle",
           "description": "",
           "source": "github"
         }
@@ -190,10 +98,119 @@
       ],
       "dataSources": {
         "helius": 0,
+        "github": 4,
+        "social": 0
+      },
+      "lastUpdated": "2026-03-28T08:36:17.654Z"
+    },
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.37132,
+      "trendingKeywords": [
+        "liquidity",
+        "swap"
+      ],
+      "topProjects": [
+        {
+          "name": "whirlpools",
+          "description": "",
+          "url": "https://github.com/orca-so/whirlpools",
+          "source": "github"
+        },
+        {
+          "name": "uniswap-arbitrage-bot-2026",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "Meme-Engine-V1",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
         "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-03-27T08:50:05.884Z"
+      "lastUpdated": "2026-03-28T08:36:17.654Z"
+    },
+    {
+      "id": "dev-tools",
+      "name": "Developer Tools",
+      "description": "Tools and infrastructure for developers",
+      "confidence": 0.31574,
+      "trendingKeywords": [
+        "framework",
+        "deploy"
+      ],
+      "topProjects": [
+        {
+          "name": "anchor",
+          "description": "",
+          "url": "https://github.com/solana-foundation/anchor",
+          "source": "github"
+        },
+        {
+          "name": "solana-playground",
+          "description": "",
+          "url": "https://github.com/solana-playground/solana-playground",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create a Solana program testing framework with auto-generated tests",
+        "Build a no-code contract deployment platform",
+        "Develop a real-time program monitoring and alerting tool",
+        "Create an IDE extension for Solana development"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 2,
+        "social": 0
+      },
+      "lastUpdated": "2026-03-28T08:36:17.654Z"
+    },
+    {
+      "id": "gaming-nft",
+      "name": "Gaming & NFT",
+      "description": "Blockchain gaming and NFT ecosystems",
+      "confidence": 0.24,
+      "trendingKeywords": [
+        "virtual"
+      ],
+      "topProjects": [
+        {
+          "name": "AI-CHOONSIM-TALK-SOL",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "litterbox-v2",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create a no-code NFT collection launcher with built-in marketplace",
+        "Build a gaming guild management platform with scholarship tracking",
+        "Develop an on-chain achievement system for games",
+        "Create a metaverse land rental marketplace"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 2,
+        "social": 0
+      },
+      "lastUpdated": "2026-03-28T08:36:17.654Z"
     },
     {
       "id": "social-consumer",
@@ -222,33 +239,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-03-27T08:50:05.884Z"
-    },
-    {
-      "id": "gaming-nft",
-      "name": "Gaming & NFT",
-      "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.1,
-      "trendingKeywords": [
-        "game",
-        "gaming",
-        "NFT",
-        "metaverse",
-        "play-to-earn"
-      ],
-      "topProjects": [],
-      "projectIdeas": [
-        "Create a no-code NFT collection launcher with built-in marketplace",
-        "Build a gaming guild management platform with scholarship tracking",
-        "Develop an on-chain achievement system for games",
-        "Create a metaverse land rental marketplace"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 0,
-        "social": 0
-      },
-      "lastUpdated": "2026-03-27T08:50:05.884Z"
+      "lastUpdated": "2026-03-28T08:36:17.654Z"
     }
   ]
 }
