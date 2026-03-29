@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-28T08:36:17.654Z",
+  "timestamp": "2026-03-29T08:37:11.798Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -9,7 +9,8 @@
       "trendingKeywords": [
         "bot",
         "agent",
-        "intelligence"
+        "intelligence",
+        "model"
       ],
       "topProjects": [
         {
@@ -51,57 +52,50 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 13,
+        "github": 10,
         "social": 0
       },
-      "lastUpdated": "2026-03-28T08:36:17.654Z"
+      "lastUpdated": "2026-03-29T08:37:11.798Z"
     },
     {
-      "id": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.54218,
+      "id": "social-consumer",
+      "name": "Social & Consumer",
+      "description": "Social platforms and consumer applications",
+      "confidence": 0.4,
       "trendingKeywords": [
-        "validator",
-        "network",
-        "oracle"
+        "community",
+        "creator"
       ],
       "topProjects": [
         {
-          "name": "firedancer",
+          "name": "app-monorepo",
           "description": "",
-          "url": "https://github.com/firedancer-io/firedancer",
+          "url": "https://github.com/OneKeyHQ/app-monorepo",
           "source": "github"
         },
         {
-          "name": "jito-solana",
-          "description": "",
-          "url": "https://github.com/jito-foundation/jito-solana",
-          "source": "github"
-        },
-        {
-          "name": "AgentPay",
+          "name": "Satoshi-P2P-",
           "description": "",
           "source": "github"
         },
         {
-          "name": "isnad-oracle",
+          "name": "creatorfees",
           "description": "",
           "source": "github"
         }
       ],
       "projectIdeas": [
-        "Build a decentralized RPC load balancer for Solana",
-        "Create a validator performance monitoring dashboard",
-        "Develop a bridge aggregator for cross-chain transfers",
-        "Build an oracle comparison and aggregation service"
+        "Build a decentralized social graph protocol",
+        "Create a creator monetization platform with micro-tipping",
+        "Develop a DAO governance participation reward system",
+        "Build a reputation-based social discovery app"
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-03-28T08:36:17.654Z"
+      "lastUpdated": "2026-03-29T08:37:11.798Z"
     },
     {
       "id": "defi-innovation",
@@ -110,6 +104,7 @@
       "confidence": 0.37132,
       "trendingKeywords": [
         "liquidity",
+        "perp",
         "swap"
       ],
       "topProjects": [
@@ -120,12 +115,12 @@
           "source": "github"
         },
         {
-          "name": "uniswap-arbitrage-bot-2026",
+          "name": "perk-protocol-public",
           "description": "",
           "source": "github"
         },
         {
-          "name": "Meme-Engine-V1",
+          "name": "PinkBrain-lp",
           "description": "",
           "source": "github"
         }
@@ -141,7 +136,7 @@
         "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-03-28T08:36:17.654Z"
+      "lastUpdated": "2026-03-29T08:37:11.798Z"
     },
     {
       "id": "dev-tools",
@@ -177,7 +172,42 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-03-28T08:36:17.654Z"
+      "lastUpdated": "2026-03-29T08:37:11.798Z"
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Core blockchain infrastructure and tooling",
+      "confidence": 0.30224,
+      "trendingKeywords": [
+        "validator"
+      ],
+      "topProjects": [
+        {
+          "name": "firedancer",
+          "description": "",
+          "url": "https://github.com/firedancer-io/firedancer",
+          "source": "github"
+        },
+        {
+          "name": "jito-solana",
+          "description": "",
+          "url": "https://github.com/jito-foundation/jito-solana",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized RPC load balancer for Solana",
+        "Create a validator performance monitoring dashboard",
+        "Develop a bridge aggregator for cross-chain transfers",
+        "Build an oracle comparison and aggregation service"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 2,
+        "social": 0
+      },
+      "lastUpdated": "2026-03-29T08:37:11.798Z"
     },
     {
       "id": "gaming-nft",
@@ -185,16 +215,17 @@
       "description": "Blockchain gaming and NFT ecosystems",
       "confidence": 0.24,
       "trendingKeywords": [
+        "game",
         "virtual"
       ],
       "topProjects": [
         {
-          "name": "AI-CHOONSIM-TALK-SOL",
+          "name": "crude-rush",
           "description": "",
           "source": "github"
         },
         {
-          "name": "litterbox-v2",
+          "name": "lamport-amm",
           "description": "",
           "source": "github"
         }
@@ -210,36 +241,7 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-03-28T08:36:17.654Z"
-    },
-    {
-      "id": "social-consumer",
-      "name": "Social & Consumer",
-      "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
-      "trendingKeywords": [
-        "community"
-      ],
-      "topProjects": [
-        {
-          "name": "app-monorepo",
-          "description": "",
-          "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized social graph protocol",
-        "Create a creator monetization platform with micro-tipping",
-        "Develop a DAO governance participation reward system",
-        "Build a reputation-based social discovery app"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 1,
-        "social": 0
-      },
-      "lastUpdated": "2026-03-28T08:36:17.654Z"
+      "lastUpdated": "2026-03-29T08:37:11.798Z"
     }
   ]
 }
