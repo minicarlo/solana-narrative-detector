@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-29T08:37:11.798Z",
+  "timestamp": "2026-03-30T09:09:01.347Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -9,8 +9,9 @@
       "trendingKeywords": [
         "bot",
         "agent",
-        "intelligence",
-        "model"
+        "autonomous",
+        "model",
+        "intelligence"
       ],
       "topProjects": [
         {
@@ -52,59 +53,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 10,
+        "github": 17,
         "social": 0
       },
-      "lastUpdated": "2026-03-29T08:37:11.798Z"
-    },
-    {
-      "id": "social-consumer",
-      "name": "Social & Consumer",
-      "description": "Social platforms and consumer applications",
-      "confidence": 0.4,
-      "trendingKeywords": [
-        "community",
-        "creator"
-      ],
-      "topProjects": [
-        {
-          "name": "app-monorepo",
-          "description": "",
-          "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "Satoshi-P2P-",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "creatorfees",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized social graph protocol",
-        "Create a creator monetization platform with micro-tipping",
-        "Develop a DAO governance participation reward system",
-        "Build a reputation-based social discovery app"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 3,
-        "social": 0
-      },
-      "lastUpdated": "2026-03-29T08:37:11.798Z"
+      "lastUpdated": "2026-03-30T09:09:01.346Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.37132,
+      "confidence": 0.85132,
       "trendingKeywords": [
-        "liquidity",
+        "dex",
         "perp",
+        "liquidity",
         "swap"
       ],
       "topProjects": [
@@ -115,12 +77,22 @@
           "source": "github"
         },
         {
-          "name": "perk-protocol-public",
+          "name": "uniswap-arbitrage-bot-2026",
           "description": "",
           "source": "github"
         },
         {
-          "name": "PinkBrain-lp",
+          "name": "SolCloud",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "TheParasiteCombine",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "kit",
           "description": "",
           "source": "github"
         }
@@ -133,54 +105,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-03-29T08:37:11.798Z"
-    },
-    {
-      "id": "dev-tools",
-      "name": "Developer Tools",
-      "description": "Tools and infrastructure for developers",
-      "confidence": 0.31574,
-      "trendingKeywords": [
-        "framework",
-        "deploy"
-      ],
-      "topProjects": [
-        {
-          "name": "anchor",
-          "description": "",
-          "url": "https://github.com/solana-foundation/anchor",
-          "source": "github"
-        },
-        {
-          "name": "solana-playground",
-          "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a Solana program testing framework with auto-generated tests",
-        "Build a no-code contract deployment platform",
-        "Develop a real-time program monitoring and alerting tool",
-        "Create an IDE extension for Solana development"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 2,
-        "social": 0
-      },
-      "lastUpdated": "2026-03-29T08:37:11.798Z"
+      "lastUpdated": "2026-03-30T09:09:01.346Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.30224,
+      "confidence": 0.66224,
       "trendingKeywords": [
-        "validator"
+        "validator",
+        "indexer",
+        "node",
+        "oracle",
+        "network"
       ],
       "topProjects": [
         {
@@ -194,6 +134,21 @@
           "description": "",
           "url": "https://github.com/jito-foundation/jito-solana",
           "source": "github"
+        },
+        {
+          "name": "SolCloud",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "docker-claude",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solanaoracle",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -204,32 +159,110 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-03-29T08:37:11.798Z"
+      "lastUpdated": "2026-03-30T09:09:01.346Z"
+    },
+    {
+      "id": "social-consumer",
+      "name": "Social & Consumer",
+      "description": "Social platforms and consumer applications",
+      "confidence": 0.52,
+      "trendingKeywords": [
+        "community",
+        "profile"
+      ],
+      "topProjects": [
+        {
+          "name": "app-monorepo",
+          "description": "",
+          "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "p2p-legendTest2",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "docker-claude",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "Satoshi-P2PV1",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized social graph protocol",
+        "Create a creator monetization platform with micro-tipping",
+        "Develop a DAO governance participation reward system",
+        "Build a reputation-based social discovery app"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 4,
+        "social": 0
+      },
+      "lastUpdated": "2026-03-30T09:09:01.347Z"
+    },
+    {
+      "id": "dev-tools",
+      "name": "Developer Tools",
+      "description": "Tools and infrastructure for developers",
+      "confidence": 0.43574,
+      "trendingKeywords": [
+        "deploy",
+        "framework"
+      ],
+      "topProjects": [
+        {
+          "name": "anchor",
+          "description": "",
+          "url": "https://github.com/solana-foundation/anchor",
+          "source": "github"
+        },
+        {
+          "name": "solana-playground",
+          "description": "",
+          "url": "https://github.com/solana-playground/solana-playground",
+          "source": "github"
+        },
+        {
+          "name": "Saturn",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create a Solana program testing framework with auto-generated tests",
+        "Build a no-code contract deployment platform",
+        "Develop a real-time program monitoring and alerting tool",
+        "Create an IDE extension for Solana development"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 3,
+        "social": 0
+      },
+      "lastUpdated": "2026-03-30T09:09:01.347Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.24,
+      "confidence": 0.1,
       "trendingKeywords": [
         "game",
-        "virtual"
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "crude-rush",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "lamport-amm",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -238,10 +271,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-03-29T08:37:11.798Z"
+      "lastUpdated": "2026-03-30T09:09:01.346Z"
     }
   ]
 }
