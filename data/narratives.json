@@ -1,15 +1,68 @@
 {
-  "timestamp": "2026-03-31T08:56:16.456Z",
+  "timestamp": "2026-04-01T09:01:32.298Z",
   "narratives": [
+    {
+      "id": "dev-tools",
+      "name": "Developer Tools",
+      "description": "Tools and infrastructure for developers",
+      "confidence": 0.80268,
+      "trendingKeywords": [
+        "framework",
+        "deploy",
+        "testing",
+        "build"
+      ],
+      "topProjects": [
+        {
+          "name": "anchor",
+          "description": "",
+          "url": "https://github.com/solana-foundation/anchor",
+          "source": "github"
+        },
+        {
+          "name": "solana-playground",
+          "description": "",
+          "url": "https://github.com/solana-playground/solana-playground",
+          "source": "github"
+        },
+        {
+          "name": "QuillAudit_smart_contract_audit_Reports",
+          "description": "",
+          "url": "https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports",
+          "source": "github"
+        },
+        {
+          "name": "hylo-stability-pool-monitor",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "Escrow-in-anchor",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create a Solana program testing framework with auto-generated tests",
+        "Build a no-code contract deployment platform",
+        "Develop a real-time program monitoring and alerting tool",
+        "Create an IDE extension for Solana development"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 6,
+        "social": 0
+      },
+      "lastUpdated": "2026-04-01T09:01:32.298Z"
+    },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 1,
+      "confidence": 0.7400800000000001,
       "trendingKeywords": [
         "bot",
-        "agent",
-        "autonomous"
+        "agent"
       ],
       "topProjects": [
         {
@@ -31,15 +84,14 @@
           "source": "github"
         },
         {
-          "name": "Solana-Arbitrage-Bot",
-          "description": "",
-          "url": "https://github.com/x89/Solana-Arbitrage-Bot",
-          "source": "github"
-        },
-        {
           "name": "solana-trading-bot",
           "description": "",
           "url": "https://github.com/warp-specke/solana-trading-bot",
+          "source": "github"
+        },
+        {
+          "name": "uniswap-arbitrage-bot-2026",
+          "description": "",
           "source": "github"
         }
       ],
@@ -51,21 +103,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 11,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-03-31T08:56:16.456Z"
+      "lastUpdated": "2026-04-01T09:01:32.298Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.8561,
+      "confidence": 0.49832,
       "trendingKeywords": [
-        "dex",
+        "swap",
         "liquidity",
-        "stake",
-        "swap"
+        "dex"
       ],
       "topProjects": [
         {
@@ -75,23 +126,18 @@
           "source": "github"
         },
         {
-          "name": "solana-dev-skill",
+          "name": "QuillAudit_smart_contract_audit_Reports",
           "description": "",
-          "url": "https://github.com/solana-foundation/solana-dev-skill",
-          "source": "github"
-        },
-        {
-          "name": "sol-stake-terminal",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-mev-monitor",
-          "description": "",
+          "url": "https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports",
           "source": "github"
         },
         {
           "name": "uniswap-arbitrage-bot-2026",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-escrow-program",
           "description": "",
           "source": "github"
         }
@@ -104,66 +150,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
-        "social": 0
-      },
-      "lastUpdated": "2026-03-31T08:56:16.456Z"
-    },
-    {
-      "id": "dev-tools",
-      "name": "Developer Tools",
-      "description": "Tools and infrastructure for developers",
-      "confidence": 0.55574,
-      "trendingKeywords": [
-        "framework",
-        "deploy",
-        "testing",
-        "build"
-      ],
-      "topProjects": [
-        {
-          "name": "anchor",
-          "description": "",
-          "url": "https://github.com/solana-foundation/anchor",
-          "source": "github"
-        },
-        {
-          "name": "solana-playground",
-          "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
-          "source": "github"
-        },
-        {
-          "name": "sol-arb-backtest",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "rust-finance",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a Solana program testing framework with auto-generated tests",
-        "Build a no-code contract deployment platform",
-        "Develop a real-time program monitoring and alerting tool",
-        "Create an IDE extension for Solana development"
-      ],
-      "dataSources": {
-        "helius": 0,
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-03-31T08:56:16.456Z"
+      "lastUpdated": "2026-04-01T09:01:32.297Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.42224000000000006,
+      "confidence": 0.4223,
       "trendingKeywords": [
-        "validator"
+        "validator",
+        "node"
       ],
       "topProjects": [
         {
@@ -179,7 +178,7 @@
           "source": "github"
         },
         {
-          "name": "chaincheck",
+          "name": "docker-claude",
           "description": "",
           "source": "github"
         }
@@ -195,21 +194,27 @@
         "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-03-31T08:56:16.456Z"
+      "lastUpdated": "2026-04-01T09:01:32.297Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
+      "confidence": 0.27999999999999997,
       "trendingKeywords": [
-        "community"
+        "community",
+        "profile"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "docker-claude",
+          "description": "",
           "source": "github"
         }
       ],
@@ -221,10 +226,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-03-31T08:56:16.456Z"
+      "lastUpdated": "2026-04-01T09:01:32.298Z"
     },
     {
       "id": "gaming-nft",
@@ -250,7 +255,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-03-31T08:56:16.456Z"
+      "lastUpdated": "2026-04-01T09:01:32.297Z"
     }
   ]
 }
