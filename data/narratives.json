@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-02T08:53:32.533Z",
+  "timestamp": "2026-04-03T08:51:07.919Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -7,21 +7,16 @@
       "description": "Artificial intelligence meets blockchain",
       "confidence": 1,
       "trendingKeywords": [
-        "bot",
         "agent",
-        "model"
+        "bot",
+        "autonomous",
+        "intelligence"
       ],
       "topProjects": [
         {
           "name": "OctoBot",
           "description": "",
           "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "Solana-Sniper-Bot",
-          "description": "",
-          "url": "https://github.com/AV1080p/Solana-Sniper-Bot",
           "source": "github"
         },
         {
@@ -41,6 +36,11 @@
           "description": "",
           "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
           "source": "github"
+        },
+        {
+          "name": "solai-agent",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -54,70 +54,19 @@
         "github": 9,
         "social": 0
       },
-      "lastUpdated": "2026-04-02T08:53:32.533Z"
-    },
-    {
-      "id": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.6623,
-      "trendingKeywords": [
-        "validator",
-        "indexer",
-        "node",
-        "network"
-      ],
-      "topProjects": [
-        {
-          "name": "firedancer",
-          "description": "",
-          "url": "https://github.com/firedancer-io/firedancer",
-          "source": "github"
-        },
-        {
-          "name": "jito-solana",
-          "description": "",
-          "url": "https://github.com/jito-foundation/jito-solana",
-          "source": "github"
-        },
-        {
-          "name": "solana-indexer",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "docker-claude",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "CoDMAV-Listing-hunter",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized RPC load balancer for Solana",
-        "Create a validator performance monitoring dashboard",
-        "Develop a bridge aggregator for cross-chain transfers",
-        "Build an oracle comparison and aggregation service"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 5,
-        "social": 0
-      },
-      "lastUpdated": "2026-04-02T08:53:32.533Z"
+      "lastUpdated": "2026-04-03T08:51:07.919Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.59574,
+      "confidence": 0.83574,
       "trendingKeywords": [
         "deploy",
         "framework",
-        "library"
+        "library",
+        "debug",
+        "testing"
       ],
       "topProjects": [
         {
@@ -142,6 +91,11 @@
           "name": "hylo-stability-pool-monitor",
           "description": "",
           "source": "github"
+        },
+        {
+          "name": "trace",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -152,69 +106,86 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-04-02T08:53:32.533Z"
+      "lastUpdated": "2026-04-03T08:51:07.919Z"
     },
     {
-      "id": "social-consumer",
-      "name": "Social & Consumer",
-      "description": "Social platforms and consumer applications",
-      "confidence": 0.4,
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Core blockchain infrastructure and tooling",
+      "confidence": 0.5424800000000001,
       "trendingKeywords": [
-        "community",
-        "profile",
-        "content"
+        "validator",
+        "network"
       ],
       "topProjects": [
         {
-          "name": "app-monorepo",
+          "name": "firedancer",
           "description": "",
-          "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "url": "https://github.com/firedancer-io/firedancer",
           "source": "github"
         },
         {
-          "name": "docker-claude",
+          "name": "jito-solana",
+          "description": "",
+          "url": "https://github.com/jito-foundation/jito-solana",
+          "source": "github"
+        },
+        {
+          "name": "slashr-front",
           "description": "",
           "source": "github"
         },
         {
-          "name": "solana-login-and-content-locker",
+          "name": "ArPay",
           "description": "",
           "source": "github"
         }
       ],
       "projectIdeas": [
-        "Build a decentralized social graph protocol",
-        "Create a creator monetization platform with micro-tipping",
-        "Develop a DAO governance participation reward system",
-        "Build a reputation-based social discovery app"
+        "Build a decentralized RPC load balancer for Solana",
+        "Create a validator performance monitoring dashboard",
+        "Develop a bridge aggregator for cross-chain transfers",
+        "Build an oracle comparison and aggregation service"
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-04-02T08:53:32.533Z"
+      "lastUpdated": "2026-04-03T08:51:07.919Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.24,
+      "confidence": 0.48,
       "trendingKeywords": [
+        "vault",
         "liquidity",
+        "perp",
         "dex"
       ],
       "topProjects": [
         {
-          "name": "Meme-Engine-V1",
+          "name": "Solana-Sniper-Crypto-Sniping-Bot",
           "description": "",
           "source": "github"
         },
         {
-          "name": "solana-indexer",
+          "name": "adaptivefund-vault",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "turf_vault",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "Bags-SDK-hackathon",
           "description": "",
           "source": "github"
         }
@@ -227,24 +198,55 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-04-02T08:53:32.533Z"
+      "lastUpdated": "2026-04-03T08:51:07.919Z"
+    },
+    {
+      "id": "social-consumer",
+      "name": "Social & Consumer",
+      "description": "Social platforms and consumer applications",
+      "confidence": 0.16,
+      "trendingKeywords": [
+        "community"
+      ],
+      "topProjects": [
+        {
+          "name": "app-monorepo",
+          "description": "",
+          "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized social graph protocol",
+        "Create a creator monetization platform with micro-tipping",
+        "Develop a DAO governance participation reward system",
+        "Build a reputation-based social discovery app"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 1,
+        "social": 0
+      },
+      "lastUpdated": "2026-04-03T08:51:07.919Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.1,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "game",
-        "gaming",
-        "NFT",
-        "metaverse",
-        "play-to-earn"
+        "game"
       ],
-      "topProjects": [],
+      "topProjects": [
+        {
+          "name": "gem-digger-web",
+          "description": "",
+          "source": "github"
+        }
+      ],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -253,10 +255,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 0,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-04-02T08:53:32.533Z"
+      "lastUpdated": "2026-04-03T08:51:07.919Z"
     }
   ]
 }
