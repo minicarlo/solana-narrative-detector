@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-03T08:51:07.919Z",
+  "timestamp": "2026-04-04T08:38:24.382Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -7,10 +7,9 @@
       "description": "Artificial intelligence meets blockchain",
       "confidence": 1,
       "trendingKeywords": [
-        "agent",
         "bot",
-        "autonomous",
-        "intelligence"
+        "agent",
+        "autonomous"
       ],
       "topProjects": [
         {
@@ -38,8 +37,9 @@
           "source": "github"
         },
         {
-          "name": "solai-agent",
+          "name": "polymarket-arbitrage-trading-bot",
           "description": "",
+          "url": "https://github.com/Poly-Mike/polymarket-arbitrage-trading-bot",
           "source": "github"
         }
       ],
@@ -51,22 +51,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 13,
         "social": 0
       },
-      "lastUpdated": "2026-04-03T08:51:07.919Z"
+      "lastUpdated": "2026-04-04T08:38:24.382Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.83574,
+      "confidence": 1,
       "trendingKeywords": [
+        "build",
         "deploy",
         "framework",
         "library",
-        "debug",
-        "testing"
+        "compile"
       ],
       "topProjects": [
         {
@@ -82,19 +82,21 @@
           "source": "github"
         },
         {
+          "name": "solang",
+          "description": "",
+          "url": "https://github.com/hyperledger-solang/solang",
+          "source": "github"
+        },
+        {
+          "name": "ant-design-web3",
+          "description": "",
+          "url": "https://github.com/ant-design/ant-design-web3",
+          "source": "github"
+        },
+        {
           "name": "solana-playground",
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
-          "source": "github"
-        },
-        {
-          "name": "hylo-stability-pool-monitor",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "trace",
-          "description": "",
           "source": "github"
         }
       ],
@@ -106,19 +108,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-04-03T08:51:07.919Z"
+      "lastUpdated": "2026-04-04T08:38:24.382Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.5424800000000001,
+      "confidence": 0.64,
       "trendingKeywords": [
+        "oracle",
         "validator",
-        "network"
+        "rollup",
+        "network",
+        "node"
       ],
       "topProjects": [
         {
@@ -128,18 +133,22 @@
           "source": "github"
         },
         {
-          "name": "jito-solana",
-          "description": "",
-          "url": "https://github.com/jito-foundation/jito-solana",
-          "source": "github"
-        },
-        {
-          "name": "slashr-front",
+          "name": "hub-evidence-anchor",
           "description": "",
           "source": "github"
         },
         {
-          "name": "ArPay",
+          "name": "private-battleship",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "ASGCompute-ows-agent-pay",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "sdp-maze",
           "description": "",
           "source": "github"
         }
@@ -152,10 +161,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-04-03T08:51:07.919Z"
+      "lastUpdated": "2026-04-04T08:38:24.382Z"
     },
     {
       "id": "defi-innovation",
@@ -163,29 +172,28 @@
       "description": "Decentralized finance protocols and innovations",
       "confidence": 0.48,
       "trendingKeywords": [
-        "vault",
-        "liquidity",
+        "dex",
         "perp",
-        "dex"
+        "liquidity"
       ],
       "topProjects": [
+        {
+          "name": "syntx",
+          "description": "",
+          "source": "github"
+        },
         {
           "name": "Solana-Sniper-Crypto-Sniping-Bot",
           "description": "",
           "source": "github"
         },
         {
-          "name": "adaptivefund-vault",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "turf_vault",
-          "description": "",
-          "source": "github"
-        },
-        {
           "name": "Bags-SDK-hackathon",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "TheParasiteCombine",
           "description": "",
           "source": "github"
         }
@@ -201,21 +209,27 @@
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-04-03T08:51:07.919Z"
+      "lastUpdated": "2026-04-04T08:38:24.382Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
+      "confidence": 0.27999999999999997,
       "trendingKeywords": [
-        "community"
+        "community",
+        "social"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "MakeMyDay",
+          "description": "",
           "source": "github"
         }
       ],
@@ -227,10 +241,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-04-03T08:51:07.919Z"
+      "lastUpdated": "2026-04-04T08:38:24.382Z"
     },
     {
       "id": "gaming-nft",
@@ -238,11 +252,11 @@
       "description": "Blockchain gaming and NFT ecosystems",
       "confidence": 0.12,
       "trendingKeywords": [
-        "game"
+        "world"
       ],
       "topProjects": [
         {
-          "name": "gem-digger-web",
+          "name": "MakeMyDay",
           "description": "",
           "source": "github"
         }
@@ -258,7 +272,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-04-03T08:51:07.919Z"
+      "lastUpdated": "2026-04-04T08:38:24.382Z"
     }
   ]
 }
