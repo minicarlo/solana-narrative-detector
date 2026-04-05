@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T08:38:24.382Z",
+  "timestamp": "2026-04-05T08:40:09.706Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -8,8 +8,8 @@
       "confidence": 1,
       "trendingKeywords": [
         "bot",
-        "agent",
-        "autonomous"
+        "intelligence",
+        "agent"
       ],
       "topProjects": [
         {
@@ -51,10 +51,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 13,
+        "github": 11,
         "social": 0
       },
-      "lastUpdated": "2026-04-04T08:38:24.382Z"
+      "lastUpdated": "2026-04-05T08:40:09.705Z"
     },
     {
       "id": "dev-tools",
@@ -62,11 +62,11 @@
       "description": "Tools and infrastructure for developers",
       "confidence": 1,
       "trendingKeywords": [
-        "build",
         "deploy",
         "framework",
         "library",
-        "compile"
+        "compile",
+        "build"
       ],
       "topProjects": [
         {
@@ -111,19 +111,16 @@
         "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-04-04T08:38:24.382Z"
+      "lastUpdated": "2026-04-05T08:40:09.706Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.64,
+      "confidence": 0.4,
       "trendingKeywords": [
-        "oracle",
         "validator",
-        "rollup",
-        "network",
-        "node"
+        "rollup"
       ],
       "topProjects": [
         {
@@ -133,22 +130,12 @@
           "source": "github"
         },
         {
-          "name": "hub-evidence-anchor",
+          "name": "slashr-front",
           "description": "",
           "source": "github"
         },
         {
           "name": "private-battleship",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "ASGCompute-ows-agent-pay",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "sdp-maze",
           "description": "",
           "source": "github"
         }
@@ -161,39 +148,35 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-04-04T08:38:24.382Z"
+      "lastUpdated": "2026-04-05T08:40:09.705Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.48,
+      "confidence": 0.36,
       "trendingKeywords": [
-        "dex",
-        "perp",
-        "liquidity"
+        "liquidity",
+        "vault",
+        "borrow",
+        "farm"
       ],
       "topProjects": [
-        {
-          "name": "syntx",
-          "description": "",
-          "source": "github"
-        },
         {
           "name": "Solana-Sniper-Crypto-Sniping-Bot",
           "description": "",
           "source": "github"
         },
         {
-          "name": "Bags-SDK-hackathon",
+          "name": "TokenVault",
           "description": "",
           "source": "github"
         },
         {
-          "name": "TheParasiteCombine",
+          "name": "grainchain-kz",
           "description": "",
           "source": "github"
         }
@@ -206,10 +189,48 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-04-04T08:38:24.382Z"
+      "lastUpdated": "2026-04-05T08:40:09.705Z"
+    },
+    {
+      "id": "gaming-nft",
+      "name": "Gaming & NFT",
+      "description": "Blockchain gaming and NFT ecosystems",
+      "confidence": 0.36,
+      "trendingKeywords": [
+        "world"
+      ],
+      "topProjects": [
+        {
+          "name": "SOLPLOTWEBSITE",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "rwa-platform",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "TokenVault",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create a no-code NFT collection launcher with built-in marketplace",
+        "Build a gaming guild management platform with scholarship tracking",
+        "Develop an on-chain achievement system for games",
+        "Create a metaverse land rental marketplace"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 3,
+        "social": 0
+      },
+      "lastUpdated": "2026-04-05T08:40:09.705Z"
     },
     {
       "id": "social-consumer",
@@ -218,7 +239,7 @@
       "confidence": 0.27999999999999997,
       "trendingKeywords": [
         "community",
-        "social"
+        "creator"
       ],
       "topProjects": [
         {
@@ -228,7 +249,7 @@
           "source": "github"
         },
         {
-          "name": "MakeMyDay",
+          "name": "BagsAI-Agent-Forge",
           "description": "",
           "source": "github"
         }
@@ -244,35 +265,7 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-04-04T08:38:24.382Z"
-    },
-    {
-      "id": "gaming-nft",
-      "name": "Gaming & NFT",
-      "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
-      "trendingKeywords": [
-        "world"
-      ],
-      "topProjects": [
-        {
-          "name": "MakeMyDay",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a no-code NFT collection launcher with built-in marketplace",
-        "Build a gaming guild management platform with scholarship tracking",
-        "Develop an on-chain achievement system for games",
-        "Create a metaverse land rental marketplace"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 1,
-        "social": 0
-      },
-      "lastUpdated": "2026-04-04T08:38:24.382Z"
+      "lastUpdated": "2026-04-05T08:40:09.706Z"
     }
   ]
 }
