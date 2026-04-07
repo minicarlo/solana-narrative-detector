@@ -1,56 +1,6 @@
 {
-  "timestamp": "2026-04-06T09:06:06.829Z",
+  "timestamp": "2026-04-07T08:59:14.548Z",
   "narratives": [
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 1,
-      "trendingKeywords": [
-        "dex",
-        "swap",
-        "liquidity"
-      ],
-      "topProjects": [
-        {
-          "name": "sol-parser-sdk-nodejs",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "sol-parser-sdk-python",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "sol-parser-sdk-golang",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "sol-trade-sdk-golang",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "sol-trade-sdk-nodejs",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 9,
-        "social": 0
-      },
-      "lastUpdated": "2026-04-06T09:06:06.829Z"
-    },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
@@ -58,20 +8,13 @@
       "confidence": 1,
       "trendingKeywords": [
         "bot",
-        "agent",
-        "autonomous"
+        "agent"
       ],
       "topProjects": [
         {
           "name": "OctoBot",
           "description": "",
           "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "solana-agent-kit",
-          "description": "",
-          "url": "https://github.com/sendaifun/solana-agent-kit",
           "source": "github"
         },
         {
@@ -91,6 +34,11 @@
           "description": "",
           "url": "https://github.com/Poly-Mike/polymarket-arbitrage-trading-bot",
           "source": "github"
+        },
+        {
+          "name": "uniswap-arbitrage-bot-2026",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -101,10 +49,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 10,
+        "github": 12,
         "social": 0
       },
-      "lastUpdated": "2026-04-06T09:06:06.829Z"
+      "lastUpdated": "2026-04-07T08:59:14.547Z"
     },
     {
       "id": "dev-tools",
@@ -112,11 +60,11 @@
       "description": "Tools and infrastructure for developers",
       "confidence": 1,
       "trendingKeywords": [
-        "library",
-        "framework",
-        "compile",
         "build",
-        "deploy"
+        "deploy",
+        "framework",
+        "library",
+        "compile"
       ],
       "topProjects": [
         {
@@ -158,21 +106,77 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-04-06T09:06:06.829Z"
+      "lastUpdated": "2026-04-07T08:59:14.548Z"
+    },
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.6,
+      "trendingKeywords": [
+        "swap",
+        "liquidity",
+        "dex"
+      ],
+      "topProjects": [
+        {
+          "name": "uniswap-arbitrage-bot-2026",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "Solana-Sniper-Crypto-Sniping-Bot",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "veertx-agent-sdk",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "yog-sothoth",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "Bags-SDK-hackathon",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 5,
+        "social": 0
+      },
+      "lastUpdated": "2026-04-07T08:59:14.547Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.52,
+      "confidence": 0.44000000000000006,
       "trendingKeywords": [
-        "validator",
-        "node"
+        "node",
+        "validator"
       ],
       "topProjects": [
+        {
+          "name": "solana-web3.js",
+          "description": "",
+          "url": "https://github.com/solana-foundation/solana-web3.js",
+          "source": "github"
+        },
         {
           "name": "firedancer",
           "description": "",
@@ -180,17 +184,7 @@
           "source": "github"
         },
         {
-          "name": "sol-parser-sdk-nodejs",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "sol-trade-sdk-nodejs",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solanabeach-validator",
+          "name": "quasar-svm",
           "description": "",
           "source": "github"
         }
@@ -203,10 +197,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-04-06T09:06:06.829Z"
+      "lastUpdated": "2026-04-07T08:59:14.547Z"
     },
     {
       "id": "social-consumer",
@@ -225,7 +219,7 @@
           "source": "github"
         },
         {
-          "name": "solanabeach-validator",
+          "name": "Prinator",
           "description": "",
           "source": "github"
         }
@@ -241,21 +235,23 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-04-06T09:06:06.829Z"
+      "lastUpdated": "2026-04-07T08:59:14.548Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.1,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "game",
-        "gaming",
-        "NFT",
-        "metaverse",
-        "play-to-earn"
+        "game"
       ],
-      "topProjects": [],
+      "topProjects": [
+        {
+          "name": "canvas-demo",
+          "description": "",
+          "source": "github"
+        }
+      ],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -264,10 +260,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 0,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-04-06T09:06:06.829Z"
+      "lastUpdated": "2026-04-07T08:59:14.547Z"
     }
   ]
 }
