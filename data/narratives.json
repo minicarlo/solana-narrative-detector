@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-07T08:59:14.548Z",
+  "timestamp": "2026-04-08T08:58:30.802Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -24,15 +24,14 @@
           "source": "github"
         },
         {
-          "name": "pumpfun-bonkfun-bot",
-          "description": "",
-          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
-          "source": "github"
-        },
-        {
           "name": "polymarket-arbitrage-trading-bot",
           "description": "",
           "url": "https://github.com/Poly-Mike/polymarket-arbitrage-trading-bot",
+          "source": "github"
+        },
+        {
+          "name": "astralprism-defi-bot",
+          "description": "",
           "source": "github"
         },
         {
@@ -49,22 +48,23 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 12,
+        "github": 10,
         "social": 0
       },
-      "lastUpdated": "2026-04-07T08:59:14.547Z"
+      "lastUpdated": "2026-04-08T08:58:30.802Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 1,
+      "confidence": 0.91568,
       "trendingKeywords": [
-        "build",
-        "deploy",
         "framework",
         "library",
-        "compile"
+        "compile",
+        "build",
+        "deploy",
+        "debug"
       ],
       "topProjects": [
         {
@@ -106,44 +106,45 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-04-07T08:59:14.548Z"
+      "lastUpdated": "2026-04-08T08:58:30.802Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.6,
+      "confidence": 0.8400000000000001,
       "trendingKeywords": [
-        "swap",
+        "dex",
         "liquidity",
-        "dex"
+        "swap",
+        "perp"
       ],
       "topProjects": [
+        {
+          "name": "astralprism-defi-bot",
+          "description": "",
+          "source": "github"
+        },
         {
           "name": "uniswap-arbitrage-bot-2026",
           "description": "",
           "source": "github"
         },
         {
-          "name": "Solana-Sniper-Crypto-Sniping-Bot",
+          "name": "goyim-agent",
           "description": "",
           "source": "github"
         },
         {
-          "name": "veertx-agent-sdk",
+          "name": "Percolate",
           "description": "",
           "source": "github"
         },
         {
-          "name": "yog-sothoth",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "Bags-SDK-hackathon",
+          "name": "Solarix",
           "description": "",
           "source": "github"
         }
@@ -156,19 +157,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-04-07T08:59:14.547Z"
+      "lastUpdated": "2026-04-08T08:58:30.802Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.44000000000000006,
+      "confidence": 0.58242,
       "trendingKeywords": [
+        "validator",
         "node",
-        "validator"
+        "oracle"
       ],
       "topProjects": [
         {
@@ -184,7 +186,13 @@
           "source": "github"
         },
         {
-          "name": "quasar-svm",
+          "name": "jito-solana",
+          "description": "",
+          "url": "https://github.com/jito-foundation/jito-solana",
+          "source": "github"
+        },
+        {
+          "name": "hub-evidence-anchor",
           "description": "",
           "source": "github"
         }
@@ -197,10 +205,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-04-07T08:59:14.547Z"
+      "lastUpdated": "2026-04-08T08:58:30.802Z"
     },
     {
       "id": "social-consumer",
@@ -209,7 +217,7 @@
       "confidence": 0.27999999999999997,
       "trendingKeywords": [
         "community",
-        "vote"
+        "engagement"
       ],
       "topProjects": [
         {
@@ -219,7 +227,7 @@
           "source": "github"
         },
         {
-          "name": "Prinator",
+          "name": "yolkgang-yolkgang-fun",
           "description": "",
           "source": "github"
         }
@@ -235,7 +243,7 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-04-07T08:59:14.548Z"
+      "lastUpdated": "2026-04-08T08:58:30.802Z"
     },
     {
       "id": "gaming-nft",
@@ -247,7 +255,7 @@
       ],
       "topProjects": [
         {
-          "name": "canvas-demo",
+          "name": "hormuz-run-verifiable",
           "description": "",
           "source": "github"
         }
@@ -263,7 +271,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-04-07T08:59:14.547Z"
+      "lastUpdated": "2026-04-08T08:58:30.802Z"
     }
   ]
 }
