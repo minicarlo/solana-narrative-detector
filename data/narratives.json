@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-08T08:58:30.802Z",
+  "timestamp": "2026-04-09T09:04:50.142Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -7,8 +7,10 @@
       "description": "Artificial intelligence meets blockchain",
       "confidence": 1,
       "trendingKeywords": [
+        "agent",
         "bot",
-        "agent"
+        "autonomous",
+        "inference"
       ],
       "topProjects": [
         {
@@ -24,18 +26,17 @@
           "source": "github"
         },
         {
-          "name": "polymarket-arbitrage-trading-bot",
-          "description": "",
-          "url": "https://github.com/Poly-Mike/polymarket-arbitrage-trading-bot",
-          "source": "github"
-        },
-        {
-          "name": "astralprism-defi-bot",
-          "description": "",
-          "source": "github"
-        },
-        {
           "name": "uniswap-arbitrage-bot-2026",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "agent-identity-sdk",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "block-claw",
           "description": "",
           "source": "github"
         }
@@ -51,20 +52,19 @@
         "github": 10,
         "social": 0
       },
-      "lastUpdated": "2026-04-08T08:58:30.802Z"
+      "lastUpdated": "2026-04-09T09:04:50.142Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.91568,
+      "confidence": 0.7556800000000001,
       "trendingKeywords": [
+        "deploy",
         "framework",
         "library",
         "compile",
-        "build",
-        "deploy",
-        "debug"
+        "build"
       ],
       "topProjects": [
         {
@@ -86,15 +86,14 @@
           "source": "github"
         },
         {
-          "name": "ant-design-web3",
-          "description": "",
-          "url": "https://github.com/ant-design/ant-design-web3",
-          "source": "github"
-        },
-        {
           "name": "solana-playground",
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
+          "source": "github"
+        },
+        {
+          "name": "solfoundry",
+          "description": "",
           "source": "github"
         }
       ],
@@ -106,77 +105,32 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-04-08T08:58:30.802Z"
-    },
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.8400000000000001,
-      "trendingKeywords": [
-        "dex",
-        "liquidity",
-        "swap",
-        "perp"
-      ],
-      "topProjects": [
-        {
-          "name": "astralprism-defi-bot",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "uniswap-arbitrage-bot-2026",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "goyim-agent",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "Percolate",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "Solarix",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 7,
-        "social": 0
-      },
-      "lastUpdated": "2026-04-08T08:58:30.802Z"
+      "lastUpdated": "2026-04-09T09:04:50.142Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.58242,
+      "confidence": 0.74248,
       "trendingKeywords": [
-        "validator",
         "node",
-        "oracle"
+        "validator",
+        "network"
       ],
       "topProjects": [
         {
           "name": "solana-web3.js",
           "description": "",
           "url": "https://github.com/solana-foundation/solana-web3.js",
+          "source": "github"
+        },
+        {
+          "name": "web3-examples",
+          "description": "",
+          "url": "https://github.com/luzhenqian/web3-examples",
           "source": "github"
         },
         {
@@ -192,7 +146,7 @@
           "source": "github"
         },
         {
-          "name": "hub-evidence-anchor",
+          "name": "quasar-svm",
           "description": "",
           "source": "github"
         }
@@ -205,19 +159,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-04-08T08:58:30.802Z"
+      "lastUpdated": "2026-04-09T09:04:50.142Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.4,
       "trendingKeywords": [
         "community",
-        "engagement"
+        "social",
+        "governance"
       ],
       "topProjects": [
         {
@@ -227,7 +182,12 @@
           "source": "github"
         },
         {
-          "name": "yolkgang-yolkgang-fun",
+          "name": "kol-quest",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "docs",
           "description": "",
           "source": "github"
         }
@@ -240,10 +200,49 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-04-08T08:58:30.802Z"
+      "lastUpdated": "2026-04-09T09:04:50.142Z"
+    },
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.36,
+      "trendingKeywords": [
+        "swap",
+        "dex"
+      ],
+      "topProjects": [
+        {
+          "name": "uniswap-arbitrage-bot-2026",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "block-claw",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "astralprism-defi-bot",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 3,
+        "social": 0
+      },
+      "lastUpdated": "2026-04-09T09:04:50.142Z"
     },
     {
       "id": "gaming-nft",
@@ -251,11 +250,11 @@
       "description": "Blockchain gaming and NFT ecosystems",
       "confidence": 0.12,
       "trendingKeywords": [
-        "game"
+        "world"
       ],
       "topProjects": [
         {
-          "name": "hormuz-run-verifiable",
+          "name": "docs",
           "description": "",
           "source": "github"
         }
@@ -271,7 +270,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-04-08T08:58:30.802Z"
+      "lastUpdated": "2026-04-09T09:04:50.142Z"
     }
   ]
 }
