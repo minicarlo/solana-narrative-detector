@@ -1,16 +1,15 @@
 {
-  "timestamp": "2026-04-09T09:04:50.142Z",
+  "timestamp": "2026-04-10T09:06:32.772Z",
   "narratives": [
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 1,
+      "confidence": 0.8,
       "trendingKeywords": [
-        "agent",
         "bot",
-        "autonomous",
-        "inference"
+        "intelligence",
+        "agent"
       ],
       "topProjects": [
         {
@@ -31,12 +30,12 @@
           "source": "github"
         },
         {
-          "name": "agent-identity-sdk",
+          "name": "AI-Powered-Blockchain-Analytics-Smart-Dashboard-Platform",
           "description": "",
           "source": "github"
         },
         {
-          "name": "block-claw",
+          "name": "hub-evidence-anchor",
           "description": "",
           "source": "github"
         }
@@ -49,10 +48,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 10,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-04-09T09:04:50.142Z"
+      "lastUpdated": "2026-04-10T09:06:32.771Z"
     },
     {
       "id": "dev-tools",
@@ -60,11 +59,10 @@
       "description": "Tools and infrastructure for developers",
       "confidence": 0.7556800000000001,
       "trendingKeywords": [
-        "deploy",
+        "build",
         "framework",
         "library",
-        "compile",
-        "build"
+        "deploy"
       ],
       "topProjects": [
         {
@@ -80,9 +78,9 @@
           "source": "github"
         },
         {
-          "name": "solang",
+          "name": "ant-design-web3",
           "description": "",
-          "url": "https://github.com/hyperledger-solang/solang",
+          "url": "https://github.com/ant-design/ant-design-web3",
           "source": "github"
         },
         {
@@ -92,7 +90,7 @@
           "source": "github"
         },
         {
-          "name": "solfoundry",
+          "name": "relwe",
           "description": "",
           "source": "github"
         }
@@ -108,17 +106,18 @@
         "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-04-09T09:04:50.142Z"
+      "lastUpdated": "2026-04-10T09:06:32.772Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.74248,
+      "confidence": 0.7424200000000001,
       "trendingKeywords": [
-        "node",
         "validator",
-        "network"
+        "node",
+        "network",
+        "oracle"
       ],
       "topProjects": [
         {
@@ -146,7 +145,7 @@
           "source": "github"
         },
         {
-          "name": "quasar-svm",
+          "name": "hub-evidence-anchor",
           "description": "",
           "source": "github"
         }
@@ -162,56 +161,18 @@
         "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-04-09T09:04:50.142Z"
-    },
-    {
-      "id": "social-consumer",
-      "name": "Social & Consumer",
-      "description": "Social platforms and consumer applications",
-      "confidence": 0.4,
-      "trendingKeywords": [
-        "community",
-        "social",
-        "governance"
-      ],
-      "topProjects": [
-        {
-          "name": "app-monorepo",
-          "description": "",
-          "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "kol-quest",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "docs",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized social graph protocol",
-        "Create a creator monetization platform with micro-tipping",
-        "Develop a DAO governance participation reward system",
-        "Build a reputation-based social discovery app"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 3,
-        "social": 0
-      },
-      "lastUpdated": "2026-04-09T09:04:50.142Z"
+      "lastUpdated": "2026-04-10T09:06:32.771Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.36,
+      "confidence": 0.48,
       "trendingKeywords": [
         "swap",
+        "yield",
+        "vault",
+        "liquidity",
         "dex"
       ],
       "topProjects": [
@@ -221,12 +182,17 @@
           "source": "github"
         },
         {
-          "name": "block-claw",
+          "name": "ZendIQ-Extension-Pro",
           "description": "",
           "source": "github"
         },
         {
-          "name": "astralprism-defi-bot",
+          "name": "potbot-v2",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "yog-sothoth",
           "description": "",
           "source": "github"
         }
@@ -239,10 +205,45 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-04-09T09:04:50.142Z"
+      "lastUpdated": "2026-04-10T09:06:32.771Z"
+    },
+    {
+      "id": "social-consumer",
+      "name": "Social & Consumer",
+      "description": "Social platforms and consumer applications",
+      "confidence": 0.27999999999999997,
+      "trendingKeywords": [
+        "community",
+        "governance"
+      ],
+      "topProjects": [
+        {
+          "name": "app-monorepo",
+          "description": "",
+          "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "potbot-v2",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized social graph protocol",
+        "Create a creator monetization platform with micro-tipping",
+        "Develop a DAO governance participation reward system",
+        "Build a reputation-based social discovery app"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 2,
+        "social": 0
+      },
+      "lastUpdated": "2026-04-10T09:06:32.772Z"
     },
     {
       "id": "gaming-nft",
@@ -254,7 +255,7 @@
       ],
       "topProjects": [
         {
-          "name": "docs",
+          "name": "solpact",
           "description": "",
           "source": "github"
         }
@@ -270,7 +271,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-04-09T09:04:50.142Z"
+      "lastUpdated": "2026-04-10T09:06:32.771Z"
     }
   ]
 }
