@@ -1,123 +1,17 @@
 {
-  "timestamp": "2026-04-10T09:06:32.772Z",
+  "timestamp": "2026-04-11T08:40:13.989Z",
   "narratives": [
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.8,
-      "trendingKeywords": [
-        "bot",
-        "intelligence",
-        "agent"
-      ],
-      "topProjects": [
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "Solana-Arbitrage-Bot",
-          "description": "",
-          "url": "https://github.com/x89/Solana-Arbitrage-Bot",
-          "source": "github"
-        },
-        {
-          "name": "uniswap-arbitrage-bot-2026",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "AI-Powered-Blockchain-Analytics-Smart-Dashboard-Platform",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "hub-evidence-anchor",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 6,
-        "social": 0
-      },
-      "lastUpdated": "2026-04-10T09:06:32.771Z"
-    },
-    {
-      "id": "dev-tools",
-      "name": "Developer Tools",
-      "description": "Tools and infrastructure for developers",
-      "confidence": 0.7556800000000001,
-      "trendingKeywords": [
-        "build",
-        "framework",
-        "library",
-        "deploy"
-      ],
-      "topProjects": [
-        {
-          "name": "anchor",
-          "description": "",
-          "url": "https://github.com/solana-foundation/anchor",
-          "source": "github"
-        },
-        {
-          "name": "solana-go",
-          "description": "",
-          "url": "https://github.com/solana-foundation/solana-go",
-          "source": "github"
-        },
-        {
-          "name": "ant-design-web3",
-          "description": "",
-          "url": "https://github.com/ant-design/ant-design-web3",
-          "source": "github"
-        },
-        {
-          "name": "solana-playground",
-          "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
-          "source": "github"
-        },
-        {
-          "name": "relwe",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a Solana program testing framework with auto-generated tests",
-        "Build a no-code contract deployment platform",
-        "Develop a real-time program monitoring and alerting tool",
-        "Create an IDE extension for Solana development"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 5,
-        "social": 0
-      },
-      "lastUpdated": "2026-04-10T09:06:32.772Z"
-    },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.7424200000000001,
+      "confidence": 1,
       "trendingKeywords": [
-        "validator",
         "node",
         "network",
-        "oracle"
+        "validator",
+        "oracle",
+        "indexer"
       ],
       "topProjects": [
         {
@@ -145,7 +39,7 @@
           "source": "github"
         },
         {
-          "name": "hub-evidence-anchor",
+          "name": "solana-nervous-system",
           "description": "",
           "source": "github"
         }
@@ -158,10 +52,117 @@
       ],
       "dataSources": {
         "helius": 0,
+        "github": 8,
+        "social": 0
+      },
+      "lastUpdated": "2026-04-11T08:40:13.989Z"
+    },
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 1,
+      "trendingKeywords": [
+        "bot",
+        "agent",
+        "autonomous"
+      ],
+      "topProjects": [
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "Solana-Arbitrage-Bot",
+          "description": "",
+          "url": "https://github.com/x89/Solana-Arbitrage-Bot",
+          "source": "github"
+        },
+        {
+          "name": "uniswap-arbitrage-bot-2026",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "Raven666368-project",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-token-bot",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 10,
+        "social": 0
+      },
+      "lastUpdated": "2026-04-11T08:40:13.989Z"
+    },
+    {
+      "id": "dev-tools",
+      "name": "Developer Tools",
+      "description": "Tools and infrastructure for developers",
+      "confidence": 0.7556800000000001,
+      "trendingKeywords": [
+        "deploy",
+        "framework",
+        "library",
+        "build"
+      ],
+      "topProjects": [
+        {
+          "name": "anchor",
+          "description": "",
+          "url": "https://github.com/solana-foundation/anchor",
+          "source": "github"
+        },
+        {
+          "name": "solana-go",
+          "description": "",
+          "url": "https://github.com/solana-foundation/solana-go",
+          "source": "github"
+        },
+        {
+          "name": "ant-design-web3",
+          "description": "",
+          "url": "https://github.com/ant-design/ant-design-web3",
+          "source": "github"
+        },
+        {
+          "name": "solana-playground",
+          "description": "",
+          "url": "https://github.com/solana-playground/solana-playground",
+          "source": "github"
+        },
+        {
+          "name": "gladibot",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create a Solana program testing framework with auto-generated tests",
+        "Build a no-code contract deployment platform",
+        "Develop a real-time program monitoring and alerting tool",
+        "Create an IDE extension for Solana development"
+      ],
+      "dataSources": {
+        "helius": 0,
         "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-04-10T09:06:32.771Z"
+      "lastUpdated": "2026-04-11T08:40:13.989Z"
     },
     {
       "id": "defi-innovation",
@@ -170,10 +171,8 @@
       "confidence": 0.48,
       "trendingKeywords": [
         "swap",
-        "yield",
-        "vault",
-        "liquidity",
-        "dex"
+        "dex",
+        "stake"
       ],
       "topProjects": [
         {
@@ -182,17 +181,17 @@
           "source": "github"
         },
         {
-          "name": "ZendIQ-Extension-Pro",
+          "name": "prism",
           "description": "",
           "source": "github"
         },
         {
-          "name": "potbot-v2",
+          "name": "gladibot",
           "description": "",
           "source": "github"
         },
         {
-          "name": "yog-sothoth",
+          "name": "block-claw",
           "description": "",
           "source": "github"
         }
@@ -208,7 +207,7 @@
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-04-10T09:06:32.771Z"
+      "lastUpdated": "2026-04-11T08:40:13.989Z"
     },
     {
       "id": "social-consumer",
@@ -216,8 +215,7 @@
       "description": "Social platforms and consumer applications",
       "confidence": 0.27999999999999997,
       "trendingKeywords": [
-        "community",
-        "governance"
+        "community"
       ],
       "topProjects": [
         {
@@ -227,7 +225,7 @@
           "source": "github"
         },
         {
-          "name": "potbot-v2",
+          "name": "solana-nervous-system",
           "description": "",
           "source": "github"
         }
@@ -243,7 +241,7 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-04-10T09:06:32.772Z"
+      "lastUpdated": "2026-04-11T08:40:13.989Z"
     },
     {
       "id": "gaming-nft",
@@ -251,11 +249,11 @@
       "description": "Blockchain gaming and NFT ecosystems",
       "confidence": 0.12,
       "trendingKeywords": [
-        "world"
+        "virtual"
       ],
       "topProjects": [
         {
-          "name": "solpact",
+          "name": "prism",
           "description": "",
           "source": "github"
         }
@@ -271,7 +269,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-04-10T09:06:32.771Z"
+      "lastUpdated": "2026-04-11T08:40:13.989Z"
     }
   ]
 }
