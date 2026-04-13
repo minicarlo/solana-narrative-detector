@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-12T08:43:56.871Z",
+  "timestamp": "2026-04-13T09:52:33.752Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -8,9 +8,7 @@
       "confidence": 1,
       "trendingKeywords": [
         "bot",
-        "agent",
-        "model",
-        "autonomous"
+        "agent"
       ],
       "topProjects": [
         {
@@ -26,17 +24,18 @@
           "source": "github"
         },
         {
-          "name": "uniswap-arbitrage-bot-2026",
+          "name": "pumpfun-bonkfun-bot",
+          "description": "",
+          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
+          "source": "github"
+        },
+        {
+          "name": "votorflow",
           "description": "",
           "source": "github"
         },
         {
-          "name": "AIMemebot",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "sol-lp-bot",
+          "name": "earnagent",
           "description": "",
           "source": "github"
         }
@@ -49,10 +48,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 10,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-04-12T08:43:56.871Z"
+      "lastUpdated": "2026-04-13T09:52:33.752Z"
     },
     {
       "id": "dev-tools",
@@ -63,8 +62,7 @@
         "build",
         "framework",
         "library",
-        "deploy",
-        "testing"
+        "deploy"
       ],
       "topProjects": [
         {
@@ -92,7 +90,7 @@
           "source": "github"
         },
         {
-          "name": "clarity",
+          "name": "sparkforge",
           "description": "",
           "source": "github"
         }
@@ -108,18 +106,17 @@
         "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-04-12T08:43:56.871Z"
+      "lastUpdated": "2026-04-13T09:52:33.752Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.7424200000000001,
+      "confidence": 0.86242,
       "trendingKeywords": [
-        "validator",
         "node",
         "network",
-        "oracle"
+        "validator"
       ],
       "topProjects": [
         {
@@ -147,7 +144,7 @@
           "source": "github"
         },
         {
-          "name": "railpay-monorepo",
+          "name": "solmeme-bot",
           "description": "",
           "source": "github"
         }
@@ -160,10 +157,44 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-04-12T08:43:56.871Z"
+      "lastUpdated": "2026-04-13T09:52:33.752Z"
+    },
+    {
+      "id": "social-consumer",
+      "name": "Social & Consumer",
+      "description": "Social platforms and consumer applications",
+      "confidence": 0.27999999999999997,
+      "trendingKeywords": [
+        "community"
+      ],
+      "topProjects": [
+        {
+          "name": "app-monorepo",
+          "description": "",
+          "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "solana-nervous-system",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized social graph protocol",
+        "Create a creator monetization platform with micro-tipping",
+        "Develop a DAO governance participation reward system",
+        "Build a reputation-based social discovery app"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 2,
+        "social": 0
+      },
+      "lastUpdated": "2026-04-13T09:52:33.752Z"
     },
     {
       "id": "defi-innovation",
@@ -171,17 +202,18 @@
       "description": "Decentralized finance protocols and innovations",
       "confidence": 0.24,
       "trendingKeywords": [
-        "swap",
-        "liquidity"
+        "liquidity",
+        "dex",
+        "stake"
       ],
       "topProjects": [
         {
-          "name": "uniswap-arbitrage-bot-2026",
+          "name": "yog-sothoth",
           "description": "",
           "source": "github"
         },
         {
-          "name": "goyim-agent",
+          "name": "votorflow",
           "description": "",
           "source": "github"
         }
@@ -197,50 +229,23 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-04-12T08:43:56.871Z"
-    },
-    {
-      "id": "social-consumer",
-      "name": "Social & Consumer",
-      "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
-      "trendingKeywords": [
-        "community"
-      ],
-      "topProjects": [
-        {
-          "name": "app-monorepo",
-          "description": "",
-          "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized social graph protocol",
-        "Create a creator monetization platform with micro-tipping",
-        "Develop a DAO governance participation reward system",
-        "Build a reputation-based social discovery app"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 1,
-        "social": 0
-      },
-      "lastUpdated": "2026-04-12T08:43:56.871Z"
+      "lastUpdated": "2026-04-13T09:52:33.752Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.1,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "game",
-        "gaming",
-        "NFT",
-        "metaverse",
-        "play-to-earn"
+        "virtual"
       ],
-      "topProjects": [],
+      "topProjects": [
+        {
+          "name": "earnagent",
+          "description": "",
+          "source": "github"
+        }
+      ],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -249,10 +254,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 0,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-04-12T08:43:56.871Z"
+      "lastUpdated": "2026-04-13T09:52:33.752Z"
     }
   ]
 }
