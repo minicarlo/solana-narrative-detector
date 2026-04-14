@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-13T09:52:33.752Z",
+  "timestamp": "2026-04-14T09:15:30.023Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -8,7 +8,8 @@
       "confidence": 1,
       "trendingKeywords": [
         "bot",
-        "agent"
+        "agent",
+        "autonomous"
       ],
       "topProjects": [
         {
@@ -30,12 +31,12 @@
           "source": "github"
         },
         {
-          "name": "votorflow",
+          "name": "vaultpilot-mcp",
           "description": "",
           "source": "github"
         },
         {
-          "name": "earnagent",
+          "name": "jupiter-sentinel",
           "description": "",
           "source": "github"
         }
@@ -48,21 +49,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 10,
         "social": 0
       },
-      "lastUpdated": "2026-04-13T09:52:33.752Z"
+      "lastUpdated": "2026-04-14T09:15:30.023Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.87568,
+      "confidence": 1,
       "trendingKeywords": [
+        "library",
         "build",
         "framework",
-        "library",
-        "deploy"
+        "deploy",
+        "compile"
       ],
       "topProjects": [
         {
@@ -78,6 +80,12 @@
           "source": "github"
         },
         {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
           "name": "ant-design-web3",
           "description": "",
           "url": "https://github.com/ant-design/ant-design-web3",
@@ -87,11 +95,6 @@
           "name": "solana-playground",
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
-          "source": "github"
-        },
-        {
-          "name": "sparkforge",
-          "description": "",
           "source": "github"
         }
       ],
@@ -103,20 +106,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-04-13T09:52:33.752Z"
+      "lastUpdated": "2026-04-14T09:15:30.023Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.86242,
+      "confidence": 0.9425399999999999,
       "trendingKeywords": [
         "node",
-        "network",
-        "validator"
+        "bridge",
+        "validator",
+        "network"
       ],
       "topProjects": [
         {
@@ -132,20 +136,21 @@
           "source": "github"
         },
         {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
+          "source": "github"
+        },
+        {
           "name": "firedancer",
           "description": "",
           "url": "https://github.com/firedancer-io/firedancer",
           "source": "github"
         },
         {
-          "name": "jito-solana",
+          "name": "rango-client",
           "description": "",
-          "url": "https://github.com/jito-foundation/jito-solana",
-          "source": "github"
-        },
-        {
-          "name": "solmeme-bot",
-          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
         }
       ],
@@ -160,60 +165,32 @@
         "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-04-13T09:52:33.752Z"
-    },
-    {
-      "id": "social-consumer",
-      "name": "Social & Consumer",
-      "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
-      "trendingKeywords": [
-        "community"
-      ],
-      "topProjects": [
-        {
-          "name": "app-monorepo",
-          "description": "",
-          "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "solana-nervous-system",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized social graph protocol",
-        "Create a creator monetization platform with micro-tipping",
-        "Develop a DAO governance participation reward system",
-        "Build a reputation-based social discovery app"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 2,
-        "social": 0
-      },
-      "lastUpdated": "2026-04-13T09:52:33.752Z"
+      "lastUpdated": "2026-04-14T09:15:30.023Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.24,
+      "confidence": 0.44000000000000006,
       "trendingKeywords": [
-        "liquidity",
-        "dex",
-        "stake"
+        "swap",
+        "vault"
       ],
       "topProjects": [
         {
-          "name": "yog-sothoth",
+          "name": "rango-sdk",
           "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
           "source": "github"
         },
         {
-          "name": "votorflow",
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "vaultpilot-mcp",
           "description": "",
           "source": "github"
         }
@@ -226,10 +203,39 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-04-13T09:52:33.752Z"
+      "lastUpdated": "2026-04-14T09:15:30.023Z"
+    },
+    {
+      "id": "social-consumer",
+      "name": "Social & Consumer",
+      "description": "Social platforms and consumer applications",
+      "confidence": 0.16,
+      "trendingKeywords": [
+        "community"
+      ],
+      "topProjects": [
+        {
+          "name": "app-monorepo",
+          "description": "",
+          "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized social graph protocol",
+        "Create a creator monetization platform with micro-tipping",
+        "Develop a DAO governance participation reward system",
+        "Build a reputation-based social discovery app"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 1,
+        "social": 0
+      },
+      "lastUpdated": "2026-04-14T09:15:30.023Z"
     },
     {
       "id": "gaming-nft",
@@ -237,11 +243,11 @@
       "description": "Blockchain gaming and NFT ecosystems",
       "confidence": 0.12,
       "trendingKeywords": [
-        "virtual"
+        "world"
       ],
       "topProjects": [
         {
-          "name": "earnagent",
+          "name": "WaboTrader",
           "description": "",
           "source": "github"
         }
@@ -257,7 +263,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-04-13T09:52:33.752Z"
+      "lastUpdated": "2026-04-14T09:15:30.023Z"
     }
   ]
 }
