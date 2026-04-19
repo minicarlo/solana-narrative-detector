@@ -1,16 +1,68 @@
 {
-  "timestamp": "2026-04-18T08:44:59.422Z",
+  "timestamp": "2026-04-19T08:51:34.988Z",
   "narratives": [
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 1,
+      "trendingKeywords": [
+        "agent",
+        "bot",
+        "autonomous"
+      ],
+      "topProjects": [
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "Solana-Arbitrage-Bot",
+          "description": "",
+          "url": "https://github.com/x89/Solana-Arbitrage-Bot",
+          "source": "github"
+        },
+        {
+          "name": "solana_sniper_bot",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-guard",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "defi-agent-playbook",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 9,
+        "social": 0
+      },
+      "lastUpdated": "2026-04-19T08:51:34.988Z"
+    },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.8757400000000001,
+      "confidence": 1,
       "trendingKeywords": [
+        "build",
         "library",
         "deploy",
-        "framework",
-        "build"
+        "framework"
       ],
       "topProjects": [
         {
@@ -38,7 +90,7 @@
           "source": "github"
         },
         {
-          "name": "solana-skills",
+          "name": "ooze-fair-block-builder",
           "description": "",
           "source": "github"
         }
@@ -51,10 +103,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 9,
         "social": 0
       },
-      "lastUpdated": "2026-04-18T08:44:59.422Z"
+      "lastUpdated": "2026-04-19T08:51:34.988Z"
     },
     {
       "id": "infrastructure",
@@ -63,8 +115,10 @@
       "confidence": 0.8626000000000001,
       "trendingKeywords": [
         "bridge",
+        "validator",
         "node",
-        "validator"
+        "network",
+        "oracle"
       ],
       "topProjects": [
         {
@@ -92,7 +146,7 @@
           "source": "github"
         },
         {
-          "name": "paygate",
+          "name": "green-titans",
           "description": "",
           "source": "github"
         }
@@ -108,66 +162,13 @@
         "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-04-18T08:44:59.422Z"
-    },
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.8355600000000001,
-      "trendingKeywords": [
-        "bot",
-        "inference",
-        "agent"
-      ],
-      "topProjects": [
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "Solana-Arbitrage-Bot",
-          "description": "",
-          "url": "https://github.com/x89/Solana-Arbitrage-Bot",
-          "source": "github"
-        },
-        {
-          "name": "pumpfun-bonkfun-bot",
-          "description": "",
-          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
-          "source": "github"
-        },
-        {
-          "name": "Free-Solana-Sniper-Memecoins-Bot-2026",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-private-microprompt",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 6,
-        "social": 0
-      },
-      "lastUpdated": "2026-04-18T08:44:59.422Z"
+      "lastUpdated": "2026-04-19T08:51:34.988Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.44000000000000006,
+      "confidence": 0.68,
       "trendingKeywords": [
         "swap",
         "dex"
@@ -189,6 +190,16 @@
           "name": "DEX-HUNTER",
           "description": "",
           "source": "github"
+        },
+        {
+          "name": "Oraclum-Labs",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "gill-swap",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -199,10 +210,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-04-18T08:44:59.422Z"
+      "lastUpdated": "2026-04-19T08:51:34.988Z"
     },
     {
       "id": "social-consumer",
@@ -231,23 +242,21 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-04-18T08:44:59.422Z"
+      "lastUpdated": "2026-04-19T08:51:34.988Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.1,
       "trendingKeywords": [
-        "game"
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "Gameseekrs",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -256,10 +265,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-04-18T08:44:59.422Z"
+      "lastUpdated": "2026-04-19T08:51:34.988Z"
     }
   ]
 }
