@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-20T09:56:15.859Z",
+  "timestamp": "2026-04-21T09:23:15.475Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -19,23 +19,22 @@
           "source": "github"
         },
         {
-          "name": "Solana-Arbitrage-Bot",
-          "description": "",
-          "url": "https://github.com/x89/Solana-Arbitrage-Bot",
-          "source": "github"
-        },
-        {
-          "name": "vhoenix",
+          "name": "sigil",
           "description": "",
           "source": "github"
         },
         {
-          "name": "Free-SolanaSniperBot-2026-MemecoinAutoTrader",
+          "name": "BasiraAI",
           "description": "",
           "source": "github"
         },
         {
-          "name": "afara",
+          "name": "meridian-docs",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "agentnet",
           "description": "",
           "source": "github"
         }
@@ -48,19 +47,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-04-20T09:56:15.859Z"
+      "lastUpdated": "2026-04-21T09:23:15.475Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 1,
+      "confidence": 0.99556,
       "trendingKeywords": [
-        "deploy",
         "library",
+        "deploy",
         "build",
         "framework"
       ],
@@ -103,16 +102,16 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-04-20T09:56:15.859Z"
+      "lastUpdated": "2026-04-21T09:23:15.475Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.6226,
+      "confidence": 0.7426600000000001,
       "trendingKeywords": [
         "bridge",
         "validator",
@@ -142,6 +141,11 @@
           "description": "",
           "url": "https://github.com/jito-foundation/jito-solana",
           "source": "github"
+        },
+        {
+          "name": "In-app-Solana-session-funding-with-the-LI.FI-widget-and-SDK",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -152,18 +156,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-04-20T09:56:15.858Z"
+      "lastUpdated": "2026-04-21T09:23:15.475Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.32,
+      "confidence": 0.56,
       "trendingKeywords": [
-        "swap"
+        "swap",
+        "lending",
+        "vault"
       ],
       "topProjects": [
         {
@@ -177,6 +183,16 @@
           "description": "",
           "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
+        },
+        {
+          "name": "solana-lending",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "blink-tips",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -187,10 +203,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-04-20T09:56:15.858Z"
+      "lastUpdated": "2026-04-21T09:23:15.475Z"
     },
     {
       "id": "social-consumer",
@@ -225,7 +241,7 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-04-20T09:56:15.859Z"
+      "lastUpdated": "2026-04-21T09:23:15.475Z"
     },
     {
       "id": "gaming-nft",
@@ -251,7 +267,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-04-20T09:56:15.858Z"
+      "lastUpdated": "2026-04-21T09:23:15.475Z"
     }
   ]
 }
