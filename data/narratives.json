@@ -1,15 +1,67 @@
 {
-  "timestamp": "2026-04-22T09:18:03.577Z",
+  "timestamp": "2026-04-23T09:25:32.019Z",
   "narratives": [
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 0.76,
+      "trendingKeywords": [
+        "bot",
+        "model",
+        "autonomous",
+        "agent",
+        "intelligence"
+      ],
+      "topProjects": [
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "pumpfunbot",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "Solana-Bot",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-engineer-notes",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "recon",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 6,
+        "social": 0
+      },
+      "lastUpdated": "2026-04-23T09:25:32.019Z"
+    },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.8356199999999999,
+      "confidence": 0.59562,
       "trendingKeywords": [
-        "deploy",
-        "build",
         "framework",
+        "deploy",
         "library"
       ],
       "topProjects": [
@@ -32,12 +84,7 @@
           "source": "github"
         },
         {
-          "name": "agent-kit",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-skills",
+          "name": "arlex",
           "description": "",
           "source": "github"
         }
@@ -50,21 +97,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-04-22T09:18:03.577Z"
+      "lastUpdated": "2026-04-23T09:25:32.019Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.58272,
+      "confidence": 0.4627800000000001,
       "trendingKeywords": [
         "validator",
         "bridge",
-        "node",
-        "oracle"
+        "node"
       ],
       "topProjects": [
         {
@@ -84,11 +130,6 @@
           "description": "",
           "url": "https://github.com/jito-foundation/jito-solana",
           "source": "github"
-        },
-        {
-          "name": "soothsayer",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -99,18 +140,56 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-04-22T09:18:03.576Z"
+      "lastUpdated": "2026-04-23T09:25:32.019Z"
+    },
+    {
+      "id": "gaming-nft",
+      "name": "Gaming & NFT",
+      "description": "Blockchain gaming and NFT ecosystems",
+      "confidence": 0.36,
+      "trendingKeywords": [
+        "world",
+        "game"
+      ],
+      "topProjects": [
+        {
+          "name": "solmap",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "areal",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "NeoFit",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create a no-code NFT collection launcher with built-in marketplace",
+        "Build a gaming guild management platform with scholarship tracking",
+        "Develop an on-chain achievement system for games",
+        "Create a metaverse land rental marketplace"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 3,
+        "social": 0
+      },
+      "lastUpdated": "2026-04-23T09:25:32.019Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.53168,
+      "confidence": 0.29168000000000005,
       "trendingKeywords": [
-        "vault",
         "swap",
         "liquidity"
       ],
@@ -126,16 +205,6 @@
           "description": "",
           "url": "https://github.com/orca-so/whirlpools",
           "source": "github"
-        },
-        {
-          "name": "blink-tips",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "Solana-Meteora-Alpha-Vault",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -146,75 +215,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-04-22T09:18:03.576Z"
-    },
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.52,
-      "trendingKeywords": [
-        "agent",
-        "bot"
-      ],
-      "topProjects": [
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "solana-guard",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "agent-kit",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "botwallet",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 4,
-        "social": 0
-      },
-      "lastUpdated": "2026-04-22T09:18:03.576Z"
+      "lastUpdated": "2026-04-23T09:25:32.019Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.16,
       "trendingKeywords": [
-        "community",
-        "vote"
+        "community"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "memescope-monday-directory",
-          "description": "",
           "source": "github"
         }
       ],
@@ -226,38 +244,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
-        "social": 0
-      },
-      "lastUpdated": "2026-04-22T09:18:03.576Z"
-    },
-    {
-      "id": "gaming-nft",
-      "name": "Gaming & NFT",
-      "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
-      "trendingKeywords": [
-        "game"
-      ],
-      "topProjects": [
-        {
-          "name": "el3ctropay",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a no-code NFT collection launcher with built-in marketplace",
-        "Build a gaming guild management platform with scholarship tracking",
-        "Develop an on-chain achievement system for games",
-        "Create a metaverse land rental marketplace"
-      ],
-      "dataSources": {
-        "helius": 0,
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-04-22T09:18:03.576Z"
+      "lastUpdated": "2026-04-23T09:25:32.019Z"
     }
   ]
 }
