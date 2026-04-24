@@ -1,16 +1,15 @@
 {
-  "timestamp": "2026-04-23T09:25:32.019Z",
+  "timestamp": "2026-04-24T09:28:33.138Z",
   "narratives": [
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.76,
+      "confidence": 0.9199999999999999,
       "trendingKeywords": [
         "bot",
-        "model",
-        "autonomous",
         "agent",
+        "autonomous",
         "intelligence"
       ],
       "topProjects": [
@@ -21,22 +20,23 @@
           "source": "github"
         },
         {
-          "name": "pumpfunbot",
+          "name": "Solana-Arbitrage-Bot",
+          "description": "",
+          "url": "https://github.com/x89/Solana-Arbitrage-Bot",
+          "source": "github"
+        },
+        {
+          "name": "aura",
           "description": "",
           "source": "github"
         },
         {
-          "name": "Solana-Bot",
+          "name": "Polymarket-Trading-Bot-Rust",
           "description": "",
           "source": "github"
         },
         {
-          "name": "solana-engineer-notes",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "recon",
+          "name": "botwallet",
           "description": "",
           "source": "github"
         }
@@ -49,20 +49,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-04-23T09:25:32.019Z"
+      "lastUpdated": "2026-04-24T09:28:33.137Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.59562,
+      "confidence": 0.7156800000000001,
       "trendingKeywords": [
         "framework",
-        "deploy",
-        "library"
+        "build",
+        "library",
+        "deploy"
       ],
       "topProjects": [
         {
@@ -84,7 +85,12 @@
           "source": "github"
         },
         {
-          "name": "arlex",
+          "name": "phantom-ui",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "agent-kit",
           "description": "",
           "source": "github"
         }
@@ -97,19 +103,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-04-23T09:25:32.019Z"
+      "lastUpdated": "2026-04-24T09:28:33.138Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.4627800000000001,
+      "confidence": 0.5827800000000001,
       "trendingKeywords": [
-        "validator",
         "bridge",
+        "validator",
         "node"
       ],
       "topProjects": [
@@ -130,6 +136,11 @@
           "description": "",
           "url": "https://github.com/jito-foundation/jito-solana",
           "source": "github"
+        },
+        {
+          "name": "blind-omnichain-vault",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -140,58 +151,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-04-23T09:25:32.019Z"
-    },
-    {
-      "id": "gaming-nft",
-      "name": "Gaming & NFT",
-      "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.36,
-      "trendingKeywords": [
-        "world",
-        "game"
-      ],
-      "topProjects": [
-        {
-          "name": "solmap",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "areal",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "NeoFit",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a no-code NFT collection launcher with built-in marketplace",
-        "Build a gaming guild management platform with scholarship tracking",
-        "Develop an on-chain achievement system for games",
-        "Create a metaverse land rental marketplace"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 3,
-        "social": 0
-      },
-      "lastUpdated": "2026-04-23T09:25:32.019Z"
+      "lastUpdated": "2026-04-24T09:28:33.137Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.29168000000000005,
+      "confidence": 0.4,
       "trendingKeywords": [
-        "swap",
-        "liquidity"
+        "vault",
+        "swap"
       ],
       "topProjects": [
         {
@@ -201,9 +173,13 @@
           "source": "github"
         },
         {
-          "name": "whirlpools",
+          "name": "blind-omnichain-vault",
           "description": "",
-          "url": "https://github.com/orca-so/whirlpools",
+          "source": "github"
+        },
+        {
+          "name": "spl-vault-on-solana-anchor",
+          "description": "",
           "source": "github"
         }
       ],
@@ -215,24 +191,30 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-04-23T09:25:32.019Z"
+      "lastUpdated": "2026-04-24T09:28:33.137Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
+      "confidence": 0.27999999999999997,
       "trendingKeywords": [
-        "community"
+        "community",
+        "vote"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "memescope-monday-directory",
+          "description": "",
           "source": "github"
         }
       ],
@@ -244,10 +226,36 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-04-23T09:25:32.019Z"
+      "lastUpdated": "2026-04-24T09:28:33.137Z"
+    },
+    {
+      "id": "gaming-nft",
+      "name": "Gaming & NFT",
+      "description": "Blockchain gaming and NFT ecosystems",
+      "confidence": 0.1,
+      "trendingKeywords": [
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
+      ],
+      "topProjects": [],
+      "projectIdeas": [
+        "Create a no-code NFT collection launcher with built-in marketplace",
+        "Build a gaming guild management platform with scholarship tracking",
+        "Develop an on-chain achievement system for games",
+        "Create a metaverse land rental marketplace"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 0,
+        "social": 0
+      },
+      "lastUpdated": "2026-04-24T09:28:33.137Z"
     }
   ]
 }
