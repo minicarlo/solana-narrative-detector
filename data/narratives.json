@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-26T08:57:44.237Z",
+  "timestamp": "2026-04-27T10:12:04.629Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -9,7 +9,8 @@
       "trendingKeywords": [
         "bot",
         "agent",
-        "autonomous"
+        "autonomous",
+        "model"
       ],
       "topProjects": [
         {
@@ -25,17 +26,18 @@
           "source": "github"
         },
         {
-          "name": "kyvern-atlas",
+          "name": "pumpfun-bonkfun-bot",
+          "description": "",
+          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
+          "source": "github"
+        },
+        {
+          "name": "prior-site",
           "description": "",
           "source": "github"
         },
         {
-          "name": "areal",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "VIPER",
+          "name": "pumpfun-ai-trading-bot",
           "description": "",
           "source": "github"
         }
@@ -48,10 +50,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 10,
+        "github": 9,
         "social": 0
       },
-      "lastUpdated": "2026-04-26T08:57:44.237Z"
+      "lastUpdated": "2026-04-27T10:12:04.629Z"
     },
     {
       "id": "dev-tools",
@@ -59,10 +61,9 @@
       "description": "Tools and infrastructure for developers",
       "confidence": 0.8757400000000001,
       "trendingKeywords": [
-        "framework",
         "library",
         "deploy",
-        "build"
+        "framework"
       ],
       "topProjects": [
         {
@@ -90,7 +91,7 @@
           "source": "github"
         },
         {
-          "name": "areal",
+          "name": "flash-trade-bot",
           "description": "",
           "source": "github"
         }
@@ -106,17 +107,17 @@
         "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-04-26T08:57:44.237Z"
+      "lastUpdated": "2026-04-27T10:12:04.629Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.58284,
+      "confidence": 0.7029000000000001,
       "trendingKeywords": [
         "validator",
-        "bridge",
-        "node"
+        "rollup",
+        "bridge"
       ],
       "topProjects": [
         {
@@ -138,7 +139,12 @@
           "source": "github"
         },
         {
-          "name": "auranode-ai",
+          "name": "sealedbid-magicblock-per",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "ohlarr",
           "description": "",
           "source": "github"
         }
@@ -151,24 +157,35 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-04-26T08:57:44.237Z"
+      "lastUpdated": "2026-04-27T10:12:04.629Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.16,
+      "confidence": 0.4,
       "trendingKeywords": [
-        "swap"
+        "swap",
+        "perp"
       ],
       "topProjects": [
         {
           "name": "rango-client",
           "description": "",
           "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "solanaswap",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "flash-trade-bot",
+          "description": "",
           "source": "github"
         }
       ],
@@ -180,24 +197,30 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-04-26T08:57:44.237Z"
+      "lastUpdated": "2026-04-27T10:12:04.629Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
+      "confidence": 0.27999999999999997,
       "trendingKeywords": [
-        "community"
+        "community",
+        "engagement"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "pumpfun-ai-trading-bot",
+          "description": "",
           "source": "github"
         }
       ],
@@ -209,26 +232,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-04-26T08:57:44.237Z"
+      "lastUpdated": "2026-04-27T10:12:04.629Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.1,
       "trendingKeywords": [
-        "world"
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "areal",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -237,10 +258,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-04-26T08:57:44.237Z"
+      "lastUpdated": "2026-04-27T10:12:04.629Z"
     }
   ]
 }
