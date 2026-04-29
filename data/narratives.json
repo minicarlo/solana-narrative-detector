@@ -1,69 +1,16 @@
 {
-  "timestamp": "2026-04-28T10:11:07.151Z",
+  "timestamp": "2026-04-29T10:02:54.226Z",
   "narratives": [
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 1,
-      "trendingKeywords": [
-        "bot",
-        "agent",
-        "autonomous"
-      ],
-      "topProjects": [
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "Solana-Arbitrage-Bot",
-          "description": "",
-          "url": "https://github.com/x89/Solana-Arbitrage-Bot",
-          "source": "github"
-        },
-        {
-          "name": "pumpfun-bonkfun-bot",
-          "description": "",
-          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
-          "source": "github"
-        },
-        {
-          "name": "Solana-Arbitrage-Bot",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "prior-site",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 11,
-        "social": 0
-      },
-      "lastUpdated": "2026-04-28T10:11:07.151Z"
-    },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.8757400000000001,
+      "confidence": 1,
       "trendingKeywords": [
         "library",
+        "build",
         "framework",
-        "deploy",
-        "build"
+        "deploy"
       ],
       "topProjects": [
         {
@@ -85,14 +32,15 @@
           "source": "github"
         },
         {
-          "name": "solana-playground",
+          "name": "ant-design-web3",
           "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
+          "url": "https://github.com/ant-design/ant-design-web3",
           "source": "github"
         },
         {
-          "name": "Phantom-Wallet-Fake-Web3-Flash-Balance-CryptoCurrencies-Crypto",
+          "name": "solana-playground",
           "description": "",
+          "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
         }
       ],
@@ -104,10 +52,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-04-28T10:11:07.151Z"
+      "lastUpdated": "2026-04-29T10:02:54.226Z"
     },
     {
       "id": "infrastructure",
@@ -117,7 +65,7 @@
       "trendingKeywords": [
         "validator",
         "bridge",
-        "node"
+        "oracle"
       ],
       "topProjects": [
         {
@@ -139,12 +87,12 @@
           "source": "github"
         },
         {
-          "name": "Pumpfun-Sniper-Bot",
+          "name": "solana-launch-oracle",
           "description": "",
           "source": "github"
         },
         {
-          "name": "firedancer-health-exporter",
+          "name": "Phantom-Wallet-Integration-Bridge-Solona-Api-Connect",
           "description": "",
           "source": "github"
         }
@@ -160,16 +108,65 @@
         "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-04-28T10:11:07.151Z"
+      "lastUpdated": "2026-04-29T10:02:54.226Z"
+    },
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 0.59568,
+      "trendingKeywords": [
+        "bot"
+      ],
+      "topProjects": [
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "Solana-Arbitrage-Bot",
+          "description": "",
+          "url": "https://github.com/x89/Solana-Arbitrage-Bot",
+          "source": "github"
+        },
+        {
+          "name": "pumpfun-bonkfun-bot",
+          "description": "",
+          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
+          "source": "github"
+        },
+        {
+          "name": "staccbot-tg",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 4,
+        "social": 0
+      },
+      "lastUpdated": "2026-04-29T10:02:54.226Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.64,
+      "confidence": 0.4,
       "trendingKeywords": [
         "swap",
-        "perp"
+        "stake",
+        "dex",
+        "yield",
+        "farm"
       ],
       "topProjects": [
         {
@@ -179,22 +176,12 @@
           "source": "github"
         },
         {
-          "name": "Mainstay",
+          "name": "pob500",
           "description": "",
           "source": "github"
         },
         {
-          "name": "BNB-Bundler-Bot",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-memecoin-sniper-bot",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "hyperliquid-trading-dca-bot",
+          "name": "solana-yield-farmer",
           "description": "",
           "source": "github"
         }
@@ -207,24 +194,30 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-04-28T10:11:07.151Z"
+      "lastUpdated": "2026-04-29T10:02:54.226Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
+      "confidence": 0.27999999999999997,
       "trendingKeywords": [
-        "community"
+        "community",
+        "creator"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "pob500",
+          "description": "",
           "source": "github"
         }
       ],
@@ -236,10 +229,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-04-28T10:11:07.151Z"
+      "lastUpdated": "2026-04-29T10:02:54.226Z"
     },
     {
       "id": "gaming-nft",
@@ -265,7 +258,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-04-28T10:11:07.151Z"
+      "lastUpdated": "2026-04-29T10:02:54.226Z"
     }
   ]
 }
