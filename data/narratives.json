@@ -1,121 +1,17 @@
 {
-  "timestamp": "2026-05-04T10:11:17.298Z",
+  "timestamp": "2026-05-05T09:59:59.919Z",
   "narratives": [
-    {
-      "id": "dev-tools",
-      "name": "Developer Tools",
-      "description": "Tools and infrastructure for developers",
-      "confidence": 0.83592,
-      "trendingKeywords": [
-        "framework",
-        "build",
-        "library",
-        "deploy"
-      ],
-      "topProjects": [
-        {
-          "name": "anchor",
-          "description": "",
-          "url": "https://github.com/solana-foundation/anchor",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "solana-playground",
-          "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
-          "source": "github"
-        },
-        {
-          "name": "smart-money-signals",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "agenc-marketplace-agent-kit",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a Solana program testing framework with auto-generated tests",
-        "Build a no-code contract deployment platform",
-        "Develop a real-time program monitoring and alerting tool",
-        "Create an IDE extension for Solana development"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 6,
-        "social": 0
-      },
-      "lastUpdated": "2026-05-04T10:11:17.298Z"
-    },
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.7957400000000001,
-      "trendingKeywords": [
-        "bot",
-        "agent"
-      ],
-      "topProjects": [
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "pumpfun-bonkfun-bot",
-          "description": "",
-          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
-          "source": "github"
-        },
-        {
-          "name": "private-shkeeper-setup-for-telegram-bots-and-miniapps-payments",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "agenc-marketplace-agent-kit",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "capmon-solana",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 6,
-        "social": 0
-      },
-      "lastUpdated": "2026-05-04T10:11:17.298Z"
-    },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.69174,
+      "confidence": 1,
       "trendingKeywords": [
         "swap",
         "liquidity",
-        "perp",
-        "dex"
+        "stake",
+        "dex",
+        "vault"
       ],
       "topProjects": [
         {
@@ -137,12 +33,13 @@
           "source": "github"
         },
         {
-          "name": "cinder",
+          "name": "QuillAudit_smart_contract_audit_Reports",
           "description": "",
+          "url": "https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports",
           "source": "github"
         },
         {
-          "name": "solana-multi-dex-decoder",
+          "name": "solana-rev-distributor",
           "description": "",
           "source": "github"
         }
@@ -155,22 +52,79 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-05-04T10:11:17.298Z"
+      "lastUpdated": "2026-05-05T09:59:59.919Z"
+    },
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 1,
+      "trendingKeywords": [
+        "bot",
+        "agent",
+        "intelligence"
+      ],
+      "topProjects": [
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "private-shkeeper-setup-for-telegram-bots-and-miniapps-payments",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "x402-gateway-solana",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "blockchain_buddies",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-staking-bot",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 9,
+        "social": 0
+      },
+      "lastUpdated": "2026-05-05T09:59:59.919Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.6229000000000001,
+      "confidence": 0.7829,
       "trendingKeywords": [
+        "node",
         "bridge",
-        "validator",
-        "node"
+        "validator"
       ],
       "topProjects": [
+        {
+          "name": "solana-web3.js",
+          "description": "",
+          "url": "https://github.com/solana-foundation/solana-web3.js",
+          "source": "github"
+        },
         {
           "name": "rango-sdk",
           "description": "",
@@ -204,10 +158,66 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-05-04T10:11:17.298Z"
+      "lastUpdated": "2026-05-05T09:59:59.919Z"
+    },
+    {
+      "id": "dev-tools",
+      "name": "Developer Tools",
+      "description": "Tools and infrastructure for developers",
+      "confidence": 0.72322,
+      "trendingKeywords": [
+        "framework",
+        "library",
+        "deploy",
+        "testing",
+        "build"
+      ],
+      "topProjects": [
+        {
+          "name": "anchor",
+          "description": "",
+          "url": "https://github.com/solana-foundation/anchor",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "solana-playground",
+          "description": "",
+          "url": "https://github.com/solana-playground/solana-playground",
+          "source": "github"
+        },
+        {
+          "name": "QuillAudit_smart_contract_audit_Reports",
+          "description": "",
+          "url": "https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports",
+          "source": "github"
+        },
+        {
+          "name": "smart-money-signals",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create a Solana program testing framework with auto-generated tests",
+        "Build a no-code contract deployment platform",
+        "Develop a real-time program monitoring and alerting tool",
+        "Create an IDE extension for Solana development"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 5,
+        "social": 0
+      },
+      "lastUpdated": "2026-05-05T09:59:59.919Z"
     },
     {
       "id": "social-consumer",
@@ -236,23 +246,21 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-05-04T10:11:17.298Z"
+      "lastUpdated": "2026-05-05T09:59:59.919Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.1,
       "trendingKeywords": [
-        "world"
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "capmon-solana",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -261,10 +269,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-05-04T10:11:17.298Z"
+      "lastUpdated": "2026-05-05T09:59:59.919Z"
     }
   ]
 }
