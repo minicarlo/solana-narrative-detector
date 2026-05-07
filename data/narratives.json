@@ -1,16 +1,15 @@
 {
-  "timestamp": "2026-05-06T10:14:27.725Z",
+  "timestamp": "2026-05-07T10:22:27.338Z",
   "narratives": [
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 1,
+      "confidence": 0.90302,
       "trendingKeywords": [
         "bridge",
         "node",
-        "validator",
-        "oracle"
+        "validator"
       ],
       "topProjects": [
         {
@@ -52,10 +51,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-05-06T10:14:27.725Z"
+      "lastUpdated": "2026-05-07T10:22:27.338Z"
     },
     {
       "id": "defi-innovation",
@@ -64,10 +63,10 @@
       "confidence": 0.8,
       "trendingKeywords": [
         "swap",
+        "dex",
         "lending",
-        "vault",
         "yield",
-        "stake"
+        "vault"
       ],
       "topProjects": [
         {
@@ -83,17 +82,17 @@
           "source": "github"
         },
         {
-          "name": "minjame",
+          "name": "solana-daily-snapshot",
           "description": "",
           "source": "github"
         },
         {
-          "name": "vigil",
+          "name": "shadowfi",
           "description": "",
           "source": "github"
         },
         {
-          "name": "geodrop",
+          "name": "susu-monorepo",
           "description": "",
           "source": "github"
         }
@@ -109,17 +108,17 @@
         "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-05-06T10:14:27.725Z"
+      "lastUpdated": "2026-05-07T10:22:27.338Z"
     },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.7958000000000001,
+      "confidence": 0.6759200000000001,
       "trendingKeywords": [
         "bot",
         "agent",
-        "intelligence"
+        "autonomous"
       ],
       "topProjects": [
         {
@@ -135,17 +134,17 @@
           "source": "github"
         },
         {
+          "name": "ProbX",
+          "description": "",
+          "source": "github"
+        },
+        {
           "name": "private-shkeeper-setup-for-telegram-bots-and-miniapps-payments",
           "description": "",
           "source": "github"
         },
         {
-          "name": "duat",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "oracleX",
+          "name": "solana-agent-wallet-adapter",
           "description": "",
           "source": "github"
         }
@@ -158,21 +157,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-05-06T10:14:27.725Z"
+      "lastUpdated": "2026-05-07T10:22:27.338Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.7159800000000001,
+      "confidence": 0.47598,
       "trendingKeywords": [
         "framework",
         "library",
-        "deploy",
-        "debug"
+        "deploy"
       ],
       "topProjects": [
         {
@@ -192,16 +190,6 @@
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
-        },
-        {
-          "name": "solana-debugger",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "agenc-marketplace-agent-kit",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -212,10 +200,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-05-06T10:14:27.725Z"
+      "lastUpdated": "2026-05-07T10:22:27.338Z"
     },
     {
       "id": "social-consumer",
@@ -224,7 +212,7 @@
       "confidence": 0.27999999999999997,
       "trendingKeywords": [
         "community",
-        "creator"
+        "social"
       ],
       "topProjects": [
         {
@@ -234,7 +222,7 @@
           "source": "github"
         },
         {
-          "name": "pumpfundme",
+          "name": "velyx-genesis",
           "description": "",
           "source": "github"
         }
@@ -250,24 +238,19 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-05-06T10:14:27.725Z"
+      "lastUpdated": "2026-05-07T10:22:27.338Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.24,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "world"
+        "gaming"
       ],
       "topProjects": [
         {
-          "name": "geodrop",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "pumpfundme",
+          "name": "velyx-genesis",
           "description": "",
           "source": "github"
         }
@@ -280,10 +263,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-05-06T10:14:27.725Z"
+      "lastUpdated": "2026-05-07T10:22:27.338Z"
     }
   ]
 }
