@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-05-07T10:22:27.338Z",
+  "timestamp": "2026-05-08T09:17:18.950Z",
   "narratives": [
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.90302,
+      "confidence": 0.78308,
       "trendingKeywords": [
-        "bridge",
         "node",
+        "bridge",
         "validator"
       ],
       "topProjects": [
@@ -51,28 +51,33 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-05-07T10:22:27.338Z"
+      "lastUpdated": "2026-05-08T09:17:18.950Z"
     },
     {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.8,
+      "id": "dev-tools",
+      "name": "Developer Tools",
+      "description": "Tools and infrastructure for developers",
+      "confidence": 0.7559800000000001,
       "trendingKeywords": [
-        "swap",
-        "dex",
-        "lending",
-        "yield",
-        "vault"
+        "library",
+        "framework",
+        "deploy",
+        "build"
       ],
       "topProjects": [
         {
-          "name": "rango-sdk",
+          "name": "anchor",
           "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
+          "url": "https://github.com/solana-foundation/anchor",
+          "source": "github"
+        },
+        {
+          "name": "solana-go",
+          "description": "",
+          "url": "https://github.com/solana-foundation/solana-go",
           "source": "github"
         },
         {
@@ -82,43 +87,38 @@
           "source": "github"
         },
         {
-          "name": "solana-daily-snapshot",
+          "name": "solana-playground",
           "description": "",
+          "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
         },
         {
-          "name": "shadowfi",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "susu-monorepo",
+          "name": "smart-money-signals",
           "description": "",
           "source": "github"
         }
       ],
       "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
+        "Create a Solana program testing framework with auto-generated tests",
+        "Build a no-code contract deployment platform",
+        "Develop a real-time program monitoring and alerting tool",
+        "Create an IDE extension for Solana development"
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-05-07T10:22:27.338Z"
+      "lastUpdated": "2026-05-08T09:17:18.950Z"
     },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.6759200000000001,
+      "confidence": 0.7160400000000001,
       "trendingKeywords": [
         "bot",
-        "agent",
-        "autonomous"
+        "agent"
       ],
       "topProjects": [
         {
@@ -128,23 +128,24 @@
           "source": "github"
         },
         {
+          "name": "Solana-Arbitrage-Bot",
+          "description": "",
+          "url": "https://github.com/x89/Solana-Arbitrage-Bot",
+          "source": "github"
+        },
+        {
           "name": "pumpfun-bonkfun-bot",
           "description": "",
           "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
           "source": "github"
         },
         {
-          "name": "ProbX",
+          "name": "bot-sol",
           "description": "",
           "source": "github"
         },
         {
-          "name": "private-shkeeper-setup-for-telegram-bots-and-miniapps-payments",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-agent-wallet-adapter",
+          "name": "jup-sh",
           "description": "",
           "source": "github"
         }
@@ -160,59 +161,17 @@
         "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-05-07T10:22:27.338Z"
-    },
-    {
-      "id": "dev-tools",
-      "name": "Developer Tools",
-      "description": "Tools and infrastructure for developers",
-      "confidence": 0.47598,
-      "trendingKeywords": [
-        "framework",
-        "library",
-        "deploy"
-      ],
-      "topProjects": [
-        {
-          "name": "anchor",
-          "description": "",
-          "url": "https://github.com/solana-foundation/anchor",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "solana-playground",
-          "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a Solana program testing framework with auto-generated tests",
-        "Build a no-code contract deployment platform",
-        "Develop a real-time program monitoring and alerting tool",
-        "Create an IDE extension for Solana development"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 3,
-        "social": 0
-      },
-      "lastUpdated": "2026-05-07T10:22:27.338Z"
+      "lastUpdated": "2026-05-08T09:17:18.950Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.4,
       "trendingKeywords": [
         "community",
-        "social"
+        "social",
+        "fan"
       ],
       "topProjects": [
         {
@@ -225,6 +184,11 @@
           "name": "velyx-genesis",
           "description": "",
           "source": "github"
+        },
+        {
+          "name": "fanex-solana-research",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -235,22 +199,63 @@
       ],
       "dataSources": {
         "helius": 0,
+        "github": 3,
+        "social": 0
+      },
+      "lastUpdated": "2026-05-08T09:17:18.950Z"
+    },
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.32,
+      "trendingKeywords": [
+        "swap"
+      ],
+      "topProjects": [
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-05-07T10:22:27.338Z"
+      "lastUpdated": "2026-05-08T09:17:18.949Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.24,
       "trendingKeywords": [
-        "gaming"
+        "gaming",
+        "game"
       ],
       "topProjects": [
         {
           "name": "velyx-genesis",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "eggsistential",
           "description": "",
           "source": "github"
         }
@@ -263,10 +268,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-05-07T10:22:27.338Z"
+      "lastUpdated": "2026-05-08T09:17:18.950Z"
     }
   ]
 }
