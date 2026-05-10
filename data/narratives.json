@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-09T09:17:05.177Z",
+  "timestamp": "2026-05-10T09:26:11.921Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -8,7 +8,9 @@
       "confidence": 1,
       "trendingKeywords": [
         "agent",
-        "bot"
+        "bot",
+        "autonomous",
+        "intelligence"
       ],
       "topProjects": [
         {
@@ -36,7 +38,7 @@
           "source": "github"
         },
         {
-          "name": "Omniclaw",
+          "name": "x402Guard",
           "description": "",
           "source": "github"
         }
@@ -49,75 +51,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 12,
         "social": 0
       },
-      "lastUpdated": "2026-05-09T09:17:05.177Z"
-    },
-    {
-      "id": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.78302,
-      "trendingKeywords": [
-        "node",
-        "bridge",
-        "validator"
-      ],
-      "topProjects": [
-        {
-          "name": "solana-web3.js",
-          "description": "",
-          "url": "https://github.com/solana-foundation/solana-web3.js",
-          "source": "github"
-        },
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
-          "source": "github"
-        },
-        {
-          "name": "firedancer",
-          "description": "",
-          "url": "https://github.com/firedancer-io/firedancer",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "jito-solana",
-          "description": "",
-          "url": "https://github.com/jito-foundation/jito-solana",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized RPC load balancer for Solana",
-        "Create a validator performance monitoring dashboard",
-        "Develop a bridge aggregator for cross-chain transfers",
-        "Build an oracle comparison and aggregation service"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 5,
-        "social": 0
-      },
-      "lastUpdated": "2026-05-09T09:17:05.177Z"
+      "lastUpdated": "2026-05-10T09:26:11.921Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.7559200000000001,
+      "confidence": 0.8759200000000001,
       "trendingKeywords": [
         "library",
-        "framework",
         "deploy",
+        "framework",
         "build"
       ],
       "topProjects": [
@@ -146,7 +93,7 @@
           "source": "github"
         },
         {
-          "name": "smart-money-signals",
+          "name": "baraza-protocol",
           "description": "",
           "source": "github"
         }
@@ -159,25 +106,33 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-05-09T09:17:05.177Z"
+      "lastUpdated": "2026-05-10T09:26:11.921Z"
     },
     {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.56,
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Core blockchain infrastructure and tooling",
+      "confidence": 0.86302,
       "trendingKeywords": [
-        "swap",
-        "yield"
+        "node",
+        "validator",
+        "bridge",
+        "oracle"
       ],
       "topProjects": [
         {
-          "name": "rango-sdk",
+          "name": "solana-web3.js",
           "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
+          "url": "https://github.com/solana-foundation/solana-web3.js",
+          "source": "github"
+        },
+        {
+          "name": "firedancer",
+          "description": "",
+          "url": "https://github.com/firedancer-io/firedancer",
           "source": "github"
         },
         {
@@ -187,12 +142,65 @@
           "source": "github"
         },
         {
-          "name": "susu-monorepo",
+          "name": "jito-solana",
+          "description": "",
+          "url": "https://github.com/jito-foundation/jito-solana",
+          "source": "github"
+        },
+        {
+          "name": "Sentry-Node",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized RPC load balancer for Solana",
+        "Create a validator performance monitoring dashboard",
+        "Develop a bridge aggregator for cross-chain transfers",
+        "Build an oracle comparison and aggregation service"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 6,
+        "social": 0
+      },
+      "lastUpdated": "2026-05-10T09:26:11.921Z"
+    },
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.64,
+      "trendingKeywords": [
+        "swap",
+        "yield",
+        "stake",
+        "vault"
+      ],
+      "topProjects": [
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "agent-wallet-mcp",
           "description": "",
           "source": "github"
         },
         {
-          "name": "Skimmed",
+          "name": "onchain1-copilot",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "deployfi-solana",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "civa",
           "description": "",
           "source": "github"
         }
@@ -205,10 +213,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-05-09T09:17:05.177Z"
+      "lastUpdated": "2026-05-10T09:26:11.921Z"
     },
     {
       "id": "social-consumer",
@@ -216,8 +224,9 @@
       "description": "Social platforms and consumer applications",
       "confidence": 0.4,
       "trendingKeywords": [
-        "social",
-        "community"
+        "community",
+        "vote",
+        "governance"
       ],
       "topProjects": [
         {
@@ -227,12 +236,12 @@
           "source": "github"
         },
         {
-          "name": "velyx-genesis",
+          "name": "solvote",
           "description": "",
           "source": "github"
         },
         {
-          "name": "roosta-mvp",
+          "name": "baraza-protocol",
           "description": "",
           "source": "github"
         }
@@ -248,19 +257,25 @@
         "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-05-09T09:17:05.177Z"
+      "lastUpdated": "2026-05-10T09:26:11.921Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.24,
       "trendingKeywords": [
-        "gaming"
+        "virtual",
+        "game"
       ],
       "topProjects": [
         {
-          "name": "velyx-genesis",
+          "name": "Sentry-Node",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "eggsistential",
           "description": "",
           "source": "github"
         }
@@ -273,10 +288,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-05-09T09:17:05.177Z"
+      "lastUpdated": "2026-05-10T09:26:11.921Z"
     }
   ]
 }
