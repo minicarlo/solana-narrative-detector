@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-10T09:26:11.921Z",
+  "timestamp": "2026-05-11T10:58:47.594Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -9,8 +9,7 @@
       "trendingKeywords": [
         "agent",
         "bot",
-        "autonomous",
-        "intelligence"
+        "model"
       ],
       "topProjects": [
         {
@@ -32,13 +31,12 @@
           "source": "github"
         },
         {
-          "name": "pumpfun-bonkfun-bot",
+          "name": "lostpengu-ai-agent",
           "description": "",
-          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
           "source": "github"
         },
         {
-          "name": "x402Guard",
+          "name": "AI-Sentinel",
           "description": "",
           "source": "github"
         }
@@ -51,21 +49,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 12,
+        "github": 10,
         "social": 0
       },
-      "lastUpdated": "2026-05-10T09:26:11.921Z"
+      "lastUpdated": "2026-05-11T10:58:47.594Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.8759200000000001,
+      "confidence": 0.7959200000000001,
       "trendingKeywords": [
         "library",
-        "deploy",
         "framework",
-        "build"
+        "compile",
+        "deploy"
       ],
       "topProjects": [
         {
@@ -81,6 +79,12 @@
           "source": "github"
         },
         {
+          "name": "solang",
+          "description": "",
+          "url": "https://github.com/hyperledger-solang/solang",
+          "source": "github"
+        },
+        {
           "name": "rango-client",
           "description": "",
           "url": "https://github.com/rango-exchange/rango-client",
@@ -90,11 +94,6 @@
           "name": "solana-playground",
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
-          "source": "github"
-        },
-        {
-          "name": "baraza-protocol",
-          "description": "",
           "source": "github"
         }
       ],
@@ -106,27 +105,32 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-05-10T09:26:11.921Z"
+      "lastUpdated": "2026-05-11T10:58:47.594Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.86302,
+      "confidence": 0.78308,
       "trendingKeywords": [
         "node",
-        "validator",
         "bridge",
-        "oracle"
+        "validator"
       ],
       "topProjects": [
         {
           "name": "solana-web3.js",
           "description": "",
           "url": "https://github.com/solana-foundation/solana-web3.js",
+          "source": "github"
+        },
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
           "source": "github"
         },
         {
@@ -146,11 +150,6 @@
           "description": "",
           "url": "https://github.com/jito-foundation/jito-solana",
           "source": "github"
-        },
-        {
-          "name": "Sentry-Node",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -161,23 +160,29 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-05-10T09:26:11.921Z"
+      "lastUpdated": "2026-05-11T10:58:47.594Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.64,
+      "confidence": 0.56,
       "trendingKeywords": [
         "swap",
-        "yield",
-        "stake",
-        "vault"
+        "dex",
+        "vault",
+        "lending"
       ],
       "topProjects": [
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
+          "source": "github"
+        },
         {
           "name": "rango-client",
           "description": "",
@@ -185,22 +190,12 @@
           "source": "github"
         },
         {
-          "name": "agent-wallet-mcp",
+          "name": "lattice",
           "description": "",
           "source": "github"
         },
         {
-          "name": "onchain1-copilot",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "deployfi-solana",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "civa",
+          "name": "veil-vault",
           "description": "",
           "source": "github"
         }
@@ -213,19 +208,18 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-05-10T09:26:11.921Z"
+      "lastUpdated": "2026-05-11T10:58:47.594Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.4,
+      "confidence": 0.27999999999999997,
       "trendingKeywords": [
         "community",
-        "vote",
         "governance"
       ],
       "topProjects": [
@@ -236,12 +230,7 @@
           "source": "github"
         },
         {
-          "name": "solvote",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "baraza-protocol",
+          "name": "Votara",
           "description": "",
           "source": "github"
         }
@@ -254,32 +243,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-05-10T09:26:11.921Z"
+      "lastUpdated": "2026-05-11T10:58:47.594Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.24,
+      "confidence": 0.1,
       "trendingKeywords": [
-        "virtual",
-        "game"
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "Sentry-Node",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "eggsistential",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -288,10 +269,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-05-10T09:26:11.921Z"
+      "lastUpdated": "2026-05-11T10:58:47.594Z"
     }
   ]
 }
