@@ -1,124 +1,17 @@
 {
-  "timestamp": "2026-05-11T10:58:47.594Z",
+  "timestamp": "2026-05-12T10:29:07.314Z",
   "narratives": [
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 1,
-      "trendingKeywords": [
-        "agent",
-        "bot",
-        "model"
-      ],
-      "topProjects": [
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "Solana-Arbitrage-Bot",
-          "description": "",
-          "url": "https://github.com/x89/Solana-Arbitrage-Bot",
-          "source": "github"
-        },
-        {
-          "name": "solana-trading-bot",
-          "description": "",
-          "url": "https://github.com/radioman/solana-trading-bot",
-          "source": "github"
-        },
-        {
-          "name": "lostpengu-ai-agent",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "AI-Sentinel",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 10,
-        "social": 0
-      },
-      "lastUpdated": "2026-05-11T10:58:47.594Z"
-    },
-    {
-      "id": "dev-tools",
-      "name": "Developer Tools",
-      "description": "Tools and infrastructure for developers",
-      "confidence": 0.7959200000000001,
-      "trendingKeywords": [
-        "library",
-        "framework",
-        "compile",
-        "deploy"
-      ],
-      "topProjects": [
-        {
-          "name": "anchor",
-          "description": "",
-          "url": "https://github.com/solana-foundation/anchor",
-          "source": "github"
-        },
-        {
-          "name": "solana-go",
-          "description": "",
-          "url": "https://github.com/solana-foundation/solana-go",
-          "source": "github"
-        },
-        {
-          "name": "solang",
-          "description": "",
-          "url": "https://github.com/hyperledger-solang/solang",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "solana-playground",
-          "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a Solana program testing framework with auto-generated tests",
-        "Build a no-code contract deployment platform",
-        "Develop a real-time program monitoring and alerting tool",
-        "Create an IDE extension for Solana development"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 5,
-        "social": 0
-      },
-      "lastUpdated": "2026-05-11T10:58:47.594Z"
-    },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.78308,
+      "confidence": 1,
       "trendingKeywords": [
         "node",
         "bridge",
-        "validator"
+        "validator",
+        "rollup",
+        "oracle"
       ],
       "topProjects": [
         {
@@ -160,21 +53,132 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-05-11T10:58:47.594Z"
+      "lastUpdated": "2026-05-12T10:29:07.314Z"
+    },
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 1,
+      "trendingKeywords": [
+        "bot",
+        "agent",
+        "intelligence",
+        "inference",
+        "autonomous"
+      ],
+      "topProjects": [
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "Solana-Arbitrage-Bot",
+          "description": "",
+          "url": "https://github.com/x89/Solana-Arbitrage-Bot",
+          "source": "github"
+        },
+        {
+          "name": "solana-trading-bot",
+          "description": "",
+          "url": "https://github.com/radioman/solana-trading-bot",
+          "source": "github"
+        },
+        {
+          "name": "jup-sh",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "neon-stratos",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 9,
+        "social": 0
+      },
+      "lastUpdated": "2026-05-12T10:29:07.314Z"
+    },
+    {
+      "id": "dev-tools",
+      "name": "Developer Tools",
+      "description": "Tools and infrastructure for developers",
+      "confidence": 0.9159200000000001,
+      "trendingKeywords": [
+        "library",
+        "framework",
+        "compile",
+        "deploy",
+        "build"
+      ],
+      "topProjects": [
+        {
+          "name": "anchor",
+          "description": "",
+          "url": "https://github.com/solana-foundation/anchor",
+          "source": "github"
+        },
+        {
+          "name": "solana-go",
+          "description": "",
+          "url": "https://github.com/solana-foundation/solana-go",
+          "source": "github"
+        },
+        {
+          "name": "solang",
+          "description": "",
+          "url": "https://github.com/hyperledger-solang/solang",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "solana-playground",
+          "description": "",
+          "url": "https://github.com/solana-playground/solana-playground",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create a Solana program testing framework with auto-generated tests",
+        "Build a no-code contract deployment platform",
+        "Develop a real-time program monitoring and alerting tool",
+        "Create an IDE extension for Solana development"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 6,
+        "social": 0
+      },
+      "lastUpdated": "2026-05-12T10:29:07.314Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.56,
+      "confidence": 0.68,
       "trendingKeywords": [
         "swap",
-        "dex",
         "vault",
-        "lending"
+        "yield"
       ],
       "topProjects": [
         {
@@ -190,12 +194,17 @@
           "source": "github"
         },
         {
-          "name": "lattice",
+          "name": "LEGACYVAULTV1.0",
           "description": "",
           "source": "github"
         },
         {
-          "name": "veil-vault",
+          "name": "neon-stratos",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "vaultpilot-mcp-gsd-inspired",
           "description": "",
           "source": "github"
         }
@@ -208,19 +217,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-05-11T10:58:47.594Z"
+      "lastUpdated": "2026-05-12T10:29:07.314Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.4,
       "trendingKeywords": [
-        "community",
-        "governance"
+        "governance",
+        "community"
       ],
       "topProjects": [
         {
@@ -230,7 +239,12 @@
           "source": "github"
         },
         {
-          "name": "Votara",
+          "name": "APROOFXENCRYPTXIKA",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "APROOFXZERION",
           "description": "",
           "source": "github"
         }
@@ -243,24 +257,26 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-05-11T10:58:47.594Z"
+      "lastUpdated": "2026-05-12T10:29:07.314Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.1,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "game",
-        "gaming",
-        "NFT",
-        "metaverse",
-        "play-to-earn"
+        "virtual"
       ],
-      "topProjects": [],
+      "topProjects": [
+        {
+          "name": "formal-svm",
+          "description": "",
+          "source": "github"
+        }
+      ],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -269,10 +285,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 0,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-05-11T10:58:47.594Z"
+      "lastUpdated": "2026-05-12T10:29:07.314Z"
     }
   ]
 }
