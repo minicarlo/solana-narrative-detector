@@ -1,71 +1,16 @@
 {
-  "timestamp": "2026-05-14T10:12:27.032Z",
+  "timestamp": "2026-05-15T10:20:36.245Z",
   "narratives": [
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 1,
-      "trendingKeywords": [
-        "swap",
-        "liquidity",
-        "lending",
-        "yield",
-        "dex"
-      ],
-      "topProjects": [
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "Fatura_Fi",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solignition-cli",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "axiom-trending-token-trading-bot",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 8,
-        "social": 0
-      },
-      "lastUpdated": "2026-05-14T10:12:27.032Z"
-    },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 1,
+      "confidence": 0.8,
       "trendingKeywords": [
-        "bot",
         "agent",
-        "model",
-        "autonomous",
-        "intelligence"
+        "bot",
+        "intelligence",
+        "autonomous"
       ],
       "topProjects": [
         {
@@ -81,19 +26,17 @@
           "source": "github"
         },
         {
-          "name": "Solana-Arbitrage-Bot",
+          "name": "sol-bot-dashboard",
           "description": "",
-          "url": "https://github.com/x89/Solana-Arbitrage-Bot",
           "source": "github"
         },
         {
-          "name": "solana-trading-bot",
+          "name": "OpenClaw2026_hayoloh_Rasain",
           "description": "",
-          "url": "https://github.com/radioman/solana-trading-bot",
           "source": "github"
         },
         {
-          "name": "Fatura_Fi",
+          "name": "solana-pulse",
           "description": "",
           "source": "github"
         }
@@ -106,33 +49,81 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 11,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-05-14T10:12:27.032Z"
+      "lastUpdated": "2026-05-15T10:20:36.245Z"
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Core blockchain infrastructure and tooling",
+      "confidence": 0.7431400000000001,
+      "trendingKeywords": [
+        "validator",
+        "bridge",
+        "node"
+      ],
+      "topProjects": [
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
+          "source": "github"
+        },
+        {
+          "name": "firedancer",
+          "description": "",
+          "url": "https://github.com/firedancer-io/firedancer",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "jito-solana",
+          "description": "",
+          "url": "https://github.com/jito-foundation/jito-solana",
+          "source": "github"
+        },
+        {
+          "name": "solana-test-validator-up",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized RPC load balancer for Solana",
+        "Create a validator performance monitoring dashboard",
+        "Develop a bridge aggregator for cross-chain transfers",
+        "Build an oracle comparison and aggregation service"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 5,
+        "social": 0
+      },
+      "lastUpdated": "2026-05-15T10:20:36.245Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.91604,
+      "confidence": 0.6361000000000001,
       "trendingKeywords": [
-        "library",
-        "deploy",
         "framework",
-        "compile"
+        "compile",
+        "library",
+        "deploy"
       ],
       "topProjects": [
         {
           "name": "anchor",
           "description": "",
-          "url": "https://github.com/solana-foundation/anchor",
-          "source": "github"
-        },
-        {
-          "name": "solana-go",
-          "description": "",
-          "url": "https://github.com/solana-foundation/solana-go",
+          "url": "https://github.com/otter-sec/anchor",
           "source": "github"
         },
         {
@@ -162,38 +153,27 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-05-14T10:12:27.032Z"
+      "lastUpdated": "2026-05-15T10:20:36.245Z"
     },
     {
-      "id": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.9030799999999999,
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.57174,
       "trendingKeywords": [
-        "validator",
-        "node",
-        "bridge"
+        "swap",
+        "liquidity",
+        "stake",
+        "dex"
       ],
       "topProjects": [
-        {
-          "name": "solana-web3.js",
-          "description": "",
-          "url": "https://github.com/solana-foundation/solana-web3.js",
-          "source": "github"
-        },
         {
           "name": "rango-sdk",
           "description": "",
           "url": "https://github.com/rango-exchange/rango-sdk",
-          "source": "github"
-        },
-        {
-          "name": "firedancer",
-          "description": "",
-          "url": "https://github.com/firedancer-io/firedancer",
           "source": "github"
         },
         {
@@ -203,49 +183,43 @@
           "source": "github"
         },
         {
-          "name": "jito-solana",
+          "name": "whirlpools",
           "description": "",
-          "url": "https://github.com/jito-foundation/jito-solana",
+          "url": "https://github.com/orca-so/whirlpools",
+          "source": "github"
+        },
+        {
+          "name": "sgdi",
+          "description": "",
           "source": "github"
         }
       ],
       "projectIdeas": [
-        "Build a decentralized RPC load balancer for Solana",
-        "Create a validator performance monitoring dashboard",
-        "Develop a bridge aggregator for cross-chain transfers",
-        "Build an oracle comparison and aggregation service"
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-05-14T10:12:27.032Z"
+      "lastUpdated": "2026-05-15T10:20:36.245Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.4,
+      "confidence": 0.16,
       "trendingKeywords": [
-        "community",
-        "content"
+        "community"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "solana-narrative-ai",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-tools-hub",
-          "description": "",
           "source": "github"
         }
       ],
@@ -257,10 +231,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-05-14T10:12:27.032Z"
+      "lastUpdated": "2026-05-15T10:20:36.245Z"
     },
     {
       "id": "gaming-nft",
@@ -268,11 +242,11 @@
       "description": "Blockchain gaming and NFT ecosystems",
       "confidence": 0.12,
       "trendingKeywords": [
-        "world"
+        "game"
       ],
       "topProjects": [
         {
-          "name": "kodama",
+          "name": "Solana-Casino-Coinflip-Game",
           "description": "",
           "source": "github"
         }
@@ -288,7 +262,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-05-14T10:12:27.032Z"
+      "lastUpdated": "2026-05-15T10:20:36.245Z"
     }
   ]
 }
