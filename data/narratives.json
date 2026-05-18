@@ -1,14 +1,70 @@
 {
-  "timestamp": "2026-05-17T09:44:32.915Z",
+  "timestamp": "2026-05-18T11:41:56.620Z",
   "narratives": [
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 1,
+      "trendingKeywords": [
+        "dex",
+        "swap",
+        "liquidity",
+        "stake",
+        "vault"
+      ],
+      "topProjects": [
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "whirlpools",
+          "description": "",
+          "url": "https://github.com/orca-so/whirlpools",
+          "source": "github"
+        },
+        {
+          "name": "QuillAudit_smart_contract_audit_Reports",
+          "description": "",
+          "url": "https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports",
+          "source": "github"
+        },
+        {
+          "name": "Solana-Delegation-Staking",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 11,
+        "social": 0
+      },
+      "lastUpdated": "2026-05-18T11:41:56.620Z"
+    },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
       "confidence": 1,
       "trendingKeywords": [
-        "agent",
         "bot",
+        "agent",
         "intelligence",
         "autonomous"
       ],
@@ -31,12 +87,12 @@
           "source": "github"
         },
         {
-          "name": "dna-x402-builders",
+          "name": "Solana_Trading_Bot",
           "description": "",
           "source": "github"
         },
         {
-          "name": "kubryx",
+          "name": "monitor-the-situation-bags",
           "description": "",
           "source": "github"
         }
@@ -52,19 +108,21 @@
         "github": 12,
         "social": 0
       },
-      "lastUpdated": "2026-05-17T09:44:32.915Z"
+      "lastUpdated": "2026-05-18T11:41:56.620Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.8761000000000001,
+      "confidence": 1,
       "trendingKeywords": [
-        "library",
         "build",
         "framework",
         "compile",
-        "deploy"
+        "library",
+        "deploy",
+        "testing",
+        "debug"
       ],
       "topProjects": [
         {
@@ -92,8 +150,9 @@
           "source": "github"
         },
         {
-          "name": "dna-x402-builders",
+          "name": "QuillAudit_smart_contract_audit_Reports",
           "description": "",
+          "url": "https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports",
           "source": "github"
         }
       ],
@@ -105,21 +164,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 11,
         "social": 0
       },
-      "lastUpdated": "2026-05-17T09:44:32.915Z"
+      "lastUpdated": "2026-05-18T11:41:56.620Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.74326,
+      "confidence": 0.86326,
       "trendingKeywords": [
         "bridge",
         "validator",
-        "node",
-        "network"
+        "network",
+        "node"
       ],
       "topProjects": [
         {
@@ -147,7 +206,7 @@
           "source": "github"
         },
         {
-          "name": "Alpha-Network",
+          "name": "rango-transaction-debugger",
           "description": "",
           "source": "github"
         }
@@ -160,59 +219,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-05-17T09:44:32.915Z"
-    },
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.57174,
-      "trendingKeywords": [
-        "swap",
-        "liquidity",
-        "vault",
-        "lending"
-      ],
-      "topProjects": [
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "whirlpools",
-          "description": "",
-          "url": "https://github.com/orca-so/whirlpools",
-          "source": "github"
-        },
-        {
-          "name": "kubryx",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 4,
-        "social": 0
-      },
-      "lastUpdated": "2026-05-17T09:44:32.915Z"
+      "lastUpdated": "2026-05-18T11:41:56.620Z"
     },
     {
       "id": "social-consumer",
@@ -241,7 +251,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-05-17T09:44:32.915Z"
+      "lastUpdated": "2026-05-18T11:41:56.620Z"
     },
     {
       "id": "gaming-nft",
@@ -267,7 +277,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-05-17T09:44:32.915Z"
+      "lastUpdated": "2026-05-18T11:41:56.620Z"
     }
   ]
 }
