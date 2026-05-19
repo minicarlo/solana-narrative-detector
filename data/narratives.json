@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-18T11:41:56.620Z",
+  "timestamp": "2026-05-19T11:14:57.972Z",
   "narratives": [
     {
       "id": "defi-innovation",
@@ -10,8 +10,7 @@
         "dex",
         "swap",
         "liquidity",
-        "stake",
-        "vault"
+        "stake"
       ],
       "topProjects": [
         {
@@ -39,7 +38,7 @@
           "source": "github"
         },
         {
-          "name": "Solana-Delegation-Staking",
+          "name": "spotr-mvp",
           "description": "",
           "source": "github"
         }
@@ -52,10 +51,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 11,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-05-18T11:41:56.620Z"
+      "lastUpdated": "2026-05-19T11:14:57.971Z"
     },
     {
       "id": "ai-crypto",
@@ -65,8 +64,7 @@
       "trendingKeywords": [
         "bot",
         "agent",
-        "intelligence",
-        "autonomous"
+        "model"
       ],
       "topProjects": [
         {
@@ -82,17 +80,17 @@
           "source": "github"
         },
         {
-          "name": "moonhydra",
+          "name": "ai2work",
           "description": "",
           "source": "github"
         },
         {
-          "name": "Solana_Trading_Bot",
+          "name": "trading-bot-proxy",
           "description": "",
           "source": "github"
         },
         {
-          "name": "monitor-the-situation-bags",
+          "name": "abitragebot",
           "description": "",
           "source": "github"
         }
@@ -105,10 +103,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 12,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-05-18T11:41:56.620Z"
+      "lastUpdated": "2026-05-19T11:14:57.971Z"
     },
     {
       "id": "dev-tools",
@@ -116,13 +114,13 @@
       "description": "Tools and infrastructure for developers",
       "confidence": 1,
       "trendingKeywords": [
-        "build",
         "framework",
         "compile",
         "library",
         "deploy",
         "testing",
-        "debug"
+        "debug",
+        "build"
       ],
       "topProjects": [
         {
@@ -164,20 +162,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 11,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-05-18T11:41:56.620Z"
+      "lastUpdated": "2026-05-19T11:14:57.972Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.86326,
+      "confidence": 0.62326,
       "trendingKeywords": [
         "bridge",
         "validator",
-        "network",
         "node"
       ],
       "topProjects": [
@@ -204,11 +201,6 @@
           "description": "",
           "url": "https://github.com/jito-foundation/jito-solana",
           "source": "github"
-        },
-        {
-          "name": "rango-transaction-debugger",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -219,24 +211,30 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-05-18T11:41:56.620Z"
+      "lastUpdated": "2026-05-19T11:14:57.971Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
+      "confidence": 0.27999999999999997,
       "trendingKeywords": [
-        "community"
+        "community",
+        "profile"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "nullpay-protocol",
+          "description": "",
           "source": "github"
         }
       ],
@@ -248,10 +246,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-05-18T11:41:56.620Z"
+      "lastUpdated": "2026-05-19T11:14:57.971Z"
     },
     {
       "id": "gaming-nft",
@@ -277,7 +275,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-05-18T11:41:56.620Z"
+      "lastUpdated": "2026-05-19T11:14:57.971Z"
     }
   ]
 }
