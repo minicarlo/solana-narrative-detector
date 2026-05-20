@@ -1,61 +1,6 @@
 {
-  "timestamp": "2026-05-19T11:14:57.972Z",
+  "timestamp": "2026-05-20T10:47:41.496Z",
   "narratives": [
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 1,
-      "trendingKeywords": [
-        "dex",
-        "swap",
-        "liquidity",
-        "stake"
-      ],
-      "topProjects": [
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "whirlpools",
-          "description": "",
-          "url": "https://github.com/orca-so/whirlpools",
-          "source": "github"
-        },
-        {
-          "name": "QuillAudit_smart_contract_audit_Reports",
-          "description": "",
-          "url": "https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports",
-          "source": "github"
-        },
-        {
-          "name": "spotr-mvp",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 8,
-        "social": 0
-      },
-      "lastUpdated": "2026-05-19T11:14:57.971Z"
-    },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
@@ -64,7 +9,9 @@
       "trendingKeywords": [
         "bot",
         "agent",
-        "model"
+        "intelligence",
+        "neural",
+        "autonomous"
       ],
       "topProjects": [
         {
@@ -80,17 +27,18 @@
           "source": "github"
         },
         {
-          "name": "ai2work",
+          "name": "solana-trading-bot",
+          "description": "",
+          "url": "https://github.com/radioman/solana-trading-bot",
+          "source": "github"
+        },
+        {
+          "name": "crypto-arbitrage-bot-automated-trading",
           "description": "",
           "source": "github"
         },
         {
-          "name": "trading-bot-proxy",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "abitragebot",
+          "name": "Solana-Shield-AI",
           "description": "",
           "source": "github"
         }
@@ -103,24 +51,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 12,
         "social": 0
       },
-      "lastUpdated": "2026-05-19T11:14:57.971Z"
+      "lastUpdated": "2026-05-20T10:47:41.496Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 1,
+      "confidence": 0.7739,
       "trendingKeywords": [
         "framework",
         "compile",
         "library",
-        "deploy",
-        "testing",
-        "debug",
-        "build"
+        "deploy"
       ],
       "topProjects": [
         {
@@ -148,9 +93,9 @@
           "source": "github"
         },
         {
-          "name": "QuillAudit_smart_contract_audit_Reports",
+          "name": "create-solana-dapp",
           "description": "",
-          "url": "https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports",
+          "url": "https://github.com/solana-foundation/create-solana-dapp",
           "source": "github"
         }
       ],
@@ -162,10 +107,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-05-19T11:14:57.972Z"
+      "lastUpdated": "2026-05-20T10:47:41.496Z"
     },
     {
       "id": "infrastructure",
@@ -214,16 +159,57 @@
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-05-19T11:14:57.971Z"
+      "lastUpdated": "2026-05-20T10:47:41.496Z"
+    },
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.44000000000000006,
+      "trendingKeywords": [
+        "swap",
+        "stake"
+      ],
+      "topProjects": [
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "Solana-Delegation-Staking",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 3,
+        "social": 0
+      },
+      "lastUpdated": "2026-05-20T10:47:41.496Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.4,
       "trendingKeywords": [
-        "community",
-        "profile"
+        "social",
+        "community"
       ],
       "topProjects": [
         {
@@ -233,7 +219,12 @@
           "source": "github"
         },
         {
-          "name": "nullpay-protocol",
+          "name": "memeintel-",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "eclipse-ai-public",
           "description": "",
           "source": "github"
         }
@@ -246,10 +237,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-05-19T11:14:57.971Z"
+      "lastUpdated": "2026-05-20T10:47:41.496Z"
     },
     {
       "id": "gaming-nft",
@@ -275,7 +266,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-05-19T11:14:57.971Z"
+      "lastUpdated": "2026-05-20T10:47:41.496Z"
     }
   ]
 }
