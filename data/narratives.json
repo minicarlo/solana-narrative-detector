@@ -1,62 +1,6 @@
 {
-  "timestamp": "2026-05-22T10:48:29.816Z",
+  "timestamp": "2026-05-23T09:49:30.013Z",
   "narratives": [
-    {
-      "id": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Core blockchain infrastructure and tooling",
-      "confidence": 1,
-      "trendingKeywords": [
-        "node",
-        "bridge",
-        "validator",
-        "indexer"
-      ],
-      "topProjects": [
-        {
-          "name": "solana-web3.js",
-          "description": "",
-          "url": "https://github.com/solana-foundation/solana-web3.js",
-          "source": "github"
-        },
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
-          "source": "github"
-        },
-        {
-          "name": "firedancer",
-          "description": "",
-          "url": "https://github.com/firedancer-io/firedancer",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "jito-solana",
-          "description": "",
-          "url": "https://github.com/jito-foundation/jito-solana",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized RPC load balancer for Solana",
-        "Create a validator performance monitoring dashboard",
-        "Develop a bridge aggregator for cross-chain transfers",
-        "Build an oracle comparison and aggregation service"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 7,
-        "social": 0
-      },
-      "lastUpdated": "2026-05-22T10:48:29.816Z"
-    },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
@@ -88,12 +32,12 @@
           "source": "github"
         },
         {
-          "name": "PBX-Stratos",
+          "name": "solanaos-ai",
           "description": "",
           "source": "github"
         },
         {
-          "name": "shi-intelligence",
+          "name": "skill-web3",
           "description": "",
           "source": "github"
         }
@@ -109,7 +53,7 @@
         "github": 9,
         "social": 0
       },
-      "lastUpdated": "2026-05-22T10:48:29.816Z"
+      "lastUpdated": "2026-05-23T09:49:30.013Z"
     },
     {
       "id": "dev-tools",
@@ -118,8 +62,8 @@
       "confidence": 1,
       "trendingKeywords": [
         "framework",
-        "compile",
         "build",
+        "compile",
         "library",
         "deploy"
       ],
@@ -163,19 +107,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 9,
         "social": 0
       },
-      "lastUpdated": "2026-05-22T10:48:29.816Z"
+      "lastUpdated": "2026-05-23T09:49:30.013Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.44000000000000006,
+      "confidence": 0.9199999999999999,
       "trendingKeywords": [
         "swap",
-        "dex"
+        "dex",
+        "liquidity"
       ],
       "topProjects": [
         {
@@ -191,7 +136,17 @@
           "source": "github"
         },
         {
-          "name": "SolCloud",
+          "name": "skill-web3",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "raydiam-swap.github.io",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "DexBar",
           "description": "",
           "source": "github"
         }
@@ -204,16 +159,72 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-05-22T10:48:29.816Z"
+      "lastUpdated": "2026-05-23T09:49:30.012Z"
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Core blockchain infrastructure and tooling",
+      "confidence": 0.9033200000000001,
+      "trendingKeywords": [
+        "node",
+        "bridge",
+        "validator",
+        "network"
+      ],
+      "topProjects": [
+        {
+          "name": "solana-web3.js",
+          "description": "",
+          "url": "https://github.com/solana-foundation/solana-web3.js",
+          "source": "github"
+        },
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
+          "source": "github"
+        },
+        {
+          "name": "firedancer",
+          "description": "",
+          "url": "https://github.com/firedancer-io/firedancer",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "jito-solana",
+          "description": "",
+          "url": "https://github.com/jito-foundation/jito-solana",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized RPC load balancer for Solana",
+        "Create a validator performance monitoring dashboard",
+        "Develop a bridge aggregator for cross-chain transfers",
+        "Build an oracle comparison and aggregation service"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 6,
+        "social": 0
+      },
+      "lastUpdated": "2026-05-23T09:49:30.012Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.16,
       "trendingKeywords": [
         "community"
       ],
@@ -222,11 +233,6 @@
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "Aquamemcoin-",
-          "description": "",
           "source": "github"
         }
       ],
@@ -238,26 +244,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-05-22T10:48:29.816Z"
+      "lastUpdated": "2026-05-23T09:49:30.013Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.1,
       "trendingKeywords": [
-        "game"
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "solana-coin-flip",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -266,10 +270,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-05-22T10:48:29.816Z"
+      "lastUpdated": "2026-05-23T09:49:30.012Z"
     }
   ]
 }
