@@ -1,23 +1,30 @@
 {
-  "timestamp": "2026-05-24T09:51:59.443Z",
+  "timestamp": "2026-05-25T11:51:17.389Z",
   "narratives": [
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.91622,
+      "confidence": 1,
       "trendingKeywords": [
+        "library",
         "build",
         "framework",
         "compile",
-        "library",
-        "deploy"
+        "deploy",
+        "testing"
       ],
       "topProjects": [
         {
           "name": "anchor",
           "description": "",
           "url": "https://github.com/otter-sec/anchor",
+          "source": "github"
+        },
+        {
+          "name": "solana-go",
+          "description": "",
+          "url": "https://github.com/solana-foundation/solana-go",
           "source": "github"
         },
         {
@@ -37,12 +44,6 @@
           "description": "",
           "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
-        },
-        {
-          "name": "solana-playground",
-          "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -53,20 +54,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-05-24T09:51:59.443Z"
+      "lastUpdated": "2026-05-25T11:51:17.389Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.7832600000000001,
+      "confidence": 0.9032600000000001,
       "trendingKeywords": [
+        "validator",
         "node",
         "bridge",
-        "validator"
+        "oracle"
       ],
       "topProjects": [
         {
@@ -108,16 +110,16 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-05-24T09:51:59.443Z"
+      "lastUpdated": "2026-05-25T11:51:17.389Z"
     },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.7156800000000001,
+      "confidence": 0.7158,
       "trendingKeywords": [
         "bot",
         "agent"
@@ -142,12 +144,12 @@
           "source": "github"
         },
         {
-          "name": "trojan-solana-rust-bot-same-ui",
+          "name": "reaver",
           "description": "",
           "source": "github"
         },
         {
-          "name": "xpay",
+          "name": "synthara-ai",
           "description": "",
           "source": "github"
         }
@@ -163,13 +165,13 @@
         "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-05-24T09:51:59.443Z"
+      "lastUpdated": "2026-05-25T11:51:17.389Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.56,
+      "confidence": 0.44000000000000006,
       "trendingKeywords": [
         "swap",
         "dex"
@@ -188,12 +190,7 @@
           "source": "github"
         },
         {
-          "name": "solana-service-scaffold",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "lp-analyzer",
+          "name": "reaver",
           "description": "",
           "source": "github"
         }
@@ -206,16 +203,16 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-05-24T09:51:59.443Z"
+      "lastUpdated": "2026-05-25T11:51:17.389Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
+      "confidence": 0.27999999999999997,
       "trendingKeywords": [
         "community"
       ],
@@ -224,6 +221,11 @@
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "blockassist",
+          "description": "",
           "source": "github"
         }
       ],
@@ -235,10 +237,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-05-24T09:51:59.443Z"
+      "lastUpdated": "2026-05-25T11:51:17.389Z"
     },
     {
       "id": "gaming-nft",
@@ -264,7 +266,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-05-24T09:51:59.443Z"
+      "lastUpdated": "2026-05-25T11:51:17.389Z"
     }
   ]
 }
