@@ -1,72 +1,17 @@
 {
-  "timestamp": "2026-05-27T11:36:01.971Z",
+  "timestamp": "2026-05-28T11:36:08.099Z",
   "narratives": [
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 1,
-      "trendingKeywords": [
-        "dex",
-        "swap",
-        "perp",
-        "liquidity",
-        "farm",
-        "yield",
-        "vault"
-      ],
-      "topProjects": [
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "SolStore",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "atlas-raydium-pool",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-scalper",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "konahrik",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 8,
-        "social": 0
-      },
-      "lastUpdated": "2026-05-27T11:36:01.971Z"
-    },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
       "confidence": 1,
       "trendingKeywords": [
+        "build",
         "framework",
         "library",
-        "build",
-        "compile",
-        "deploy"
+        "deploy",
+        "compile"
       ],
       "topProjects": [
         {
@@ -108,16 +53,16 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 10,
         "social": 0
       },
-      "lastUpdated": "2026-05-27T11:36:01.971Z"
+      "lastUpdated": "2026-05-28T11:36:08.099Z"
     },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.8800000000000001,
+      "confidence": 0.91892,
       "trendingKeywords": [
         "bot",
         "agent",
@@ -131,22 +76,23 @@
           "source": "github"
         },
         {
-          "name": "agent_fuel",
+          "name": "solana-trading-bot",
+          "description": "",
+          "url": "https://github.com/radioman/solana-trading-bot",
+          "source": "github"
+        },
+        {
+          "name": "sol-meme-trader",
           "description": "",
           "source": "github"
         },
         {
-          "name": "solana-scalper",
+          "name": "CraftsDev-Engagement-Automator",
           "description": "",
           "source": "github"
         },
         {
-          "name": "oracle-bot",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-signal-bot",
+          "name": "solana-bot",
           "description": "",
           "source": "github"
         }
@@ -162,18 +108,17 @@
         "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-05-27T11:36:01.971Z"
+      "lastUpdated": "2026-05-28T11:36:08.099Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.86326,
+      "confidence": 0.74326,
       "trendingKeywords": [
         "validator",
         "node",
         "bridge",
-        "indexer",
         "oracle"
       ],
       "topProjects": [
@@ -202,7 +147,7 @@
           "source": "github"
         },
         {
-          "name": "SolStore",
+          "name": "aegis",
           "description": "",
           "source": "github"
         }
@@ -215,10 +160,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-05-27T11:36:01.971Z"
+      "lastUpdated": "2026-05-28T11:36:08.099Z"
     },
     {
       "id": "social-consumer",
@@ -238,17 +183,17 @@
           "source": "github"
         },
         {
-          "name": "gktw-village",
-          "description": "",
-          "source": "github"
-        },
-        {
           "name": "CraftsDev-Engagement-Automator",
           "description": "",
           "source": "github"
         },
         {
-          "name": "natro-solana-spribe-aviator-natroshivili-scam",
+          "name": "BananaTool-Deployer",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "Solana-Community-Airdrop",
           "description": "",
           "source": "github"
         }
@@ -264,25 +209,54 @@
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-05-27T11:36:01.971Z"
+      "lastUpdated": "2026-05-28T11:36:08.099Z"
+    },
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.27999999999999997,
+      "trendingKeywords": [
+        "swap",
+        "farm"
+      ],
+      "topProjects": [
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "CraftsDev-Engagement-Automator",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 2,
+        "social": 0
+      },
+      "lastUpdated": "2026-05-28T11:36:08.099Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.24,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "game",
-        "world"
+        "game"
       ],
       "topProjects": [
         {
-          "name": "Plantation",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "gktw-village",
+          "name": "clash-of-slol",
           "description": "",
           "source": "github"
         }
@@ -295,10 +269,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-05-27T11:36:01.971Z"
+      "lastUpdated": "2026-05-28T11:36:08.099Z"
     }
   ]
 }
