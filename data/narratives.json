@@ -1,17 +1,70 @@
 {
-  "timestamp": "2026-05-28T11:36:08.099Z",
+  "timestamp": "2026-05-29T11:25:57.391Z",
   "narratives": [
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 1,
+      "trendingKeywords": [
+        "bot",
+        "agent",
+        "autonomous",
+        "model"
+      ],
+      "topProjects": [
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "solana-trading-bot",
+          "description": "",
+          "url": "https://github.com/radioman/solana-trading-bot",
+          "source": "github"
+        },
+        {
+          "name": "solana-sniper-bot",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "crypto-arbitrage-bot-automated-trading",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "agents-connector",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 11,
+        "social": 0
+      },
+      "lastUpdated": "2026-05-29T11:25:57.391Z"
+    },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 1,
+      "confidence": 0.9162800000000001,
       "trendingKeywords": [
-        "build",
-        "framework",
         "library",
+        "framework",
+        "compile",
         "deploy",
-        "compile"
+        "build"
       ],
       "topProjects": [
         {
@@ -33,15 +86,15 @@
           "source": "github"
         },
         {
-          "name": "ant-design-web3",
-          "description": "",
-          "url": "https://github.com/ant-design/ant-design-web3",
-          "source": "github"
-        },
-        {
           "name": "rango-client",
           "description": "",
           "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "solana-playground",
+          "description": "",
+          "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
         }
       ],
@@ -53,79 +106,33 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 10,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-05-28T11:36:08.099Z"
-    },
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.91892,
-      "trendingKeywords": [
-        "bot",
-        "agent",
-        "autonomous"
-      ],
-      "topProjects": [
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "solana-trading-bot",
-          "description": "",
-          "url": "https://github.com/radioman/solana-trading-bot",
-          "source": "github"
-        },
-        {
-          "name": "sol-meme-trader",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "CraftsDev-Engagement-Automator",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-bot",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 7,
-        "social": 0
-      },
-      "lastUpdated": "2026-05-28T11:36:08.099Z"
+      "lastUpdated": "2026-05-29T11:25:57.391Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.74326,
+      "confidence": 0.9032600000000001,
       "trendingKeywords": [
-        "validator",
         "node",
         "bridge",
-        "oracle"
+        "validator",
+        "network"
       ],
       "topProjects": [
         {
           "name": "solana-web3.js",
           "description": "",
           "url": "https://github.com/solana-foundation/solana-web3.js",
+          "source": "github"
+        },
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
           "source": "github"
         },
         {
@@ -145,11 +152,6 @@
           "description": "",
           "url": "https://github.com/jito-foundation/jito-solana",
           "source": "github"
-        },
-        {
-          "name": "aegis",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -160,71 +162,44 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-05-28T11:36:08.099Z"
-    },
-    {
-      "id": "social-consumer",
-      "name": "Social & Consumer",
-      "description": "Social platforms and consumer applications",
-      "confidence": 0.52,
-      "trendingKeywords": [
-        "community",
-        "engagement",
-        "creator"
-      ],
-      "topProjects": [
-        {
-          "name": "app-monorepo",
-          "description": "",
-          "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "CraftsDev-Engagement-Automator",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "BananaTool-Deployer",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "Solana-Community-Airdrop",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized social graph protocol",
-        "Create a creator monetization platform with micro-tipping",
-        "Develop a DAO governance participation reward system",
-        "Build a reputation-based social discovery app"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 4,
-        "social": 0
-      },
-      "lastUpdated": "2026-05-28T11:36:08.099Z"
+      "lastUpdated": "2026-05-29T11:25:57.391Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.8187,
       "trendingKeywords": [
         "swap",
+        "dex",
+        "vault",
         "farm"
       ],
       "topProjects": [
         {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
+          "source": "github"
+        },
+        {
           "name": "rango-client",
           "description": "",
           "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "Emblem-Vault",
+          "description": "",
+          "url": "https://github.com/Adam-McBride/Emblem-Vault",
+          "source": "github"
+        },
+        {
+          "name": "agents-connector",
+          "description": "",
           "source": "github"
         },
         {
@@ -241,26 +216,65 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-05-28T11:36:08.099Z"
+      "lastUpdated": "2026-05-29T11:25:57.391Z"
+    },
+    {
+      "id": "social-consumer",
+      "name": "Social & Consumer",
+      "description": "Social platforms and consumer applications",
+      "confidence": 0.4,
+      "trendingKeywords": [
+        "community",
+        "creator",
+        "engagement"
+      ],
+      "topProjects": [
+        {
+          "name": "app-monorepo",
+          "description": "",
+          "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "natro-solana-spribe-aviator-natroshivili-scam",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "CraftsDev-Engagement-Automator",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized social graph protocol",
+        "Create a creator monetization platform with micro-tipping",
+        "Develop a DAO governance participation reward system",
+        "Build a reputation-based social discovery app"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 3,
+        "social": 0
+      },
+      "lastUpdated": "2026-05-29T11:25:57.391Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.1,
       "trendingKeywords": [
-        "game"
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "clash-of-slol",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -269,10 +283,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-05-28T11:36:08.099Z"
+      "lastUpdated": "2026-05-29T11:25:57.391Z"
     }
   ]
 }
