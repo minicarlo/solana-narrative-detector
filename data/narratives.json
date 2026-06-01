@@ -1,23 +1,75 @@
 {
-  "timestamp": "2026-05-31T10:12:56.803Z",
+  "timestamp": "2026-06-01T13:33:31.468Z",
   "narratives": [
     {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.9423,
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 1,
       "trendingKeywords": [
-        "swap",
-        "vault",
-        "perp",
-        "farm",
-        "dex"
+        "bot",
+        "agent",
+        "autonomous",
+        "intelligence"
       ],
       "topProjects": [
         {
-          "name": "rango-sdk",
+          "name": "OctoBot",
           "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "solana-trading-bot",
+          "description": "",
+          "url": "https://github.com/radioman/solana-trading-bot",
+          "source": "github"
+        },
+        {
+          "name": "solana-trading-bot",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-sniper-bot",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "agent_fuel",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 8,
+        "social": 0
+      },
+      "lastUpdated": "2026-06-01T13:33:31.468Z"
+    },
+    {
+      "id": "dev-tools",
+      "name": "Developer Tools",
+      "description": "Tools and infrastructure for developers",
+      "confidence": 0.9562199999999998,
+      "trendingKeywords": [
+        "build",
+        "framework",
+        "library",
+        "deploy"
+      ],
+      "topProjects": [
+        {
+          "name": "anchor",
+          "description": "",
+          "url": "https://github.com/otter-sec/anchor",
           "source": "github"
         },
         {
@@ -27,57 +79,50 @@
           "source": "github"
         },
         {
-          "name": "Emblem-Vault",
+          "name": "solana-playground",
           "description": "",
-          "url": "https://github.com/Adam-McBride/Emblem-Vault",
+          "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
         },
         {
-          "name": "basis",
+          "name": "Sol-perps",
           "description": "",
           "source": "github"
         },
         {
-          "name": "ReputeX",
+          "name": "CoinBoi",
           "description": "",
           "source": "github"
         }
       ],
       "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
+        "Create a Solana program testing framework with auto-generated tests",
+        "Build a no-code contract deployment platform",
+        "Develop a real-time program monitoring and alerting tool",
+        "Create an IDE extension for Solana development"
       ],
       "dataSources": {
         "helius": 0,
         "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-05-31T10:12:56.803Z"
+      "lastUpdated": "2026-06-01T13:33:31.468Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.90344,
+      "confidence": 0.8635000000000002,
       "trendingKeywords": [
-        "node",
-        "bridge",
         "validator",
-        "network"
+        "node",
+        "bridge"
       ],
       "topProjects": [
         {
           "name": "solana-web3.js",
           "description": "",
           "url": "https://github.com/solana-foundation/solana-web3.js",
-          "source": "github"
-        },
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
           "source": "github"
         },
         {
@@ -97,6 +142,11 @@
           "description": "",
           "url": "https://github.com/jito-foundation/jito-solana",
           "source": "github"
+        },
+        {
+          "name": "Wallet-Balance-Fetch-Using-Solana-RPC",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -110,32 +160,20 @@
         "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-05-31T10:12:56.803Z"
+      "lastUpdated": "2026-06-01T13:33:31.468Z"
     },
     {
-      "id": "dev-tools",
-      "name": "Developer Tools",
-      "description": "Tools and infrastructure for developers",
-      "confidence": 0.87622,
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.54422,
       "trendingKeywords": [
-        "library",
-        "build",
-        "framework",
-        "deploy"
+        "swap",
+        "vault",
+        "perp",
+        "yield"
       ],
       "topProjects": [
-        {
-          "name": "anchor",
-          "description": "",
-          "url": "https://github.com/otter-sec/anchor",
-          "source": "github"
-        },
-        {
-          "name": "solana-go",
-          "description": "",
-          "url": "https://github.com/solana-foundation/solana-go",
-          "source": "github"
-        },
         {
           "name": "rango-client",
           "description": "",
@@ -143,81 +181,34 @@
           "source": "github"
         },
         {
-          "name": "solana-playground",
+          "name": "Emblem-Vault",
           "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
+          "url": "https://github.com/Adam-McBride/Emblem-Vault",
           "source": "github"
         },
         {
-          "name": "PulseTX",
+          "name": "Sol-perps",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solstacker-prod",
           "description": "",
           "source": "github"
         }
       ],
       "projectIdeas": [
-        "Create a Solana program testing framework with auto-generated tests",
-        "Build a no-code contract deployment platform",
-        "Develop a real-time program monitoring and alerting tool",
-        "Create an IDE extension for Solana development"
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-05-31T10:12:56.803Z"
-    },
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.79904,
-      "trendingKeywords": [
-        "bot",
-        "agent",
-        "intelligence"
-      ],
-      "topProjects": [
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "solana-trading-bot",
-          "description": "",
-          "url": "https://github.com/radioman/solana-trading-bot",
-          "source": "github"
-        },
-        {
-          "name": "dna-x402",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "PulseTX",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solanabot",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 6,
-        "social": 0
-      },
-      "lastUpdated": "2026-05-31T10:12:56.803Z"
+      "lastUpdated": "2026-06-01T13:33:31.468Z"
     },
     {
       "id": "social-consumer",
@@ -226,7 +217,7 @@
       "confidence": 0.27999999999999997,
       "trendingKeywords": [
         "community",
-        "engagement"
+        "creator"
       ],
       "topProjects": [
         {
@@ -236,7 +227,7 @@
           "source": "github"
         },
         {
-          "name": "CraftsDev-Engagement-Automator",
+          "name": "natro-solana-spribe-aviator-natroshivili-scam",
           "description": "",
           "source": "github"
         }
@@ -252,23 +243,21 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-05-31T10:12:56.803Z"
+      "lastUpdated": "2026-06-01T13:33:31.468Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.1,
       "trendingKeywords": [
-        "virtual"
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "echopay",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -277,10 +266,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-05-31T10:12:56.803Z"
+      "lastUpdated": "2026-06-01T13:33:31.468Z"
     }
   ]
 }
