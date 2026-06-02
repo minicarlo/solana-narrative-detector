@@ -1,77 +1,20 @@
 {
-  "timestamp": "2026-06-01T13:33:31.468Z",
+  "timestamp": "2026-06-02T12:01:45.480Z",
   "narratives": [
     {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
       "confidence": 1,
       "trendingKeywords": [
-        "bot",
-        "agent",
-        "autonomous",
-        "intelligence"
+        "swap",
+        "liquidity",
+        "dex",
+        "perp",
+        "yield",
+        "vault"
       ],
       "topProjects": [
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "solana-trading-bot",
-          "description": "",
-          "url": "https://github.com/radioman/solana-trading-bot",
-          "source": "github"
-        },
-        {
-          "name": "solana-trading-bot",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-sniper-bot",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "agent_fuel",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 8,
-        "social": 0
-      },
-      "lastUpdated": "2026-06-01T13:33:31.468Z"
-    },
-    {
-      "id": "dev-tools",
-      "name": "Developer Tools",
-      "description": "Tools and infrastructure for developers",
-      "confidence": 0.9562199999999998,
-      "trendingKeywords": [
-        "build",
-        "framework",
-        "library",
-        "deploy"
-      ],
-      "topProjects": [
-        {
-          "name": "anchor",
-          "description": "",
-          "url": "https://github.com/otter-sec/anchor",
-          "source": "github"
-        },
         {
           "name": "rango-client",
           "description": "",
@@ -79,44 +22,51 @@
           "source": "github"
         },
         {
-          "name": "solana-playground",
+          "name": "whirlpools",
           "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
+          "url": "https://github.com/orca-so/whirlpools",
           "source": "github"
         },
         {
-          "name": "Sol-perps",
+          "name": "QuillAudit_smart_contract_audit_Reports",
+          "description": "",
+          "url": "https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports",
+          "source": "github"
+        },
+        {
+          "name": "synapse-hyperplane",
           "description": "",
           "source": "github"
         },
         {
-          "name": "CoinBoi",
+          "name": "Bags-MCP",
           "description": "",
           "source": "github"
         }
       ],
       "projectIdeas": [
-        "Create a Solana program testing framework with auto-generated tests",
-        "Build a no-code contract deployment platform",
-        "Develop a real-time program monitoring and alerting tool",
-        "Create an IDE extension for Solana development"
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 9,
         "social": 0
       },
-      "lastUpdated": "2026-06-01T13:33:31.468Z"
+      "lastUpdated": "2026-06-02T12:01:45.480Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.8635000000000002,
+      "confidence": 0.9835,
       "trendingKeywords": [
         "validator",
+        "bridge",
         "node",
-        "bridge"
+        "network"
       ],
       "topProjects": [
         {
@@ -144,7 +94,7 @@
           "source": "github"
         },
         {
-          "name": "Wallet-Balance-Fetch-Using-Solana-RPC",
+          "name": "synapse-hyperplane",
           "description": "",
           "source": "github"
         }
@@ -157,23 +107,29 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-06-01T13:33:31.468Z"
+      "lastUpdated": "2026-06-02T12:01:45.480Z"
     },
     {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.54422,
+      "id": "dev-tools",
+      "name": "Developer Tools",
+      "description": "Tools and infrastructure for developers",
+      "confidence": 0.96376,
       "trendingKeywords": [
-        "swap",
-        "vault",
-        "perp",
-        "yield"
+        "testing",
+        "deploy",
+        "framework",
+        "library"
       ],
       "topProjects": [
+        {
+          "name": "anchor",
+          "description": "",
+          "url": "https://github.com/otter-sec/anchor",
+          "source": "github"
+        },
         {
           "name": "rango-client",
           "description": "",
@@ -181,34 +137,89 @@
           "source": "github"
         },
         {
-          "name": "Emblem-Vault",
+          "name": "solana-playground",
           "description": "",
-          "url": "https://github.com/Adam-McBride/Emblem-Vault",
+          "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
         },
         {
-          "name": "Sol-perps",
+          "name": "QuillAudit_smart_contract_audit_Reports",
           "description": "",
+          "url": "https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports",
           "source": "github"
         },
         {
-          "name": "solstacker-prod",
+          "name": "solana-wallet-intelligent",
           "description": "",
           "source": "github"
         }
       ],
       "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
+        "Create a Solana program testing framework with auto-generated tests",
+        "Build a no-code contract deployment platform",
+        "Develop a real-time program monitoring and alerting tool",
+        "Create an IDE extension for Solana development"
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-06-01T13:33:31.468Z"
+      "lastUpdated": "2026-06-02T12:01:45.480Z"
+    },
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 0.9192199999999999,
+      "trendingKeywords": [
+        "bot",
+        "agent",
+        "neural",
+        "autonomous",
+        "intelligence"
+      ],
+      "topProjects": [
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "solana-trading-bot",
+          "description": "",
+          "url": "https://github.com/radioman/solana-trading-bot",
+          "source": "github"
+        },
+        {
+          "name": "solana-pumpfun-sniper",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "ryft",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "OxyPay",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 7,
+        "social": 0
+      },
+      "lastUpdated": "2026-06-02T12:01:45.480Z"
     },
     {
       "id": "social-consumer",
@@ -217,7 +228,7 @@
       "confidence": 0.27999999999999997,
       "trendingKeywords": [
         "community",
-        "creator"
+        "social"
       ],
       "topProjects": [
         {
@@ -227,7 +238,7 @@
           "source": "github"
         },
         {
-          "name": "natro-solana-spribe-aviator-natroshivili-scam",
+          "name": "Keyswap",
           "description": "",
           "source": "github"
         }
@@ -243,7 +254,7 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-06-01T13:33:31.468Z"
+      "lastUpdated": "2026-06-02T12:01:45.480Z"
     },
     {
       "id": "gaming-nft",
@@ -269,7 +280,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-06-01T13:33:31.468Z"
+      "lastUpdated": "2026-06-02T12:01:45.480Z"
     }
   ]
 }
