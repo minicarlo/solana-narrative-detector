@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-02T12:01:45.480Z",
+  "timestamp": "2026-06-03T12:39:26.542Z",
   "narratives": [
     {
       "id": "defi-innovation",
@@ -7,14 +7,20 @@
       "description": "Decentralized finance protocols and innovations",
       "confidence": 1,
       "trendingKeywords": [
+        "perp",
         "swap",
         "liquidity",
         "dex",
-        "perp",
-        "yield",
-        "vault"
+        "stake",
+        "yield"
       ],
       "topProjects": [
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
+          "source": "github"
+        },
         {
           "name": "rango-client",
           "description": "",
@@ -34,12 +40,7 @@
           "source": "github"
         },
         {
-          "name": "synapse-hyperplane",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "Bags-MCP",
+          "name": "openperps-oss",
           "description": "",
           "source": "github"
         }
@@ -55,17 +56,17 @@
         "github": 9,
         "social": 0
       },
-      "lastUpdated": "2026-06-02T12:01:45.480Z"
+      "lastUpdated": "2026-06-03T12:39:26.542Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.9835,
+      "confidence": 0.90356,
       "trendingKeywords": [
-        "validator",
-        "bridge",
         "node",
+        "bridge",
+        "validator",
         "network"
       ],
       "topProjects": [
@@ -73,6 +74,12 @@
           "name": "solana-web3.js",
           "description": "",
           "url": "https://github.com/solana-foundation/solana-web3.js",
+          "source": "github"
+        },
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
           "source": "github"
         },
         {
@@ -92,11 +99,6 @@
           "description": "",
           "url": "https://github.com/jito-foundation/jito-solana",
           "source": "github"
-        },
-        {
-          "name": "synapse-hyperplane",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -107,21 +109,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-06-02T12:01:45.480Z"
+      "lastUpdated": "2026-06-03T12:39:26.542Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.96376,
+      "confidence": 0.72382,
       "trendingKeywords": [
-        "testing",
         "deploy",
         "framework",
-        "library"
+        "library",
+        "testing",
+        "build"
       ],
       "topProjects": [
         {
@@ -149,7 +152,7 @@
           "source": "github"
         },
         {
-          "name": "solana-wallet-intelligent",
+          "name": "web3-blockchain-starters",
           "description": "",
           "source": "github"
         }
@@ -162,22 +165,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-06-02T12:01:45.480Z"
+      "lastUpdated": "2026-06-03T12:39:26.542Z"
     },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.9192199999999999,
+      "confidence": 0.52,
       "trendingKeywords": [
         "bot",
-        "agent",
-        "neural",
-        "autonomous",
-        "intelligence"
+        "intelligence",
+        "neural"
       ],
       "topProjects": [
         {
@@ -187,23 +188,17 @@
           "source": "github"
         },
         {
-          "name": "solana-trading-bot",
-          "description": "",
-          "url": "https://github.com/radioman/solana-trading-bot",
-          "source": "github"
-        },
-        {
-          "name": "solana-pumpfun-sniper",
+          "name": "Ryft",
           "description": "",
           "source": "github"
         },
         {
-          "name": "ryft",
+          "name": "Solana-Shield-AI",
           "description": "",
           "source": "github"
         },
         {
-          "name": "OxyPay",
+          "name": "web3-threat-tracker",
           "description": "",
           "source": "github"
         }
@@ -216,30 +211,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-06-02T12:01:45.480Z"
+      "lastUpdated": "2026-06-03T12:39:26.542Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.16,
       "trendingKeywords": [
-        "community",
-        "social"
+        "community"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "Keyswap",
-          "description": "",
           "source": "github"
         }
       ],
@@ -251,24 +240,26 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-06-02T12:01:45.480Z"
+      "lastUpdated": "2026-06-03T12:39:26.542Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.1,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "game",
-        "gaming",
-        "NFT",
-        "metaverse",
-        "play-to-earn"
+        "game"
       ],
-      "topProjects": [],
+      "topProjects": [
+        {
+          "name": "Zero-Clash",
+          "description": "",
+          "source": "github"
+        }
+      ],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -277,10 +268,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 0,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-06-02T12:01:45.480Z"
+      "lastUpdated": "2026-06-03T12:39:26.542Z"
     }
   ]
 }
