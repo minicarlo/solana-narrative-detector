@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-06-08T12:26:02.844Z",
+  "timestamp": "2026-06-09T10:58:06.979Z",
   "narratives": [
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.9036199999999999,
+      "confidence": 0.9036799999999999,
       "trendingKeywords": [
         "node",
         "bridge",
@@ -55,23 +55,36 @@
         "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-06-08T12:26:02.843Z"
+      "lastUpdated": "2026-06-09T10:58:06.979Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.83628,
+      "confidence": 0.7962800000000001,
       "trendingKeywords": [
-        "deploy",
+        "library",
         "framework",
-        "library"
+        "build",
+        "deploy"
       ],
       "topProjects": [
         {
           "name": "anchor",
           "description": "",
           "url": "https://github.com/otter-sec/anchor",
+          "source": "github"
+        },
+        {
+          "name": "solana-go",
+          "description": "",
+          "url": "https://github.com/solana-foundation/solana-go",
+          "source": "github"
+        },
+        {
+          "name": "ant-design-web3",
+          "description": "",
+          "url": "https://github.com/ant-design/ant-design-web3",
           "source": "github"
         },
         {
@@ -85,16 +98,6 @@
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
-        },
-        {
-          "name": "olbos",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-bootcamp",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -105,21 +108,70 @@
       ],
       "dataSources": {
         "helius": 0,
+        "github": 5,
+        "social": 0
+      },
+      "lastUpdated": "2026-06-09T10:58:06.979Z"
+    },
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 0.76,
+      "trendingKeywords": [
+        "agent",
+        "bot",
+        "intelligence"
+      ],
+      "topProjects": [
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "solana-allowance-agent-demo",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "mint-mcp",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "mint-attest",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "nexusveritas-api",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
         "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-06-08T12:26:02.844Z"
+      "lastUpdated": "2026-06-09T10:58:06.979Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.8,
+      "confidence": 0.68,
       "trendingKeywords": [
         "swap",
-        "dex",
-        "yield",
-        "liquidity"
+        "dex"
       ],
       "topProjects": [
         {
@@ -135,17 +187,17 @@
           "source": "github"
         },
         {
-          "name": "persistent-agent-loop",
+          "name": "solana-mcp-for-codex",
           "description": "",
           "source": "github"
         },
         {
-          "name": "olbos",
+          "name": "Solana_swap",
           "description": "",
           "source": "github"
         },
         {
-          "name": "OnChain-Arbitrage-Bot-Multi-Chain-MEV-Solver-Intent-Solver",
+          "name": "challengecat-cnyan",
           "description": "",
           "source": "github"
         }
@@ -158,70 +210,37 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-06-08T12:26:02.843Z"
-    },
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.52,
-      "trendingKeywords": [
-        "bot",
-        "agent",
-        "autonomous"
-      ],
-      "topProjects": [
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "persistent-agent-loop",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "olbos",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "OnChain-Arbitrage-Bot-Multi-Chain-MEV-Solver-Intent-Solver",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 4,
-        "social": 0
-      },
-      "lastUpdated": "2026-06-08T12:26:02.843Z"
+      "lastUpdated": "2026-06-09T10:58:06.979Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
+      "confidence": 0.4,
       "trendingKeywords": [
-        "community"
+        "community",
+        "social",
+        "creator",
+        "engagement"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "challengecat-cnyan",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "memeday-aws",
+          "description": "",
           "source": "github"
         }
       ],
@@ -233,10 +252,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-06-08T12:26:02.843Z"
+      "lastUpdated": "2026-06-09T10:58:06.979Z"
     },
     {
       "id": "gaming-nft",
@@ -248,7 +267,7 @@
       ],
       "topProjects": [
         {
-          "name": "solana_betting_game",
+          "name": "Crypto-Web3-Multi-Chain-Casino-Game-Smart-Contract",
           "description": "",
           "source": "github"
         }
@@ -264,7 +283,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-06-08T12:26:02.843Z"
+      "lastUpdated": "2026-06-09T10:58:06.979Z"
     }
   ]
 }
