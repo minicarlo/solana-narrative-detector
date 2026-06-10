@@ -1,16 +1,15 @@
 {
-  "timestamp": "2026-06-09T10:58:06.979Z",
+  "timestamp": "2026-06-10T11:36:43.606Z",
   "narratives": [
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.9036799999999999,
+      "confidence": 1,
       "trendingKeywords": [
-        "node",
         "bridge",
         "validator",
-        "network"
+        "node"
       ],
       "topProjects": [
         {
@@ -52,10 +51,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-06-09T10:58:06.979Z"
+      "lastUpdated": "2026-06-10T11:36:43.606Z"
     },
     {
       "id": "dev-tools",
@@ -111,7 +110,7 @@
         "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-06-09T10:58:06.979Z"
+      "lastUpdated": "2026-06-10T11:36:43.606Z"
     },
     {
       "id": "ai-crypto",
@@ -121,7 +120,8 @@
       "trendingKeywords": [
         "agent",
         "bot",
-        "intelligence"
+        "intelligence",
+        "autonomous"
       ],
       "topProjects": [
         {
@@ -131,22 +131,22 @@
           "source": "github"
         },
         {
-          "name": "solana-allowance-agent-demo",
+          "name": "compo",
           "description": "",
           "source": "github"
         },
         {
-          "name": "mint-mcp",
+          "name": "sippar-sak-x402",
           "description": "",
           "source": "github"
         },
         {
-          "name": "mint-attest",
+          "name": "qietr",
           "description": "",
           "source": "github"
         },
         {
-          "name": "nexusveritas-api",
+          "name": "solana-trading-bot",
           "description": "",
           "source": "github"
         }
@@ -162,16 +162,18 @@
         "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-06-09T10:58:06.979Z"
+      "lastUpdated": "2026-06-10T11:36:43.606Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.68,
+      "confidence": 0.56,
       "trendingKeywords": [
         "swap",
-        "dex"
+        "yield",
+        "vault",
+        "farm"
       ],
       "topProjects": [
         {
@@ -187,17 +189,12 @@
           "source": "github"
         },
         {
-          "name": "solana-mcp-for-codex",
+          "name": "solana-yield-adapter-standard",
           "description": "",
           "source": "github"
         },
         {
-          "name": "Solana_swap",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "challengecat-cnyan",
+          "name": "realmsol-farm",
           "description": "",
           "source": "github"
         }
@@ -210,21 +207,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-06-09T10:58:06.979Z"
+      "lastUpdated": "2026-06-10T11:36:43.606Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.4,
+      "confidence": 0.27999999999999997,
       "trendingKeywords": [
         "community",
-        "social",
-        "creator",
-        "engagement"
+        "governance"
       ],
       "topProjects": [
         {
@@ -234,12 +229,7 @@
           "source": "github"
         },
         {
-          "name": "challengecat-cnyan",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "memeday-aws",
+          "name": "solana-yield-adapter-standard",
           "description": "",
           "source": "github"
         }
@@ -252,26 +242,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-06-09T10:58:06.979Z"
+      "lastUpdated": "2026-06-10T11:36:43.606Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.1,
       "trendingKeywords": [
-        "game"
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "Crypto-Web3-Multi-Chain-Casino-Game-Smart-Contract",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -280,10 +268,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-06-09T10:58:06.979Z"
+      "lastUpdated": "2026-06-10T11:36:43.606Z"
     }
   ]
 }
