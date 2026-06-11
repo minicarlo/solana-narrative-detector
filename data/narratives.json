@@ -1,33 +1,24 @@
 {
-  "timestamp": "2026-06-10T11:36:43.606Z",
+  "timestamp": "2026-06-11T12:07:33.280Z",
   "narratives": [
     {
-      "id": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Core blockchain infrastructure and tooling",
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
       "confidence": 1,
       "trendingKeywords": [
-        "bridge",
-        "validator",
-        "node"
+        "swap",
+        "perp",
+        "vault",
+        "liquidity",
+        "yield",
+        "dex"
       ],
       "topProjects": [
-        {
-          "name": "solana-web3.js",
-          "description": "",
-          "url": "https://github.com/solana-foundation/solana-web3.js",
-          "source": "github"
-        },
         {
           "name": "rango-sdk",
           "description": "",
           "url": "https://github.com/rango-exchange/rango-sdk",
-          "source": "github"
-        },
-        {
-          "name": "firedancer",
-          "description": "",
-          "url": "https://github.com/firedancer-io/firedancer",
           "source": "github"
         },
         {
@@ -37,30 +28,39 @@
           "source": "github"
         },
         {
-          "name": "jito-solana",
+          "name": "pokeliquid",
           "description": "",
-          "url": "https://github.com/jito-foundation/jito-solana",
+          "source": "github"
+        },
+        {
+          "name": "qvault-monorepo",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solguard-mcp",
+          "description": "",
           "source": "github"
         }
       ],
       "projectIdeas": [
-        "Build a decentralized RPC load balancer for Solana",
-        "Create a validator performance monitoring dashboard",
-        "Develop a bridge aggregator for cross-chain transfers",
-        "Build an oracle comparison and aggregation service"
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 9,
         "social": 0
       },
-      "lastUpdated": "2026-06-10T11:36:43.606Z"
+      "lastUpdated": "2026-06-11T12:07:33.280Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.7962800000000001,
+      "confidence": 0.79634,
       "trendingKeywords": [
         "library",
         "framework",
@@ -110,17 +110,71 @@
         "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-06-10T11:36:43.606Z"
+      "lastUpdated": "2026-06-11T12:07:33.280Z"
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Core blockchain infrastructure and tooling",
+      "confidence": 0.78362,
+      "trendingKeywords": [
+        "node",
+        "bridge",
+        "validator"
+      ],
+      "topProjects": [
+        {
+          "name": "solana-web3.js",
+          "description": "",
+          "url": "https://github.com/solana-foundation/solana-web3.js",
+          "source": "github"
+        },
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
+          "source": "github"
+        },
+        {
+          "name": "firedancer",
+          "description": "",
+          "url": "https://github.com/firedancer-io/firedancer",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "jito-solana",
+          "description": "",
+          "url": "https://github.com/jito-foundation/jito-solana",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized RPC load balancer for Solana",
+        "Create a validator performance monitoring dashboard",
+        "Develop a bridge aggregator for cross-chain transfers",
+        "Build an oracle comparison and aggregation service"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 5,
+        "social": 0
+      },
+      "lastUpdated": "2026-06-11T12:07:33.280Z"
     },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.76,
+      "confidence": 0.64,
       "trendingKeywords": [
-        "agent",
         "bot",
-        "intelligence",
+        "agent",
         "autonomous"
       ],
       "topProjects": [
@@ -131,22 +185,22 @@
           "source": "github"
         },
         {
-          "name": "compo",
+          "name": "fabius",
           "description": "",
           "source": "github"
         },
         {
-          "name": "sippar-sak-x402",
+          "name": "qvault-monorepo",
           "description": "",
           "source": "github"
         },
         {
-          "name": "qietr",
+          "name": "solguard-mcp",
           "description": "",
           "source": "github"
         },
         {
-          "name": "solana-trading-bot",
+          "name": "solana-sniper-bot-toolkit",
           "description": "",
           "source": "github"
         }
@@ -159,58 +213,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-06-10T11:36:43.606Z"
-    },
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.56,
-      "trendingKeywords": [
-        "swap",
-        "yield",
-        "vault",
-        "farm"
-      ],
-      "topProjects": [
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "solana-yield-adapter-standard",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "realmsol-farm",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 4,
-        "social": 0
-      },
-      "lastUpdated": "2026-06-10T11:36:43.606Z"
+      "lastUpdated": "2026-06-11T12:07:33.280Z"
     },
     {
       "id": "social-consumer",
@@ -219,7 +225,7 @@
       "confidence": 0.27999999999999997,
       "trendingKeywords": [
         "community",
-        "governance"
+        "social"
       ],
       "topProjects": [
         {
@@ -229,7 +235,7 @@
           "source": "github"
         },
         {
-          "name": "solana-yield-adapter-standard",
+          "name": "qvault-monorepo",
           "description": "",
           "source": "github"
         }
@@ -245,21 +251,23 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-06-10T11:36:43.606Z"
+      "lastUpdated": "2026-06-11T12:07:33.280Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.1,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "game",
-        "gaming",
-        "NFT",
-        "metaverse",
-        "play-to-earn"
+        "world"
       ],
-      "topProjects": [],
+      "topProjects": [
+        {
+          "name": "pumpcup",
+          "description": "",
+          "source": "github"
+        }
+      ],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -268,10 +276,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 0,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-06-10T11:36:43.606Z"
+      "lastUpdated": "2026-06-11T12:07:33.280Z"
     }
   ]
 }
