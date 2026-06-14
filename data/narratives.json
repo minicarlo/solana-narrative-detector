@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-06-13T10:26:16.448Z",
+  "timestamp": "2026-06-14T10:46:55.505Z",
   "narratives": [
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.6364000000000001,
+      "confidence": 0.6365200000000001,
       "trendingKeywords": [
         "framework",
         "library",
@@ -49,7 +49,7 @@
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-06-13T10:26:16.448Z"
+      "lastUpdated": "2026-06-14T10:46:55.505Z"
     },
     {
       "id": "infrastructure",
@@ -59,8 +59,7 @@
       "trendingKeywords": [
         "validator",
         "bridge",
-        "node",
-        "network"
+        "node"
       ],
       "topProjects": [
         {
@@ -82,7 +81,7 @@
           "source": "github"
         },
         {
-          "name": "Free-Demo-2026",
+          "name": "open-solana-hub",
           "description": "",
           "source": "github"
         }
@@ -98,18 +97,17 @@
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-06-13T10:26:16.448Z"
+      "lastUpdated": "2026-06-14T10:46:55.505Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.5320400000000001,
+      "confidence": 0.5321,
       "trendingKeywords": [
         "swap",
         "liquidity",
-        "dex",
-        "perp"
+        "dex"
       ],
       "topProjects": [
         {
@@ -125,12 +123,12 @@
           "source": "github"
         },
         {
-          "name": "formion-solana-data",
+          "name": "gmgn-screener",
           "description": "",
           "source": "github"
         },
         {
-          "name": "formion-markets",
+          "name": "solana-dex",
           "description": "",
           "source": "github"
         }
@@ -146,17 +144,15 @@
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-06-13T10:26:16.447Z"
+      "lastUpdated": "2026-06-14T10:46:55.505Z"
     },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.4,
+      "confidence": 0.52,
       "trendingKeywords": [
-        "bot",
-        "agent",
-        "autonomous"
+        "bot"
       ],
       "topProjects": [
         {
@@ -166,12 +162,17 @@
           "source": "github"
         },
         {
-          "name": "qietr",
+          "name": "gmgn-screener",
           "description": "",
           "source": "github"
         },
         {
-          "name": "solana-paper-bot",
+          "name": "solana-meme-bot",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "orca-alert",
           "description": "",
           "source": "github"
         }
@@ -184,18 +185,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-06-13T10:26:16.448Z"
+      "lastUpdated": "2026-06-14T10:46:55.505Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.4,
       "trendingKeywords": [
         "community",
+        "fan",
         "creator"
       ],
       "topProjects": [
@@ -203,6 +205,11 @@
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "its-coming-home",
+          "description": "",
           "source": "github"
         },
         {
@@ -219,24 +226,26 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-06-13T10:26:16.448Z"
+      "lastUpdated": "2026-06-14T10:46:55.505Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.1,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "game",
-        "gaming",
-        "NFT",
-        "metaverse",
-        "play-to-earn"
+        "world"
       ],
-      "topProjects": [],
+      "topProjects": [
+        {
+          "name": "its-coming-home",
+          "description": "",
+          "source": "github"
+        }
+      ],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -245,10 +254,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 0,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-06-13T10:26:16.447Z"
+      "lastUpdated": "2026-06-14T10:46:55.505Z"
     }
   ]
 }
