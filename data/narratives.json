@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-06-15T13:52:04.704Z",
+  "timestamp": "2026-06-16T12:50:55.732Z",
   "narratives": [
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.8800000000000001,
+      "confidence": 1,
       "trendingKeywords": [
-        "bot",
         "agent",
+        "bot",
         "inference"
       ],
       "topProjects": [
@@ -19,22 +19,22 @@
           "source": "github"
         },
         {
-          "name": "solana-sniper-bot",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-sniper-bot-toolkit",
-          "description": "",
-          "source": "github"
-        },
-        {
           "name": "solana-ai-agent",
           "description": "",
           "source": "github"
         },
         {
+          "name": "superteam-solana-native-subscriptions-allowances-demo",
+          "description": "",
+          "source": "github"
+        },
+        {
           "name": "solana-trading-bot",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "Armory-Protocol",
           "description": "",
           "source": "github"
         }
@@ -47,32 +47,27 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-06-15T13:52:04.704Z"
+      "lastUpdated": "2026-06-16T12:50:55.732Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.78368,
+      "confidence": 0.7436800000000001,
       "trendingKeywords": [
+        "validator",
         "node",
         "bridge",
-        "validator"
+        "oracle"
       ],
       "topProjects": [
         {
           "name": "solana-web3.js",
           "description": "",
           "url": "https://github.com/solana-foundation/solana-web3.js",
-          "source": "github"
-        },
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
           "source": "github"
         },
         {
@@ -92,6 +87,11 @@
           "description": "",
           "url": "https://github.com/jito-foundation/jito-solana",
           "source": "github"
+        },
+        {
+          "name": "Armory-Protocol",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -105,7 +105,7 @@
         "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-06-15T13:52:04.704Z"
+      "lastUpdated": "2026-06-16T12:50:55.732Z"
     },
     {
       "id": "dev-tools",
@@ -154,23 +154,18 @@
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-06-15T13:52:04.704Z"
+      "lastUpdated": "2026-06-16T12:50:55.732Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.44000000000000006,
+      "confidence": 0.2921,
       "trendingKeywords": [
-        "swap"
+        "swap",
+        "liquidity"
       ],
       "topProjects": [
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
-          "source": "github"
-        },
         {
           "name": "rango-client",
           "description": "",
@@ -178,8 +173,9 @@
           "source": "github"
         },
         {
-          "name": "algorithmic-trading-claude",
+          "name": "whirlpools",
           "description": "",
+          "url": "https://github.com/orca-so/whirlpools",
           "source": "github"
         }
       ],
@@ -191,10 +187,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-06-15T13:52:04.703Z"
+      "lastUpdated": "2026-06-16T12:50:55.732Z"
     },
     {
       "id": "social-consumer",
@@ -223,21 +219,23 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-06-15T13:52:04.704Z"
+      "lastUpdated": "2026-06-16T12:50:55.732Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.1,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "game",
-        "gaming",
-        "NFT",
-        "metaverse",
-        "play-to-earn"
+        "game"
       ],
-      "topProjects": [],
+      "topProjects": [
+        {
+          "name": "solana-reward-game",
+          "description": "",
+          "source": "github"
+        }
+      ],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -246,10 +244,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 0,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-06-15T13:52:04.704Z"
+      "lastUpdated": "2026-06-16T12:50:55.732Z"
     }
   ]
 }
