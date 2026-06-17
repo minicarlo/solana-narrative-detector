@@ -1,67 +1,17 @@
 {
-  "timestamp": "2026-06-16T12:50:55.732Z",
+  "timestamp": "2026-06-17T12:13:58.068Z",
   "narratives": [
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 1,
-      "trendingKeywords": [
-        "agent",
-        "bot",
-        "inference"
-      ],
-      "topProjects": [
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "solana-ai-agent",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "superteam-solana-native-subscriptions-allowances-demo",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-trading-bot",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "Armory-Protocol",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 8,
-        "social": 0
-      },
-      "lastUpdated": "2026-06-16T12:50:55.732Z"
-    },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.7436800000000001,
+      "confidence": 0.9036799999999999,
       "trendingKeywords": [
         "validator",
+        "network",
         "node",
-        "bridge",
-        "oracle"
+        "indexer",
+        "bridge"
       ],
       "topProjects": [
         {
@@ -77,6 +27,12 @@
           "source": "github"
         },
         {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
           "name": "rango-client",
           "description": "",
           "url": "https://github.com/rango-exchange/rango-client",
@@ -86,11 +42,6 @@
           "name": "jito-solana",
           "description": "",
           "url": "https://github.com/jito-foundation/jito-solana",
-          "source": "github"
-        },
-        {
-          "name": "Armory-Protocol",
-          "description": "",
           "source": "github"
         }
       ],
@@ -102,10 +53,61 @@
       ],
       "dataSources": {
         "helius": 0,
+        "github": 6,
+        "social": 0
+      },
+      "lastUpdated": "2026-06-17T12:13:58.068Z"
+    },
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 0.64,
+      "trendingKeywords": [
+        "bot",
+        "agent",
+        "autonomous"
+      ],
+      "topProjects": [
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "awel",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "orca-alert",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "player1-workspace",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "kintara-bot",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
         "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-06-16T12:50:55.732Z"
+      "lastUpdated": "2026-06-17T12:13:58.068Z"
     },
     {
       "id": "dev-tools",
@@ -154,18 +156,25 @@
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-06-16T12:50:55.732Z"
+      "lastUpdated": "2026-06-17T12:13:58.068Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.2921,
+      "confidence": 0.44000000000000006,
       "trendingKeywords": [
+        "dex",
         "swap",
-        "liquidity"
+        "vault"
       ],
       "topProjects": [
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
         {
           "name": "rango-client",
           "description": "",
@@ -173,9 +182,8 @@
           "source": "github"
         },
         {
-          "name": "whirlpools",
+          "name": "Chain-Vault-SDK",
           "description": "",
-          "url": "https://github.com/orca-so/whirlpools",
           "source": "github"
         }
       ],
@@ -187,24 +195,30 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-06-16T12:50:55.732Z"
+      "lastUpdated": "2026-06-17T12:13:58.068Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
+      "confidence": 0.27999999999999997,
       "trendingKeywords": [
-        "community"
+        "community",
+        "fan"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "its-coming-home",
+          "description": "",
           "source": "github"
         }
       ],
@@ -216,10 +230,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-06-16T12:50:55.732Z"
+      "lastUpdated": "2026-06-17T12:13:58.068Z"
     },
     {
       "id": "gaming-nft",
@@ -227,11 +241,11 @@
       "description": "Blockchain gaming and NFT ecosystems",
       "confidence": 0.12,
       "trendingKeywords": [
-        "game"
+        "world"
       ],
       "topProjects": [
         {
-          "name": "solana-reward-game",
+          "name": "its-coming-home",
           "description": "",
           "source": "github"
         }
@@ -247,7 +261,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-06-16T12:50:55.732Z"
+      "lastUpdated": "2026-06-17T12:13:58.068Z"
     }
   ]
 }
