@@ -1,16 +1,67 @@
 {
-  "timestamp": "2026-06-19T12:03:30.697Z",
+  "timestamp": "2026-06-20T10:30:34.093Z",
   "narratives": [
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 0.79934,
+      "trendingKeywords": [
+        "bot",
+        "agent"
+      ],
+      "topProjects": [
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "solana-trading-bot",
+          "description": "",
+          "url": "https://github.com/radioman/solana-trading-bot",
+          "source": "github"
+        },
+        {
+          "name": "darkpools-trader",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "memecoin-agent",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-sniper-bot-product-key",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 6,
+        "social": 0
+      },
+      "lastUpdated": "2026-06-20T10:30:34.093Z"
+    },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 1,
+      "confidence": 0.78368,
       "trendingKeywords": [
-        "node",
         "validator",
-        "network",
+        "node",
         "indexer",
+        "network",
         "bridge"
       ],
       "topProjects": [
@@ -53,10 +104,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-06-19T12:03:30.697Z"
+      "lastUpdated": "2026-06-20T10:30:34.093Z"
     },
     {
       "id": "dev-tools",
@@ -67,7 +118,7 @@
         "library",
         "framework",
         "deploy",
-        "build"
+        "testing"
       ],
       "topProjects": [
         {
@@ -95,7 +146,7 @@
           "source": "github"
         },
         {
-          "name": "solana-consumer-onboarding",
+          "name": "cu-profiler",
           "description": "",
           "source": "github"
         }
@@ -111,16 +162,16 @@
         "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-06-19T12:03:30.697Z"
+      "lastUpdated": "2026-06-20T10:30:34.093Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.68,
+      "confidence": 0.44000000000000006,
       "trendingKeywords": [
-        "swap",
-        "dex"
+        "dex",
+        "swap"
       ],
       "topProjects": [
         {
@@ -136,17 +187,7 @@
           "source": "github"
         },
         {
-          "name": "swap",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "usdtx-assets",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-tx-landing-skill",
+          "name": "solana-cpi-safety-skill",
           "description": "",
           "source": "github"
         }
@@ -159,20 +200,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-06-19T12:03:30.697Z"
+      "lastUpdated": "2026-06-20T10:30:34.093Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.52,
+      "confidence": 0.4,
       "trendingKeywords": [
         "community",
-        "social",
-        "engagement"
+        "profile",
+        "social"
       ],
       "topProjects": [
         {
@@ -182,17 +223,12 @@
           "source": "github"
         },
         {
-          "name": "solana-consumer-onboarding",
+          "name": "cu-profiler",
           "description": "",
           "source": "github"
         },
         {
-          "name": "usdtx-assets",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "xzilla-game",
+          "name": "ChainDraw",
           "description": "",
           "source": "github"
         }
@@ -205,66 +241,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
-        "social": 0
-      },
-      "lastUpdated": "2026-06-19T12:03:30.697Z"
-    },
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.43928,
-      "trendingKeywords": [
-        "bot"
-      ],
-      "topProjects": [
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "solana-trading-bot",
-          "description": "",
-          "url": "https://github.com/radioman/solana-trading-bot",
-          "source": "github"
-        },
-        {
-          "name": "solana-sniper-bot-product-key",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
         "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-06-19T12:03:30.697Z"
+      "lastUpdated": "2026-06-20T10:30:34.093Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.1,
       "trendingKeywords": [
-        "game"
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "xzilla-game",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -273,10 +267,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-06-19T12:03:30.697Z"
+      "lastUpdated": "2026-06-20T10:30:34.093Z"
     }
   ]
 }
