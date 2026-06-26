@@ -1,25 +1,71 @@
 {
-  "timestamp": "2026-06-25T10:39:14.152Z",
+  "timestamp": "2026-06-26T10:48:33.416Z",
   "narratives": [
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 1,
+      "trendingKeywords": [
+        "agent",
+        "bot",
+        "autonomous",
+        "intelligence"
+      ],
+      "topProjects": [
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "solana_coralOS",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "datpipboi",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-surgeon-skill",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "simdiff",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 9,
+        "social": 0
+      },
+      "lastUpdated": "2026-06-26T10:48:33.416Z"
+    },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 1,
+      "confidence": 0.9837999999999999,
       "trendingKeywords": [
         "network",
-        "node",
         "validator",
+        "node",
         "indexer",
         "bridge"
       ],
       "topProjects": [
-        {
-          "name": "solana-web3.js",
-          "description": "",
-          "url": "https://github.com/solana-foundation/solana-web3.js",
-          "source": "github"
-        },
         {
           "name": "firedancer",
           "description": "",
@@ -43,6 +89,11 @@
           "description": "",
           "url": "https://github.com/jito-foundation/jito-solana",
           "source": "github"
+        },
+        {
+          "name": "pulsar-network",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -53,22 +104,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-06-25T10:39:14.151Z"
+      "lastUpdated": "2026-06-26T10:48:33.416Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.9166399999999999,
+      "confidence": 0.9345000000000001,
       "trendingKeywords": [
-        "library",
         "framework",
+        "library",
         "compile",
-        "deploy",
-        "testing"
+        "deploy"
       ],
       "topProjects": [
         {
@@ -113,18 +163,18 @@
         "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-06-25T10:39:14.152Z"
+      "lastUpdated": "2026-06-26T10:48:33.416Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.56,
+      "confidence": 0.8,
       "trendingKeywords": [
-        "swap",
         "dex",
         "vault",
-        "stake"
+        "liquidity",
+        "swap"
       ],
       "topProjects": [
         {
@@ -140,12 +190,17 @@
           "source": "github"
         },
         {
-          "name": "jito-restaking-skill",
+          "name": "datpipboi",
           "description": "",
           "source": "github"
         },
         {
-          "name": "rp-jup-aggregator-v6",
+          "name": "solana-position-manager-skill",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "zenith",
           "description": "",
           "source": "github"
         }
@@ -158,87 +213,58 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-06-25T10:39:14.151Z"
+      "lastUpdated": "2026-06-26T10:48:33.416Z"
     },
     {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.55934,
+      "id": "gaming-nft",
+      "name": "Gaming & NFT",
+      "description": "Blockchain gaming and NFT ecosystems",
+      "confidence": 0.24,
       "trendingKeywords": [
-        "bot"
+        "game",
+        "world"
       ],
       "topProjects": [
         {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "solana-trading-bot",
-          "description": "",
-          "url": "https://github.com/radioman/solana-trading-bot",
-          "source": "github"
-        },
-        {
-          "name": "solana-sniper-bot-product-key",
+          "name": "warden-arena",
           "description": "",
           "source": "github"
         },
         {
-          "name": "Solana-Pumpfun-sol-bot",
+          "name": "solgoal-worldcup-solana-hackathon",
           "description": "",
           "source": "github"
         }
       ],
       "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
+        "Create a no-code NFT collection launcher with built-in marketplace",
+        "Build a gaming guild management platform with scholarship tracking",
+        "Develop an on-chain achievement system for games",
+        "Create a metaverse land rental marketplace"
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-06-25T10:39:14.152Z"
+      "lastUpdated": "2026-06-26T10:48:33.416Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.52,
+      "confidence": 0.16,
       "trendingKeywords": [
-        "community",
-        "content",
-        "creator",
-        "vote"
+        "community"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "drainer-guard",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "pump.fun.meter",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "Solana-Voting-Poll",
-          "description": "",
           "source": "github"
         }
       ],
@@ -250,36 +276,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-06-25T10:39:14.152Z"
-    },
-    {
-      "id": "gaming-nft",
-      "name": "Gaming & NFT",
-      "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.1,
-      "trendingKeywords": [
-        "game",
-        "gaming",
-        "NFT",
-        "metaverse",
-        "play-to-earn"
-      ],
-      "topProjects": [],
-      "projectIdeas": [
-        "Create a no-code NFT collection launcher with built-in marketplace",
-        "Build a gaming guild management platform with scholarship tracking",
-        "Develop an on-chain achievement system for games",
-        "Create a metaverse land rental marketplace"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 0,
-        "social": 0
-      },
-      "lastUpdated": "2026-06-25T10:39:14.151Z"
+      "lastUpdated": "2026-06-26T10:48:33.416Z"
     }
   ]
 }
