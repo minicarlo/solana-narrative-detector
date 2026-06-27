@@ -1,124 +1,16 @@
 {
-  "timestamp": "2026-06-26T10:48:33.416Z",
+  "timestamp": "2026-06-27T10:05:12.710Z",
   "narratives": [
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 1,
-      "trendingKeywords": [
-        "agent",
-        "bot",
-        "autonomous",
-        "intelligence"
-      ],
-      "topProjects": [
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "solana_coralOS",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "datpipboi",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-surgeon-skill",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "simdiff",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 9,
-        "social": 0
-      },
-      "lastUpdated": "2026-06-26T10:48:33.416Z"
-    },
-    {
-      "id": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.9837999999999999,
-      "trendingKeywords": [
-        "network",
-        "validator",
-        "node",
-        "indexer",
-        "bridge"
-      ],
-      "topProjects": [
-        {
-          "name": "firedancer",
-          "description": "",
-          "url": "https://github.com/firedancer-io/firedancer",
-          "source": "github"
-        },
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "jito-solana",
-          "description": "",
-          "url": "https://github.com/jito-foundation/jito-solana",
-          "source": "github"
-        },
-        {
-          "name": "pulsar-network",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized RPC load balancer for Solana",
-        "Create a validator performance monitoring dashboard",
-        "Develop a bridge aggregator for cross-chain transfers",
-        "Build an oracle comparison and aggregation service"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 7,
-        "social": 0
-      },
-      "lastUpdated": "2026-06-26T10:48:33.416Z"
-    },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.9345000000000001,
+      "confidence": 1,
       "trendingKeywords": [
         "framework",
         "library",
-        "compile",
-        "deploy"
+        "deploy",
+        "compile"
       ],
       "topProjects": [
         {
@@ -160,10 +52,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-06-26T10:48:33.416Z"
+      "lastUpdated": "2026-06-27T10:05:12.710Z"
     },
     {
       "id": "defi-innovation",
@@ -171,10 +63,11 @@
       "description": "Decentralized finance protocols and innovations",
       "confidence": 0.8,
       "trendingKeywords": [
+        "swap",
+        "perp",
         "dex",
-        "vault",
-        "liquidity",
-        "swap"
+        "yield",
+        "derivative"
       ],
       "topProjects": [
         {
@@ -190,17 +83,17 @@
           "source": "github"
         },
         {
-          "name": "datpipboi",
+          "name": "xslot-guard",
           "description": "",
           "source": "github"
         },
         {
-          "name": "solana-position-manager-skill",
+          "name": "fission",
           "description": "",
           "source": "github"
         },
         {
-          "name": "zenith",
+          "name": "rp-jup-aggregator-v6",
           "description": "",
           "source": "github"
         }
@@ -216,55 +109,134 @@
         "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-06-26T10:48:33.416Z"
+      "lastUpdated": "2026-06-27T10:05:12.710Z"
     },
     {
-      "id": "gaming-nft",
-      "name": "Gaming & NFT",
-      "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.24,
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Core blockchain infrastructure and tooling",
+      "confidence": 0.7438600000000001,
       "trendingKeywords": [
-        "game",
-        "world"
+        "validator",
+        "network",
+        "indexer",
+        "bridge",
+        "node"
       ],
       "topProjects": [
         {
-          "name": "warden-arena",
+          "name": "firedancer",
           "description": "",
+          "url": "https://github.com/firedancer-io/firedancer",
           "source": "github"
         },
         {
-          "name": "solgoal-worldcup-solana-hackathon",
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "jito-solana",
+          "description": "",
+          "url": "https://github.com/jito-foundation/jito-solana",
+          "source": "github"
+        },
+        {
+          "name": "pulsar-network",
           "description": "",
           "source": "github"
         }
       ],
       "projectIdeas": [
-        "Create a no-code NFT collection launcher with built-in marketplace",
-        "Build a gaming guild management platform with scholarship tracking",
-        "Develop an on-chain achievement system for games",
-        "Create a metaverse land rental marketplace"
+        "Build a decentralized RPC load balancer for Solana",
+        "Create a validator performance monitoring dashboard",
+        "Develop a bridge aggregator for cross-chain transfers",
+        "Build an oracle comparison and aggregation service"
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-06-26T10:48:33.416Z"
+      "lastUpdated": "2026-06-27T10:05:12.710Z"
+    },
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 0.64,
+      "trendingKeywords": [
+        "bot",
+        "agent",
+        "autonomous"
+      ],
+      "topProjects": [
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "jup-ag-pulse",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "txline-arena",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "Hicarus",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "alpha",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 5,
+        "social": 0
+      },
+      "lastUpdated": "2026-06-27T10:05:12.710Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
+      "confidence": 0.27999999999999997,
       "trendingKeywords": [
-        "community"
+        "community",
+        "creator"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "Ember",
+          "description": "",
           "source": "github"
         }
       ],
@@ -276,10 +248,36 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-06-26T10:48:33.416Z"
+      "lastUpdated": "2026-06-27T10:05:12.710Z"
+    },
+    {
+      "id": "gaming-nft",
+      "name": "Gaming & NFT",
+      "description": "Blockchain gaming and NFT ecosystems",
+      "confidence": 0.1,
+      "trendingKeywords": [
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
+      ],
+      "topProjects": [],
+      "projectIdeas": [
+        "Create a no-code NFT collection launcher with built-in marketplace",
+        "Build a gaming guild management platform with scholarship tracking",
+        "Develop an on-chain achievement system for games",
+        "Create a metaverse land rental marketplace"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 0,
+        "social": 0
+      },
+      "lastUpdated": "2026-06-27T10:05:12.710Z"
     }
   ]
 }
