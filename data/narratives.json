@@ -1,16 +1,17 @@
 {
-  "timestamp": "2026-06-28T10:25:24.306Z",
+  "timestamp": "2026-06-29T12:28:37.371Z",
   "narratives": [
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.93468,
+      "confidence": 1,
       "trendingKeywords": [
-        "framework",
         "library",
+        "framework",
         "compile",
-        "deploy"
+        "deploy",
+        "build"
       ],
       "topProjects": [
         {
@@ -52,21 +53,23 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-06-28T10:25:24.306Z"
+      "lastUpdated": "2026-06-29T12:28:37.371Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.7438600000000001,
+      "confidence": 0.98392,
       "trendingKeywords": [
         "validator",
-        "bridge",
+        "node",
         "indexer",
-        "network"
+        "network",
+        "bridge",
+        "oracle"
       ],
       "topProjects": [
         {
@@ -94,7 +97,7 @@
           "source": "github"
         },
         {
-          "name": "dex-panther-amm-solana",
+          "name": "solana-metaplex-api",
           "description": "",
           "source": "github"
         }
@@ -107,10 +110,63 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-06-28T10:25:24.306Z"
+      "lastUpdated": "2026-06-29T12:28:37.371Z"
+    },
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 0.9194000000000001,
+      "trendingKeywords": [
+        "bot",
+        "agent",
+        "autonomous",
+        "model"
+      ],
+      "topProjects": [
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "solana-trading-bot",
+          "description": "",
+          "url": "https://github.com/radioman/solana-trading-bot",
+          "source": "github"
+        },
+        {
+          "name": "solana-bot-commander",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "tx-pilot",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "sap-mcp",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 7,
+        "social": 0
+      },
+      "lastUpdated": "2026-06-29T12:28:37.371Z"
     },
     {
       "id": "defi-innovation",
@@ -119,7 +175,8 @@
       "confidence": 0.56,
       "trendingKeywords": [
         "dex",
-        "swap"
+        "swap",
+        "stake"
       ],
       "topProjects": [
         {
@@ -135,12 +192,12 @@
           "source": "github"
         },
         {
-          "name": "dex-panther-amm-solana",
+          "name": "pokemon-showdown-onchain",
           "description": "",
           "source": "github"
         },
         {
-          "name": "gem-hunter",
+          "name": "torna",
           "description": "",
           "source": "github"
         }
@@ -156,51 +213,7 @@
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-06-28T10:25:24.306Z"
-    },
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.52,
-      "trendingKeywords": [
-        "bot"
-      ],
-      "topProjects": [
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "gl1tch-coin",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "pumpdev_solana_bot",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-bot",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 4,
-        "social": 0
-      },
-      "lastUpdated": "2026-06-28T10:25:24.306Z"
+      "lastUpdated": "2026-06-29T12:28:37.371Z"
     },
     {
       "id": "social-consumer",
@@ -229,7 +242,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-06-28T10:25:24.306Z"
+      "lastUpdated": "2026-06-29T12:28:37.371Z"
     },
     {
       "id": "gaming-nft",
@@ -257,7 +270,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-06-28T10:25:24.306Z"
+      "lastUpdated": "2026-06-29T12:28:37.371Z"
     }
   ]
 }
