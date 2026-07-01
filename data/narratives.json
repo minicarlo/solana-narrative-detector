@@ -1,70 +1,16 @@
 {
-  "timestamp": "2026-06-30T10:54:29.420Z",
+  "timestamp": "2026-07-01T11:21:07.016Z",
   "narratives": [
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 1,
-      "trendingKeywords": [
-        "agent",
-        "bot",
-        "autonomous",
-        "inference"
-      ],
-      "topProjects": [
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "solana-trading-bot",
-          "description": "",
-          "url": "https://github.com/radioman/solana-trading-bot",
-          "source": "github"
-        },
-        {
-          "name": "pumpfun-bonkfun-bot",
-          "description": "",
-          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
-          "source": "github"
-        },
-        {
-          "name": "solcex-autonomous-vanguard",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "ghostcomputeStack",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 10,
-        "social": 0
-      },
-      "lastUpdated": "2026-06-30T10:54:29.420Z"
-    },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.90392,
+      "confidence": 1,
       "trendingKeywords": [
-        "validator",
-        "network",
-        "node",
         "indexer",
+        "validator",
+        "node",
+        "network",
         "bridge"
       ],
       "topProjects": [
@@ -107,20 +53,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-06-30T10:54:29.420Z"
+      "lastUpdated": "2026-07-01T11:21:07.016Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.63688,
+      "confidence": 0.8768800000000001,
       "trendingKeywords": [
         "library",
         "framework",
-        "deploy"
+        "deploy",
+        "compile",
+        "build"
       ],
       "topProjects": [
         {
@@ -146,6 +94,11 @@
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
+        },
+        {
+          "name": "eudi-solana",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -156,20 +109,73 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-06-30T10:54:29.420Z"
+      "lastUpdated": "2026-07-01T11:21:07.016Z"
+    },
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 0.83712,
+      "trendingKeywords": [
+        "bot",
+        "agent",
+        "autonomous"
+      ],
+      "topProjects": [
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "solana-trading-bot",
+          "description": "",
+          "url": "https://github.com/radioman/solana-trading-bot",
+          "source": "github"
+        },
+        {
+          "name": "pumpfun-bonkfun-bot",
+          "description": "",
+          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
+          "source": "github"
+        },
+        {
+          "name": "solcex-autonomous-vanguard",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "amaloan",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 6,
+        "social": 0
+      },
+      "lastUpdated": "2026-07-01T11:21:07.016Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.56,
+      "confidence": 0.68,
       "trendingKeywords": [
         "dex",
         "swap",
-        "farm"
+        "vault"
       ],
       "topProjects": [
         {
@@ -185,12 +191,17 @@
           "source": "github"
         },
         {
-          "name": "krexon-hacd",
+          "name": "zkhelios-infrastructure",
           "description": "",
           "source": "github"
         },
         {
-          "name": "uponly-bot",
+          "name": "solana-amm-dex",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "amaloan",
           "description": "",
           "source": "github"
         }
@@ -203,10 +214,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-06-30T10:54:29.420Z"
+      "lastUpdated": "2026-07-01T11:21:07.016Z"
     },
     {
       "id": "social-consumer",
@@ -214,8 +225,7 @@
       "description": "Social platforms and consumer applications",
       "confidence": 0.27999999999999997,
       "trendingKeywords": [
-        "community",
-        "social"
+        "community"
       ],
       "topProjects": [
         {
@@ -225,7 +235,7 @@
           "source": "github"
         },
         {
-          "name": "callr",
+          "name": "catloaf-website",
           "description": "",
           "source": "github"
         }
@@ -241,7 +251,7 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-06-30T10:54:29.420Z"
+      "lastUpdated": "2026-07-01T11:21:07.016Z"
     },
     {
       "id": "gaming-nft",
@@ -253,7 +263,7 @@
       ],
       "topProjects": [
         {
-          "name": "snaptap-prediction-markets",
+          "name": "odds-autopsy",
           "description": "",
           "source": "github"
         }
@@ -269,7 +279,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-06-30T10:54:29.420Z"
+      "lastUpdated": "2026-07-01T11:21:07.016Z"
     }
   ]
 }
