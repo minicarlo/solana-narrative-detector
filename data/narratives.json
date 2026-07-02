@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-01T11:21:07.016Z",
+  "timestamp": "2026-07-02T10:34:52.830Z",
   "narratives": [
     {
       "id": "infrastructure",
@@ -7,9 +7,10 @@
       "description": "Core blockchain infrastructure and tooling",
       "confidence": 1,
       "trendingKeywords": [
-        "indexer",
+        "oracle",
         "validator",
         "node",
+        "indexer",
         "network",
         "bridge"
       ],
@@ -53,21 +54,74 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-07-01T11:21:07.016Z"
+      "lastUpdated": "2026-07-02T10:34:52.829Z"
+    },
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 1,
+      "trendingKeywords": [
+        "bot",
+        "agent",
+        "autonomous",
+        "intelligence"
+      ],
+      "topProjects": [
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "solana-trading-bot",
+          "description": "",
+          "url": "https://github.com/radioman/solana-trading-bot",
+          "source": "github"
+        },
+        {
+          "name": "pumpfun-bonkfun-bot",
+          "description": "",
+          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
+          "source": "github"
+        },
+        {
+          "name": "agentearn-oracle",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solcex-autonomous-vanguard",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 10,
+        "social": 0
+      },
+      "lastUpdated": "2026-07-02T10:34:52.830Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.8768800000000001,
+      "confidence": 0.75688,
       "trendingKeywords": [
         "library",
         "framework",
         "deploy",
-        "compile",
         "build"
       ],
       "topProjects": [
@@ -96,7 +150,7 @@
           "source": "github"
         },
         {
-          "name": "eudi-solana",
+          "name": "bootroom",
           "description": "",
           "source": "github"
         }
@@ -109,63 +163,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-07-01T11:21:07.016Z"
-    },
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.83712,
-      "trendingKeywords": [
-        "bot",
-        "agent",
-        "autonomous"
-      ],
-      "topProjects": [
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "solana-trading-bot",
-          "description": "",
-          "url": "https://github.com/radioman/solana-trading-bot",
-          "source": "github"
-        },
-        {
-          "name": "pumpfun-bonkfun-bot",
-          "description": "",
-          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
-          "source": "github"
-        },
-        {
-          "name": "solcex-autonomous-vanguard",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "amaloan",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 6,
-        "social": 0
-      },
-      "lastUpdated": "2026-07-01T11:21:07.016Z"
+      "lastUpdated": "2026-07-02T10:34:52.830Z"
     },
     {
       "id": "defi-innovation",
@@ -174,8 +175,7 @@
       "confidence": 0.68,
       "trendingKeywords": [
         "dex",
-        "swap",
-        "vault"
+        "swap"
       ],
       "topProjects": [
         {
@@ -191,17 +191,17 @@
           "source": "github"
         },
         {
-          "name": "zkhelios-infrastructure",
+          "name": "sol-dex",
           "description": "",
           "source": "github"
         },
         {
-          "name": "solana-amm-dex",
+          "name": "Solana-DEX-Arbitrage-Bot",
           "description": "",
           "source": "github"
         },
         {
-          "name": "amaloan",
+          "name": "solana-swap-api",
           "description": "",
           "source": "github"
         }
@@ -217,21 +217,32 @@
         "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-07-01T11:21:07.016Z"
+      "lastUpdated": "2026-07-02T10:34:52.829Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.52,
       "trendingKeywords": [
-        "community"
+        "community",
+        "fan"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "rankr",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "Live-Match-Intelligence-Engine",
+          "description": "",
           "source": "github"
         },
         {
@@ -248,22 +259,38 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-07-01T11:21:07.016Z"
+      "lastUpdated": "2026-07-02T10:34:52.830Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.48,
       "trendingKeywords": [
-        "world"
+        "world",
+        "game"
       ],
       "topProjects": [
         {
-          "name": "odds-autopsy",
+          "name": "ante",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "silver-mining-protocol",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "bootroom",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "Live-Match-Intelligence-Engine",
           "description": "",
           "source": "github"
         }
@@ -276,10 +303,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-07-01T11:21:07.016Z"
+      "lastUpdated": "2026-07-02T10:34:52.829Z"
     }
   ]
 }
