@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-03T10:32:43.866Z",
+  "timestamp": "2026-07-04T10:06:48.279Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -9,7 +9,8 @@
       "trendingKeywords": [
         "bot",
         "agent",
-        "autonomous"
+        "autonomous",
+        "intelligence"
       ],
       "topProjects": [
         {
@@ -31,12 +32,12 @@
           "source": "github"
         },
         {
-          "name": "meteora-dlmm-trading-bot",
+          "name": "keryx",
           "description": "",
           "source": "github"
         },
         {
-          "name": "solcex-autonomous-vanguard",
+          "name": "linethesis",
           "description": "",
           "source": "github"
         }
@@ -49,76 +50,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 10,
         "social": 0
       },
-      "lastUpdated": "2026-07-03T10:32:43.866Z"
-    },
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.9199999999999999,
-      "trendingKeywords": [
-        "swap",
-        "liquidity",
-        "dex",
-        "yield",
-        "perp"
-      ],
-      "topProjects": [
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "meteora-dlmm-trading-bot",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "AverBridge",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-pumpswap-sniper-bot",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 7,
-        "social": 0
-      },
-      "lastUpdated": "2026-07-03T10:32:43.865Z"
+      "lastUpdated": "2026-07-04T10:06:48.279Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.90398,
+      "confidence": 0.78398,
       "trendingKeywords": [
         "validator",
-        "bridge",
         "node",
         "indexer",
-        "network"
+        "network",
+        "bridge"
       ],
       "topProjects": [
         {
@@ -160,20 +107,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-07-03T10:32:43.866Z"
+      "lastUpdated": "2026-07-04T10:06:48.279Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.63688,
+      "confidence": 0.75688,
       "trendingKeywords": [
         "library",
         "framework",
-        "deploy"
+        "deploy",
+        "build"
       ],
       "topProjects": [
         {
@@ -199,6 +147,11 @@
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
+        },
+        {
+          "name": "bootroom",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -209,20 +162,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-07-03T10:32:43.866Z"
+      "lastUpdated": "2026-07-04T10:06:48.279Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.52,
       "trendingKeywords": [
         "community",
         "social",
-        "creator"
+        "creator",
+        "vote"
       ],
       "topProjects": [
         {
@@ -232,7 +186,17 @@
           "source": "github"
         },
         {
+          "name": "catloaf-website",
+          "description": "",
+          "source": "github"
+        },
+        {
           "name": "solgig",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "vote",
           "description": "",
           "source": "github"
         }
@@ -245,22 +209,75 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-07-03T10:32:43.866Z"
+      "lastUpdated": "2026-07-04T10:06:48.279Z"
+    },
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.44000000000000006,
+      "trendingKeywords": [
+        "dex",
+        "swap",
+        "farm"
+      ],
+      "topProjects": [
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "zolana-sentinel",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 3,
+        "social": 0
+      },
+      "lastUpdated": "2026-07-04T10:06:48.278Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.36,
       "trendingKeywords": [
-        "world"
+        "world",
+        "game"
       ],
       "topProjects": [
         {
-          "name": "snaptap-prediction-markets",
+          "name": "petaverse",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "linethesis",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "bootroom",
           "description": "",
           "source": "github"
         }
@@ -273,10 +290,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-07-03T10:32:43.865Z"
+      "lastUpdated": "2026-07-04T10:06:48.278Z"
     }
   ]
 }
