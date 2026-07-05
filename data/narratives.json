@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-04T10:06:48.279Z",
+  "timestamp": "2026-07-05T10:09:08.558Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -7,9 +7,9 @@
       "description": "Artificial intelligence meets blockchain",
       "confidence": 1,
       "trendingKeywords": [
-        "bot",
         "agent",
         "autonomous",
+        "bot",
         "intelligence"
       ],
       "topProjects": [
@@ -20,24 +20,23 @@
           "source": "github"
         },
         {
-          "name": "solana-trading-bot",
-          "description": "",
-          "url": "https://github.com/radioman/solana-trading-bot",
-          "source": "github"
-        },
-        {
           "name": "pumpfun-bonkfun-bot",
           "description": "",
           "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
           "source": "github"
         },
         {
-          "name": "keryx",
+          "name": "trustnet-x",
           "description": "",
           "source": "github"
         },
         {
-          "name": "linethesis",
+          "name": "skills",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "zolana-sentinel",
           "description": "",
           "source": "github"
         }
@@ -50,10 +49,66 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 10,
+        "github": 9,
         "social": 0
       },
-      "lastUpdated": "2026-07-04T10:06:48.279Z"
+      "lastUpdated": "2026-07-05T10:09:08.558Z"
+    },
+    {
+      "id": "dev-tools",
+      "name": "Developer Tools",
+      "description": "Tools and infrastructure for developers",
+      "confidence": 1,
+      "trendingKeywords": [
+        "framework",
+        "library",
+        "build",
+        "deploy"
+      ],
+      "topProjects": [
+        {
+          "name": "anchor",
+          "description": "",
+          "url": "https://github.com/otter-sec/anchor",
+          "source": "github"
+        },
+        {
+          "name": "solana-go",
+          "description": "",
+          "url": "https://github.com/solana-foundation/solana-go",
+          "source": "github"
+        },
+        {
+          "name": "ant-design-web3",
+          "description": "",
+          "url": "https://github.com/ant-design/ant-design-web3",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "solana-playground",
+          "description": "",
+          "url": "https://github.com/solana-playground/solana-playground",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create a Solana program testing framework with auto-generated tests",
+        "Build a no-code contract deployment platform",
+        "Develop a real-time program monitoring and alerting tool",
+        "Create an IDE extension for Solana development"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 7,
+        "social": 0
+      },
+      "lastUpdated": "2026-07-05T10:09:08.558Z"
     },
     {
       "id": "infrastructure",
@@ -110,119 +165,19 @@
         "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-07-04T10:06:48.279Z"
-    },
-    {
-      "id": "dev-tools",
-      "name": "Developer Tools",
-      "description": "Tools and infrastructure for developers",
-      "confidence": 0.75688,
-      "trendingKeywords": [
-        "library",
-        "framework",
-        "deploy",
-        "build"
-      ],
-      "topProjects": [
-        {
-          "name": "anchor",
-          "description": "",
-          "url": "https://github.com/otter-sec/anchor",
-          "source": "github"
-        },
-        {
-          "name": "solana-go",
-          "description": "",
-          "url": "https://github.com/solana-foundation/solana-go",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "solana-playground",
-          "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
-          "source": "github"
-        },
-        {
-          "name": "bootroom",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a Solana program testing framework with auto-generated tests",
-        "Build a no-code contract deployment platform",
-        "Develop a real-time program monitoring and alerting tool",
-        "Create an IDE extension for Solana development"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 5,
-        "social": 0
-      },
-      "lastUpdated": "2026-07-04T10:06:48.279Z"
-    },
-    {
-      "id": "social-consumer",
-      "name": "Social & Consumer",
-      "description": "Social platforms and consumer applications",
-      "confidence": 0.52,
-      "trendingKeywords": [
-        "community",
-        "social",
-        "creator",
-        "vote"
-      ],
-      "topProjects": [
-        {
-          "name": "app-monorepo",
-          "description": "",
-          "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "catloaf-website",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solgig",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "vote",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized social graph protocol",
-        "Create a creator monetization platform with micro-tipping",
-        "Develop a DAO governance participation reward system",
-        "Build a reputation-based social discovery app"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 4,
-        "social": 0
-      },
-      "lastUpdated": "2026-07-04T10:06:48.279Z"
+      "lastUpdated": "2026-07-05T10:09:08.557Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.44000000000000006,
+      "confidence": 0.68,
       "trendingKeywords": [
         "dex",
         "swap",
-        "farm"
+        "farm",
+        "vault",
+        "perp"
       ],
       "topProjects": [
         {
@@ -241,6 +196,16 @@
           "name": "zolana-sentinel",
           "description": "",
           "source": "github"
+        },
+        {
+          "name": "qshield",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "csl-backend",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -251,33 +216,51 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-07-04T10:06:48.278Z"
+      "lastUpdated": "2026-07-05T10:09:08.557Z"
+    },
+    {
+      "id": "social-consumer",
+      "name": "Social & Consumer",
+      "description": "Social platforms and consumer applications",
+      "confidence": 0.16,
+      "trendingKeywords": [
+        "community"
+      ],
+      "topProjects": [
+        {
+          "name": "app-monorepo",
+          "description": "",
+          "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized social graph protocol",
+        "Create a creator monetization platform with micro-tipping",
+        "Develop a DAO governance participation reward system",
+        "Build a reputation-based social discovery app"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 1,
+        "social": 0
+      },
+      "lastUpdated": "2026-07-05T10:09:08.558Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.36,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "world",
-        "game"
+        "world"
       ],
       "topProjects": [
         {
-          "name": "petaverse",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "linethesis",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "bootroom",
+          "name": "matchproof",
           "description": "",
           "source": "github"
         }
@@ -290,10 +273,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-07-04T10:06:48.278Z"
+      "lastUpdated": "2026-07-05T10:09:08.557Z"
     }
   ]
 }
