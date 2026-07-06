@@ -1,59 +1,6 @@
 {
-  "timestamp": "2026-07-05T10:09:08.558Z",
+  "timestamp": "2026-07-06T12:02:08.490Z",
   "narratives": [
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 1,
-      "trendingKeywords": [
-        "agent",
-        "autonomous",
-        "bot",
-        "intelligence"
-      ],
-      "topProjects": [
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "pumpfun-bonkfun-bot",
-          "description": "",
-          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
-          "source": "github"
-        },
-        {
-          "name": "trustnet-x",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "skills",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "zolana-sentinel",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 9,
-        "social": 0
-      },
-      "lastUpdated": "2026-07-05T10:09:08.558Z"
-    },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
@@ -108,19 +55,20 @@
         "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-07-05T10:09:08.558Z"
+      "lastUpdated": "2026-07-06T12:02:08.490Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.78398,
+      "confidence": 0.90398,
       "trendingKeywords": [
         "validator",
         "node",
         "indexer",
         "network",
-        "bridge"
+        "bridge",
+        "oracle"
       ],
       "topProjects": [
         {
@@ -162,22 +110,64 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-07-05T10:09:08.557Z"
+      "lastUpdated": "2026-07-06T12:02:08.490Z"
+    },
+    {
+      "id": "gaming-nft",
+      "name": "Gaming & NFT",
+      "description": "Blockchain gaming and NFT ecosystems",
+      "confidence": 0.48,
+      "trendingKeywords": [
+        "world",
+        "game"
+      ],
+      "topProjects": [
+        {
+          "name": "txpacksduel",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "LuckyMe",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "proofmarket",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "ron-rush",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create a no-code NFT collection launcher with built-in marketplace",
+        "Build a gaming guild management platform with scholarship tracking",
+        "Develop an on-chain achievement system for games",
+        "Create a metaverse land rental marketplace"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 4,
+        "social": 0
+      },
+      "lastUpdated": "2026-07-06T12:02:08.490Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.68,
+      "confidence": 0.44000000000000006,
       "trendingKeywords": [
         "dex",
         "swap",
-        "farm",
-        "vault",
-        "perp"
+        "vault"
       ],
       "topProjects": [
         {
@@ -193,17 +183,7 @@
           "source": "github"
         },
         {
-          "name": "zolana-sentinel",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "qshield",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "csl-backend",
+          "name": "time-vault-",
           "description": "",
           "source": "github"
         }
@@ -216,24 +196,72 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-07-05T10:09:08.557Z"
+      "lastUpdated": "2026-07-06T12:02:08.490Z"
+    },
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 0.4,
+      "trendingKeywords": [
+        "bot",
+        "intelligence",
+        "model",
+        "autonomous"
+      ],
+      "topProjects": [
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "solanaintel",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "AIfaOnline",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 3,
+        "social": 0
+      },
+      "lastUpdated": "2026-07-06T12:02:08.490Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
+      "confidence": 0.27999999999999997,
       "trendingKeywords": [
-        "community"
+        "community",
+        "vote"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "proofmarket",
+          "description": "",
           "source": "github"
         }
       ],
@@ -245,38 +273,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-07-05T10:09:08.558Z"
-    },
-    {
-      "id": "gaming-nft",
-      "name": "Gaming & NFT",
-      "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
-      "trendingKeywords": [
-        "world"
-      ],
-      "topProjects": [
-        {
-          "name": "matchproof",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a no-code NFT collection launcher with built-in marketplace",
-        "Build a gaming guild management platform with scholarship tracking",
-        "Develop an on-chain achievement system for games",
-        "Create a metaverse land rental marketplace"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 1,
-        "social": 0
-      },
-      "lastUpdated": "2026-07-05T10:09:08.557Z"
+      "lastUpdated": "2026-07-06T12:02:08.490Z"
     }
   ]
 }
