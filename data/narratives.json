@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-06T12:02:08.490Z",
+  "timestamp": "2026-07-07T10:52:23.160Z",
   "narratives": [
     {
       "id": "dev-tools",
@@ -10,7 +10,8 @@
         "framework",
         "library",
         "build",
-        "deploy"
+        "deploy",
+        "testing"
       ],
       "topProjects": [
         {
@@ -55,28 +56,21 @@
         "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-07-06T12:02:08.490Z"
+      "lastUpdated": "2026-07-07T10:52:23.160Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.90398,
+      "confidence": 0.99218,
       "trendingKeywords": [
         "validator",
-        "node",
-        "indexer",
-        "network",
         "bridge",
-        "oracle"
+        "oracle",
+        "indexer",
+        "network"
       ],
       "topProjects": [
-        {
-          "name": "solana-web3.js",
-          "description": "",
-          "url": "https://github.com/solana-foundation/solana-web3.js",
-          "source": "github"
-        },
         {
           "name": "firedancer",
           "description": "",
@@ -100,6 +94,12 @@
           "description": "",
           "url": "https://github.com/jito-foundation/jito-solana",
           "source": "github"
+        },
+        {
+          "name": "Rustchain",
+          "description": "",
+          "url": "https://github.com/Scottcjn/Rustchain",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -110,63 +110,74 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-07-06T12:02:08.490Z"
+      "lastUpdated": "2026-07-07T10:52:23.160Z"
     },
     {
-      "id": "gaming-nft",
-      "name": "Gaming & NFT",
-      "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.48,
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 0.8880800000000001,
       "trendingKeywords": [
-        "world",
-        "game"
+        "agent",
+        "bot",
+        "inference",
+        "autonomous"
       ],
       "topProjects": [
         {
-          "name": "txpacksduel",
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "Rustchain",
+          "description": "",
+          "url": "https://github.com/Scottcjn/Rustchain",
+          "source": "github"
+        },
+        {
+          "name": "naim-program",
           "description": "",
           "source": "github"
         },
         {
-          "name": "LuckyMe",
+          "name": "sniper-bot",
           "description": "",
           "source": "github"
         },
         {
-          "name": "proofmarket",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "ron-rush",
+          "name": "txline-sharp-movement-detector",
           "description": "",
           "source": "github"
         }
       ],
       "projectIdeas": [
-        "Create a no-code NFT collection launcher with built-in marketplace",
-        "Build a gaming guild management platform with scholarship tracking",
-        "Develop an on-chain achievement system for games",
-        "Create a metaverse land rental marketplace"
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-07-06T12:02:08.490Z"
+      "lastUpdated": "2026-07-07T10:52:23.160Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.44000000000000006,
+      "confidence": 0.8202399999999999,
       "trendingKeywords": [
         "dex",
         "swap",
+        "liquidity",
+        "perp",
         "vault"
       ],
       "topProjects": [
@@ -183,7 +194,19 @@
           "source": "github"
         },
         {
-          "name": "time-vault-",
+          "name": "whirlpools",
+          "description": "",
+          "url": "https://github.com/orca-so/whirlpools",
+          "source": "github"
+        },
+        {
+          "name": "QuillAudit_smart_contract_audit_Reports",
+          "description": "",
+          "url": "https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports",
+          "source": "github"
+        },
+        {
+          "name": "csl-backend",
           "description": "",
           "source": "github"
         }
@@ -196,52 +219,59 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-07-06T12:02:08.490Z"
+      "lastUpdated": "2026-07-07T10:52:23.160Z"
     },
     {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.4,
+      "id": "gaming-nft",
+      "name": "Gaming & NFT",
+      "description": "Blockchain gaming and NFT ecosystems",
+      "confidence": 0.72,
       "trendingKeywords": [
-        "bot",
-        "intelligence",
-        "model",
-        "autonomous"
+        "world",
+        "game"
       ],
       "topProjects": [
         {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "solanaintel",
+          "name": "Get-In-",
           "description": "",
           "source": "github"
         },
         {
-          "name": "AIfaOnline",
+          "name": "TxPredict",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "txline-sharp-movement-detector",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "petaverse",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "txpacksduel",
           "description": "",
           "source": "github"
         }
       ],
       "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
+        "Create a no-code NFT collection launcher with built-in marketplace",
+        "Build a gaming guild management platform with scholarship tracking",
+        "Develop an on-chain achievement system for games",
+        "Create a metaverse land rental marketplace"
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-07-06T12:02:08.490Z"
+      "lastUpdated": "2026-07-07T10:52:23.160Z"
     },
     {
       "id": "social-consumer",
@@ -260,7 +290,7 @@
           "source": "github"
         },
         {
-          "name": "proofmarket",
+          "name": "finalwhistle",
           "description": "",
           "source": "github"
         }
@@ -276,7 +306,7 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-07-06T12:02:08.490Z"
+      "lastUpdated": "2026-07-07T10:52:23.160Z"
     }
   ]
 }
