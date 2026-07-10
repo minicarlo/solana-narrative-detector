@@ -1,16 +1,74 @@
 {
-  "timestamp": "2026-07-09T10:51:18.860Z",
+  "timestamp": "2026-07-10T10:50:14.387Z",
   "narratives": [
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 1,
+      "trendingKeywords": [
+        "dex",
+        "vault",
+        "swap",
+        "liquidity",
+        "stake"
+      ],
+      "topProjects": [
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "whirlpools",
+          "description": "",
+          "url": "https://github.com/orca-so/whirlpools",
+          "source": "github"
+        },
+        {
+          "name": "QuillAudit_smart_contract_audit_Reports",
+          "description": "",
+          "url": "https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports",
+          "source": "github"
+        },
+        {
+          "name": "meshchain",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 8,
+        "social": 0
+      },
+      "lastUpdated": "2026-07-10T10:50:14.387Z"
+    },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.8639800000000001,
+      "confidence": 1,
       "trendingKeywords": [
-        "indexer",
-        "validator",
         "network",
-        "bridge"
+        "validator",
+        "bridge",
+        "node",
+        "indexer",
+        "rollup"
       ],
       "topProjects": [
         {
@@ -38,8 +96,9 @@
           "source": "github"
         },
         {
-          "name": "solana-indexer",
+          "name": "Rustchain",
           "description": "",
+          "url": "https://github.com/Scottcjn/Rustchain",
           "source": "github"
         }
       ],
@@ -51,86 +110,28 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-07-09T10:51:18.860Z"
-    },
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.8121600000000001,
-      "trendingKeywords": [
-        "dex",
-        "swap",
-        "liquidity"
-      ],
-      "topProjects": [
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "whirlpools",
-          "description": "",
-          "url": "https://github.com/orca-so/whirlpools",
-          "source": "github"
-        },
-        {
-          "name": "solana-indexer",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-recurring-buy",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 6,
-        "social": 0
-      },
-      "lastUpdated": "2026-07-09T10:51:18.860Z"
+      "lastUpdated": "2026-07-10T10:50:14.387Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.79694,
+      "confidence": 0.8849,
       "trendingKeywords": [
-        "library",
-        "framework",
         "compile",
-        "deploy"
+        "framework",
+        "library",
+        "deploy",
+        "testing"
       ],
       "topProjects": [
         {
           "name": "anchor",
           "description": "",
           "url": "https://github.com/otter-sec/anchor",
-          "source": "github"
-        },
-        {
-          "name": "solana-go",
-          "description": "",
-          "url": "https://github.com/solana-foundation/solana-go",
           "source": "github"
         },
         {
@@ -150,6 +151,12 @@
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
+        },
+        {
+          "name": "QuillAudit_smart_contract_audit_Reports",
+          "description": "",
+          "url": "https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -160,21 +167,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-07-09T10:51:18.860Z"
+      "lastUpdated": "2026-07-10T10:50:14.387Z"
     },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.76,
+      "confidence": 0.7682,
       "trendingKeywords": [
         "bot",
+        "intelligence",
         "agent",
-        "autonomous",
-        "model"
+        "inference",
+        "autonomous"
       ],
       "topProjects": [
         {
@@ -184,22 +192,23 @@
           "source": "github"
         },
         {
-          "name": "txline-sharp-movement-detector",
+          "name": "Rustchain",
+          "description": "",
+          "url": "https://github.com/Scottcjn/Rustchain",
+          "source": "github"
+        },
+        {
+          "name": "solana-trading-bot",
           "description": "",
           "source": "github"
         },
         {
-          "name": "Solana-Raydium-Sniper-Bot",
+          "name": "Reality-Compiler",
           "description": "",
           "source": "github"
         },
         {
-          "name": "Solana-Mev-Bot",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "called-it",
+          "name": "solana-arb-bot",
           "description": "",
           "source": "github"
         }
@@ -215,29 +224,35 @@
         "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-07-09T10:51:18.860Z"
+      "lastUpdated": "2026-07-10T10:50:14.387Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.36,
+      "confidence": 0.48,
       "trendingKeywords": [
-        "world"
+        "world",
+        "game"
       ],
       "topProjects": [
         {
-          "name": "txline-sharp-movement-detector",
+          "name": "zorr",
           "description": "",
           "source": "github"
         },
         {
-          "name": "goalpost-prop-market",
+          "name": "gaffer",
           "description": "",
           "source": "github"
         },
         {
-          "name": "called-it",
+          "name": "verdict",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "proofcast",
           "description": "",
           "source": "github"
         }
@@ -250,10 +265,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-07-09T10:51:18.860Z"
+      "lastUpdated": "2026-07-10T10:50:14.387Z"
     },
     {
       "id": "social-consumer",
@@ -261,8 +276,7 @@
       "description": "Social platforms and consumer applications",
       "confidence": 0.27999999999999997,
       "trendingKeywords": [
-        "community",
-        "vote"
+        "community"
       ],
       "topProjects": [
         {
@@ -272,7 +286,7 @@
           "source": "github"
         },
         {
-          "name": "vote",
+          "name": "gogreencoin",
           "description": "",
           "source": "github"
         }
@@ -288,7 +302,7 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-07-09T10:51:18.860Z"
+      "lastUpdated": "2026-07-10T10:50:14.387Z"
     }
   ]
 }
