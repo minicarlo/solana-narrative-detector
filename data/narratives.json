@@ -1,131 +1,17 @@
 {
-  "timestamp": "2026-07-10T10:50:14.387Z",
+  "timestamp": "2026-07-11T09:25:28.564Z",
   "narratives": [
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 1,
-      "trendingKeywords": [
-        "dex",
-        "vault",
-        "swap",
-        "liquidity",
-        "stake"
-      ],
-      "topProjects": [
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "whirlpools",
-          "description": "",
-          "url": "https://github.com/orca-so/whirlpools",
-          "source": "github"
-        },
-        {
-          "name": "QuillAudit_smart_contract_audit_Reports",
-          "description": "",
-          "url": "https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports",
-          "source": "github"
-        },
-        {
-          "name": "meshchain",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 8,
-        "social": 0
-      },
-      "lastUpdated": "2026-07-10T10:50:14.387Z"
-    },
-    {
-      "id": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Core blockchain infrastructure and tooling",
-      "confidence": 1,
-      "trendingKeywords": [
-        "network",
-        "validator",
-        "bridge",
-        "node",
-        "indexer",
-        "rollup"
-      ],
-      "topProjects": [
-        {
-          "name": "firedancer",
-          "description": "",
-          "url": "https://github.com/firedancer-io/firedancer",
-          "source": "github"
-        },
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "jito-solana",
-          "description": "",
-          "url": "https://github.com/jito-foundation/jito-solana",
-          "source": "github"
-        },
-        {
-          "name": "Rustchain",
-          "description": "",
-          "url": "https://github.com/Scottcjn/Rustchain",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized RPC load balancer for Solana",
-        "Create a validator performance monitoring dashboard",
-        "Develop a bridge aggregator for cross-chain transfers",
-        "Build an oracle comparison and aggregation service"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 8,
-        "social": 0
-      },
-      "lastUpdated": "2026-07-10T10:50:14.387Z"
-    },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.8849,
+      "confidence": 0.99694,
       "trendingKeywords": [
+        "library",
         "compile",
         "framework",
-        "library",
         "deploy",
-        "testing"
+        "build"
       ],
       "topProjects": [
         {
@@ -153,9 +39,8 @@
           "source": "github"
         },
         {
-          "name": "QuillAudit_smart_contract_audit_Reports",
+          "name": "Reality-Compiler",
           "description": "",
-          "url": "https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports",
           "source": "github"
         }
       ],
@@ -167,64 +52,123 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-07-10T10:50:14.387Z"
+      "lastUpdated": "2026-07-11T09:25:28.564Z"
     },
     {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.7682,
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Core blockchain infrastructure and tooling",
+      "confidence": 0.8640400000000001,
       "trendingKeywords": [
-        "bot",
-        "intelligence",
-        "agent",
-        "inference",
-        "autonomous"
+        "validator",
+        "indexer",
+        "network",
+        "bridge",
+        "node"
       ],
       "topProjects": [
         {
-          "name": "OctoBot",
+          "name": "firedancer",
           "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "url": "https://github.com/firedancer-io/firedancer",
           "source": "github"
         },
         {
-          "name": "Rustchain",
+          "name": "squid-sdk",
           "description": "",
-          "url": "https://github.com/Scottcjn/Rustchain",
+          "url": "https://github.com/subsquid/squid-sdk",
           "source": "github"
         },
         {
-          "name": "solana-trading-bot",
+          "name": "rango-client",
           "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
         },
         {
-          "name": "Reality-Compiler",
+          "name": "jito-solana",
           "description": "",
+          "url": "https://github.com/jito-foundation/jito-solana",
           "source": "github"
         },
         {
-          "name": "solana-arb-bot",
+          "name": "pulsar-network-monitor",
           "description": "",
           "source": "github"
         }
       ],
       "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
+        "Build a decentralized RPC load balancer for Solana",
+        "Create a validator performance monitoring dashboard",
+        "Develop a bridge aggregator for cross-chain transfers",
+        "Build an oracle comparison and aggregation service"
       ],
       "dataSources": {
         "helius": 0,
         "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-07-10T10:50:14.387Z"
+      "lastUpdated": "2026-07-11T09:25:28.563Z"
+    },
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.8121600000000001,
+      "trendingKeywords": [
+        "dex",
+        "swap",
+        "liquidity",
+        "stake",
+        "yield",
+        "lending",
+        "farm"
+      ],
+      "topProjects": [
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "whirlpools",
+          "description": "",
+          "url": "https://github.com/orca-so/whirlpools",
+          "source": "github"
+        },
+        {
+          "name": "pulsar-network-monitor",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-realtime-indexer",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 6,
+        "social": 0
+      },
+      "lastUpdated": "2026-07-11T09:25:28.563Z"
     },
     {
       "id": "gaming-nft",
@@ -237,22 +181,22 @@
       ],
       "topProjects": [
         {
-          "name": "zorr",
-          "description": "",
-          "source": "github"
-        },
-        {
           "name": "gaffer",
           "description": "",
           "source": "github"
         },
         {
-          "name": "verdict",
+          "name": "hot-streak",
           "description": "",
           "source": "github"
         },
         {
-          "name": "proofcast",
+          "name": "Pulse",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "world-pnl-card",
           "description": "",
           "source": "github"
         }
@@ -268,7 +212,49 @@
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-07-10T10:50:14.387Z"
+      "lastUpdated": "2026-07-11T09:25:28.563Z"
+    },
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 0.4,
+      "trendingKeywords": [
+        "bot",
+        "autonomous",
+        "intelligence",
+        "agent"
+      ],
+      "topProjects": [
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "Reality-Compiler",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "agentfund",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 3,
+        "social": 0
+      },
+      "lastUpdated": "2026-07-11T09:25:28.564Z"
     },
     {
       "id": "social-consumer",
@@ -302,7 +288,7 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-07-10T10:50:14.387Z"
+      "lastUpdated": "2026-07-11T09:25:28.564Z"
     }
   ]
 }
