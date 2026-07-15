@@ -1,18 +1,18 @@
 {
-  "timestamp": "2026-07-14T09:55:16.143Z",
+  "timestamp": "2026-07-15T09:59:15.758Z",
   "narratives": [
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.86416,
+      "confidence": 1,
       "trendingKeywords": [
         "validator",
         "network",
-        "indexer",
         "bridge",
-        "node",
-        "oracle"
+        "oracle",
+        "indexer",
+        "node"
       ],
       "topProjects": [
         {
@@ -40,7 +40,7 @@
           "source": "github"
         },
         {
-          "name": "pulsar-network-v1-monitor",
+          "name": "goalchain",
           "description": "",
           "source": "github"
         }
@@ -53,21 +53,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-07-14T09:55:16.143Z"
+      "lastUpdated": "2026-07-15T09:59:15.758Z"
     },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.8,
+      "confidence": 1,
       "trendingKeywords": [
         "bot",
-        "intelligence",
-        "agent",
-        "autonomous"
+        "agent"
       ],
       "topProjects": [
         {
@@ -83,17 +81,17 @@
           "source": "github"
         },
         {
-          "name": "sentinel-ai",
+          "name": "autopumpfunsniper-2vgr",
           "description": "",
           "source": "github"
         },
         {
-          "name": "daylight",
+          "name": "pfsnip-x",
           "description": "",
           "source": "github"
         },
         {
-          "name": "pumpfun-hunterj",
+          "name": "pumpaimbundle",
           "description": "",
           "source": "github"
         }
@@ -106,73 +104,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 11,
         "social": 0
       },
-      "lastUpdated": "2026-07-14T09:55:16.143Z"
-    },
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.68,
-      "trendingKeywords": [
-        "stake",
-        "dex",
-        "swap",
-        "yield"
-      ],
-      "topProjects": [
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "zhengjianzhou.github.io",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "proofgoal",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "pulsar-network-v1-monitor",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 5,
-        "social": 0
-      },
-      "lastUpdated": "2026-07-14T09:55:16.143Z"
+      "lastUpdated": "2026-07-15T09:59:15.758Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.477,
+      "confidence": 0.7171200000000001,
       "trendingKeywords": [
+        "deploy",
         "framework",
         "library",
-        "deploy"
+        "build"
       ],
       "topProjects": [
         {
@@ -192,6 +138,16 @@
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
+        },
+        {
+          "name": "Solphg",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "amberforge",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -202,18 +158,67 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-07-14T09:55:16.143Z"
+      "lastUpdated": "2026-07-15T09:59:15.758Z"
+    },
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.56,
+      "trendingKeywords": [
+        "dex",
+        "swap",
+        "stake",
+        "vault"
+      ],
+      "topProjects": [
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "pulsar-network-v1-monitor",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "Marketing-Program",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 4,
+        "social": 0
+      },
+      "lastUpdated": "2026-07-15T09:59:15.758Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.4,
       "trendingKeywords": [
-        "community"
+        "community",
+        "vote"
       ],
       "topProjects": [
         {
@@ -223,7 +228,12 @@
           "source": "github"
         },
         {
-          "name": "gogreencoin",
+          "name": "Whistly",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "Marketing-Program",
           "description": "",
           "source": "github"
         }
@@ -236,10 +246,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-07-14T09:55:16.143Z"
+      "lastUpdated": "2026-07-15T09:59:15.758Z"
     },
     {
       "id": "gaming-nft",
@@ -251,12 +261,12 @@
       ],
       "topProjects": [
         {
-          "name": "proofgoal",
+          "name": "goalchain",
           "description": "",
           "source": "github"
         },
         {
-          "name": "CHAMPCHAIN",
+          "name": "Whistly",
           "description": "",
           "source": "github"
         }
@@ -272,7 +282,7 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-07-14T09:55:16.143Z"
+      "lastUpdated": "2026-07-15T09:59:15.758Z"
     }
   ]
 }
