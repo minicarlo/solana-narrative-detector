@@ -1,17 +1,70 @@
 {
-  "timestamp": "2026-07-15T09:59:15.758Z",
+  "timestamp": "2026-07-16T10:05:35.500Z",
   "narratives": [
+    {
+      "id": "dev-tools",
+      "name": "Developer Tools",
+      "description": "Tools and infrastructure for developers",
+      "confidence": 1,
+      "trendingKeywords": [
+        "build",
+        "deploy",
+        "framework",
+        "library"
+      ],
+      "topProjects": [
+        {
+          "name": "anchor",
+          "description": "",
+          "url": "https://github.com/otter-sec/anchor",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "solana-playground",
+          "description": "",
+          "url": "https://github.com/solana-playground/solana-playground",
+          "source": "github"
+        },
+        {
+          "name": "alter-ego",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-alpha-scanner",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create a Solana program testing framework with auto-generated tests",
+        "Build a no-code contract deployment platform",
+        "Develop a real-time program monitoring and alerting tool",
+        "Create an IDE extension for Solana development"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 8,
+        "social": 0
+      },
+      "lastUpdated": "2026-07-16T10:05:35.500Z"
+    },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 1,
+      "confidence": 0.8642200000000001,
       "trendingKeywords": [
         "validator",
+        "indexer",
         "network",
         "bridge",
-        "oracle",
-        "indexer",
         "node"
       ],
       "topProjects": [
@@ -40,7 +93,7 @@
           "source": "github"
         },
         {
-          "name": "goalchain",
+          "name": "pulsar-network-v1-monitor",
           "description": "",
           "source": "github"
         }
@@ -53,19 +106,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-07-15T09:59:15.758Z"
+      "lastUpdated": "2026-07-16T10:05:35.500Z"
     },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 1,
+      "confidence": 0.8,
       "trendingKeywords": [
         "bot",
-        "agent"
+        "agent",
+        "model",
+        "intelligence"
       ],
       "topProjects": [
         {
@@ -81,17 +136,17 @@
           "source": "github"
         },
         {
-          "name": "autopumpfunsniper-2vgr",
+          "name": "alter-ego",
           "description": "",
           "source": "github"
         },
         {
-          "name": "pfsnip-x",
+          "name": "Solana-Arbitrage-Trading-Bot",
           "description": "",
           "source": "github"
         },
         {
-          "name": "pumpaimbundle",
+          "name": "chumbucket-arena",
           "description": "",
           "source": "github"
         }
@@ -104,75 +159,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 11,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-07-15T09:59:15.758Z"
-    },
-    {
-      "id": "dev-tools",
-      "name": "Developer Tools",
-      "description": "Tools and infrastructure for developers",
-      "confidence": 0.7171200000000001,
-      "trendingKeywords": [
-        "deploy",
-        "framework",
-        "library",
-        "build"
-      ],
-      "topProjects": [
-        {
-          "name": "anchor",
-          "description": "",
-          "url": "https://github.com/otter-sec/anchor",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "solana-playground",
-          "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
-          "source": "github"
-        },
-        {
-          "name": "Solphg",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "amberforge",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a Solana program testing framework with auto-generated tests",
-        "Build a no-code contract deployment platform",
-        "Develop a real-time program monitoring and alerting tool",
-        "Create an IDE extension for Solana development"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 5,
-        "social": 0
-      },
-      "lastUpdated": "2026-07-15T09:59:15.758Z"
+      "lastUpdated": "2026-07-16T10:05:35.500Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.56,
+      "confidence": 0.68,
       "trendingKeywords": [
         "dex",
         "swap",
         "stake",
-        "vault"
+        "yield"
       ],
       "topProjects": [
         {
@@ -193,7 +194,12 @@
           "source": "github"
         },
         {
-          "name": "Marketing-Program",
+          "name": "daylight",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "chumbucket-arena",
           "description": "",
           "source": "github"
         }
@@ -206,19 +212,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-07-15T09:59:15.758Z"
+      "lastUpdated": "2026-07-16T10:05:35.500Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.4,
+      "confidence": 0.64,
       "trendingKeywords": [
         "community",
-        "vote"
+        "social"
       ],
       "topProjects": [
         {
@@ -228,12 +234,22 @@
           "source": "github"
         },
         {
-          "name": "Whistly",
+          "name": "DOGLY",
           "description": "",
           "source": "github"
         },
         {
-          "name": "Marketing-Program",
+          "name": "gogreencoin",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "chumbucket-arena",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "Nextdoor",
           "description": "",
           "source": "github"
         }
@@ -246,27 +262,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-07-15T09:59:15.758Z"
+      "lastUpdated": "2026-07-16T10:05:35.500Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.24,
+      "confidence": 0.12,
       "trendingKeywords": [
         "world"
       ],
       "topProjects": [
         {
-          "name": "goalchain",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "Whistly",
+          "name": "chumbucket-arena",
           "description": "",
           "source": "github"
         }
@@ -279,10 +290,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-07-15T09:59:15.758Z"
+      "lastUpdated": "2026-07-16T10:05:35.500Z"
     }
   ]
 }
