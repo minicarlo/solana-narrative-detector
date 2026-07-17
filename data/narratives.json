@@ -1,22 +1,24 @@
 {
-  "timestamp": "2026-07-16T10:05:35.500Z",
+  "timestamp": "2026-07-17T09:53:56.973Z",
   "narratives": [
     {
-      "id": "dev-tools",
-      "name": "Developer Tools",
-      "description": "Tools and infrastructure for developers",
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
       "confidence": 1,
       "trendingKeywords": [
-        "build",
-        "deploy",
-        "framework",
-        "library"
+        "swap",
+        "stake",
+        "dex",
+        "yield",
+        "lending",
+        "perp"
       ],
       "topProjects": [
         {
-          "name": "anchor",
+          "name": "squid-sdk",
           "description": "",
-          "url": "https://github.com/otter-sec/anchor",
+          "url": "https://github.com/subsquid/squid-sdk",
           "source": "github"
         },
         {
@@ -26,34 +28,33 @@
           "source": "github"
         },
         {
-          "name": "solana-playground",
-          "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
-          "source": "github"
-        },
-        {
-          "name": "alter-ego",
+          "name": "daylight",
           "description": "",
           "source": "github"
         },
         {
-          "name": "solana-alpha-scanner",
+          "name": "Stableswap-Solana-bootcamp",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solitude-build",
           "description": "",
           "source": "github"
         }
       ],
       "projectIdeas": [
-        "Create a Solana program testing framework with auto-generated tests",
-        "Build a no-code contract deployment platform",
-        "Develop a real-time program monitoring and alerting tool",
-        "Create an IDE extension for Solana development"
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
       ],
       "dataSources": {
         "helius": 0,
         "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-07-16T10:05:35.500Z"
+      "lastUpdated": "2026-07-17T09:53:56.973Z"
     },
     {
       "id": "infrastructure",
@@ -62,10 +63,11 @@
       "confidence": 0.8642200000000001,
       "trendingKeywords": [
         "validator",
-        "indexer",
         "network",
+        "indexer",
         "bridge",
-        "node"
+        "node",
+        "oracle"
       ],
       "topProjects": [
         {
@@ -109,18 +111,118 @@
         "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-07-16T10:05:35.500Z"
+      "lastUpdated": "2026-07-17T09:53:56.973Z"
+    },
+    {
+      "id": "dev-tools",
+      "name": "Developer Tools",
+      "description": "Tools and infrastructure for developers",
+      "confidence": 0.8552799999999999,
+      "trendingKeywords": [
+        "framework",
+        "build",
+        "library",
+        "deploy"
+      ],
+      "topProjects": [
+        {
+          "name": "anchor",
+          "description": "",
+          "url": "https://github.com/otter-sec/anchor",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "solana-playground",
+          "description": "",
+          "url": "https://github.com/solana-playground/solana-playground",
+          "source": "github"
+        },
+        {
+          "name": "create-solana-dapp",
+          "description": "",
+          "url": "https://github.com/solana-foundation/create-solana-dapp",
+          "source": "github"
+        },
+        {
+          "name": "solitude-build",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create a Solana program testing framework with auto-generated tests",
+        "Build a no-code contract deployment platform",
+        "Develop a real-time program monitoring and alerting tool",
+        "Create an IDE extension for Solana development"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 6,
+        "social": 0
+      },
+      "lastUpdated": "2026-07-17T09:53:56.973Z"
+    },
+    {
+      "id": "social-consumer",
+      "name": "Social & Consumer",
+      "description": "Social platforms and consumer applications",
+      "confidence": 0.52,
+      "trendingKeywords": [
+        "community",
+        "fan",
+        "vote"
+      ],
+      "topProjects": [
+        {
+          "name": "app-monorepo",
+          "description": "",
+          "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "bobu",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "rewind-fc",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "Whistly",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized social graph protocol",
+        "Create a creator monetization platform with micro-tipping",
+        "Develop a DAO governance participation reward system",
+        "Build a reputation-based social discovery app"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 4,
+        "social": 0
+      },
+      "lastUpdated": "2026-07-17T09:53:56.973Z"
     },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.8,
+      "confidence": 0.44000000000000006,
       "trendingKeywords": [
         "bot",
         "agent",
-        "model",
-        "intelligence"
+        "autonomous"
       ],
       "topProjects": [
         {
@@ -136,17 +238,7 @@
           "source": "github"
         },
         {
-          "name": "alter-ego",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "Solana-Arbitrage-Trading-Bot",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "chumbucket-arena",
+          "name": "sharpe",
           "description": "",
           "source": "github"
         }
@@ -159,125 +251,32 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-07-16T10:05:35.500Z"
-    },
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.68,
-      "trendingKeywords": [
-        "dex",
-        "swap",
-        "stake",
-        "yield"
-      ],
-      "topProjects": [
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "pulsar-network-v1-monitor",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "daylight",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "chumbucket-arena",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 5,
-        "social": 0
-      },
-      "lastUpdated": "2026-07-16T10:05:35.500Z"
-    },
-    {
-      "id": "social-consumer",
-      "name": "Social & Consumer",
-      "description": "Social platforms and consumer applications",
-      "confidence": 0.64,
-      "trendingKeywords": [
-        "community",
-        "social"
-      ],
-      "topProjects": [
-        {
-          "name": "app-monorepo",
-          "description": "",
-          "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "DOGLY",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "gogreencoin",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "chumbucket-arena",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "Nextdoor",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized social graph protocol",
-        "Create a creator monetization platform with micro-tipping",
-        "Develop a DAO governance participation reward system",
-        "Build a reputation-based social discovery app"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 5,
-        "social": 0
-      },
-      "lastUpdated": "2026-07-16T10:05:35.500Z"
+      "lastUpdated": "2026-07-17T09:53:56.973Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.36,
       "trendingKeywords": [
         "world"
       ],
       "topProjects": [
         {
-          "name": "chumbucket-arena",
+          "name": "overturn",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "rewind-fc",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "Whistly",
           "description": "",
           "source": "github"
         }
@@ -290,10 +289,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-07-16T10:05:35.500Z"
+      "lastUpdated": "2026-07-17T09:53:56.973Z"
     }
   ]
 }
