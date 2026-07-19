@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-18T09:21:19.641Z",
+  "timestamp": "2026-07-19T09:49:04.365Z",
   "narratives": [
     {
       "id": "infrastructure",
@@ -8,11 +8,11 @@
       "confidence": 1,
       "trendingKeywords": [
         "bridge",
-        "node",
         "validator",
-        "network",
         "indexer",
-        "oracle"
+        "oracle",
+        "node",
+        "network"
       ],
       "topProjects": [
         {
@@ -54,125 +54,74 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
-        "social": 0
-      },
-      "lastUpdated": "2026-07-18T09:21:19.641Z"
-    },
-    {
-      "id": "gaming-nft",
-      "name": "Gaming & NFT",
-      "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.96,
-      "trendingKeywords": [
-        "world",
-        "game",
-        "collectible"
-      ],
-      "topProjects": [
-        {
-          "name": "good-boys-hq",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "fadecast",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "riftwilds",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "futodds",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "whistle-worldcup",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a no-code NFT collection launcher with built-in marketplace",
-        "Build a gaming guild management platform with scholarship tracking",
-        "Develop an on-chain achievement system for games",
-        "Create a metaverse land rental marketplace"
-      ],
-      "dataSources": {
-        "helius": 0,
         "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-07-18T09:21:19.641Z"
+      "lastUpdated": "2026-07-19T09:49:04.364Z"
     },
     {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.7200000000000001,
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 0.8,
       "trendingKeywords": [
-        "swap",
-        "dex",
-        "stake",
-        "yield"
+        "bot",
+        "agent",
+        "autonomous",
+        "model"
       ],
       "topProjects": [
         {
-          "name": "rango-sdk",
+          "name": "OctoBot",
           "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
           "source": "github"
         },
         {
-          "name": "squid-sdk",
+          "name": "Solana-Arbitrage-Bot",
           "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
+          "url": "https://github.com/x89/Solana-Arbitrage-Bot",
           "source": "github"
         },
         {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "pulsar-network-v1-monitor",
+          "name": "solana-bot-ai",
           "description": "",
           "source": "github"
         },
         {
-          "name": "daylight",
+          "name": "linesman",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "x402-seller",
           "description": "",
           "source": "github"
         }
       ],
       "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-07-18T09:21:19.641Z"
+      "lastUpdated": "2026-07-19T09:49:04.364Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.6370600000000001,
+      "confidence": 0.7570600000000001,
       "trendingKeywords": [
+        "deploy",
         "framework",
         "compile",
-        "library",
-        "deploy"
+        "library"
       ],
       "topProjects": [
         {
@@ -198,6 +147,11 @@
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
+        },
+        {
+          "name": "rome-registry",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -208,57 +162,111 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-07-18T09:21:19.641Z"
+      "lastUpdated": "2026-07-19T09:49:04.365Z"
     },
     {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.56,
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.7200000000000001,
       "trendingKeywords": [
-        "bot",
-        "agent",
-        "autonomous"
+        "swap",
+        "dex",
+        "liquidity"
       ],
       "topProjects": [
         {
-          "name": "OctoBot",
+          "name": "rango-sdk",
           "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "url": "https://github.com/rango-exchange/rango-sdk",
           "source": "github"
         },
         {
-          "name": "Solana-Arbitrage-Bot",
+          "name": "squid-sdk",
           "description": "",
-          "url": "https://github.com/x89/Solana-Arbitrage-Bot",
+          "url": "https://github.com/subsquid/squid-sdk",
           "source": "github"
         },
         {
-          "name": "sharpe",
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "x402-seller",
           "description": "",
           "source": "github"
         },
         {
-          "name": "Solana-AI-Trading-Bot",
+          "name": "chumbucket-arena",
           "description": "",
           "source": "github"
         }
       ],
       "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-07-18T09:21:19.641Z"
+      "lastUpdated": "2026-07-19T09:49:04.364Z"
+    },
+    {
+      "id": "gaming-nft",
+      "name": "Gaming & NFT",
+      "description": "Blockchain gaming and NFT ecosystems",
+      "confidence": 0.6,
+      "trendingKeywords": [
+        "world"
+      ],
+      "topProjects": [
+        {
+          "name": "linesman",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "foresight",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "overturn",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "chumbucket-arena",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "odds-warden",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create a no-code NFT collection launcher with built-in marketplace",
+        "Build a gaming guild management platform with scholarship tracking",
+        "Develop an on-chain achievement system for games",
+        "Create a metaverse land rental marketplace"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 5,
+        "social": 0
+      },
+      "lastUpdated": "2026-07-19T09:49:04.364Z"
     },
     {
       "id": "social-consumer",
@@ -267,8 +275,7 @@
       "confidence": 0.27999999999999997,
       "trendingKeywords": [
         "community",
-        "social",
-        "fan"
+        "social"
       ],
       "topProjects": [
         {
@@ -278,7 +285,7 @@
           "source": "github"
         },
         {
-          "name": "CHORUS",
+          "name": "chumbucket-arena",
           "description": "",
           "source": "github"
         }
@@ -294,7 +301,7 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-07-18T09:21:19.641Z"
+      "lastUpdated": "2026-07-19T09:49:04.365Z"
     }
   ]
 }
