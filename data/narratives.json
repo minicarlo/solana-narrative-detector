@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-19T09:49:04.365Z",
+  "timestamp": "2026-07-20T10:48:25.007Z",
   "narratives": [
     {
       "id": "infrastructure",
@@ -8,11 +8,11 @@
       "confidence": 1,
       "trendingKeywords": [
         "bridge",
-        "validator",
-        "indexer",
-        "oracle",
         "node",
-        "network"
+        "validator",
+        "network",
+        "indexer",
+        "oracle"
       ],
       "topProjects": [
         {
@@ -54,21 +54,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-07-19T09:49:04.364Z"
+      "lastUpdated": "2026-07-20T10:48:25.007Z"
     },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.8,
+      "confidence": 0.8242200000000001,
       "trendingKeywords": [
         "bot",
-        "agent",
-        "autonomous",
-        "model"
+        "autonomous"
       ],
       "topProjects": [
         {
@@ -84,17 +82,18 @@
           "source": "github"
         },
         {
-          "name": "solana-bot-ai",
+          "name": "solana-swap-api",
+          "description": "",
+          "url": "https://github.com/vybenetwork/solana-swap-api",
+          "source": "github"
+        },
+        {
+          "name": "copy-trade-engine-solana",
           "description": "",
           "source": "github"
         },
         {
-          "name": "linesman",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "x402-seller",
+          "name": "Solana-Web3Bot-",
           "description": "",
           "source": "github"
         }
@@ -110,18 +109,72 @@
         "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-07-19T09:49:04.364Z"
+      "lastUpdated": "2026-07-20T10:48:25.007Z"
+    },
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.7442200000000001,
+      "trendingKeywords": [
+        "swap",
+        "dex",
+        "stake"
+      ],
+      "topProjects": [
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
+          "source": "github"
+        },
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "solana-swap-api",
+          "description": "",
+          "url": "https://github.com/vybenetwork/solana-swap-api",
+          "source": "github"
+        },
+        {
+          "name": "pulsar-network-v1-monitor",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 5,
+        "social": 0
+      },
+      "lastUpdated": "2026-07-20T10:48:25.007Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.7570600000000001,
+      "confidence": 0.6370600000000001,
       "trendingKeywords": [
-        "deploy",
         "framework",
         "compile",
-        "library"
+        "library",
+        "deploy"
       ],
       "topProjects": [
         {
@@ -147,11 +200,6 @@
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
-        },
-        {
-          "name": "rome-registry",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -162,120 +210,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-07-19T09:49:04.365Z"
-    },
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.7200000000000001,
-      "trendingKeywords": [
-        "swap",
-        "dex",
-        "liquidity"
-      ],
-      "topProjects": [
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
-          "source": "github"
-        },
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "x402-seller",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "chumbucket-arena",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 5,
-        "social": 0
-      },
-      "lastUpdated": "2026-07-19T09:49:04.364Z"
-    },
-    {
-      "id": "gaming-nft",
-      "name": "Gaming & NFT",
-      "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.6,
-      "trendingKeywords": [
-        "world"
-      ],
-      "topProjects": [
-        {
-          "name": "linesman",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "foresight",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "overturn",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "chumbucket-arena",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "odds-warden",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a no-code NFT collection launcher with built-in marketplace",
-        "Build a gaming guild management platform with scholarship tracking",
-        "Develop an on-chain achievement system for games",
-        "Create a metaverse land rental marketplace"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 5,
-        "social": 0
-      },
-      "lastUpdated": "2026-07-19T09:49:04.364Z"
+      "lastUpdated": "2026-07-20T10:48:25.007Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.4,
       "trendingKeywords": [
         "community",
-        "social"
+        "vote"
       ],
       "topProjects": [
         {
@@ -285,7 +232,12 @@
           "source": "github"
         },
         {
-          "name": "chumbucket-arena",
+          "name": "Turkiye-Token",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "flash-settle",
           "description": "",
           "source": "github"
         }
@@ -298,10 +250,43 @@
       ],
       "dataSources": {
         "helius": 0,
+        "github": 3,
+        "social": 0
+      },
+      "lastUpdated": "2026-07-20T10:48:25.007Z"
+    },
+    {
+      "id": "gaming-nft",
+      "name": "Gaming & NFT",
+      "description": "Blockchain gaming and NFT ecosystems",
+      "confidence": 0.24,
+      "trendingKeywords": [
+        "world"
+      ],
+      "topProjects": [
+        {
+          "name": "flash-settle",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "proofsettle",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create a no-code NFT collection launcher with built-in marketplace",
+        "Build a gaming guild management platform with scholarship tracking",
+        "Develop an on-chain achievement system for games",
+        "Create a metaverse land rental marketplace"
+      ],
+      "dataSources": {
+        "helius": 0,
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-07-19T09:49:04.365Z"
+      "lastUpdated": "2026-07-20T10:48:25.007Z"
     }
   ]
 }
