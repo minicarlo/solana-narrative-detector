@@ -1,19 +1,25 @@
 {
-  "timestamp": "2026-07-21T10:22:52.950Z",
+  "timestamp": "2026-07-22T10:22:32.046Z",
   "narratives": [
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.98428,
+      "confidence": 1,
       "trendingKeywords": [
-        "network",
         "validator",
+        "node",
+        "network",
         "indexer",
-        "bridge",
-        "node"
+        "bridge"
       ],
       "topProjects": [
+        {
+          "name": "solana-web3.js",
+          "description": "",
+          "url": "https://github.com/solana-foundation/solana-web3.js",
+          "source": "github"
+        },
         {
           "name": "firedancer",
           "description": "",
@@ -37,11 +43,6 @@
           "description": "",
           "url": "https://github.com/jito-foundation/jito-solana",
           "source": "github"
-        },
-        {
-          "name": "find-the-insiders",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -52,20 +53,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-07-21T10:22:52.950Z"
+      "lastUpdated": "2026-07-22T10:22:32.045Z"
     },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.95046,
+      "confidence": 1,
       "trendingKeywords": [
-        "bot",
         "agent",
-        "intelligence"
+        "bot",
+        "autonomous"
       ],
       "topProjects": [
         {
@@ -81,13 +82,12 @@
           "source": "github"
         },
         {
-          "name": "solana-swap-api",
+          "name": "solvamos-studio",
           "description": "",
-          "url": "https://github.com/vybenetwork/solana-swap-api",
           "source": "github"
         },
         {
-          "name": "bankroll-starter",
+          "name": "zeroclaw-solana-plugins",
           "description": "",
           "source": "github"
         },
@@ -105,17 +105,18 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-07-21T10:22:52.950Z"
+      "lastUpdated": "2026-07-22T10:22:32.046Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.7570600000000001,
+      "confidence": 1,
       "trendingKeywords": [
+        "build",
         "framework",
         "compile",
         "library",
@@ -148,7 +149,7 @@
           "source": "github"
         },
         {
-          "name": "palinurus",
+          "name": "solvamos-studio",
           "description": "",
           "source": "github"
         }
@@ -161,16 +162,16 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-07-21T10:22:52.950Z"
+      "lastUpdated": "2026-07-22T10:22:32.046Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.59046,
+      "confidence": 0.56,
       "trendingKeywords": [
         "dex",
         "swap",
@@ -190,13 +191,12 @@
           "source": "github"
         },
         {
-          "name": "solana-swap-api",
+          "name": "x402-seller",
           "description": "",
-          "url": "https://github.com/vybenetwork/solana-swap-api",
           "source": "github"
         },
         {
-          "name": "x402-seller",
+          "name": "callbot",
           "description": "",
           "source": "github"
         }
@@ -212,21 +212,37 @@
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-07-21T10:22:52.950Z"
+      "lastUpdated": "2026-07-22T10:22:32.045Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
+      "confidence": 0.52,
       "trendingKeywords": [
-        "community"
+        "community",
+        "governance"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "GreenTree",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "sdgfluffy",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "DOGLY",
+          "description": "",
           "source": "github"
         }
       ],
@@ -238,26 +254,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-07-21T10:22:52.950Z"
+      "lastUpdated": "2026-07-22T10:22:32.046Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.1,
       "trendingKeywords": [
-        "game"
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "solana-shot-v8",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -266,10 +280,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-07-21T10:22:52.950Z"
+      "lastUpdated": "2026-07-22T10:22:32.045Z"
     }
   ]
 }
