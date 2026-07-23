@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-22T10:22:32.046Z",
+  "timestamp": "2026-07-23T10:19:34.564Z",
   "narratives": [
     {
       "id": "infrastructure",
@@ -8,8 +8,8 @@
       "confidence": 1,
       "trendingKeywords": [
         "validator",
-        "node",
         "network",
+        "node",
         "indexer",
         "bridge"
       ],
@@ -53,20 +53,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-07-22T10:22:32.045Z"
+      "lastUpdated": "2026-07-23T10:19:34.564Z"
     },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 1,
+      "confidence": 0.9199999999999999,
       "trendingKeywords": [
         "agent",
         "bot",
-        "autonomous"
+        "autonomous",
+        "model"
       ],
       "topProjects": [
         {
@@ -82,17 +83,17 @@
           "source": "github"
         },
         {
-          "name": "solvamos-studio",
+          "name": "copy-trade-engine-solana",
           "description": "",
           "source": "github"
         },
         {
-          "name": "zeroclaw-solana-plugins",
+          "name": "Cupel",
           "description": "",
           "source": "github"
         },
         {
-          "name": "x402-seller",
+          "name": "solsentry",
           "description": "",
           "source": "github"
         }
@@ -105,23 +106,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-07-22T10:22:32.046Z"
+      "lastUpdated": "2026-07-23T10:19:34.564Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 1,
+      "confidence": 0.6371200000000001,
       "trendingKeywords": [
-        "build",
         "framework",
         "compile",
         "library",
-        "deploy",
-        "testing"
+        "deploy"
       ],
       "topProjects": [
         {
@@ -147,11 +146,6 @@
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
-        },
-        {
-          "name": "solvamos-studio",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -162,10 +156,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-07-22T10:22:32.046Z"
+      "lastUpdated": "2026-07-23T10:19:34.564Z"
     },
     {
       "id": "defi-innovation",
@@ -175,6 +169,7 @@
       "trendingKeywords": [
         "dex",
         "swap",
+        "vault",
         "liquidity"
       ],
       "topProjects": [
@@ -191,12 +186,12 @@
           "source": "github"
         },
         {
-          "name": "x402-seller",
+          "name": "HD-wallet",
           "description": "",
           "source": "github"
         },
         {
-          "name": "callbot",
+          "name": "x402-seller",
           "description": "",
           "source": "github"
         }
@@ -212,37 +207,21 @@
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-07-22T10:22:32.045Z"
+      "lastUpdated": "2026-07-23T10:19:34.563Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.52,
+      "confidence": 0.16,
       "trendingKeywords": [
-        "community",
-        "governance"
+        "community"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "GreenTree",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "sdgfluffy",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "DOGLY",
-          "description": "",
           "source": "github"
         }
       ],
@@ -254,10 +233,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-07-22T10:22:32.046Z"
+      "lastUpdated": "2026-07-23T10:19:34.564Z"
     },
     {
       "id": "gaming-nft",
@@ -283,7 +262,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-07-22T10:22:32.045Z"
+      "lastUpdated": "2026-07-23T10:19:34.563Z"
     }
   ]
 }
