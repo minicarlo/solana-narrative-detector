@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-23T10:19:34.564Z",
+  "timestamp": "2026-07-24T10:13:19.720Z",
   "narratives": [
     {
       "id": "infrastructure",
@@ -9,9 +9,9 @@
       "trendingKeywords": [
         "validator",
         "network",
+        "bridge",
         "node",
-        "indexer",
-        "bridge"
+        "indexer"
       ],
       "topProjects": [
         {
@@ -56,18 +56,17 @@
         "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-07-23T10:19:34.564Z"
+      "lastUpdated": "2026-07-24T10:13:19.720Z"
     },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.9199999999999999,
+      "confidence": 1,
       "trendingKeywords": [
         "agent",
         "bot",
-        "autonomous",
-        "model"
+        "autonomous"
       ],
       "topProjects": [
         {
@@ -83,17 +82,17 @@
           "source": "github"
         },
         {
-          "name": "copy-trade-engine-solana",
+          "name": "Solana-AI-Agent",
           "description": "",
           "source": "github"
         },
         {
-          "name": "Cupel",
+          "name": "ScreenerBot",
           "description": "",
           "source": "github"
         },
         {
-          "name": "solsentry",
+          "name": "utilia-solana-agent",
           "description": "",
           "source": "github"
         }
@@ -106,16 +105,16 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 9,
         "social": 0
       },
-      "lastUpdated": "2026-07-23T10:19:34.564Z"
+      "lastUpdated": "2026-07-24T10:13:19.720Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.6371200000000001,
+      "confidence": 0.77552,
       "trendingKeywords": [
         "framework",
         "compile",
@@ -146,6 +145,12 @@
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
+        },
+        {
+          "name": "create-solana-dapp",
+          "description": "",
+          "url": "https://github.com/solana-foundation/create-solana-dapp",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -156,20 +161,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-07-23T10:19:34.564Z"
+      "lastUpdated": "2026-07-24T10:13:19.720Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.56,
+      "confidence": 0.44000000000000006,
       "trendingKeywords": [
         "dex",
         "swap",
-        "vault",
         "liquidity"
       ],
       "topProjects": [
@@ -186,11 +190,6 @@
           "source": "github"
         },
         {
-          "name": "HD-wallet",
-          "description": "",
-          "source": "github"
-        },
-        {
           "name": "x402-seller",
           "description": "",
           "source": "github"
@@ -204,10 +203,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-07-23T10:19:34.563Z"
+      "lastUpdated": "2026-07-24T10:13:19.720Z"
     },
     {
       "id": "social-consumer",
@@ -236,7 +235,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-07-23T10:19:34.564Z"
+      "lastUpdated": "2026-07-24T10:13:19.720Z"
     },
     {
       "id": "gaming-nft",
@@ -262,7 +261,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-07-23T10:19:34.563Z"
+      "lastUpdated": "2026-07-24T10:13:19.720Z"
     }
   ]
 }
