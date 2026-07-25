@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-24T10:13:19.720Z",
+  "timestamp": "2026-07-25T09:43:21.892Z",
   "narratives": [
     {
       "id": "infrastructure",
@@ -7,8 +7,8 @@
       "description": "Core blockchain infrastructure and tooling",
       "confidence": 1,
       "trendingKeywords": [
-        "validator",
         "network",
+        "validator",
         "bridge",
         "node",
         "indexer"
@@ -53,10 +53,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-07-24T10:13:19.720Z"
+      "lastUpdated": "2026-07-25T09:43:21.892Z"
     },
     {
       "id": "ai-crypto",
@@ -64,8 +64,10 @@
       "description": "Artificial intelligence meets blockchain",
       "confidence": 1,
       "trendingKeywords": [
+        "intelligence",
         "agent",
         "bot",
+        "neural",
         "autonomous"
       ],
       "topProjects": [
@@ -82,17 +84,17 @@
           "source": "github"
         },
         {
-          "name": "Solana-AI-Agent",
+          "name": "powerchain-ai",
           "description": "",
           "source": "github"
         },
         {
-          "name": "ScreenerBot",
+          "name": "solvamos-studio",
           "description": "",
           "source": "github"
         },
         {
-          "name": "utilia-solana-agent",
+          "name": "Solana-Shield-AI",
           "description": "",
           "source": "github"
         }
@@ -105,21 +107,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-07-24T10:13:19.720Z"
+      "lastUpdated": "2026-07-25T09:43:21.892Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.77552,
+      "confidence": 0.87712,
       "trendingKeywords": [
+        "deploy",
         "framework",
         "compile",
         "library",
-        "deploy"
+        "build"
       ],
       "topProjects": [
         {
@@ -147,9 +150,8 @@
           "source": "github"
         },
         {
-          "name": "create-solana-dapp",
+          "name": "solvamos-studio",
           "description": "",
-          "url": "https://github.com/solana-foundation/create-solana-dapp",
           "source": "github"
         }
       ],
@@ -161,20 +163,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-07-24T10:13:19.720Z"
+      "lastUpdated": "2026-07-25T09:43:21.892Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.44000000000000006,
+      "confidence": 0.32,
       "trendingKeywords": [
         "dex",
-        "swap",
-        "liquidity"
+        "swap"
       ],
       "topProjects": [
         {
@@ -188,11 +189,6 @@
           "description": "",
           "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
-        },
-        {
-          "name": "x402-seller",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -203,16 +199,16 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-07-24T10:13:19.720Z"
+      "lastUpdated": "2026-07-25T09:43:21.892Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
+      "confidence": 0.27999999999999997,
       "trendingKeywords": [
         "community"
       ],
@@ -221,6 +217,11 @@
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "bullburgercoin",
+          "description": "",
           "source": "github"
         }
       ],
@@ -232,10 +233,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-07-24T10:13:19.720Z"
+      "lastUpdated": "2026-07-25T09:43:21.892Z"
     },
     {
       "id": "gaming-nft",
@@ -261,7 +262,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-07-24T10:13:19.720Z"
+      "lastUpdated": "2026-07-25T09:43:21.892Z"
     }
   ]
 }
