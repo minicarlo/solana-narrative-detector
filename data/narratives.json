@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-07-25T09:43:21.892Z",
+  "timestamp": "2026-07-26T09:56:13.384Z",
   "narratives": [
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 1,
+      "confidence": 0.90434,
       "trendingKeywords": [
-        "network",
         "validator",
-        "bridge",
         "node",
-        "indexer"
+        "indexer",
+        "network",
+        "bridge"
       ],
       "topProjects": [
         {
@@ -53,22 +53,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-07-25T09:43:21.892Z"
+      "lastUpdated": "2026-07-26T09:56:13.383Z"
     },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 1,
+      "confidence": 0.8,
       "trendingKeywords": [
-        "intelligence",
-        "agent",
         "bot",
-        "neural",
-        "autonomous"
+        "agent",
+        "intelligence"
       ],
       "topProjects": [
         {
@@ -84,17 +82,17 @@
           "source": "github"
         },
         {
-          "name": "powerchain-ai",
+          "name": "memecoin-intelligence-terminal",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "keeper-agent",
           "description": "",
           "source": "github"
         },
         {
           "name": "solvamos-studio",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "Solana-Shield-AI",
           "description": "",
           "source": "github"
         }
@@ -107,21 +105,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-07-25T09:43:21.892Z"
+      "lastUpdated": "2026-07-26T09:56:13.383Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.87712,
+      "confidence": 0.7571800000000001,
       "trendingKeywords": [
-        "deploy",
         "framework",
         "compile",
         "library",
+        "deploy",
         "build"
       ],
       "topProjects": [
@@ -163,19 +161,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-07-25T09:43:21.892Z"
+      "lastUpdated": "2026-07-26T09:56:13.384Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.32,
+      "confidence": 0.44000000000000006,
       "trendingKeywords": [
         "dex",
-        "swap"
+        "swap",
+        "vault"
       ],
       "topProjects": [
         {
@@ -189,6 +188,11 @@
           "description": "",
           "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
+        },
+        {
+          "name": "vaultlint",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -199,10 +203,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-07-25T09:43:21.892Z"
+      "lastUpdated": "2026-07-26T09:56:13.383Z"
     },
     {
       "id": "social-consumer",
@@ -220,7 +224,7 @@
           "source": "github"
         },
         {
-          "name": "bullburgercoin",
+          "name": "GreenTree",
           "description": "",
           "source": "github"
         }
@@ -236,7 +240,7 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-07-25T09:43:21.892Z"
+      "lastUpdated": "2026-07-26T09:56:13.383Z"
     },
     {
       "id": "gaming-nft",
@@ -262,7 +266,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-07-25T09:43:21.892Z"
+      "lastUpdated": "2026-07-26T09:56:13.383Z"
     }
   ]
 }
