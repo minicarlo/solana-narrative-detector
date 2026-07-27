@@ -1,23 +1,81 @@
 {
-  "timestamp": "2026-07-26T09:56:13.384Z",
+  "timestamp": "2026-07-27T11:16:57.082Z",
   "narratives": [
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 0.9589799999999998,
+      "trendingKeywords": [
+        "bot",
+        "agent"
+      ],
+      "topProjects": [
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "Solana-Arbitrage-Bot",
+          "description": "",
+          "url": "https://github.com/x89/Solana-Arbitrage-Bot",
+          "source": "github"
+        },
+        {
+          "name": "solana-swap-api",
+          "description": "",
+          "url": "https://github.com/vybenetwork/solana-swap-api",
+          "source": "github"
+        },
+        {
+          "name": "Solana-Bundler-Bot",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "MEV-Bot-Tools-Advanced-Suite",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 7,
+        "social": 0
+      },
+      "lastUpdated": "2026-07-27T11:16:57.082Z"
+    },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.90434,
+      "confidence": 0.8,
       "trendingKeywords": [
-        "validator",
         "node",
+        "bridge",
+        "validator",
         "indexer",
-        "network",
-        "bridge"
+        "network"
       ],
       "topProjects": [
         {
           "name": "solana-web3.js",
           "description": "",
           "url": "https://github.com/solana-foundation/solana-web3.js",
+          "source": "github"
+        },
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
           "source": "github"
         },
         {
@@ -37,12 +95,6 @@
           "description": "",
           "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
-        },
-        {
-          "name": "jito-solana",
-          "description": "",
-          "url": "https://github.com/jito-foundation/jito-solana",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -53,74 +105,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-07-26T09:56:13.383Z"
-    },
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.8,
-      "trendingKeywords": [
-        "bot",
-        "agent",
-        "intelligence"
-      ],
-      "topProjects": [
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "Solana-Arbitrage-Bot",
-          "description": "",
-          "url": "https://github.com/x89/Solana-Arbitrage-Bot",
-          "source": "github"
-        },
-        {
-          "name": "memecoin-intelligence-terminal",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "keeper-agent",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solvamos-studio",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 6,
-        "social": 0
-      },
-      "lastUpdated": "2026-07-26T09:56:13.383Z"
+      "lastUpdated": "2026-07-27T11:16:57.082Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.7571800000000001,
+      "confidence": 0.7572400000000001,
       "trendingKeywords": [
         "framework",
         "compile",
         "library",
         "deploy",
-        "build"
+        "testing"
       ],
       "topProjects": [
         {
@@ -148,7 +148,7 @@
           "source": "github"
         },
         {
-          "name": "solvamos-studio",
+          "name": "veltra-examples",
           "description": "",
           "source": "github"
         }
@@ -164,19 +164,24 @@
         "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-07-26T09:56:13.384Z"
+      "lastUpdated": "2026-07-27T11:16:57.082Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.44000000000000006,
+      "confidence": 0.6389800000000001,
       "trendingKeywords": [
-        "dex",
         "swap",
-        "vault"
+        "dex"
       ],
       "topProjects": [
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
+          "source": "github"
+        },
         {
           "name": "squid-sdk",
           "description": "",
@@ -190,8 +195,9 @@
           "source": "github"
         },
         {
-          "name": "vaultlint",
+          "name": "solana-swap-api",
           "description": "",
+          "url": "https://github.com/vybenetwork/solana-swap-api",
           "source": "github"
         }
       ],
@@ -203,16 +209,16 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-07-26T09:56:13.383Z"
+      "lastUpdated": "2026-07-27T11:16:57.082Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.16,
       "trendingKeywords": [
         "community"
       ],
@@ -221,11 +227,6 @@
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "GreenTree",
-          "description": "",
           "source": "github"
         }
       ],
@@ -237,10 +238,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-07-26T09:56:13.383Z"
+      "lastUpdated": "2026-07-27T11:16:57.082Z"
     },
     {
       "id": "gaming-nft",
@@ -266,7 +267,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-07-26T09:56:13.383Z"
+      "lastUpdated": "2026-07-27T11:16:57.082Z"
     }
   ]
 }
