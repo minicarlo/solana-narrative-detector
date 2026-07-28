@@ -1,69 +1,17 @@
 {
-  "timestamp": "2026-07-27T11:16:57.082Z",
+  "timestamp": "2026-07-28T10:31:08.065Z",
   "narratives": [
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.9589799999999998,
-      "trendingKeywords": [
-        "bot",
-        "agent"
-      ],
-      "topProjects": [
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "Solana-Arbitrage-Bot",
-          "description": "",
-          "url": "https://github.com/x89/Solana-Arbitrage-Bot",
-          "source": "github"
-        },
-        {
-          "name": "solana-swap-api",
-          "description": "",
-          "url": "https://github.com/vybenetwork/solana-swap-api",
-          "source": "github"
-        },
-        {
-          "name": "Solana-Bundler-Bot",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "MEV-Bot-Tools-Advanced-Suite",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 7,
-        "social": 0
-      },
-      "lastUpdated": "2026-07-27T11:16:57.082Z"
-    },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.8,
+      "confidence": 1,
       "trendingKeywords": [
-        "node",
         "bridge",
+        "node",
+        "network",
         "validator",
-        "indexer",
-        "network"
+        "indexer"
       ],
       "topProjects": [
         {
@@ -105,72 +53,69 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-07-27T11:16:57.082Z"
+      "lastUpdated": "2026-07-28T10:31:08.065Z"
     },
     {
-      "id": "dev-tools",
-      "name": "Developer Tools",
-      "description": "Tools and infrastructure for developers",
-      "confidence": 0.7572400000000001,
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 1,
       "trendingKeywords": [
-        "framework",
-        "compile",
-        "library",
-        "deploy",
-        "testing"
+        "bot",
+        "autonomous",
+        "agent"
       ],
       "topProjects": [
         {
-          "name": "anchor",
+          "name": "OctoBot",
           "description": "",
-          "url": "https://github.com/otter-sec/anchor",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
           "source": "github"
         },
         {
-          "name": "solang",
+          "name": "Solana-Arbitrage-Bot",
           "description": "",
-          "url": "https://github.com/hyperledger-solang/solang",
+          "url": "https://github.com/x89/Solana-Arbitrage-Bot",
           "source": "github"
         },
         {
-          "name": "rango-client",
+          "name": "solana-swap-api",
           "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
+          "url": "https://github.com/vybenetwork/solana-swap-api",
           "source": "github"
         },
         {
-          "name": "solana-playground",
+          "name": "accordos-ai",
           "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
         },
         {
-          "name": "veltra-examples",
+          "name": "PROGENT",
           "description": "",
           "source": "github"
         }
       ],
       "projectIdeas": [
-        "Create a Solana program testing framework with auto-generated tests",
-        "Build a no-code contract deployment platform",
-        "Develop a real-time program monitoring and alerting tool",
-        "Create an IDE extension for Solana development"
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 11,
         "social": 0
       },
-      "lastUpdated": "2026-07-27T11:16:57.082Z"
+      "lastUpdated": "2026-07-28T10:31:08.065Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.6389800000000001,
+      "confidence": 0.64,
       "trendingKeywords": [
         "swap",
         "dex"
@@ -212,7 +157,57 @@
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-07-27T11:16:57.082Z"
+      "lastUpdated": "2026-07-28T10:31:08.065Z"
+    },
+    {
+      "id": "dev-tools",
+      "name": "Developer Tools",
+      "description": "Tools and infrastructure for developers",
+      "confidence": 0.6371800000000001,
+      "trendingKeywords": [
+        "framework",
+        "compile",
+        "library",
+        "deploy"
+      ],
+      "topProjects": [
+        {
+          "name": "anchor",
+          "description": "",
+          "url": "https://github.com/otter-sec/anchor",
+          "source": "github"
+        },
+        {
+          "name": "solang",
+          "description": "",
+          "url": "https://github.com/hyperledger-solang/solang",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "solana-playground",
+          "description": "",
+          "url": "https://github.com/solana-playground/solana-playground",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create a Solana program testing framework with auto-generated tests",
+        "Build a no-code contract deployment platform",
+        "Develop a real-time program monitoring and alerting tool",
+        "Create an IDE extension for Solana development"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 4,
+        "social": 0
+      },
+      "lastUpdated": "2026-07-28T10:31:08.065Z"
     },
     {
       "id": "social-consumer",
@@ -241,7 +236,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-07-27T11:16:57.082Z"
+      "lastUpdated": "2026-07-28T10:31:08.065Z"
     },
     {
       "id": "gaming-nft",
@@ -267,7 +262,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-07-27T11:16:57.082Z"
+      "lastUpdated": "2026-07-28T10:31:08.065Z"
     }
   ]
 }
