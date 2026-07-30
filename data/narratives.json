@@ -1,6 +1,63 @@
 {
-  "timestamp": "2026-07-29T10:35:27.144Z",
+  "timestamp": "2026-07-30T10:21:52.820Z",
   "narratives": [
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Core blockchain infrastructure and tooling",
+      "confidence": 1,
+      "trendingKeywords": [
+        "bridge",
+        "validator",
+        "network",
+        "node",
+        "indexer"
+      ],
+      "topProjects": [
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
+          "source": "github"
+        },
+        {
+          "name": "firedancer",
+          "description": "",
+          "url": "https://github.com/firedancer-io/firedancer",
+          "source": "github"
+        },
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "jito-solana",
+          "description": "",
+          "url": "https://github.com/jito-foundation/jito-solana",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized RPC load balancer for Solana",
+        "Create a validator performance monitoring dashboard",
+        "Develop a bridge aggregator for cross-chain transfers",
+        "Build an oracle comparison and aggregation service"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 7,
+        "social": 0
+      },
+      "lastUpdated": "2026-07-30T10:21:52.819Z"
+    },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
@@ -31,12 +88,12 @@
           "source": "github"
         },
         {
-          "name": "solana-ecosystem-pulse",
+          "name": "speculator",
           "description": "",
           "source": "github"
         },
         {
-          "name": "solana-kongtou-telegram--bot",
+          "name": "bullclaw",
           "description": "",
           "source": "github"
         }
@@ -49,20 +106,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 10,
         "social": 0
       },
-      "lastUpdated": "2026-07-29T10:35:27.144Z"
+      "lastUpdated": "2026-07-30T10:21:52.820Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.76,
+      "confidence": 0.8800000000000001,
       "trendingKeywords": [
         "swap",
-        "dex",
-        "vault"
+        "dex"
       ],
       "topProjects": [
         {
@@ -90,7 +146,7 @@
           "source": "github"
         },
         {
-          "name": "vaultlint",
+          "name": "hermes-mcp",
           "description": "",
           "source": "github"
         }
@@ -103,85 +159,23 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-07-29T10:35:27.144Z"
-    },
-    {
-      "id": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.76,
-      "trendingKeywords": [
-        "bridge",
-        "node",
-        "validator",
-        "indexer",
-        "network"
-      ],
-      "topProjects": [
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
-          "source": "github"
-        },
-        {
-          "name": "firedancer",
-          "description": "",
-          "url": "https://github.com/firedancer-io/firedancer",
-          "source": "github"
-        },
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "Phantom-Wallet-Integration-Bridge-Solona-Api-Connect",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized RPC load balancer for Solana",
-        "Create a validator performance monitoring dashboard",
-        "Develop a bridge aggregator for cross-chain transfers",
-        "Build an oracle comparison and aggregation service"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 5,
-        "social": 0
-      },
-      "lastUpdated": "2026-07-29T10:35:27.144Z"
+      "lastUpdated": "2026-07-30T10:21:52.819Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.6371800000000001,
+      "confidence": 0.59718,
       "trendingKeywords": [
-        "framework",
         "compile",
         "library",
-        "deploy"
+        "deploy",
+        "build"
       ],
       "topProjects": [
-        {
-          "name": "anchor",
-          "description": "",
-          "url": "https://github.com/otter-sec/anchor",
-          "source": "github"
-        },
         {
           "name": "solang",
           "description": "",
@@ -199,6 +193,11 @@
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
+        },
+        {
+          "name": "hermes-mcp",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -212,21 +211,27 @@
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-07-29T10:35:27.144Z"
+      "lastUpdated": "2026-07-30T10:21:52.820Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
+      "confidence": 0.27999999999999997,
       "trendingKeywords": [
-        "community"
+        "community",
+        "governance"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "blockchain-lab",
+          "description": "",
           "source": "github"
         }
       ],
@@ -238,10 +243,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-07-29T10:35:27.144Z"
+      "lastUpdated": "2026-07-30T10:21:52.820Z"
     },
     {
       "id": "gaming-nft",
@@ -267,7 +272,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-07-29T10:35:27.144Z"
+      "lastUpdated": "2026-07-30T10:21:52.819Z"
     }
   ]
 }
