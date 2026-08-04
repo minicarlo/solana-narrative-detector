@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T11:19:09.851Z",
+  "timestamp": "2026-08-04T10:34:53.222Z",
   "narratives": [
     {
       "id": "defi-innovation",
@@ -7,8 +7,9 @@
       "description": "Decentralized finance protocols and innovations",
       "confidence": 1,
       "trendingKeywords": [
-        "dex",
         "swap",
+        "dex",
+        "liquidity",
         "vault"
       ],
       "topProjects": [
@@ -31,12 +32,12 @@
           "source": "github"
         },
         {
-          "name": "Micropay-L2",
+          "name": "Solana-Liquidity-Tracker",
           "description": "",
           "source": "github"
         },
         {
-          "name": "mandate-vault",
+          "name": "DexSniperTools-Advanced-Suite-2026",
           "description": "",
           "source": "github"
         }
@@ -52,28 +53,21 @@
         "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-08-03T11:19:09.851Z"
+      "lastUpdated": "2026-08-04T10:34:53.222Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 1,
+      "confidence": 0.9044599999999999,
       "trendingKeywords": [
-        "network",
-        "node",
         "bridge",
-        "indexer",
+        "node",
         "validator",
-        "rollup"
+        "indexer",
+        "network"
       ],
       "topProjects": [
-        {
-          "name": "solana-web3.js",
-          "description": "",
-          "url": "https://github.com/solana-foundation/solana-web3.js",
-          "source": "github"
-        },
         {
           "name": "rango-sdk",
           "description": "",
@@ -97,6 +91,12 @@
           "description": "",
           "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
+        },
+        {
+          "name": "jito-solana",
+          "description": "",
+          "url": "https://github.com/jito-foundation/jito-solana",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -107,23 +107,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-08-03T11:19:09.851Z"
+      "lastUpdated": "2026-08-04T10:34:53.222Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 1,
+      "confidence": 0.7973000000000001,
       "trendingKeywords": [
         "deploy",
         "testing",
         "framework",
         "compile",
-        "library",
-        "build"
+        "library"
       ],
       "topProjects": [
         {
@@ -165,21 +164,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-08-03T11:19:09.851Z"
+      "lastUpdated": "2026-08-04T10:34:53.222Z"
     },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.9581399999999999,
+      "confidence": 0.59814,
       "trendingKeywords": [
-        "agent",
         "bot",
-        "intelligence",
-        "autonomous"
+        "agent"
       ],
       "topProjects": [
         {
@@ -201,12 +198,7 @@
           "source": "github"
         },
         {
-          "name": "agent-token-autopay",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "alien-plugg-x402",
+          "name": "DexSniperTools-Advanced-Suite-2026",
           "description": "",
           "source": "github"
         }
@@ -219,10 +211,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-08-03T11:19:09.851Z"
+      "lastUpdated": "2026-08-04T10:34:53.222Z"
     },
     {
       "id": "social-consumer",
@@ -251,7 +243,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-08-03T11:19:09.851Z"
+      "lastUpdated": "2026-08-04T10:34:53.222Z"
     },
     {
       "id": "gaming-nft",
@@ -263,7 +255,7 @@
       ],
       "topProjects": [
         {
-          "name": "artha-mining-magicblock",
+          "name": "PAPER-TRAIL",
           "description": "",
           "source": "github"
         }
@@ -279,7 +271,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-08-03T11:19:09.851Z"
+      "lastUpdated": "2026-08-04T10:34:53.222Z"
     }
   ]
 }
