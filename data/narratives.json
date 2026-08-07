@@ -1,70 +1,15 @@
 {
-  "timestamp": "2026-08-06T10:35:25.421Z",
+  "timestamp": "2026-08-07T08:55:34.935Z",
   "narratives": [
-    {
-      "id": "dev-tools",
-      "name": "Developer Tools",
-      "description": "Tools and infrastructure for developers",
-      "confidence": 0.89588,
-      "trendingKeywords": [
-        "testing",
-        "deploy",
-        "framework",
-        "library"
-      ],
-      "topProjects": [
-        {
-          "name": "hummingbot",
-          "description": "",
-          "url": "https://github.com/hummingbot/hummingbot",
-          "source": "github"
-        },
-        {
-          "name": "anchor",
-          "description": "",
-          "url": "https://github.com/otter-sec/anchor",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "solana-playground",
-          "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
-          "source": "github"
-        },
-        {
-          "name": "create-solana-dapp",
-          "description": "",
-          "url": "https://github.com/solana-foundation/create-solana-dapp",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a Solana program testing framework with auto-generated tests",
-        "Build a no-code contract deployment platform",
-        "Develop a real-time program monitoring and alerting tool",
-        "Create an IDE extension for Solana development"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 6,
-        "social": 0
-      },
-      "lastUpdated": "2026-08-06T10:35:25.421Z"
-    },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.8381399999999999,
+      "confidence": 1,
       "trendingKeywords": [
+        "agent",
         "bot",
-        "agent"
+        "autonomous"
       ],
       "topProjects": [
         {
@@ -86,12 +31,12 @@
           "source": "github"
         },
         {
-          "name": "Solana-Spike-Scanner-Bot",
+          "name": "solana-tx-firewall",
           "description": "",
           "source": "github"
         },
         {
-          "name": "solana-merchant-ops-agent",
+          "name": "tape",
           "description": "",
           "source": "github"
         }
@@ -104,21 +49,79 @@
       ],
       "dataSources": {
         "helius": 0,
+        "github": 9,
+        "social": 0
+      },
+      "lastUpdated": "2026-08-07T08:55:34.935Z"
+    },
+    {
+      "id": "dev-tools",
+      "name": "Developer Tools",
+      "description": "Tools and infrastructure for developers",
+      "confidence": 0.93582,
+      "trendingKeywords": [
+        "deploy",
+        "framework",
+        "testing",
+        "compile",
+        "library"
+      ],
+      "topProjects": [
+        {
+          "name": "hummingbot",
+          "description": "",
+          "url": "https://github.com/hummingbot/hummingbot",
+          "source": "github"
+        },
+        {
+          "name": "anchor",
+          "description": "",
+          "url": "https://github.com/otter-sec/anchor",
+          "source": "github"
+        },
+        {
+          "name": "solang",
+          "description": "",
+          "url": "https://github.com/hyperledger-solang/solang",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "solana-playground",
+          "description": "",
+          "url": "https://github.com/solana-playground/solana-playground",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create a Solana program testing framework with auto-generated tests",
+        "Build a no-code contract deployment platform",
+        "Develop a real-time program monitoring and alerting tool",
+        "Create an IDE extension for Solana development"
+      ],
+      "dataSources": {
+        "helius": 0,
         "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-08-06T10:35:25.421Z"
+      "lastUpdated": "2026-08-07T08:55:34.935Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.7445200000000001,
+      "confidence": 0.8645800000000001,
       "trendingKeywords": [
-        "bridge",
         "validator",
+        "bridge",
         "node",
-        "network"
+        "network",
+        "indexer"
       ],
       "topProjects": [
         {
@@ -146,7 +149,7 @@
           "source": "github"
         },
         {
-          "name": "cryptodisperse-desktop-airdrops",
+          "name": "solvitals",
           "description": "",
           "source": "github"
         }
@@ -159,19 +162,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-08-06T10:35:25.421Z"
+      "lastUpdated": "2026-08-07T08:55:34.935Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.56,
+      "confidence": 0.8,
       "trendingKeywords": [
         "swap",
-        "dex"
+        "dex",
+        "perp"
       ],
       "topProjects": [
         {
@@ -187,12 +191,17 @@
           "source": "github"
         },
         {
-          "name": "hookemon",
+          "name": "dasha-desk",
           "description": "",
           "source": "github"
         },
         {
-          "name": "Dex-Sniper-Tools-Advanced-Suite-2026",
+          "name": "Dex-Sniper-Tools-Advanced-Multi-Chain",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-indexer",
           "description": "",
           "source": "github"
         }
@@ -205,20 +214,18 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-08-06T10:35:25.421Z"
+      "lastUpdated": "2026-08-07T08:55:34.935Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.4,
+      "confidence": 0.27999999999999997,
       "trendingKeywords": [
         "community",
-        "social",
-        "content",
         "creator"
       ],
       "topProjects": [
@@ -229,12 +236,7 @@
           "source": "github"
         },
         {
-          "name": "wetdrool",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "destream",
+          "name": "aqua",
           "description": "",
           "source": "github"
         }
@@ -247,28 +249,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-08-06T10:35:25.421Z"
+      "lastUpdated": "2026-08-07T08:55:34.935Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.24,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "game",
-        "collectible"
+        "game"
       ],
       "topProjects": [
         {
-          "name": "degen-wars-react-game",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "hookemon",
+          "name": "PAPER-TRAIL",
           "description": "",
           "source": "github"
         }
@@ -281,10 +277,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-08-06T10:35:25.421Z"
+      "lastUpdated": "2026-08-07T08:55:34.935Z"
     }
   ]
 }
