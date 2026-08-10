@@ -1,26 +1,20 @@
 {
-  "timestamp": "2026-08-09T08:38:18.806Z",
+  "timestamp": "2026-08-10T09:16:08.240Z",
   "narratives": [
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 1,
+      "confidence": 0.94458,
       "trendingKeywords": [
-        "validator",
-        "bridge",
         "network",
-        "node",
+        "validator",
         "indexer",
-        "rollup"
+        "rollup",
+        "bridge",
+        "node"
       ],
       "topProjects": [
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
-          "source": "github"
-        },
         {
           "name": "firedancer",
           "description": "",
@@ -34,15 +28,19 @@
           "source": "github"
         },
         {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
           "name": "jito-solana",
           "description": "",
           "url": "https://github.com/jito-foundation/jito-solana",
+          "source": "github"
+        },
+        {
+          "name": "www-sol-scan.github.io",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "bulls-vs-unicorns",
+          "description": "",
           "source": "github"
         }
       ],
@@ -57,20 +55,18 @@
         "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-08-09T08:38:18.806Z"
+      "lastUpdated": "2026-08-10T09:16:08.239Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.9173,
+      "confidence": 0.7758200000000002,
       "trendingKeywords": [
         "deploy",
-        "testing",
         "framework",
-        "compile",
-        "library",
-        "build"
+        "testing",
+        "compile"
       ],
       "topProjects": [
         {
@@ -92,15 +88,15 @@
           "source": "github"
         },
         {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
           "name": "solana-playground",
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
+          "source": "github"
+        },
+        {
+          "name": "create-solana-dapp",
+          "description": "",
+          "url": "https://github.com/solana-foundation/create-solana-dapp",
           "source": "github"
         }
       ],
@@ -112,19 +108,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-08-09T08:38:18.806Z"
+      "lastUpdated": "2026-08-10T09:16:08.240Z"
     },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.83802,
+      "confidence": 0.71808,
       "trendingKeywords": [
         "bot",
-        "agent"
+        "agent",
+        "intelligence",
+        "inference"
       ],
       "topProjects": [
         {
@@ -146,12 +144,12 @@
           "source": "github"
         },
         {
-          "name": "solana-telegram-bot",
+          "name": "ZeroTrace",
           "description": "",
           "source": "github"
         },
         {
-          "name": "robots-buy-my-secrets",
+          "name": "bridgenode-skill",
           "description": "",
           "source": "github"
         }
@@ -164,27 +162,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-08-09T08:38:18.806Z"
+      "lastUpdated": "2026-08-10T09:16:08.239Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.6000000000000001,
+      "confidence": 0.52,
       "trendingKeywords": [
+        "dex",
         "swap",
-        "dex"
+        "yield"
       ],
       "topProjects": [
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
-          "source": "github"
-        },
         {
           "name": "squid-sdk",
           "description": "",
@@ -192,13 +185,17 @@
           "source": "github"
         },
         {
-          "name": "rango-client",
+          "name": "Dex-Sniper-Tools-2026-Advanced-Suite",
           "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
         },
         {
-          "name": "Dex-Sniper-Tools-Advanced-Multi-Chain",
+          "name": "hookemon",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solhonesty",
           "description": "",
           "source": "github"
         }
@@ -214,7 +211,7 @@
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-08-09T08:38:18.806Z"
+      "lastUpdated": "2026-08-10T09:16:08.239Z"
     },
     {
       "id": "social-consumer",
@@ -243,21 +240,23 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-08-09T08:38:18.806Z"
+      "lastUpdated": "2026-08-10T09:16:08.240Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.1,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "game",
-        "gaming",
-        "NFT",
-        "metaverse",
-        "play-to-earn"
+        "collectible"
       ],
-      "topProjects": [],
+      "topProjects": [
+        {
+          "name": "hookemon",
+          "description": "",
+          "source": "github"
+        }
+      ],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -266,10 +265,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 0,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-08-09T08:38:18.806Z"
+      "lastUpdated": "2026-08-10T09:16:08.239Z"
     }
   ]
 }
