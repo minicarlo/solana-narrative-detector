@@ -1,72 +1,17 @@
 {
-  "timestamp": "2026-08-10T09:16:08.240Z",
+  "timestamp": "2026-08-11T08:50:39.370Z",
   "narratives": [
-    {
-      "id": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.94458,
-      "trendingKeywords": [
-        "network",
-        "validator",
-        "indexer",
-        "rollup",
-        "bridge",
-        "node"
-      ],
-      "topProjects": [
-        {
-          "name": "firedancer",
-          "description": "",
-          "url": "https://github.com/firedancer-io/firedancer",
-          "source": "github"
-        },
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "jito-solana",
-          "description": "",
-          "url": "https://github.com/jito-foundation/jito-solana",
-          "source": "github"
-        },
-        {
-          "name": "www-sol-scan.github.io",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "bulls-vs-unicorns",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized RPC load balancer for Solana",
-        "Create a validator performance monitoring dashboard",
-        "Develop a bridge aggregator for cross-chain transfers",
-        "Build an oracle comparison and aggregation service"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 7,
-        "social": 0
-      },
-      "lastUpdated": "2026-08-10T09:16:08.239Z"
-    },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.7758200000000002,
+      "confidence": 0.8958200000000002,
       "trendingKeywords": [
         "deploy",
         "framework",
         "testing",
-        "compile"
+        "compile",
+        "build"
       ],
       "topProjects": [
         {
@@ -108,20 +53,74 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-08-10T09:16:08.240Z"
+      "lastUpdated": "2026-08-11T08:50:39.370Z"
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Core blockchain infrastructure and tooling",
+      "confidence": 0.8245800000000001,
+      "trendingKeywords": [
+        "validator",
+        "indexer",
+        "network",
+        "bridge",
+        "node"
+      ],
+      "topProjects": [
+        {
+          "name": "firedancer",
+          "description": "",
+          "url": "https://github.com/firedancer-io/firedancer",
+          "source": "github"
+        },
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
+          "name": "jito-solana",
+          "description": "",
+          "url": "https://github.com/jito-foundation/jito-solana",
+          "source": "github"
+        },
+        {
+          "name": "bridgenode-skill",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-indexer",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized RPC load balancer for Solana",
+        "Create a validator performance monitoring dashboard",
+        "Develop a bridge aggregator for cross-chain transfers",
+        "Build an oracle comparison and aggregation service"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 6,
+        "social": 0
+      },
+      "lastUpdated": "2026-08-11T08:50:39.370Z"
     },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.71808,
+      "confidence": 0.68,
       "trendingKeywords": [
-        "bot",
         "agent",
-        "intelligence",
+        "bot",
         "inference"
       ],
       "topProjects": [
@@ -138,18 +137,17 @@
           "source": "github"
         },
         {
-          "name": "pumpfun-bonkfun-bot",
-          "description": "",
-          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
-          "source": "github"
-        },
-        {
-          "name": "ZeroTrace",
+          "name": "gamemaster",
           "description": "",
           "source": "github"
         },
         {
           "name": "bridgenode-skill",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-evidencepay",
           "description": "",
           "source": "github"
         }
@@ -165,7 +163,7 @@
         "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-08-10T09:16:08.239Z"
+      "lastUpdated": "2026-08-11T08:50:39.370Z"
     },
     {
       "id": "defi-innovation",
@@ -174,8 +172,7 @@
       "confidence": 0.52,
       "trendingKeywords": [
         "dex",
-        "swap",
-        "yield"
+        "swap"
       ],
       "topProjects": [
         {
@@ -185,17 +182,17 @@
           "source": "github"
         },
         {
-          "name": "Dex-Sniper-Tools-2026-Advanced-Suite",
+          "name": "onchain-arbitrage-colearn",
           "description": "",
           "source": "github"
         },
         {
-          "name": "hookemon",
+          "name": "Dex-Sniper-Tools-Advanced-Multi-Chain",
           "description": "",
           "source": "github"
         },
         {
-          "name": "solhonesty",
+          "name": "solana-indexer",
           "description": "",
           "source": "github"
         }
@@ -211,7 +208,7 @@
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-08-10T09:16:08.239Z"
+      "lastUpdated": "2026-08-11T08:50:39.370Z"
     },
     {
       "id": "social-consumer",
@@ -240,7 +237,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-08-10T09:16:08.240Z"
+      "lastUpdated": "2026-08-11T08:50:39.370Z"
     },
     {
       "id": "gaming-nft",
@@ -248,11 +245,11 @@
       "description": "Blockchain gaming and NFT ecosystems",
       "confidence": 0.12,
       "trendingKeywords": [
-        "collectible"
+        "game"
       ],
       "topProjects": [
         {
-          "name": "hookemon",
+          "name": "gamemaster",
           "description": "",
           "source": "github"
         }
@@ -268,7 +265,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-08-10T09:16:08.239Z"
+      "lastUpdated": "2026-08-11T08:50:39.370Z"
     }
   ]
 }
