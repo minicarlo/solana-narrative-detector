@@ -1,11 +1,118 @@
 {
-  "timestamp": "2026-08-12T09:07:52.510Z",
+  "timestamp": "2026-08-13T09:08:18.545Z",
   "narratives": [
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 0.8275599999999999,
+      "trendingKeywords": [
+        "agent",
+        "bot",
+        "inference"
+      ],
+      "topProjects": [
+        {
+          "name": "hummingbot",
+          "description": "",
+          "url": "https://github.com/hummingbot/hummingbot",
+          "source": "github"
+        },
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "Rustchain",
+          "description": "",
+          "url": "https://github.com/Scottcjn/Rustchain",
+          "source": "github"
+        },
+        {
+          "name": "solana-dev-skill",
+          "description": "",
+          "url": "https://github.com/solana-foundation/solana-dev-skill",
+          "source": "github"
+        },
+        {
+          "name": "agenttab",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 6,
+        "social": 0
+      },
+      "lastUpdated": "2026-08-13T09:08:18.545Z"
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Core blockchain infrastructure and tooling",
+      "confidence": 0.79944,
+      "trendingKeywords": [
+        "validator",
+        "network",
+        "bridge"
+      ],
+      "topProjects": [
+        {
+          "name": "firedancer",
+          "description": "",
+          "url": "https://github.com/firedancer-io/firedancer",
+          "source": "github"
+        },
+        {
+          "name": "jito-solana",
+          "description": "",
+          "url": "https://github.com/jito-foundation/jito-solana",
+          "source": "github"
+        },
+        {
+          "name": "Rustchain",
+          "description": "",
+          "url": "https://github.com/Scottcjn/Rustchain",
+          "source": "github"
+        },
+        {
+          "name": "solana-fifo-staking",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "Solana-Ecosystem-Auto-Updating-Report-Interactive-Dashboard",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized RPC load balancer for Solana",
+        "Create a validator performance monitoring dashboard",
+        "Develop a bridge aggregator for cross-chain transfers",
+        "Build an oracle comparison and aggregation service"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 6,
+        "social": 0
+      },
+      "lastUpdated": "2026-08-13T09:08:18.545Z"
+    },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 1,
+      "confidence": 0.7573000000000001,
       "trendingKeywords": [
         "deploy",
         "testing",
@@ -39,9 +146,8 @@
           "source": "github"
         },
         {
-          "name": "create-solana-dapp",
+          "name": "solana-protocol-revenue",
           "description": "",
-          "url": "https://github.com/solana-foundation/create-solana-dapp",
           "source": "github"
         }
       ],
@@ -53,133 +159,35 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
-        "social": 0
-      },
-      "lastUpdated": "2026-08-12T09:07:52.510Z"
-    },
-    {
-      "id": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.7045800000000001,
-      "trendingKeywords": [
-        "network",
-        "validator",
-        "indexer"
-      ],
-      "topProjects": [
-        {
-          "name": "firedancer",
-          "description": "",
-          "url": "https://github.com/firedancer-io/firedancer",
-          "source": "github"
-        },
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "jito-solana",
-          "description": "",
-          "url": "https://github.com/jito-foundation/jito-solana",
-          "source": "github"
-        },
-        {
-          "name": "Solana-Ecosystem-Auto-Updating-Report-Interactive-Dashboard",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-dashboard",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized RPC load balancer for Solana",
-        "Create a validator performance monitoring dashboard",
-        "Develop a bridge aggregator for cross-chain transfers",
-        "Build an oracle comparison and aggregation service"
-      ],
-      "dataSources": {
-        "helius": 0,
         "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-08-12T09:07:52.509Z"
-    },
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.68,
-      "trendingKeywords": [
-        "bot",
-        "agent",
-        "autonomous"
-      ],
-      "topProjects": [
-        {
-          "name": "hummingbot",
-          "description": "",
-          "url": "https://github.com/hummingbot/hummingbot",
-          "source": "github"
-        },
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "agenttab",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "HEARSE",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "kerberos",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 5,
-        "social": 0
-      },
-      "lastUpdated": "2026-08-12T09:07:52.509Z"
+      "lastUpdated": "2026-08-13T09:08:18.545Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.37282000000000004,
       "trendingKeywords": [
-        "dex"
+        "dex",
+        "liquidity",
+        "swap"
       ],
       "topProjects": [
         {
-          "name": "squid-sdk",
+          "name": "solana-dev-skill",
           "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
+          "url": "https://github.com/solana-foundation/solana-dev-skill",
           "source": "github"
         },
         {
           "name": "onchain-arbitrage-colearn",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-stablecoin-amm",
           "description": "",
           "source": "github"
         }
@@ -192,10 +200,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-08-12T09:07:52.508Z"
+      "lastUpdated": "2026-08-13T09:08:18.544Z"
     },
     {
       "id": "social-consumer",
@@ -204,7 +212,7 @@
       "confidence": 0.27999999999999997,
       "trendingKeywords": [
         "community",
-        "content"
+        "creator"
       ],
       "topProjects": [
         {
@@ -214,7 +222,7 @@
           "source": "github"
         },
         {
-          "name": "fake-wallet",
+          "name": "pump-fun-clone-meme-coin-launchpad",
           "description": "",
           "source": "github"
         }
@@ -230,7 +238,7 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-08-12T09:07:52.509Z"
+      "lastUpdated": "2026-08-13T09:08:18.545Z"
     },
     {
       "id": "gaming-nft",
@@ -256,7 +264,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-08-12T09:07:52.508Z"
+      "lastUpdated": "2026-08-13T09:08:18.545Z"
     }
   ]
 }
