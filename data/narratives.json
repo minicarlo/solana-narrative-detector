@@ -1,15 +1,16 @@
 {
-  "timestamp": "2026-08-13T09:08:18.545Z",
+  "timestamp": "2026-08-14T09:03:49.034Z",
   "narratives": [
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.8275599999999999,
+      "confidence": 1,
       "trendingKeywords": [
         "agent",
         "bot",
-        "inference"
+        "inference",
+        "autonomous"
       ],
       "topProjects": [
         {
@@ -31,13 +32,12 @@
           "source": "github"
         },
         {
-          "name": "solana-dev-skill",
+          "name": "dotLab",
           "description": "",
-          "url": "https://github.com/solana-foundation/solana-dev-skill",
           "source": "github"
         },
         {
-          "name": "agenttab",
+          "name": "eliza",
           "description": "",
           "source": "github"
         }
@@ -50,71 +50,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-08-13T09:08:18.545Z"
-    },
-    {
-      "id": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.79944,
-      "trendingKeywords": [
-        "validator",
-        "network",
-        "bridge"
-      ],
-      "topProjects": [
-        {
-          "name": "firedancer",
-          "description": "",
-          "url": "https://github.com/firedancer-io/firedancer",
-          "source": "github"
-        },
-        {
-          "name": "jito-solana",
-          "description": "",
-          "url": "https://github.com/jito-foundation/jito-solana",
-          "source": "github"
-        },
-        {
-          "name": "Rustchain",
-          "description": "",
-          "url": "https://github.com/Scottcjn/Rustchain",
-          "source": "github"
-        },
-        {
-          "name": "solana-fifo-staking",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "Solana-Ecosystem-Auto-Updating-Report-Interactive-Dashboard",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized RPC load balancer for Solana",
-        "Create a validator performance monitoring dashboard",
-        "Develop a bridge aggregator for cross-chain transfers",
-        "Build an oracle comparison and aggregation service"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 6,
-        "social": 0
-      },
-      "lastUpdated": "2026-08-13T09:08:18.545Z"
+      "lastUpdated": "2026-08-14T09:03:49.034Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.7573000000000001,
+      "confidence": 1,
       "trendingKeywords": [
         "deploy",
+        "library",
         "testing",
         "framework",
         "compile",
@@ -134,20 +82,21 @@
           "source": "github"
         },
         {
+          "name": "solana-go",
+          "description": "",
+          "url": "https://github.com/solana-foundation/solana-go",
+          "source": "github"
+        },
+        {
           "name": "solang",
           "description": "",
           "url": "https://github.com/hyperledger-solang/solang",
           "source": "github"
         },
         {
-          "name": "solana-playground",
+          "name": "rango-client",
           "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
-          "source": "github"
-        },
-        {
-          "name": "solana-protocol-revenue",
-          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
         }
       ],
@@ -159,35 +108,83 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-08-13T09:08:18.545Z"
+      "lastUpdated": "2026-08-14T09:03:49.034Z"
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Core blockchain infrastructure and tooling",
+      "confidence": 0.95992,
+      "trendingKeywords": [
+        "validator",
+        "network",
+        "bridge"
+      ],
+      "topProjects": [
+        {
+          "name": "firedancer",
+          "description": "",
+          "url": "https://github.com/firedancer-io/firedancer",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "jito-solana",
+          "description": "",
+          "url": "https://github.com/jito-foundation/jito-solana",
+          "source": "github"
+        },
+        {
+          "name": "Rustchain",
+          "description": "",
+          "url": "https://github.com/Scottcjn/Rustchain",
+          "source": "github"
+        },
+        {
+          "name": "Solana-Ecosystem-Auto-Updating-Report-Interactive-Dashboard",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized RPC load balancer for Solana",
+        "Create a validator performance monitoring dashboard",
+        "Develop a bridge aggregator for cross-chain transfers",
+        "Build an oracle comparison and aggregation service"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 7,
+        "social": 0
+      },
+      "lastUpdated": "2026-08-14T09:03:49.033Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.37282000000000004,
+      "confidence": 0.27999999999999997,
       "trendingKeywords": [
-        "dex",
-        "liquidity",
-        "swap"
+        "swap",
+        "dex"
       ],
       "topProjects": [
         {
-          "name": "solana-dev-skill",
+          "name": "rango-client",
           "description": "",
-          "url": "https://github.com/solana-foundation/solana-dev-skill",
+          "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
         },
         {
           "name": "onchain-arbitrage-colearn",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-stablecoin-amm",
           "description": "",
           "source": "github"
         }
@@ -200,10 +197,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-08-13T09:08:18.544Z"
+      "lastUpdated": "2026-08-14T09:03:49.033Z"
     },
     {
       "id": "social-consumer",
@@ -222,7 +219,7 @@
           "source": "github"
         },
         {
-          "name": "pump-fun-clone-meme-coin-launchpad",
+          "name": "STONKBOT",
           "description": "",
           "source": "github"
         }
@@ -238,21 +235,23 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-08-13T09:08:18.545Z"
+      "lastUpdated": "2026-08-14T09:03:49.034Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.1,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "game",
-        "gaming",
-        "NFT",
-        "metaverse",
-        "play-to-earn"
+        "game"
       ],
-      "topProjects": [],
+      "topProjects": [
+        {
+          "name": "dotLab",
+          "description": "",
+          "source": "github"
+        }
+      ],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -261,10 +260,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 0,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-08-13T09:08:18.545Z"
+      "lastUpdated": "2026-08-14T09:03:49.033Z"
     }
   ]
 }
