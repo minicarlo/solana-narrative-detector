@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-15T08:23:02.515Z",
+  "timestamp": "2026-08-16T08:24:32.718Z",
   "narratives": [
     {
       "id": "infrastructure",
@@ -11,7 +11,8 @@
         "network",
         "node",
         "bridge",
-        "rollup"
+        "rollup",
+        "indexer"
       ],
       "topProjects": [
         {
@@ -39,7 +40,7 @@
           "source": "github"
         },
         {
-          "name": "solana-tape",
+          "name": "solpoker",
           "description": "",
           "source": "github"
         }
@@ -52,10 +53,63 @@
       ],
       "dataSources": {
         "helius": 0,
+        "github": 9,
+        "social": 0
+      },
+      "lastUpdated": "2026-08-16T08:24:32.717Z"
+    },
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 1,
+      "trendingKeywords": [
+        "bot",
+        "agent",
+        "autonomous",
+        "intelligence"
+      ],
+      "topProjects": [
+        {
+          "name": "hummingbot",
+          "description": "",
+          "url": "https://github.com/hummingbot/hummingbot",
+          "source": "github"
+        },
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "agent-genesis",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-devnet-bot",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "Crypto-bot",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
         "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-08-15T08:23:02.515Z"
+      "lastUpdated": "2026-08-16T08:24:32.717Z"
     },
     {
       "id": "dev-tools",
@@ -112,60 +166,7 @@
         "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-08-15T08:23:02.515Z"
-    },
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.9199999999999999,
-      "trendingKeywords": [
-        "agent",
-        "bot",
-        "intelligence",
-        "autonomous"
-      ],
-      "topProjects": [
-        {
-          "name": "hummingbot",
-          "description": "",
-          "url": "https://github.com/hummingbot/hummingbot",
-          "source": "github"
-        },
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "sava-mvp",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-flow-trader",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-devnet-bot",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 7,
-        "social": 0
-      },
-      "lastUpdated": "2026-08-15T08:23:02.515Z"
+      "lastUpdated": "2026-08-16T08:24:32.718Z"
     },
     {
       "id": "defi-innovation",
@@ -174,7 +175,7 @@
       "confidence": 0.27999999999999997,
       "trendingKeywords": [
         "swap",
-        "vault"
+        "dex"
       ],
       "topProjects": [
         {
@@ -184,7 +185,7 @@
           "source": "github"
         },
         {
-          "name": "solana-defi-vault",
+          "name": "solana-indexer",
           "description": "",
           "source": "github"
         }
@@ -200,13 +201,13 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-08-15T08:23:02.515Z"
+      "lastUpdated": "2026-08-16T08:24:32.717Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
+      "confidence": 0.27999999999999997,
       "trendingKeywords": [
         "community"
       ],
@@ -215,6 +216,11 @@
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "briie",
+          "description": "",
           "source": "github"
         }
       ],
@@ -226,10 +232,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-08-15T08:23:02.515Z"
+      "lastUpdated": "2026-08-16T08:24:32.717Z"
     },
     {
       "id": "gaming-nft",
@@ -255,7 +261,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-08-15T08:23:02.515Z"
+      "lastUpdated": "2026-08-16T08:24:32.717Z"
     }
   ]
 }
