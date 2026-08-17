@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-16T08:24:32.718Z",
+  "timestamp": "2026-08-17T08:38:39.636Z",
   "narratives": [
     {
       "id": "infrastructure",
@@ -7,12 +7,10 @@
       "description": "Core blockchain infrastructure and tooling",
       "confidence": 1,
       "trendingKeywords": [
-        "validator",
         "network",
+        "validator",
         "node",
-        "bridge",
-        "rollup",
-        "indexer"
+        "bridge"
       ],
       "topProjects": [
         {
@@ -40,7 +38,7 @@
           "source": "github"
         },
         {
-          "name": "solpoker",
+          "name": "Solana-Ecosystem-Auto-Updating-Report-Interactive-Dashboard",
           "description": "",
           "source": "github"
         }
@@ -53,10 +51,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-08-16T08:24:32.717Z"
+      "lastUpdated": "2026-08-17T08:38:39.636Z"
     },
     {
       "id": "ai-crypto",
@@ -83,17 +81,17 @@
           "source": "github"
         },
         {
-          "name": "agent-genesis",
-          "description": "",
-          "source": "github"
-        },
-        {
           "name": "solana-devnet-bot",
           "description": "",
           "source": "github"
         },
         {
-          "name": "Crypto-bot",
+          "name": "memeoy",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "HEARSE",
           "description": "",
           "source": "github"
         }
@@ -106,22 +104,23 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 9,
         "social": 0
       },
-      "lastUpdated": "2026-08-16T08:24:32.717Z"
+      "lastUpdated": "2026-08-17T08:38:39.636Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.9573,
+      "confidence": 1,
       "trendingKeywords": [
         "deploy",
         "library",
         "testing",
         "framework",
-        "compile"
+        "compile",
+        "build"
       ],
       "topProjects": [
         {
@@ -163,10 +162,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-08-16T08:24:32.718Z"
+      "lastUpdated": "2026-08-17T08:38:39.636Z"
     },
     {
       "id": "defi-innovation",
@@ -174,8 +173,7 @@
       "description": "Decentralized finance protocols and innovations",
       "confidence": 0.27999999999999997,
       "trendingKeywords": [
-        "swap",
-        "dex"
+        "swap"
       ],
       "topProjects": [
         {
@@ -185,7 +183,7 @@
           "source": "github"
         },
         {
-          "name": "solana-indexer",
+          "name": "pumpideb",
           "description": "",
           "source": "github"
         }
@@ -201,13 +199,13 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-08-16T08:24:32.717Z"
+      "lastUpdated": "2026-08-17T08:38:39.636Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.16,
       "trendingKeywords": [
         "community"
       ],
@@ -216,11 +214,6 @@
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "briie",
-          "description": "",
           "source": "github"
         }
       ],
@@ -232,10 +225,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-08-16T08:24:32.717Z"
+      "lastUpdated": "2026-08-17T08:38:39.636Z"
     },
     {
       "id": "gaming-nft",
@@ -261,7 +254,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-08-16T08:24:32.717Z"
+      "lastUpdated": "2026-08-17T08:38:39.636Z"
     }
   ]
 }
