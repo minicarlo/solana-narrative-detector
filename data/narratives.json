@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-17T08:38:39.636Z",
+  "timestamp": "2026-08-18T08:32:22.355Z",
   "narratives": [
     {
       "id": "infrastructure",
@@ -8,8 +8,9 @@
       "confidence": 1,
       "trendingKeywords": [
         "network",
-        "validator",
         "node",
+        "validator",
+        "indexer",
         "bridge"
       ],
       "topProjects": [
@@ -26,15 +27,15 @@
           "source": "github"
         },
         {
-          "name": "rango-client",
+          "name": "squid-sdk",
           "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
+          "url": "https://github.com/subsquid/squid-sdk",
           "source": "github"
         },
         {
-          "name": "jito-solana",
+          "name": "rango-client",
           "description": "",
-          "url": "https://github.com/jito-foundation/jito-solana",
+          "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
         },
         {
@@ -51,76 +52,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
-        "social": 0
-      },
-      "lastUpdated": "2026-08-17T08:38:39.636Z"
-    },
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 1,
-      "trendingKeywords": [
-        "bot",
-        "agent",
-        "autonomous",
-        "intelligence"
-      ],
-      "topProjects": [
-        {
-          "name": "hummingbot",
-          "description": "",
-          "url": "https://github.com/hummingbot/hummingbot",
-          "source": "github"
-        },
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "solana-devnet-bot",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "memeoy",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "HEARSE",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
         "github": 9,
         "social": 0
       },
-      "lastUpdated": "2026-08-17T08:38:39.636Z"
+      "lastUpdated": "2026-08-18T08:32:22.355Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 1,
+      "confidence": 0.9573,
       "trendingKeywords": [
         "deploy",
         "library",
         "testing",
         "framework",
-        "compile",
-        "build"
+        "compile"
       ],
       "topProjects": [
         {
@@ -162,29 +109,82 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-08-17T08:38:39.636Z"
+      "lastUpdated": "2026-08-18T08:32:22.355Z"
+    },
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 0.68,
+      "trendingKeywords": [
+        "bot",
+        "agent"
+      ],
+      "topProjects": [
+        {
+          "name": "hummingbot",
+          "description": "",
+          "url": "https://github.com/hummingbot/hummingbot",
+          "source": "github"
+        },
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "mercantile",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-devnet-bot",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana_olala",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 5,
+        "social": 0
+      },
+      "lastUpdated": "2026-08-18T08:32:22.355Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.32,
       "trendingKeywords": [
+        "dex",
         "swap"
       ],
       "topProjects": [
         {
-          "name": "rango-client",
+          "name": "squid-sdk",
           "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
+          "url": "https://github.com/subsquid/squid-sdk",
           "source": "github"
         },
         {
-          "name": "pumpideb",
+          "name": "rango-client",
           "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
         }
       ],
@@ -199,7 +199,7 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-08-17T08:38:39.636Z"
+      "lastUpdated": "2026-08-18T08:32:22.355Z"
     },
     {
       "id": "social-consumer",
@@ -228,21 +228,23 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-08-17T08:38:39.636Z"
+      "lastUpdated": "2026-08-18T08:32:22.355Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.1,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "game",
-        "gaming",
-        "NFT",
-        "metaverse",
-        "play-to-earn"
+        "game"
       ],
-      "topProjects": [],
+      "topProjects": [
+        {
+          "name": "mercantile",
+          "description": "",
+          "source": "github"
+        }
+      ],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -251,10 +253,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 0,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-08-17T08:38:39.636Z"
+      "lastUpdated": "2026-08-18T08:32:22.355Z"
     }
   ]
 }
