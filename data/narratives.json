@@ -1,70 +1,18 @@
 {
-  "timestamp": "2026-08-20T08:33:23.892Z",
+  "timestamp": "2026-08-21T08:36:23.690Z",
   "narratives": [
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 1,
-      "trendingKeywords": [
-        "bot",
-        "agent",
-        "intelligence"
-      ],
-      "topProjects": [
-        {
-          "name": "hummingbot",
-          "description": "",
-          "url": "https://github.com/hummingbot/hummingbot",
-          "source": "github"
-        },
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "padre-facts",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "nexus-sol-ai",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana_olala",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 8,
-        "social": 0
-      },
-      "lastUpdated": "2026-08-20T08:33:23.892Z"
-    },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
       "confidence": 1,
       "trendingKeywords": [
-        "library",
         "deploy",
+        "library",
+        "build",
         "testing",
         "framework",
-        "compile",
-        "build"
+        "compile"
       ],
       "topProjects": [
         {
@@ -109,19 +57,20 @@
         "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-08-20T08:33:23.892Z"
+      "lastUpdated": "2026-08-21T08:36:23.690Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.98464,
+      "confidence": 0.8800000000000001,
       "trendingKeywords": [
-        "validator",
-        "oracle",
         "node",
+        "validator",
+        "indexer",
+        "network",
         "bridge",
-        "indexer"
+        "oracle"
       ],
       "topProjects": [
         {
@@ -137,19 +86,19 @@
           "source": "github"
         },
         {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
           "name": "rango-client",
           "description": "",
           "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
         },
         {
-          "name": "jito-solana",
-          "description": "",
-          "url": "https://github.com/jito-foundation/jito-solana",
-          "source": "github"
-        },
-        {
-          "name": "solana-prediction-market",
+          "name": "deadchannel",
           "description": "",
           "source": "github"
         }
@@ -162,22 +111,78 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-08-20T08:33:23.892Z"
+      "lastUpdated": "2026-08-21T08:36:23.690Z"
+    },
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 0.68,
+      "trendingKeywords": [
+        "agent",
+        "bot"
+      ],
+      "topProjects": [
+        {
+          "name": "hummingbot",
+          "description": "",
+          "url": "https://github.com/hummingbot/hummingbot",
+          "source": "github"
+        },
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "deadchannel",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-arb-bot",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "x402-digital-vending-machine",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 5,
+        "social": 0
+      },
+      "lastUpdated": "2026-08-21T08:36:23.690Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.52,
+      "confidence": 0.56,
       "trendingKeywords": [
         "dex",
-        "swap",
-        "perp"
+        "swap"
       ],
       "topProjects": [
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
         {
           "name": "rango-client",
           "description": "",
@@ -185,17 +190,12 @@
           "source": "github"
         },
         {
+          "name": "basket",
+          "description": "",
+          "source": "github"
+        },
+        {
           "name": "solana-narrative-tracker",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana_indexer",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "Phoenix-Trade-Multi-Wallet-Tracker-",
           "description": "",
           "source": "github"
         }
@@ -211,27 +211,21 @@
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-08-20T08:33:23.892Z"
+      "lastUpdated": "2026-08-21T08:36:23.689Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.16,
       "trendingKeywords": [
-        "community",
-        "profile"
+        "community"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "fomo-wallet-resolver",
-          "description": "",
           "source": "github"
         }
       ],
@@ -243,26 +237,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-08-20T08:33:23.892Z"
+      "lastUpdated": "2026-08-21T08:36:23.690Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.1,
       "trendingKeywords": [
-        "game"
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "mercantile",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -271,10 +263,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-08-20T08:33:23.892Z"
+      "lastUpdated": "2026-08-21T08:36:23.689Z"
     }
   ]
 }
