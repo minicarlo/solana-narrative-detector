@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-21T08:36:23.690Z",
+  "timestamp": "2026-08-22T08:24:40.437Z",
   "narratives": [
     {
       "id": "dev-tools",
@@ -11,8 +11,7 @@
         "library",
         "build",
         "testing",
-        "framework",
-        "compile"
+        "framework"
       ],
       "topProjects": [
         {
@@ -34,15 +33,15 @@
           "source": "github"
         },
         {
-          "name": "solang",
-          "description": "",
-          "url": "https://github.com/hyperledger-solang/solang",
-          "source": "github"
-        },
-        {
           "name": "rango-client",
           "description": "",
           "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "solana-playground",
+          "description": "",
+          "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
         }
       ],
@@ -54,23 +53,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-08-21T08:36:23.690Z"
+      "lastUpdated": "2026-08-22T08:24:40.437Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.8800000000000001,
+      "confidence": 0.90464,
       "trendingKeywords": [
         "node",
         "validator",
         "indexer",
         "network",
-        "bridge",
-        "oracle"
+        "bridge"
       ],
       "topProjects": [
         {
@@ -98,8 +96,9 @@
           "source": "github"
         },
         {
-          "name": "deadchannel",
+          "name": "jito-solana",
           "description": "",
+          "url": "https://github.com/jito-foundation/jito-solana",
           "source": "github"
         }
       ],
@@ -114,7 +113,7 @@
         "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-08-21T08:36:23.690Z"
+      "lastUpdated": "2026-08-22T08:24:40.436Z"
     },
     {
       "id": "ai-crypto",
@@ -122,8 +121,8 @@
       "description": "Artificial intelligence meets blockchain",
       "confidence": 0.68,
       "trendingKeywords": [
-        "agent",
-        "bot"
+        "bot",
+        "agent"
       ],
       "topProjects": [
         {
@@ -139,7 +138,7 @@
           "source": "github"
         },
         {
-          "name": "deadchannel",
+          "name": "Solana-Sniper-Bot-Raydium-Jito",
           "description": "",
           "source": "github"
         },
@@ -149,7 +148,7 @@
           "source": "github"
         },
         {
-          "name": "x402-digital-vending-machine",
+          "name": "brake",
           "description": "",
           "source": "github"
         }
@@ -165,13 +164,13 @@
         "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-08-21T08:36:23.690Z"
+      "lastUpdated": "2026-08-22T08:24:40.436Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.56,
+      "confidence": 0.44000000000000006,
       "trendingKeywords": [
         "dex",
         "swap"
@@ -190,11 +189,6 @@
           "source": "github"
         },
         {
-          "name": "basket",
-          "description": "",
-          "source": "github"
-        },
-        {
           "name": "solana-narrative-tracker",
           "description": "",
           "source": "github"
@@ -208,24 +202,35 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-08-21T08:36:23.689Z"
+      "lastUpdated": "2026-08-22T08:24:40.436Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
+      "confidence": 0.4,
       "trendingKeywords": [
-        "community"
+        "community",
+        "creator"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "meme",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "rugcheck",
+          "description": "",
           "source": "github"
         }
       ],
@@ -237,10 +242,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-08-21T08:36:23.690Z"
+      "lastUpdated": "2026-08-22T08:24:40.436Z"
     },
     {
       "id": "gaming-nft",
@@ -266,7 +271,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-08-21T08:36:23.689Z"
+      "lastUpdated": "2026-08-22T08:24:40.436Z"
     }
   ]
 }
