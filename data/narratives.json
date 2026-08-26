@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-25T08:37:51.797Z",
+  "timestamp": "2026-08-26T08:38:39.727Z",
   "narratives": [
     {
       "id": "infrastructure",
@@ -7,11 +7,11 @@
       "description": "Core blockchain infrastructure and tooling",
       "confidence": 1,
       "trendingKeywords": [
-        "network",
         "validator",
+        "network",
+        "indexer",
         "bridge",
-        "node",
-        "indexer"
+        "node"
       ],
       "topProjects": [
         {
@@ -53,10 +53,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-08-25T08:37:51.796Z"
+      "lastUpdated": "2026-08-26T08:38:39.727Z"
     },
     {
       "id": "ai-crypto",
@@ -64,11 +64,10 @@
       "description": "Artificial intelligence meets blockchain",
       "confidence": 1,
       "trendingKeywords": [
-        "agent",
         "bot",
-        "autonomous",
+        "agent",
         "inference",
-        "intelligence"
+        "autonomous"
       ],
       "topProjects": [
         {
@@ -96,7 +95,7 @@
           "source": "github"
         },
         {
-          "name": "solana-arb-bot",
+          "name": "solana-postmortem-scans",
           "description": "",
           "source": "github"
         }
@@ -109,21 +108,23 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 10,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-08-25T08:37:51.796Z"
+      "lastUpdated": "2026-08-26T08:38:39.727Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.79742,
+      "confidence": 1,
       "trendingKeywords": [
         "deploy",
         "library",
         "testing",
-        "framework"
+        "framework",
+        "compile",
+        "build"
       ],
       "topProjects": [
         {
@@ -145,15 +146,15 @@
           "source": "github"
         },
         {
-          "name": "rango-client",
+          "name": "solang",
           "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
+          "url": "https://github.com/hyperledger-solang/solang",
           "source": "github"
         },
         {
-          "name": "solana-playground",
+          "name": "rango-client",
           "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
+          "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
         }
       ],
@@ -165,20 +166,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-08-25T08:37:51.797Z"
+      "lastUpdated": "2026-08-26T08:38:39.727Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.5833200000000001,
+      "confidence": 0.70338,
       "trendingKeywords": [
         "dex",
         "swap",
-        "farm"
+        "farm",
+        "stake"
       ],
       "topProjects": [
         {
@@ -200,7 +202,12 @@
           "source": "github"
         },
         {
-          "name": "solana-narrative-tracker",
+          "name": "solana_indexer",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "stakely-solana-gov",
           "description": "",
           "source": "github"
         }
@@ -213,19 +220,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-08-25T08:37:51.796Z"
+      "lastUpdated": "2026-08-26T08:38:39.727Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.4,
       "trendingKeywords": [
         "community",
-        "social"
+        "creator",
+        "governance"
       ],
       "topProjects": [
         {
@@ -235,7 +243,12 @@
           "source": "github"
         },
         {
-          "name": "hodl-hotel",
+          "name": "MINTFORGE",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "stakely-solana-gov",
           "description": "",
           "source": "github"
         }
@@ -248,10 +261,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-08-25T08:37:51.797Z"
+      "lastUpdated": "2026-08-26T08:38:39.727Z"
     },
     {
       "id": "gaming-nft",
@@ -259,11 +272,11 @@
       "description": "Blockchain gaming and NFT ecosystems",
       "confidence": 0.12,
       "trendingKeywords": [
-        "game"
+        "collectible"
       ],
       "topProjects": [
         {
-          "name": "crypto-detective-",
+          "name": "MINTFORGE",
           "description": "",
           "source": "github"
         }
@@ -279,7 +292,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-08-25T08:37:51.796Z"
+      "lastUpdated": "2026-08-26T08:38:39.727Z"
     }
   ]
 }
