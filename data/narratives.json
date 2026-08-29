@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-28T19:52:21.309Z",
+  "timestamp": "2026-08-29T13:35:56.784Z",
   "narratives": [
     {
       "id": "infrastructure",
@@ -7,9 +7,9 @@
       "description": "Core blockchain infrastructure and tooling",
       "confidence": 1,
       "trendingKeywords": [
-        "node",
         "validator",
         "network",
+        "node",
         "indexer",
         "bridge"
       ],
@@ -56,7 +56,7 @@
         "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-08-28T19:52:21.309Z"
+      "lastUpdated": "2026-08-29T13:35:56.784Z"
     },
     {
       "id": "ai-crypto",
@@ -64,10 +64,10 @@
       "description": "Artificial intelligence meets blockchain",
       "confidence": 1,
       "trendingKeywords": [
-        "agent",
         "bot",
+        "agent",
         "autonomous",
-        "model"
+        "intelligence"
       ],
       "topProjects": [
         {
@@ -89,12 +89,12 @@
           "source": "github"
         },
         {
-          "name": "Aetheron",
+          "name": "genesis-site",
           "description": "",
           "source": "github"
         },
         {
-          "name": "the-grokbot-board",
+          "name": "citable-mcp",
           "description": "",
           "source": "github"
         }
@@ -107,23 +107,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 10,
+        "github": 12,
         "social": 0
       },
-      "lastUpdated": "2026-08-28T19:52:21.309Z"
+      "lastUpdated": "2026-08-29T13:35:56.784Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 1,
+      "confidence": 0.9575400000000001,
       "trendingKeywords": [
-        "library",
         "deploy",
-        "compile",
+        "library",
         "testing",
         "framework",
-        "build"
+        "compile"
       ],
       "topProjects": [
         {
@@ -165,20 +164,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-08-28T19:52:21.309Z"
+      "lastUpdated": "2026-08-29T13:35:56.784Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.56,
+      "confidence": 0.44000000000000006,
       "trendingKeywords": [
         "dex",
         "swap",
-        "vault"
+        "liquidity"
       ],
       "topProjects": [
         {
@@ -194,12 +193,7 @@
           "source": "github"
         },
         {
-          "name": "baba-meme-desk",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "StableInvoice",
+          "name": "rangeframe",
           "description": "",
           "source": "github"
         }
@@ -212,10 +206,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-08-28T19:52:21.309Z"
+      "lastUpdated": "2026-08-29T13:35:56.784Z"
     },
     {
       "id": "social-consumer",
@@ -224,7 +218,7 @@
       "confidence": 0.27999999999999997,
       "trendingKeywords": [
         "community",
-        "profile"
+        "social"
       ],
       "topProjects": [
         {
@@ -234,7 +228,7 @@
           "source": "github"
         },
         {
-          "name": "ProofForge",
+          "name": "Degen-detector",
           "description": "",
           "source": "github"
         }
@@ -250,7 +244,7 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-08-28T19:52:21.309Z"
+      "lastUpdated": "2026-08-29T13:35:56.784Z"
     },
     {
       "id": "gaming-nft",
@@ -276,7 +270,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-08-28T19:52:21.309Z"
+      "lastUpdated": "2026-08-29T13:35:56.784Z"
     }
   ]
 }
