@@ -1,6 +1,62 @@
 {
-  "timestamp": "2026-08-30T13:30:23.137Z",
+  "timestamp": "2026-08-31T15:48:50.609Z",
   "narratives": [
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Core blockchain infrastructure and tooling",
+      "confidence": 1,
+      "trendingKeywords": [
+        "network",
+        "validator",
+        "indexer",
+        "node",
+        "bridge"
+      ],
+      "topProjects": [
+        {
+          "name": "solana-web3.js",
+          "description": "",
+          "url": "https://github.com/solana-foundation/solana-web3.js",
+          "source": "github"
+        },
+        {
+          "name": "firedancer",
+          "description": "",
+          "url": "https://github.com/firedancer-io/firedancer",
+          "source": "github"
+        },
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "solstate",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized RPC load balancer for Solana",
+        "Create a validator performance monitoring dashboard",
+        "Develop a bridge aggregator for cross-chain transfers",
+        "Build an oracle comparison and aggregation service"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 7,
+        "social": 0
+      },
+      "lastUpdated": "2026-08-31T15:48:50.609Z"
+    },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
@@ -57,18 +113,17 @@
         "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-08-30T13:30:23.137Z"
+      "lastUpdated": "2026-08-31T15:48:50.609Z"
     },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.9584399999999998,
+      "confidence": 0.95046,
       "trendingKeywords": [
         "bot",
         "agent",
-        "autonomous",
-        "intelligence"
+        "autonomous"
       ],
       "topProjects": [
         {
@@ -84,9 +139,9 @@
           "source": "github"
         },
         {
-          "name": "pumpfun-bonkfun-bot",
+          "name": "CloddsBot",
           "description": "",
-          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
+          "url": "https://github.com/alsk1992/CloddsBot",
           "source": "github"
         },
         {
@@ -95,7 +150,7 @@
           "source": "github"
         },
         {
-          "name": "Solana-Telegram-Agent",
+          "name": "solana-bot",
           "description": "",
           "source": "github"
         }
@@ -111,69 +166,13 @@
         "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-08-30T13:30:23.136Z"
-    },
-    {
-      "id": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.76,
-      "trendingKeywords": [
-        "validator",
-        "network",
-        "node",
-        "indexer",
-        "bridge"
-      ],
-      "topProjects": [
-        {
-          "name": "solana-web3.js",
-          "description": "",
-          "url": "https://github.com/solana-foundation/solana-web3.js",
-          "source": "github"
-        },
-        {
-          "name": "firedancer",
-          "description": "",
-          "url": "https://github.com/firedancer-io/firedancer",
-          "source": "github"
-        },
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "solstate",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized RPC load balancer for Solana",
-        "Create a validator performance monitoring dashboard",
-        "Develop a bridge aggregator for cross-chain transfers",
-        "Build an oracle comparison and aggregation service"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 5,
-        "social": 0
-      },
-      "lastUpdated": "2026-08-30T13:30:23.136Z"
+      "lastUpdated": "2026-08-31T15:48:50.609Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.44000000000000006,
+      "confidence": 0.59046,
       "trendingKeywords": [
         "dex",
         "swap"
@@ -192,7 +191,13 @@
           "source": "github"
         },
         {
-          "name": "ecocycledex",
+          "name": "CloddsBot",
+          "description": "",
+          "url": "https://github.com/alsk1992/CloddsBot",
+          "source": "github"
+        },
+        {
+          "name": "charlie-protocol-v1",
           "description": "",
           "source": "github"
         }
@@ -205,10 +210,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-08-30T13:30:23.136Z"
+      "lastUpdated": "2026-08-31T15:48:50.609Z"
     },
     {
       "id": "social-consumer",
@@ -237,7 +242,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-08-30T13:30:23.137Z"
+      "lastUpdated": "2026-08-31T15:48:50.609Z"
     },
     {
       "id": "gaming-nft",
@@ -263,7 +268,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-08-30T13:30:23.136Z"
+      "lastUpdated": "2026-08-31T15:48:50.609Z"
     }
   ]
 }
