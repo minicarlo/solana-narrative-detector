@@ -1,61 +1,59 @@
 {
-  "timestamp": "2026-08-31T15:48:50.609Z",
+  "timestamp": "2026-09-01T13:03:18.102Z",
   "narratives": [
     {
-      "id": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Core blockchain infrastructure and tooling",
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
       "confidence": 1,
       "trendingKeywords": [
-        "network",
-        "validator",
-        "indexer",
-        "node",
-        "bridge"
+        "bot",
+        "autonomous",
+        "agent",
+        "intelligence"
       ],
       "topProjects": [
         {
-          "name": "solana-web3.js",
+          "name": "hummingbot",
           "description": "",
-          "url": "https://github.com/solana-foundation/solana-web3.js",
+          "url": "https://github.com/hummingbot/hummingbot",
           "source": "github"
         },
         {
-          "name": "firedancer",
+          "name": "OctoBot",
           "description": "",
-          "url": "https://github.com/firedancer-io/firedancer",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
           "source": "github"
         },
         {
-          "name": "squid-sdk",
+          "name": "CloddsBot",
           "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
+          "url": "https://github.com/alsk1992/CloddsBot",
           "source": "github"
         },
         {
-          "name": "rango-client",
+          "name": "the-grokbot-board",
           "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
         },
         {
-          "name": "solstate",
+          "name": "solana-bot",
           "description": "",
           "source": "github"
         }
       ],
       "projectIdeas": [
-        "Build a decentralized RPC load balancer for Solana",
-        "Create a validator performance monitoring dashboard",
-        "Develop a bridge aggregator for cross-chain transfers",
-        "Build an oracle comparison and aggregation service"
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-08-31T15:48:50.609Z"
+      "lastUpdated": "2026-09-01T13:03:18.102Z"
     },
     {
       "id": "dev-tools",
@@ -65,10 +63,10 @@
       "trendingKeywords": [
         "deploy",
         "library",
+        "build",
         "testing",
         "framework",
-        "compile",
-        "build"
+        "compile"
       ],
       "topProjects": [
         {
@@ -110,72 +108,23 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 10,
         "social": 0
       },
-      "lastUpdated": "2026-08-31T15:48:50.609Z"
-    },
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.95046,
-      "trendingKeywords": [
-        "bot",
-        "agent",
-        "autonomous"
-      ],
-      "topProjects": [
-        {
-          "name": "hummingbot",
-          "description": "",
-          "url": "https://github.com/hummingbot/hummingbot",
-          "source": "github"
-        },
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "CloddsBot",
-          "description": "",
-          "url": "https://github.com/alsk1992/CloddsBot",
-          "source": "github"
-        },
-        {
-          "name": "the-grokbot-board",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-bot",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 7,
-        "social": 0
-      },
-      "lastUpdated": "2026-08-31T15:48:50.609Z"
+      "lastUpdated": "2026-09-01T13:03:18.102Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.59046,
+      "confidence": 0.9511199999999999,
       "trendingKeywords": [
         "dex",
-        "swap"
+        "swap",
+        "perp",
+        "lending",
+        "liquidity",
+        "vault"
       ],
       "topProjects": [
         {
@@ -197,7 +146,12 @@
           "source": "github"
         },
         {
-          "name": "charlie-protocol-v1",
+          "name": "vamm-execution-core",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "meme-lend",
           "description": "",
           "source": "github"
         }
@@ -210,24 +164,91 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-08-31T15:48:50.609Z"
+      "lastUpdated": "2026-09-01T13:03:18.102Z"
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Core blockchain infrastructure and tooling",
+      "confidence": 0.8800000000000001,
+      "trendingKeywords": [
+        "node",
+        "network",
+        "validator",
+        "indexer",
+        "bridge"
+      ],
+      "topProjects": [
+        {
+          "name": "solana-web3.js",
+          "description": "",
+          "url": "https://github.com/solana-foundation/solana-web3.js",
+          "source": "github"
+        },
+        {
+          "name": "firedancer",
+          "description": "",
+          "url": "https://github.com/firedancer-io/firedancer",
+          "source": "github"
+        },
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "solbeat",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized RPC load balancer for Solana",
+        "Create a validator performance monitoring dashboard",
+        "Develop a bridge aggregator for cross-chain transfers",
+        "Build an oracle comparison and aggregation service"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 6,
+        "social": 0
+      },
+      "lastUpdated": "2026-09-01T13:03:18.102Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
+      "confidence": 0.4,
       "trendingKeywords": [
-        "community"
+        "community",
+        "creator"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "guild-saga-analytics",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "task-marketplace-escrow",
+          "description": "",
           "source": "github"
         }
       ],
@@ -239,24 +260,26 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-08-31T15:48:50.609Z"
+      "lastUpdated": "2026-09-01T13:03:18.102Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.1,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "game",
-        "gaming",
-        "NFT",
-        "metaverse",
-        "play-to-earn"
+        "virtual"
       ],
-      "topProjects": [],
+      "topProjects": [
+        {
+          "name": "vamm-execution-core",
+          "description": "",
+          "source": "github"
+        }
+      ],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -265,10 +288,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 0,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-08-31T15:48:50.609Z"
+      "lastUpdated": "2026-09-01T13:03:18.102Z"
     }
   ]
 }
