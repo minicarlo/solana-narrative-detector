@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-01T13:03:18.102Z",
+  "timestamp": "2026-09-02T12:30:56.903Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -7,9 +7,9 @@
       "description": "Artificial intelligence meets blockchain",
       "confidence": 1,
       "trendingKeywords": [
+        "agent",
         "bot",
         "autonomous",
-        "agent",
         "intelligence"
       ],
       "topProjects": [
@@ -32,7 +32,7 @@
           "source": "github"
         },
         {
-          "name": "the-grokbot-board",
+          "name": "Solana-Antiscam",
           "description": "",
           "source": "github"
         },
@@ -50,20 +50,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 11,
         "social": 0
       },
-      "lastUpdated": "2026-09-01T13:03:18.102Z"
+      "lastUpdated": "2026-09-02T12:30:56.903Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 1,
+      "confidence": 0.95748,
       "trendingKeywords": [
         "deploy",
         "library",
-        "build",
         "testing",
         "framework",
         "compile"
@@ -108,77 +107,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 10,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-09-01T13:03:18.102Z"
-    },
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.9511199999999999,
-      "trendingKeywords": [
-        "dex",
-        "swap",
-        "perp",
-        "lending",
-        "liquidity",
-        "vault"
-      ],
-      "topProjects": [
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "CloddsBot",
-          "description": "",
-          "url": "https://github.com/alsk1992/CloddsBot",
-          "source": "github"
-        },
-        {
-          "name": "vamm-execution-core",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "meme-lend",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 7,
-        "social": 0
-      },
-      "lastUpdated": "2026-09-01T13:03:18.102Z"
+      "lastUpdated": "2026-09-02T12:30:56.903Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.8800000000000001,
+      "confidence": 0.64,
       "trendingKeywords": [
         "node",
-        "network",
         "validator",
         "indexer",
+        "network",
         "bridge"
       ],
       "topProjects": [
@@ -205,11 +148,6 @@
           "description": "",
           "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
-        },
-        {
-          "name": "solbeat",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -220,19 +158,66 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-09-01T13:03:18.102Z"
+      "lastUpdated": "2026-09-02T12:30:56.902Z"
+    },
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.59172,
+      "trendingKeywords": [
+        "dex",
+        "swap",
+        "vault"
+      ],
+      "topProjects": [
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "CloddsBot",
+          "description": "",
+          "url": "https://github.com/alsk1992/CloddsBot",
+          "source": "github"
+        },
+        {
+          "name": "flowvault-solana",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 4,
+        "social": 0
+      },
+      "lastUpdated": "2026-09-02T12:30:56.902Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.4,
+      "confidence": 0.27999999999999997,
       "trendingKeywords": [
-        "community",
-        "creator"
+        "community"
       ],
       "topProjects": [
         {
@@ -245,11 +230,6 @@
           "name": "guild-saga-analytics",
           "description": "",
           "source": "github"
-        },
-        {
-          "name": "task-marketplace-escrow",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -260,10 +240,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-09-01T13:03:18.102Z"
+      "lastUpdated": "2026-09-02T12:30:56.903Z"
     },
     {
       "id": "gaming-nft",
@@ -275,7 +255,7 @@
       ],
       "topProjects": [
         {
-          "name": "vamm-execution-core",
+          "name": "Solana-Antiscam",
           "description": "",
           "source": "github"
         }
@@ -291,7 +271,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-09-01T13:03:18.102Z"
+      "lastUpdated": "2026-09-02T12:30:56.902Z"
     }
   ]
 }
