@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-02T12:30:56.903Z",
+  "timestamp": "2026-09-03T12:34:25.999Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -10,6 +10,7 @@
         "agent",
         "bot",
         "autonomous",
+        "inference",
         "intelligence"
       ],
       "topProjects": [
@@ -32,12 +33,13 @@
           "source": "github"
         },
         {
-          "name": "Solana-Antiscam",
+          "name": "Rustchain",
           "description": "",
+          "url": "https://github.com/Scottcjn/Rustchain",
           "source": "github"
         },
         {
-          "name": "solana-bot",
+          "name": "Solana-Antiscam",
           "description": "",
           "source": "github"
         }
@@ -50,22 +52,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 11,
+        "github": 10,
         "social": 0
       },
-      "lastUpdated": "2026-09-02T12:30:56.903Z"
+      "lastUpdated": "2026-09-03T12:34:25.999Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.95748,
+      "confidence": 1,
       "trendingKeywords": [
         "deploy",
         "library",
+        "compile",
         "testing",
-        "framework",
-        "compile"
+        "framework"
       ],
       "topProjects": [
         {
@@ -107,22 +109,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-09-02T12:30:56.903Z"
+      "lastUpdated": "2026-09-03T12:34:25.999Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.64,
+      "confidence": 0.90506,
       "trendingKeywords": [
         "node",
-        "validator",
-        "indexer",
         "network",
-        "bridge"
+        "bridge",
+        "validator",
+        "indexer"
       ],
       "topProjects": [
         {
@@ -148,6 +150,12 @@
           "description": "",
           "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
+        },
+        {
+          "name": "Rustchain",
+          "description": "",
+          "url": "https://github.com/Scottcjn/Rustchain",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -158,20 +166,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-09-02T12:30:56.902Z"
+      "lastUpdated": "2026-09-03T12:34:25.999Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.59172,
+      "confidence": 0.61714,
       "trendingKeywords": [
         "dex",
         "swap",
-        "vault"
+        "farm"
       ],
       "topProjects": [
         {
@@ -193,8 +201,9 @@
           "source": "github"
         },
         {
-          "name": "flowvault-solana",
+          "name": "Rustchain",
           "description": "",
+          "url": "https://github.com/Scottcjn/Rustchain",
           "source": "github"
         }
       ],
@@ -209,53 +218,24 @@
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-09-02T12:30:56.902Z"
-    },
-    {
-      "id": "social-consumer",
-      "name": "Social & Consumer",
-      "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
-      "trendingKeywords": [
-        "community"
-      ],
-      "topProjects": [
-        {
-          "name": "app-monorepo",
-          "description": "",
-          "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "guild-saga-analytics",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized social graph protocol",
-        "Create a creator monetization platform with micro-tipping",
-        "Develop a DAO governance participation reward system",
-        "Build a reputation-based social discovery app"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 2,
-        "social": 0
-      },
-      "lastUpdated": "2026-09-02T12:30:56.903Z"
+      "lastUpdated": "2026-09-03T12:34:25.999Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.24,
       "trendingKeywords": [
         "virtual"
       ],
       "topProjects": [
         {
           "name": "Solana-Antiscam",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "Solana-rust-crash-course-",
           "description": "",
           "source": "github"
         }
@@ -268,10 +248,39 @@
       ],
       "dataSources": {
         "helius": 0,
+        "github": 2,
+        "social": 0
+      },
+      "lastUpdated": "2026-09-03T12:34:25.999Z"
+    },
+    {
+      "id": "social-consumer",
+      "name": "Social & Consumer",
+      "description": "Social platforms and consumer applications",
+      "confidence": 0.16,
+      "trendingKeywords": [
+        "community"
+      ],
+      "topProjects": [
+        {
+          "name": "app-monorepo",
+          "description": "",
+          "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized social graph protocol",
+        "Create a creator monetization platform with micro-tipping",
+        "Develop a DAO governance participation reward system",
+        "Build a reputation-based social discovery app"
+      ],
+      "dataSources": {
+        "helius": 0,
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-09-02T12:30:56.902Z"
+      "lastUpdated": "2026-09-03T12:34:25.999Z"
     }
   ]
 }
