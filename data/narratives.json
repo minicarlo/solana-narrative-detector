@@ -1,61 +1,62 @@
 {
-  "timestamp": "2026-09-03T12:34:25.999Z",
+  "timestamp": "2026-09-04T12:28:43.846Z",
   "narratives": [
     {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Core blockchain infrastructure and tooling",
       "confidence": 1,
       "trendingKeywords": [
-        "agent",
-        "bot",
-        "autonomous",
-        "inference",
-        "intelligence"
+        "bridge",
+        "network",
+        "node",
+        "validator",
+        "indexer"
       ],
       "topProjects": [
         {
-          "name": "hummingbot",
+          "name": "solana-web3.js",
           "description": "",
-          "url": "https://github.com/hummingbot/hummingbot",
+          "url": "https://github.com/solana-foundation/solana-web3.js",
           "source": "github"
         },
         {
-          "name": "OctoBot",
+          "name": "rango-sdk",
           "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "url": "https://github.com/rango-exchange/rango-sdk",
           "source": "github"
         },
         {
-          "name": "CloddsBot",
+          "name": "firedancer",
           "description": "",
-          "url": "https://github.com/alsk1992/CloddsBot",
+          "url": "https://github.com/firedancer-io/firedancer",
           "source": "github"
         },
         {
-          "name": "Rustchain",
+          "name": "squid-sdk",
           "description": "",
-          "url": "https://github.com/Scottcjn/Rustchain",
+          "url": "https://github.com/subsquid/squid-sdk",
           "source": "github"
         },
         {
-          "name": "Solana-Antiscam",
+          "name": "rango-client",
           "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
         }
       ],
       "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
+        "Build a decentralized RPC load balancer for Solana",
+        "Create a validator performance monitoring dashboard",
+        "Develop a bridge aggregator for cross-chain transfers",
+        "Build an oracle comparison and aggregation service"
       ],
       "dataSources": {
         "helius": 0,
-        "github": 10,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-09-03T12:34:25.999Z"
+      "lastUpdated": "2026-09-04T12:28:43.846Z"
     },
     {
       "id": "dev-tools",
@@ -109,46 +110,40 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-09-03T12:34:25.999Z"
+      "lastUpdated": "2026-09-04T12:28:43.846Z"
     },
     {
-      "id": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.90506,
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 0.9775,
       "trendingKeywords": [
-        "node",
-        "network",
-        "bridge",
-        "validator",
-        "indexer"
+        "agent",
+        "bot",
+        "autonomous",
+        "inference",
+        "intelligence"
       ],
       "topProjects": [
         {
-          "name": "solana-web3.js",
+          "name": "hummingbot",
           "description": "",
-          "url": "https://github.com/solana-foundation/solana-web3.js",
+          "url": "https://github.com/hummingbot/hummingbot",
           "source": "github"
         },
         {
-          "name": "firedancer",
+          "name": "OctoBot",
           "description": "",
-          "url": "https://github.com/firedancer-io/firedancer",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
           "source": "github"
         },
         {
-          "name": "squid-sdk",
+          "name": "CloddsBot",
           "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
+          "url": "https://github.com/alsk1992/CloddsBot",
           "source": "github"
         },
         {
@@ -156,32 +151,43 @@
           "description": "",
           "url": "https://github.com/Scottcjn/Rustchain",
           "source": "github"
+        },
+        {
+          "name": "solana-ecosystem-pulse",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
-        "Build a decentralized RPC load balancer for Solana",
-        "Create a validator performance monitoring dashboard",
-        "Develop a bridge aggregator for cross-chain transfers",
-        "Build an oracle comparison and aggregation service"
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-09-03T12:34:25.999Z"
+      "lastUpdated": "2026-09-04T12:28:43.846Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.61714,
+      "confidence": 0.8975,
       "trendingKeywords": [
-        "dex",
         "swap",
+        "dex",
         "farm"
       ],
       "topProjects": [
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
+          "source": "github"
+        },
         {
           "name": "squid-sdk",
           "description": "",
@@ -215,27 +221,57 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-09-03T12:34:25.999Z"
+      "lastUpdated": "2026-09-04T12:28:43.846Z"
+    },
+    {
+      "id": "social-consumer",
+      "name": "Social & Consumer",
+      "description": "Social platforms and consumer applications",
+      "confidence": 0.27999999999999997,
+      "trendingKeywords": [
+        "community",
+        "creator"
+      ],
+      "topProjects": [
+        {
+          "name": "app-monorepo",
+          "description": "",
+          "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "propz",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized social graph protocol",
+        "Create a creator monetization platform with micro-tipping",
+        "Develop a DAO governance participation reward system",
+        "Build a reputation-based social discovery app"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 2,
+        "social": 0
+      },
+      "lastUpdated": "2026-09-04T12:28:43.846Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.24,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "virtual"
+        "world"
       ],
       "topProjects": [
         {
-          "name": "Solana-Antiscam",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "Solana-rust-crash-course-",
+          "name": "world",
           "description": "",
           "source": "github"
         }
@@ -248,39 +284,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
-        "social": 0
-      },
-      "lastUpdated": "2026-09-03T12:34:25.999Z"
-    },
-    {
-      "id": "social-consumer",
-      "name": "Social & Consumer",
-      "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
-      "trendingKeywords": [
-        "community"
-      ],
-      "topProjects": [
-        {
-          "name": "app-monorepo",
-          "description": "",
-          "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized social graph protocol",
-        "Create a creator monetization platform with micro-tipping",
-        "Develop a DAO governance participation reward system",
-        "Build a reputation-based social discovery app"
-      ],
-      "dataSources": {
-        "helius": 0,
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-09-03T12:34:25.999Z"
+      "lastUpdated": "2026-09-04T12:28:43.846Z"
     }
   ]
 }
