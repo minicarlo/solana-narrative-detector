@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-05T11:36:30.425Z",
+  "timestamp": "2026-09-06T11:56:04.388Z",
   "narratives": [
     {
       "id": "defi-innovation",
@@ -7,9 +7,10 @@
       "description": "Decentralized finance protocols and innovations",
       "confidence": 1,
       "trendingKeywords": [
-        "dex",
         "swap",
-        "farm"
+        "dex",
+        "farm",
+        "vault"
       ],
       "topProjects": [
         {
@@ -54,7 +55,7 @@
         "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-09-05T11:36:30.425Z"
+      "lastUpdated": "2026-09-06T11:56:04.388Z"
     },
     {
       "id": "infrastructure",
@@ -62,9 +63,9 @@
       "description": "Core blockchain infrastructure and tooling",
       "confidence": 1,
       "trendingKeywords": [
+        "node",
         "bridge",
         "network",
-        "node",
         "validator",
         "indexer"
       ],
@@ -111,7 +112,7 @@
         "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-09-05T11:36:30.425Z"
+      "lastUpdated": "2026-09-06T11:56:04.388Z"
     },
     {
       "id": "ai-crypto",
@@ -150,7 +151,7 @@
           "source": "github"
         },
         {
-          "name": "solana-bot",
+          "name": "solana-trading-bot",
           "description": "",
           "source": "github"
         }
@@ -163,21 +164,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 9,
         "social": 0
       },
-      "lastUpdated": "2026-09-05T11:36:30.425Z"
+      "lastUpdated": "2026-09-06T11:56:04.388Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.95778,
+      "confidence": 1,
       "trendingKeywords": [
         "deploy",
+        "framework",
         "library",
         "testing",
-        "framework",
         "compile"
       ],
       "topProjects": [
@@ -220,30 +221,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-09-05T11:36:30.425Z"
+      "lastUpdated": "2026-09-06T11:56:04.388Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.16,
       "trendingKeywords": [
-        "community",
-        "vote"
+        "community"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "vote-cu",
-          "description": "",
           "source": "github"
         }
       ],
@@ -255,10 +250,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-09-05T11:36:30.425Z"
+      "lastUpdated": "2026-09-06T11:56:04.388Z"
     },
     {
       "id": "gaming-nft",
@@ -284,7 +279,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-09-05T11:36:30.425Z"
+      "lastUpdated": "2026-09-06T11:56:04.388Z"
     }
   ]
 }
