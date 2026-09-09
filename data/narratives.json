@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-08T12:36:04.627Z",
+  "timestamp": "2026-09-09T12:42:42.299Z",
   "narratives": [
     {
       "id": "defi-innovation",
@@ -9,15 +9,10 @@
       "trendingKeywords": [
         "dex",
         "swap",
+        "liquidity",
         "farm"
       ],
       "topProjects": [
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
-          "source": "github"
-        },
         {
           "name": "squid-sdk",
           "description": "",
@@ -37,7 +32,12 @@
           "source": "github"
         },
         {
-          "name": "web3-wallet-chrome-extension",
+          "name": "Trench-Tool",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "address-rules",
           "description": "",
           "source": "github"
         }
@@ -53,7 +53,7 @@
         "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-09-08T12:36:04.626Z"
+      "lastUpdated": "2026-09-09T12:42:42.299Z"
     },
     {
       "id": "infrastructure",
@@ -61,23 +61,17 @@
       "description": "Core blockchain infrastructure and tooling",
       "confidence": 1,
       "trendingKeywords": [
+        "network",
+        "validator",
         "bridge",
         "node",
-        "indexer",
-        "network",
-        "validator"
+        "indexer"
       ],
       "topProjects": [
         {
           "name": "solana-web3.js",
           "description": "",
           "url": "https://github.com/solana-foundation/solana-web3.js",
-          "source": "github"
-        },
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
           "source": "github"
         },
         {
@@ -97,6 +91,12 @@
           "description": "",
           "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
+        },
+        {
+          "name": "Rustchain",
+          "description": "",
+          "url": "https://github.com/Scottcjn/Rustchain",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -107,10 +107,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-09-08T12:36:04.627Z"
+      "lastUpdated": "2026-09-09T12:42:42.299Z"
     },
     {
       "id": "ai-crypto",
@@ -118,9 +118,11 @@
       "description": "Artificial intelligence meets blockchain",
       "confidence": 1,
       "trendingKeywords": [
-        "bot",
         "agent",
-        "inference"
+        "bot",
+        "inference",
+        "intelligence",
+        "autonomous"
       ],
       "topProjects": [
         {
@@ -147,7 +149,7 @@
           "source": "github"
         },
         {
-          "name": "ai-agent-bank",
+          "name": "veloxbot",
           "description": "",
           "source": "github"
         }
@@ -163,7 +165,7 @@
         "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-09-08T12:36:04.627Z"
+      "lastUpdated": "2026-09-09T12:42:42.299Z"
     },
     {
       "id": "dev-tools",
@@ -172,9 +174,9 @@
       "confidence": 1,
       "trendingKeywords": [
         "deploy",
-        "framework",
         "library",
         "testing",
+        "framework",
         "compile",
         "build"
       ],
@@ -221,27 +223,21 @@
         "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-09-08T12:36:04.627Z"
+      "lastUpdated": "2026-09-09T12:42:42.299Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.16,
       "trendingKeywords": [
-        "community",
-        "creator"
+        "community"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "chain-of-title",
-          "description": "",
           "source": "github"
         }
       ],
@@ -253,10 +249,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-09-08T12:36:04.627Z"
+      "lastUpdated": "2026-09-09T12:42:42.299Z"
     },
     {
       "id": "gaming-nft",
@@ -282,7 +278,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-09-08T12:36:04.626Z"
+      "lastUpdated": "2026-09-09T12:42:42.299Z"
     }
   ]
 }
