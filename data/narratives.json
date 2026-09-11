@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-10T12:41:01.565Z",
+  "timestamp": "2026-09-11T12:35:00.711Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -9,9 +9,8 @@
       "trendingKeywords": [
         "bot",
         "agent",
-        "inference",
         "autonomous",
-        "intelligence"
+        "inference"
       ],
       "topProjects": [
         {
@@ -27,9 +26,9 @@
           "source": "github"
         },
         {
-          "name": "Rustchain",
+          "name": "CloddsBot",
           "description": "",
-          "url": "https://github.com/Scottcjn/Rustchain",
+          "url": "https://github.com/alsk1992/CloddsBot",
           "source": "github"
         },
         {
@@ -38,7 +37,7 @@
           "source": "github"
         },
         {
-          "name": "trading-bot",
+          "name": "solana-narrative-radar",
           "description": "",
           "source": "github"
         }
@@ -51,10 +50,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 11,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-09-10T12:41:01.565Z"
+      "lastUpdated": "2026-09-11T12:35:00.711Z"
     },
     {
       "id": "dev-tools",
@@ -62,9 +61,9 @@
       "description": "Tools and infrastructure for developers",
       "confidence": 1,
       "trendingKeywords": [
+        "testing",
         "deploy",
         "library",
-        "testing",
         "framework",
         "compile",
         "build"
@@ -109,22 +108,76 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-09-10T12:41:01.565Z"
+      "lastUpdated": "2026-09-11T12:35:00.711Z"
+    },
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.8400000000000001,
+      "trendingKeywords": [
+        "swap",
+        "dex",
+        "yield"
+      ],
+      "topProjects": [
+        {
+          "name": "CloddsBot",
+          "description": "",
+          "url": "https://github.com/alsk1992/CloddsBot",
+          "source": "github"
+        },
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "Pumpswap-historical-data",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "Meteora-damm-events-on-solana",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 6,
+        "social": 0
+      },
+      "lastUpdated": "2026-09-11T12:35:00.711Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.90686,
+      "confidence": 0.76,
       "trendingKeywords": [
-        "network",
-        "bridge",
         "node",
         "validator",
-        "indexer"
+        "indexer",
+        "network",
+        "bridge",
+        "rollup"
       ],
       "topProjects": [
         {
@@ -152,9 +205,8 @@
           "source": "github"
         },
         {
-          "name": "Rustchain",
+          "name": "shh",
           "description": "",
-          "url": "https://github.com/Scottcjn/Rustchain",
           "source": "github"
         }
       ],
@@ -166,83 +218,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-09-10T12:41:01.565Z"
-    },
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.8268599999999999,
-      "trendingKeywords": [
-        "dex",
-        "swap",
-        "farm"
-      ],
-      "topProjects": [
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "Rustchain",
-          "description": "",
-          "url": "https://github.com/Scottcjn/Rustchain",
-          "source": "github"
-        },
-        {
-          "name": "Trench-Tools",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-dex-data",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 6,
-        "social": 0
-      },
-      "lastUpdated": "2026-09-10T12:41:01.564Z"
+      "lastUpdated": "2026-09-11T12:35:00.711Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.16,
       "trendingKeywords": [
-        "community",
-        "creator"
+        "community"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "chain-of-title",
-          "description": "",
           "source": "github"
         }
       ],
@@ -254,10 +247,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-09-10T12:41:01.565Z"
+      "lastUpdated": "2026-09-11T12:35:00.711Z"
     },
     {
       "id": "gaming-nft",
@@ -283,7 +276,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-09-10T12:41:01.564Z"
+      "lastUpdated": "2026-09-11T12:35:00.711Z"
     }
   ]
 }
