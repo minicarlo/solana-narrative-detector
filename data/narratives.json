@@ -1,17 +1,73 @@
 {
-  "timestamp": "2026-09-12T11:57:19.668Z",
+  "timestamp": "2026-09-13T13:05:13.083Z",
   "narratives": [
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 1,
+      "trendingKeywords": [
+        "bot",
+        "agent",
+        "autonomous",
+        "intelligence",
+        "model"
+      ],
+      "topProjects": [
+        {
+          "name": "hummingbot",
+          "description": "",
+          "url": "https://github.com/hummingbot/hummingbot",
+          "source": "github"
+        },
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "CloddsBot",
+          "description": "",
+          "url": "https://github.com/alsk1992/CloddsBot",
+          "source": "github"
+        },
+        {
+          "name": "meme-intelligence-onchain",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-meme-paperbot",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 8,
+        "social": 0
+      },
+      "lastUpdated": "2026-09-13T13:05:13.083Z"
+    },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.95784,
+      "confidence": 1,
       "trendingKeywords": [
         "deploy",
         "library",
         "testing",
         "framework",
-        "compile"
+        "compile",
+        "build"
       ],
       "topProjects": [
         {
@@ -53,22 +109,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-09-12T11:57:19.668Z"
+      "lastUpdated": "2026-09-13T13:05:13.083Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.8800000000000001,
+      "confidence": 0.76,
       "trendingKeywords": [
-        "network",
         "bridge",
         "node",
         "validator",
-        "indexer"
+        "indexer",
+        "network"
       ],
       "topProjects": [
         {
@@ -96,7 +152,7 @@
           "source": "github"
         },
         {
-          "name": "KingPepe-Native-Solana_Bridge",
+          "name": "crt86",
           "description": "",
           "source": "github"
         }
@@ -109,63 +165,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-09-12T11:57:19.668Z"
-    },
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.8400000000000001,
-      "trendingKeywords": [
-        "bot",
-        "agent",
-        "autonomous"
-      ],
-      "topProjects": [
-        {
-          "name": "hummingbot",
-          "description": "",
-          "url": "https://github.com/hummingbot/hummingbot",
-          "source": "github"
-        },
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "CloddsBot",
-          "description": "",
-          "url": "https://github.com/alsk1992/CloddsBot",
-          "source": "github"
-        },
-        {
-          "name": "meme-bot-lab",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "SynapsePay",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 6,
-        "social": 0
-      },
-      "lastUpdated": "2026-09-12T11:57:19.668Z"
+      "lastUpdated": "2026-09-13T13:05:13.083Z"
     },
     {
       "id": "defi-innovation",
@@ -175,7 +178,7 @@
       "trendingKeywords": [
         "dex",
         "swap",
-        "liquidity"
+        "perp"
       ],
       "topProjects": [
         {
@@ -197,12 +200,12 @@
           "source": "github"
         },
         {
-          "name": "aiboxtoken.github.io",
+          "name": "meme-intelligence-onchain",
           "description": "",
           "source": "github"
         },
         {
-          "name": "TSN-Protocol",
+          "name": "nexa-mobile",
           "description": "",
           "source": "github"
         }
@@ -218,7 +221,7 @@
         "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-09-12T11:57:19.668Z"
+      "lastUpdated": "2026-09-13T13:05:13.083Z"
     },
     {
       "id": "social-consumer",
@@ -247,7 +250,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-09-12T11:57:19.668Z"
+      "lastUpdated": "2026-09-13T13:05:13.083Z"
     },
     {
       "id": "gaming-nft",
@@ -273,7 +276,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-09-12T11:57:19.668Z"
+      "lastUpdated": "2026-09-13T13:05:13.083Z"
     }
   ]
 }
