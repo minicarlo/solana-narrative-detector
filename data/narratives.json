@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-17T13:01:08.864Z",
+  "timestamp": "2026-09-18T12:40:23.937Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -10,7 +10,7 @@
         "agent",
         "bot",
         "autonomous",
-        "inference"
+        "model"
       ],
       "topProjects": [
         {
@@ -38,9 +38,8 @@
           "source": "github"
         },
         {
-          "name": "Rustchain",
+          "name": "GateKeeper-Solana",
           "description": "",
-          "url": "https://github.com/Scottcjn/Rustchain",
           "source": "github"
         }
       ],
@@ -55,76 +54,18 @@
         "github": 13,
         "social": 0
       },
-      "lastUpdated": "2026-09-17T13:01:08.864Z"
-    },
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.9883000000000001,
-      "trendingKeywords": [
-        "dex",
-        "swap",
-        "farm",
-        "lending",
-        "vault",
-        "perp"
-      ],
-      "topProjects": [
-        {
-          "name": "CloddsBot",
-          "description": "",
-          "url": "https://github.com/alsk1992/CloddsBot",
-          "source": "github"
-        },
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "Rustchain",
-          "description": "",
-          "url": "https://github.com/Scottcjn/Rustchain",
-          "source": "github"
-        },
-        {
-          "name": "PreLendd",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 7,
-        "social": 0
-      },
-      "lastUpdated": "2026-09-17T13:01:08.863Z"
+      "lastUpdated": "2026-09-18T12:40:23.937Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.91808,
+      "confidence": 0.91814,
       "trendingKeywords": [
+        "testing",
         "deploy",
         "library",
-        "testing",
-        "framework",
-        "build"
+        "framework"
       ],
       "topProjects": [
         {
@@ -169,19 +110,20 @@
         "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-09-17T13:01:08.864Z"
+      "lastUpdated": "2026-09-18T12:40:23.937Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.7883000000000001,
+      "confidence": 0.8800000000000001,
       "trendingKeywords": [
         "network",
-        "bridge",
         "node",
         "validator",
-        "indexer"
+        "indexer",
+        "bridge",
+        "oracle"
       ],
       "topProjects": [
         {
@@ -209,9 +151,8 @@
           "source": "github"
         },
         {
-          "name": "Rustchain",
+          "name": "paritas",
           "description": "",
-          "url": "https://github.com/Scottcjn/Rustchain",
           "source": "github"
         }
       ],
@@ -223,28 +164,81 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-09-17T13:01:08.863Z"
+      "lastUpdated": "2026-09-18T12:40:23.937Z"
+    },
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.6000000000000001,
+      "trendingKeywords": [
+        "swap",
+        "dex"
+      ],
+      "topProjects": [
+        {
+          "name": "CloddsBot",
+          "description": "",
+          "url": "https://github.com/alsk1992/CloddsBot",
+          "source": "github"
+        },
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "paritas",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 4,
+        "social": 0
+      },
+      "lastUpdated": "2026-09-18T12:40:23.937Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.24,
+      "confidence": 0.36,
       "trendingKeywords": [
-        "collectible",
-        "gaming"
+        "game",
+        "gaming",
+        "world"
       ],
       "topProjects": [
         {
-          "name": "canopy",
+          "name": "arena",
           "description": "",
           "source": "github"
         },
         {
           "name": "sol-ai",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solaegis-defai",
           "description": "",
           "source": "github"
         }
@@ -257,10 +251,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-09-17T13:01:08.863Z"
+      "lastUpdated": "2026-09-18T12:40:23.937Z"
     },
     {
       "id": "social-consumer",
@@ -289,7 +283,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-09-17T13:01:08.864Z"
+      "lastUpdated": "2026-09-18T12:40:23.937Z"
     }
   ]
 }
