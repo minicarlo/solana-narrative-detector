@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-18T12:40:23.937Z",
+  "timestamp": "2026-09-19T12:15:33.765Z",
   "narratives": [
     {
       "id": "ai-crypto",
@@ -7,10 +7,10 @@
       "description": "Artificial intelligence meets blockchain",
       "confidence": 1,
       "trendingKeywords": [
-        "agent",
         "bot",
+        "agent",
         "autonomous",
-        "model"
+        "intelligence"
       ],
       "topProjects": [
         {
@@ -38,7 +38,7 @@
           "source": "github"
         },
         {
-          "name": "GateKeeper-Solana",
+          "name": "ShieldGive",
           "description": "",
           "source": "github"
         }
@@ -51,20 +51,74 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 13,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-09-18T12:40:23.937Z"
+      "lastUpdated": "2026-09-19T12:15:33.765Z"
+    },
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.8400000000000001,
+      "trendingKeywords": [
+        "dex",
+        "swap",
+        "liquidity",
+        "lending"
+      ],
+      "topProjects": [
+        {
+          "name": "CloddsBot",
+          "description": "",
+          "url": "https://github.com/alsk1992/CloddsBot",
+          "source": "github"
+        },
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "anaxer-mcp",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "nak-solana-bot",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 6,
+        "social": 0
+      },
+      "lastUpdated": "2026-09-19T12:15:33.765Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.91814,
+      "confidence": 0.7981400000000001,
       "trendingKeywords": [
-        "testing",
         "deploy",
         "library",
+        "testing",
         "framework"
       ],
       "topProjects": [
@@ -107,23 +161,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-09-18T12:40:23.937Z"
+      "lastUpdated": "2026-09-19T12:15:33.765Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.8800000000000001,
+      "confidence": 0.64,
       "trendingKeywords": [
-        "network",
         "node",
         "validator",
         "indexer",
-        "bridge",
-        "oracle"
+        "network",
+        "bridge"
       ],
       "topProjects": [
         {
@@ -149,11 +202,6 @@
           "description": "",
           "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
-        },
-        {
-          "name": "paritas",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -164,97 +212,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
-        "social": 0
-      },
-      "lastUpdated": "2026-09-18T12:40:23.937Z"
-    },
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.6000000000000001,
-      "trendingKeywords": [
-        "swap",
-        "dex"
-      ],
-      "topProjects": [
-        {
-          "name": "CloddsBot",
-          "description": "",
-          "url": "https://github.com/alsk1992/CloddsBot",
-          "source": "github"
-        },
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "paritas",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-09-18T12:40:23.937Z"
-    },
-    {
-      "id": "gaming-nft",
-      "name": "Gaming & NFT",
-      "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.36,
-      "trendingKeywords": [
-        "game",
-        "gaming",
-        "world"
-      ],
-      "topProjects": [
-        {
-          "name": "arena",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "sol-ai",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solaegis-defai",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a no-code NFT collection launcher with built-in marketplace",
-        "Build a gaming guild management platform with scholarship tracking",
-        "Develop an on-chain achievement system for games",
-        "Create a metaverse land rental marketplace"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 3,
-        "social": 0
-      },
-      "lastUpdated": "2026-09-18T12:40:23.937Z"
+      "lastUpdated": "2026-09-19T12:15:33.765Z"
     },
     {
       "id": "social-consumer",
@@ -283,7 +244,33 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-09-18T12:40:23.937Z"
+      "lastUpdated": "2026-09-19T12:15:33.765Z"
+    },
+    {
+      "id": "gaming-nft",
+      "name": "Gaming & NFT",
+      "description": "Blockchain gaming and NFT ecosystems",
+      "confidence": 0.1,
+      "trendingKeywords": [
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
+      ],
+      "topProjects": [],
+      "projectIdeas": [
+        "Create a no-code NFT collection launcher with built-in marketplace",
+        "Build a gaming guild management platform with scholarship tracking",
+        "Develop an on-chain achievement system for games",
+        "Create a metaverse land rental marketplace"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 0,
+        "social": 0
+      },
+      "lastUpdated": "2026-09-19T12:15:33.765Z"
     }
   ]
 }
