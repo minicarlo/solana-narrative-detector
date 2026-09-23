@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-22T13:03:38.549Z",
+  "timestamp": "2026-09-23T13:20:52.561Z",
   "narratives": [
     {
       "id": "defi-innovation",
@@ -9,7 +9,8 @@
       "trendingKeywords": [
         "swap",
         "dex",
-        "farm"
+        "farm",
+        "vault"
       ],
       "topProjects": [
         {
@@ -54,7 +55,7 @@
         "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-09-22T13:03:38.549Z"
+      "lastUpdated": "2026-09-23T13:20:52.561Z"
     },
     {
       "id": "infrastructure",
@@ -63,10 +64,10 @@
       "confidence": 1,
       "trendingKeywords": [
         "bridge",
-        "node",
-        "indexer",
         "network",
-        "validator"
+        "node",
+        "validator",
+        "indexer"
       ],
       "topProjects": [
         {
@@ -111,7 +112,7 @@
         "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-09-22T13:03:38.549Z"
+      "lastUpdated": "2026-09-23T13:20:52.561Z"
     },
     {
       "id": "ai-crypto",
@@ -122,9 +123,8 @@
         "agent",
         "bot",
         "autonomous",
-        "intelligence",
         "inference",
-        "model"
+        "intelligence"
       ],
       "topProjects": [
         {
@@ -166,22 +166,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 13,
+        "github": 9,
         "social": 0
       },
-      "lastUpdated": "2026-09-22T13:03:38.549Z"
+      "lastUpdated": "2026-09-23T13:20:52.561Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.7582600000000002,
+      "confidence": 0.63826,
       "trendingKeywords": [
         "deploy",
         "testing",
         "framework",
-        "library",
-        "compile"
+        "library"
       ],
       "topProjects": [
         {
@@ -207,11 +206,6 @@
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
-        },
-        {
-          "name": "bendSVM",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -222,20 +216,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-09-22T13:03:38.549Z"
+      "lastUpdated": "2026-09-23T13:20:52.561Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.44000000000000006,
+      "confidence": 0.56,
       "trendingKeywords": [
         "community",
-        "creator",
-        "fan"
+        "creator"
       ],
       "topProjects": [
         {
@@ -251,7 +244,12 @@
           "source": "github"
         },
         {
-          "name": "sportpad.fun",
+          "name": "sonata-protocol",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "sonata",
           "description": "",
           "source": "github"
         }
@@ -264,26 +262,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-09-22T13:03:38.549Z"
+      "lastUpdated": "2026-09-23T13:20:52.561Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.1,
       "trendingKeywords": [
-        "world"
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "solaegis-defai",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -292,10 +288,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-09-22T13:03:38.549Z"
+      "lastUpdated": "2026-09-23T13:20:52.561Z"
     }
   ]
 }
