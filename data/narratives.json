@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-23T13:20:52.561Z",
+  "timestamp": "2026-09-24T13:09:56.411Z",
   "narratives": [
     {
       "id": "defi-innovation",
@@ -9,8 +9,8 @@
       "trendingKeywords": [
         "swap",
         "dex",
-        "farm",
-        "vault"
+        "liquidity",
+        "farm"
       ],
       "topProjects": [
         {
@@ -52,10 +52,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-09-23T13:20:52.561Z"
+      "lastUpdated": "2026-09-24T13:09:56.410Z"
     },
     {
       "id": "infrastructure",
@@ -112,7 +112,7 @@
         "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-09-23T13:20:52.561Z"
+      "lastUpdated": "2026-09-24T13:09:56.411Z"
     },
     {
       "id": "ai-crypto",
@@ -120,11 +120,11 @@
       "description": "Artificial intelligence meets blockchain",
       "confidence": 1,
       "trendingKeywords": [
-        "agent",
         "bot",
+        "agent",
+        "intelligence",
         "autonomous",
-        "inference",
-        "intelligence"
+        "inference"
       ],
       "topProjects": [
         {
@@ -166,18 +166,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 11,
         "social": 0
       },
-      "lastUpdated": "2026-09-23T13:20:52.561Z"
+      "lastUpdated": "2026-09-24T13:09:56.411Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.63826,
+      "confidence": 0.87826,
       "trendingKeywords": [
         "deploy",
+        "build",
         "testing",
         "framework",
         "library"
@@ -206,6 +207,11 @@
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
+        },
+        {
+          "name": "bearproof",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -216,10 +222,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-09-23T13:20:52.561Z"
+      "lastUpdated": "2026-09-24T13:09:56.411Z"
     },
     {
       "id": "social-consumer",
@@ -227,8 +233,9 @@
       "description": "Social platforms and consumer applications",
       "confidence": 0.56,
       "trendingKeywords": [
+        "creator",
         "community",
-        "creator"
+        "profile"
       ],
       "topProjects": [
         {
@@ -244,12 +251,12 @@
           "source": "github"
         },
         {
-          "name": "sonata-protocol",
+          "name": "feedme",
           "description": "",
           "source": "github"
         },
         {
-          "name": "sonata",
+          "name": "epistemics",
           "description": "",
           "source": "github"
         }
@@ -265,21 +272,23 @@
         "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-09-23T13:20:52.561Z"
+      "lastUpdated": "2026-09-24T13:09:56.411Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.1,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "game",
-        "gaming",
-        "NFT",
-        "metaverse",
-        "play-to-earn"
+        "game"
       ],
-      "topProjects": [],
+      "topProjects": [
+        {
+          "name": "bearproof",
+          "description": "",
+          "source": "github"
+        }
+      ],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -288,10 +297,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 0,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-09-23T13:20:52.561Z"
+      "lastUpdated": "2026-09-24T13:09:56.411Z"
     }
   ]
 }
