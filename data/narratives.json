@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-24T13:09:56.411Z",
+  "timestamp": "2026-09-25T13:14:01.809Z",
   "narratives": [
     {
       "id": "defi-innovation",
@@ -9,20 +9,14 @@
       "trendingKeywords": [
         "swap",
         "dex",
-        "liquidity",
-        "farm"
+        "farm",
+        "liquidity"
       ],
       "topProjects": [
         {
           "name": "solana-copy-sniper-mev-trading-bot",
           "description": "",
           "url": "https://github.com/mortdeus/solana-copy-sniper-mev-trading-bot",
-          "source": "github"
-        },
-        {
-          "name": "CloddsBot",
-          "description": "",
-          "url": "https://github.com/alsk1992/CloddsBot",
           "source": "github"
         },
         {
@@ -42,6 +36,12 @@
           "description": "",
           "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
+        },
+        {
+          "name": "Rustchain",
+          "description": "",
+          "url": "https://github.com/Scottcjn/Rustchain",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -52,20 +52,76 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-09-24T13:09:56.410Z"
+      "lastUpdated": "2026-09-25T13:14:01.808Z"
+    },
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 1,
+      "trendingKeywords": [
+        "agent",
+        "bot",
+        "inference",
+        "intelligence"
+      ],
+      "topProjects": [
+        {
+          "name": "hummingbot",
+          "description": "",
+          "url": "https://github.com/hummingbot/hummingbot",
+          "source": "github"
+        },
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "solana-copy-sniper-mev-trading-bot",
+          "description": "",
+          "url": "https://github.com/mortdeus/solana-copy-sniper-mev-trading-bot",
+          "source": "github"
+        },
+        {
+          "name": "pumpfun-bonkfun-bot",
+          "description": "",
+          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
+          "source": "github"
+        },
+        {
+          "name": "Rustchain",
+          "description": "",
+          "url": "https://github.com/Scottcjn/Rustchain",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 10,
+        "social": 0
+      },
+      "lastUpdated": "2026-09-25T13:14:01.809Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 1,
+      "confidence": 0.94956,
       "trendingKeywords": [
         "bridge",
-        "network",
         "node",
+        "network",
         "validator",
         "indexer"
       ],
@@ -109,76 +165,18 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-09-24T13:09:56.411Z"
-    },
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 1,
-      "trendingKeywords": [
-        "bot",
-        "agent",
-        "intelligence",
-        "autonomous",
-        "inference"
-      ],
-      "topProjects": [
-        {
-          "name": "hummingbot",
-          "description": "",
-          "url": "https://github.com/hummingbot/hummingbot",
-          "source": "github"
-        },
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "solana-copy-sniper-mev-trading-bot",
-          "description": "",
-          "url": "https://github.com/mortdeus/solana-copy-sniper-mev-trading-bot",
-          "source": "github"
-        },
-        {
-          "name": "CloddsBot",
-          "description": "",
-          "url": "https://github.com/alsk1992/CloddsBot",
-          "source": "github"
-        },
-        {
-          "name": "pumpfun-bonkfun-bot",
-          "description": "",
-          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 11,
-        "social": 0
-      },
-      "lastUpdated": "2026-09-24T13:09:56.411Z"
+      "lastUpdated": "2026-09-25T13:14:01.808Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.87826,
+      "confidence": 0.63826,
       "trendingKeywords": [
         "deploy",
-        "build",
         "testing",
         "framework",
         "library"
@@ -207,11 +205,6 @@
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
-        },
-        {
-          "name": "bearproof",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -222,20 +215,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-09-24T13:09:56.411Z"
+      "lastUpdated": "2026-09-25T13:14:01.809Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.56,
+      "confidence": 0.32,
       "trendingKeywords": [
         "creator",
-        "community",
-        "profile"
+        "community"
       ],
       "topProjects": [
         {
@@ -249,16 +241,6 @@
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
           "source": "github"
-        },
-        {
-          "name": "feedme",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "epistemics",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -269,26 +251,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-09-24T13:09:56.411Z"
+      "lastUpdated": "2026-09-25T13:14:01.809Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.1,
       "trendingKeywords": [
-        "game"
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "bearproof",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -297,10 +277,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-09-24T13:09:56.411Z"
+      "lastUpdated": "2026-09-25T13:14:01.808Z"
     }
   ]
 }
