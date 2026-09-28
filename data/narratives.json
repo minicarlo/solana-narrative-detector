@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-27T13:30:41.925Z",
+  "timestamp": "2026-09-28T16:25:53.516Z",
   "narratives": [
     {
       "id": "defi-innovation",
@@ -9,16 +9,12 @@
       "trendingKeywords": [
         "swap",
         "dex",
-        "stake",
-        "vault"
+        "farm",
+        "vault",
+        "borrow",
+        "yield"
       ],
       "topProjects": [
-        {
-          "name": "solana-copy-sniper-mev-trading-bot",
-          "description": "",
-          "url": "https://github.com/mortdeus/solana-copy-sniper-mev-trading-bot",
-          "source": "github"
-        },
         {
           "name": "rango-sdk",
           "description": "",
@@ -38,7 +34,13 @@
           "source": "github"
         },
         {
-          "name": "panenka-protocol",
+          "name": "Rustchain",
+          "description": "",
+          "url": "https://github.com/Scottcjn/Rustchain",
+          "source": "github"
+        },
+        {
+          "name": "AutoPilotPM",
           "description": "",
           "source": "github"
         }
@@ -51,10 +53,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-09-27T13:30:41.925Z"
+      "lastUpdated": "2026-09-28T16:25:53.515Z"
     },
     {
       "id": "infrastructure",
@@ -62,12 +64,11 @@
       "description": "Core blockchain infrastructure and tooling",
       "confidence": 1,
       "trendingKeywords": [
-        "node",
-        "bridge",
-        "validator",
         "network",
-        "indexer",
-        "oracle"
+        "bridge",
+        "node",
+        "validator",
+        "indexer"
       ],
       "topProjects": [
         {
@@ -112,7 +113,7 @@
         "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-09-27T13:30:41.925Z"
+      "lastUpdated": "2026-09-28T16:25:53.516Z"
     },
     {
       "id": "ai-crypto",
@@ -121,7 +122,9 @@
       "confidence": 1,
       "trendingKeywords": [
         "bot",
-        "agent"
+        "agent",
+        "inference",
+        "autonomous"
       ],
       "topProjects": [
         {
@@ -137,19 +140,19 @@
           "source": "github"
         },
         {
-          "name": "solana-copy-sniper-mev-trading-bot",
-          "description": "",
-          "url": "https://github.com/mortdeus/solana-copy-sniper-mev-trading-bot",
-          "source": "github"
-        },
-        {
           "name": "pumpfun-bonkfun-bot",
           "description": "",
           "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
           "source": "github"
         },
         {
-          "name": "cleat-app",
+          "name": "Rustchain",
+          "description": "",
+          "url": "https://github.com/Scottcjn/Rustchain",
+          "source": "github"
+        },
+        {
+          "name": "solana-contest-dashboard",
           "description": "",
           "source": "github"
         }
@@ -162,10 +165,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-09-27T13:30:41.925Z"
+      "lastUpdated": "2026-09-28T16:25:53.516Z"
     },
     {
       "id": "dev-tools",
@@ -222,26 +225,18 @@
         "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-09-27T13:30:41.925Z"
+      "lastUpdated": "2026-09-28T16:25:53.516Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.56,
+      "confidence": 0.27999999999999997,
       "trendingKeywords": [
-        "creator",
         "community",
-        "social",
-        "fan"
+        "social"
       ],
       "topProjects": [
-        {
-          "name": "solana-copy-sniper-mev-trading-bot",
-          "description": "",
-          "url": "https://github.com/mortdeus/solana-copy-sniper-mev-trading-bot",
-          "source": "github"
-        },
         {
           "name": "app-monorepo",
           "description": "",
@@ -250,11 +245,6 @@
         },
         {
           "name": "NXP-Network",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "panenka-protocol",
           "description": "",
           "source": "github"
         }
@@ -267,20 +257,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-09-27T13:30:41.925Z"
+      "lastUpdated": "2026-09-28T16:25:53.516Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.36,
+      "confidence": 0.24,
       "trendingKeywords": [
         "gaming",
-        "world",
-        "game"
+        "world"
       ],
       "topProjects": [
         {
@@ -289,12 +278,7 @@
           "source": "github"
         },
         {
-          "name": "panenka-protocol",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "breakpoint-starter-pack",
+          "name": "gather-solana-group-pay",
           "description": "",
           "source": "github"
         }
@@ -307,10 +291,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-09-27T13:30:41.925Z"
+      "lastUpdated": "2026-09-28T16:25:53.515Z"
     }
   ]
 }
