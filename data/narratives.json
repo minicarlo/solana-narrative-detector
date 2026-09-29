@@ -1,74 +1,18 @@
 {
-  "timestamp": "2026-09-28T16:25:53.516Z",
+  "timestamp": "2026-09-29T14:35:40.588Z",
   "narratives": [
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 1,
-      "trendingKeywords": [
-        "swap",
-        "dex",
-        "farm",
-        "vault",
-        "borrow",
-        "yield"
-      ],
-      "topProjects": [
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
-          "source": "github"
-        },
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "Rustchain",
-          "description": "",
-          "url": "https://github.com/Scottcjn/Rustchain",
-          "source": "github"
-        },
-        {
-          "name": "AutoPilotPM",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 8,
-        "social": 0
-      },
-      "lastUpdated": "2026-09-28T16:25:53.515Z"
-    },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
       "confidence": 1,
       "trendingKeywords": [
-        "network",
         "bridge",
         "node",
         "validator",
-        "indexer"
+        "network",
+        "indexer",
+        "oracle"
       ],
       "topProjects": [
         {
@@ -113,7 +57,7 @@
         "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-09-28T16:25:53.516Z"
+      "lastUpdated": "2026-09-29T14:35:40.588Z"
     },
     {
       "id": "ai-crypto",
@@ -121,10 +65,12 @@
       "description": "Artificial intelligence meets blockchain",
       "confidence": 1,
       "trendingKeywords": [
-        "bot",
         "agent",
+        "bot",
         "inference",
-        "autonomous"
+        "autonomous",
+        "intelligence",
+        "model"
       ],
       "topProjects": [
         {
@@ -152,7 +98,7 @@
           "source": "github"
         },
         {
-          "name": "solana-contest-dashboard",
+          "name": "tokenline",
           "description": "",
           "source": "github"
         }
@@ -165,22 +111,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 10,
         "social": 0
       },
-      "lastUpdated": "2026-09-28T16:25:53.516Z"
+      "lastUpdated": "2026-09-29T14:35:40.588Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 1,
+      "confidence": 0.9182600000000001,
       "trendingKeywords": [
         "deploy",
-        "library",
-        "testing",
         "framework",
-        "build"
+        "library",
+        "testing"
       ],
       "topProjects": [
         {
@@ -222,30 +167,80 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-09-28T16:25:53.516Z"
+      "lastUpdated": "2026-09-29T14:35:40.588Z"
+    },
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.8701000000000001,
+      "trendingKeywords": [
+        "swap",
+        "dex",
+        "farm",
+        "vault",
+        "lending"
+      ],
+      "topProjects": [
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
+          "source": "github"
+        },
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "Rustchain",
+          "description": "",
+          "url": "https://github.com/Scottcjn/Rustchain",
+          "source": "github"
+        },
+        {
+          "name": "nest-finance",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 6,
+        "social": 0
+      },
+      "lastUpdated": "2026-09-29T14:35:40.588Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.16,
       "trendingKeywords": [
-        "community",
-        "social"
+        "community"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "NXP-Network",
-          "description": "",
           "source": "github"
         }
       ],
@@ -257,32 +252,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-09-28T16:25:53.516Z"
+      "lastUpdated": "2026-09-29T14:35:40.588Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.24,
+      "confidence": 0.1,
       "trendingKeywords": [
+        "game",
         "gaming",
-        "world"
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "NXP-Network",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "gather-solana-group-pay",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -291,10 +278,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-09-28T16:25:53.515Z"
+      "lastUpdated": "2026-09-29T14:35:40.588Z"
     }
   ]
 }
