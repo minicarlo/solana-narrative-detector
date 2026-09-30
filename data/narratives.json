@@ -1,42 +1,41 @@
 {
-  "timestamp": "2026-09-29T14:35:40.588Z",
+  "timestamp": "2026-09-30T14:35:31.968Z",
   "narratives": [
     {
-      "id": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Core blockchain infrastructure and tooling",
+      "id": "dev-tools",
+      "name": "Developer Tools",
+      "description": "Tools and infrastructure for developers",
       "confidence": 1,
       "trendingKeywords": [
-        "bridge",
-        "node",
-        "validator",
-        "network",
-        "indexer",
-        "oracle"
+        "deploy",
+        "library",
+        "testing",
+        "framework",
+        "compile"
       ],
       "topProjects": [
         {
-          "name": "solana-web3.js",
+          "name": "hummingbot",
           "description": "",
-          "url": "https://github.com/solana-foundation/solana-web3.js",
+          "url": "https://github.com/hummingbot/hummingbot",
           "source": "github"
         },
         {
-          "name": "rango-sdk",
+          "name": "anchor",
           "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
+          "url": "https://github.com/otter-sec/anchor",
           "source": "github"
         },
         {
-          "name": "firedancer",
+          "name": "solana-go",
           "description": "",
-          "url": "https://github.com/firedancer-io/firedancer",
+          "url": "https://github.com/solana-foundation/solana-go",
           "source": "github"
         },
         {
-          "name": "squid-sdk",
+          "name": "solang",
           "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
+          "url": "https://github.com/hyperledger-solang/solang",
           "source": "github"
         },
         {
@@ -47,30 +46,27 @@
         }
       ],
       "projectIdeas": [
-        "Build a decentralized RPC load balancer for Solana",
-        "Create a validator performance monitoring dashboard",
-        "Develop a bridge aggregator for cross-chain transfers",
-        "Build an oracle comparison and aggregation service"
+        "Create a Solana program testing framework with auto-generated tests",
+        "Build a no-code contract deployment platform",
+        "Develop a real-time program monitoring and alerting tool",
+        "Create an IDE extension for Solana development"
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-09-29T14:35:40.588Z"
+      "lastUpdated": "2026-09-30T14:35:31.968Z"
     },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 1,
+      "confidence": 0.8701000000000001,
       "trendingKeywords": [
-        "agent",
         "bot",
-        "inference",
-        "autonomous",
-        "intelligence",
-        "model"
+        "agent",
+        "inference"
       ],
       "topProjects": [
         {
@@ -98,7 +94,7 @@
           "source": "github"
         },
         {
-          "name": "tokenline",
+          "name": "solana-contest-dashboard",
           "description": "",
           "source": "github"
         }
@@ -111,86 +107,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 10,
-        "social": 0
-      },
-      "lastUpdated": "2026-09-29T14:35:40.588Z"
-    },
-    {
-      "id": "dev-tools",
-      "name": "Developer Tools",
-      "description": "Tools and infrastructure for developers",
-      "confidence": 0.9182600000000001,
-      "trendingKeywords": [
-        "deploy",
-        "framework",
-        "library",
-        "testing"
-      ],
-      "topProjects": [
-        {
-          "name": "hummingbot",
-          "description": "",
-          "url": "https://github.com/hummingbot/hummingbot",
-          "source": "github"
-        },
-        {
-          "name": "anchor",
-          "description": "",
-          "url": "https://github.com/otter-sec/anchor",
-          "source": "github"
-        },
-        {
-          "name": "solana-go",
-          "description": "",
-          "url": "https://github.com/solana-foundation/solana-go",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "solana-playground",
-          "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a Solana program testing framework with auto-generated tests",
-        "Build a no-code contract deployment platform",
-        "Develop a real-time program monitoring and alerting tool",
-        "Create an IDE extension for Solana development"
-      ],
-      "dataSources": {
-        "helius": 0,
         "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-09-29T14:35:40.588Z"
+      "lastUpdated": "2026-09-30T14:35:31.968Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.8701000000000001,
+      "confidence": 0.8301000000000001,
       "trendingKeywords": [
         "swap",
         "dex",
         "farm",
-        "vault",
-        "lending"
+        "borrow",
+        "vault"
       ],
       "topProjects": [
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
-          "source": "github"
-        },
         {
           "name": "squid-sdk",
           "description": "",
@@ -210,7 +144,12 @@
           "source": "github"
         },
         {
-          "name": "nest-finance",
+          "name": "picachu__",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "tempo-solana-swap",
           "description": "",
           "source": "github"
         }
@@ -226,7 +165,64 @@
         "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-09-29T14:35:40.588Z"
+      "lastUpdated": "2026-09-30T14:35:31.968Z"
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Core blockchain infrastructure and tooling",
+      "confidence": 0.7901,
+      "trendingKeywords": [
+        "network",
+        "bridge",
+        "node",
+        "validator",
+        "indexer"
+      ],
+      "topProjects": [
+        {
+          "name": "solana-web3.js",
+          "description": "",
+          "url": "https://github.com/solana-foundation/solana-web3.js",
+          "source": "github"
+        },
+        {
+          "name": "firedancer",
+          "description": "",
+          "url": "https://github.com/firedancer-io/firedancer",
+          "source": "github"
+        },
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "Rustchain",
+          "description": "",
+          "url": "https://github.com/Scottcjn/Rustchain",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized RPC load balancer for Solana",
+        "Create a validator performance monitoring dashboard",
+        "Develop a bridge aggregator for cross-chain transfers",
+        "Build an oracle comparison and aggregation service"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 5,
+        "social": 0
+      },
+      "lastUpdated": "2026-09-30T14:35:31.968Z"
     },
     {
       "id": "social-consumer",
@@ -255,21 +251,23 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-09-29T14:35:40.588Z"
+      "lastUpdated": "2026-09-30T14:35:31.968Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.1,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "game",
-        "gaming",
-        "NFT",
-        "metaverse",
-        "play-to-earn"
+        "game"
       ],
-      "topProjects": [],
+      "topProjects": [
+        {
+          "name": "Gali",
+          "description": "",
+          "source": "github"
+        }
+      ],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -278,10 +276,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 0,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-09-29T14:35:40.588Z"
+      "lastUpdated": "2026-09-30T14:35:31.968Z"
     }
   ]
 }
