@@ -1,14 +1,71 @@
 {
-  "timestamp": "2026-10-03T13:01:04.770Z",
+  "timestamp": "2026-10-04T13:39:46.271Z",
   "narratives": [
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 1,
+      "trendingKeywords": [
+        "dex",
+        "swap",
+        "farm",
+        "perp",
+        "liquidity"
+      ],
+      "topProjects": [
+        {
+          "name": "CloddsBot",
+          "description": "",
+          "url": "https://github.com/alsk1992/CloddsBot",
+          "source": "github"
+        },
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
+          "source": "github"
+        },
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "Rustchain",
+          "description": "",
+          "url": "https://github.com/Scottcjn/Rustchain",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 8,
+        "social": 0
+      },
+      "lastUpdated": "2026-10-04T13:39:46.271Z"
+    },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
       "confidence": 1,
       "trendingKeywords": [
-        "bridge",
         "network",
+        "bridge",
         "node",
         "validator",
         "indexer",
@@ -54,77 +111,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 9,
         "social": 0
       },
-      "lastUpdated": "2026-10-03T13:01:04.769Z"
-    },
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.91022,
-      "trendingKeywords": [
-        "swap",
-        "dex",
-        "farm",
-        "stake"
-      ],
-      "topProjects": [
-        {
-          "name": "CloddsBot",
-          "description": "",
-          "url": "https://github.com/alsk1992/CloddsBot",
-          "source": "github"
-        },
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
-          "source": "github"
-        },
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "Rustchain",
-          "description": "",
-          "url": "https://github.com/Scottcjn/Rustchain",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 6,
-        "social": 0
-      },
-      "lastUpdated": "2026-10-03T13:01:04.769Z"
+      "lastUpdated": "2026-10-04T13:39:46.271Z"
     },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.91022,
+      "confidence": 1,
       "trendingKeywords": [
-        "bot",
         "agent",
+        "bot",
         "autonomous",
-        "inference"
+        "inference",
+        "intelligence"
       ],
       "topProjects": [
         {
@@ -166,10 +168,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 10,
         "social": 0
       },
-      "lastUpdated": "2026-10-03T13:01:04.770Z"
+      "lastUpdated": "2026-10-04T13:39:46.271Z"
     },
     {
       "id": "dev-tools",
@@ -226,27 +228,21 @@
         "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-10-03T13:01:04.770Z"
+      "lastUpdated": "2026-10-04T13:39:46.271Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.4,
+      "confidence": 0.27999999999999997,
       "trendingKeywords": [
-        "community",
-        "social"
+        "community"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "blink-commerce",
-          "description": "",
           "source": "github"
         },
         {
@@ -263,10 +259,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-10-03T13:01:04.770Z"
+      "lastUpdated": "2026-10-04T13:39:46.271Z"
     },
     {
       "id": "gaming-nft",
@@ -274,11 +270,11 @@
       "description": "Blockchain gaming and NFT ecosystems",
       "confidence": 0.12,
       "trendingKeywords": [
-        "world"
+        "game"
       ],
       "topProjects": [
         {
-          "name": "SIKRIT",
+          "name": "imperivm",
           "description": "",
           "source": "github"
         }
@@ -294,7 +290,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-10-03T13:01:04.769Z"
+      "lastUpdated": "2026-10-04T13:39:46.271Z"
     }
   ]
 }
