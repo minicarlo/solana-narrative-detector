@@ -1,63 +1,6 @@
 {
-  "timestamp": "2026-10-04T13:39:46.271Z",
+  "timestamp": "2026-10-05T16:45:59.458Z",
   "narratives": [
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 1,
-      "trendingKeywords": [
-        "dex",
-        "swap",
-        "farm",
-        "perp",
-        "liquidity"
-      ],
-      "topProjects": [
-        {
-          "name": "CloddsBot",
-          "description": "",
-          "url": "https://github.com/alsk1992/CloddsBot",
-          "source": "github"
-        },
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
-          "source": "github"
-        },
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "Rustchain",
-          "description": "",
-          "url": "https://github.com/Scottcjn/Rustchain",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 8,
-        "social": 0
-      },
-      "lastUpdated": "2026-10-04T13:39:46.271Z"
-    },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
@@ -111,10 +54,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 10,
         "social": 0
       },
-      "lastUpdated": "2026-10-04T13:39:46.271Z"
+      "lastUpdated": "2026-10-05T16:45:59.458Z"
     },
     {
       "id": "ai-crypto",
@@ -122,8 +65,8 @@
       "description": "Artificial intelligence meets blockchain",
       "confidence": 1,
       "trendingKeywords": [
-        "agent",
         "bot",
+        "agent",
         "autonomous",
         "inference",
         "intelligence"
@@ -171,19 +114,20 @@
         "github": 10,
         "social": 0
       },
-      "lastUpdated": "2026-10-04T13:39:46.271Z"
+      "lastUpdated": "2026-10-05T16:45:59.458Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.79832,
+      "confidence": 0.9183199999999999,
       "trendingKeywords": [
         "deploy",
         "testing",
         "framework",
         "compile",
-        "library"
+        "library",
+        "build"
       ],
       "topProjects": [
         {
@@ -225,10 +169,66 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-10-04T13:39:46.271Z"
+      "lastUpdated": "2026-10-05T16:45:59.458Z"
+    },
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.91034,
+      "trendingKeywords": [
+        "swap",
+        "dex",
+        "farm",
+        "stake"
+      ],
+      "topProjects": [
+        {
+          "name": "CloddsBot",
+          "description": "",
+          "url": "https://github.com/alsk1992/CloddsBot",
+          "source": "github"
+        },
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
+          "source": "github"
+        },
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "Rustchain",
+          "description": "",
+          "url": "https://github.com/Scottcjn/Rustchain",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 6,
+        "social": 0
+      },
+      "lastUpdated": "2026-10-05T16:45:59.458Z"
     },
     {
       "id": "social-consumer",
@@ -262,23 +262,21 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-10-04T13:39:46.271Z"
+      "lastUpdated": "2026-10-05T16:45:59.458Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.1,
       "trendingKeywords": [
-        "game"
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "imperivm",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -287,10 +285,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-10-04T13:39:46.271Z"
+      "lastUpdated": "2026-10-05T16:45:59.458Z"
     }
   ]
 }
