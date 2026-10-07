@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-06T14:43:19.165Z",
+  "timestamp": "2026-10-07T15:03:14.949Z",
   "narratives": [
     {
       "id": "defi-innovation",
@@ -7,10 +7,9 @@
       "description": "Decentralized finance protocols and innovations",
       "confidence": 1,
       "trendingKeywords": [
-        "dex",
         "swap",
-        "farm",
-        "perp"
+        "dex",
+        "farm"
       ],
       "topProjects": [
         {
@@ -38,8 +37,9 @@
           "source": "github"
         },
         {
-          "name": "solana_farming_bot",
+          "name": "Rustchain",
           "description": "",
+          "url": "https://github.com/Scottcjn/Rustchain",
           "source": "github"
         }
       ],
@@ -54,7 +54,7 @@
         "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-10-06T14:43:19.165Z"
+      "lastUpdated": "2026-10-07T15:03:14.948Z"
     },
     {
       "id": "infrastructure",
@@ -62,12 +62,11 @@
       "description": "Core blockchain infrastructure and tooling",
       "confidence": 1,
       "trendingKeywords": [
-        "node",
+        "network",
         "bridge",
-        "oracle",
+        "node",
         "validator",
-        "indexer",
-        "network"
+        "indexer"
       ],
       "topProjects": [
         {
@@ -109,10 +108,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-10-06T14:43:19.165Z"
+      "lastUpdated": "2026-10-07T15:03:14.948Z"
     },
     {
       "id": "ai-crypto",
@@ -122,7 +121,9 @@
       "trendingKeywords": [
         "bot",
         "agent",
-        "autonomous"
+        "autonomous",
+        "inference",
+        "intelligence"
       ],
       "topProjects": [
         {
@@ -150,8 +151,9 @@
           "source": "github"
         },
         {
-          "name": "solana-wallet-alert-bot",
+          "name": "Rustchain",
           "description": "",
+          "url": "https://github.com/Scottcjn/Rustchain",
           "source": "github"
         }
       ],
@@ -163,23 +165,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 10,
         "social": 0
       },
-      "lastUpdated": "2026-10-06T14:43:19.165Z"
+      "lastUpdated": "2026-10-07T15:03:14.948Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 1,
+      "confidence": 0.9183199999999999,
       "trendingKeywords": [
         "deploy",
         "library",
-        "build",
         "testing",
         "framework",
-        "compile"
+        "build"
       ],
       "topProjects": [
         {
@@ -201,15 +202,15 @@
           "source": "github"
         },
         {
-          "name": "solang",
-          "description": "",
-          "url": "https://github.com/hyperledger-solang/solang",
-          "source": "github"
-        },
-        {
           "name": "rango-client",
           "description": "",
           "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "solana-playground",
+          "description": "",
+          "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
         }
       ],
@@ -221,57 +222,27 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-10-06T14:43:19.165Z"
-    },
-    {
-      "id": "social-consumer",
-      "name": "Social & Consumer",
-      "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
-      "trendingKeywords": [
-        "community",
-        "social"
-      ],
-      "topProjects": [
-        {
-          "name": "app-monorepo",
-          "description": "",
-          "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "kept-seeker",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized social graph protocol",
-        "Create a creator monetization platform with micro-tipping",
-        "Develop a DAO governance participation reward system",
-        "Build a reputation-based social discovery app"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 2,
-        "social": 0
-      },
-      "lastUpdated": "2026-10-06T14:43:19.165Z"
+      "lastUpdated": "2026-10-07T15:03:14.949Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.24,
       "trendingKeywords": [
-        "world"
+        "game"
       ],
       "topProjects": [
         {
-          "name": "solana-security-bounty",
+          "name": "BABBYchrist",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "pest.mom",
           "description": "",
           "source": "github"
         }
@@ -284,10 +255,39 @@
       ],
       "dataSources": {
         "helius": 0,
+        "github": 2,
+        "social": 0
+      },
+      "lastUpdated": "2026-10-07T15:03:14.948Z"
+    },
+    {
+      "id": "social-consumer",
+      "name": "Social & Consumer",
+      "description": "Social platforms and consumer applications",
+      "confidence": 0.16,
+      "trendingKeywords": [
+        "community"
+      ],
+      "topProjects": [
+        {
+          "name": "app-monorepo",
+          "description": "",
+          "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized social graph protocol",
+        "Create a creator monetization platform with micro-tipping",
+        "Develop a DAO governance participation reward system",
+        "Build a reputation-based social discovery app"
+      ],
+      "dataSources": {
+        "helius": 0,
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-10-06T14:43:19.165Z"
+      "lastUpdated": "2026-10-07T15:03:14.948Z"
     }
   ]
 }
