@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-07T15:03:14.949Z",
+  "timestamp": "2026-10-08T15:11:21.502Z",
   "narratives": [
     {
       "id": "defi-innovation",
@@ -7,8 +7,8 @@
       "description": "Decentralized finance protocols and innovations",
       "confidence": 1,
       "trendingKeywords": [
-        "swap",
         "dex",
+        "swap",
         "farm"
       ],
       "topProjects": [
@@ -54,7 +54,7 @@
         "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-10-07T15:03:14.948Z"
+      "lastUpdated": "2026-10-08T15:11:21.501Z"
     },
     {
       "id": "infrastructure",
@@ -62,8 +62,8 @@
       "description": "Core blockchain infrastructure and tooling",
       "confidence": 1,
       "trendingKeywords": [
-        "network",
         "bridge",
+        "network",
         "node",
         "validator",
         "indexer"
@@ -108,10 +108,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-10-07T15:03:14.948Z"
+      "lastUpdated": "2026-10-08T15:11:21.501Z"
     },
     {
       "id": "ai-crypto",
@@ -119,11 +119,11 @@
       "description": "Artificial intelligence meets blockchain",
       "confidence": 1,
       "trendingKeywords": [
-        "bot",
         "agent",
+        "bot",
         "autonomous",
         "inference",
-        "intelligence"
+        "model"
       ],
       "topProjects": [
         {
@@ -165,22 +165,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 10,
+        "github": 13,
         "social": 0
       },
-      "lastUpdated": "2026-10-07T15:03:14.948Z"
+      "lastUpdated": "2026-10-08T15:11:21.502Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.9183199999999999,
+      "confidence": 0.79832,
       "trendingKeywords": [
         "deploy",
         "library",
         "testing",
-        "framework",
-        "build"
+        "framework"
       ],
       "topProjects": [
         {
@@ -222,27 +221,56 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-10-07T15:03:14.949Z"
+      "lastUpdated": "2026-10-08T15:11:21.502Z"
+    },
+    {
+      "id": "social-consumer",
+      "name": "Social & Consumer",
+      "description": "Social platforms and consumer applications",
+      "confidence": 0.27999999999999997,
+      "trendingKeywords": [
+        "community"
+      ],
+      "topProjects": [
+        {
+          "name": "app-monorepo",
+          "description": "",
+          "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "JahangirCoin",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized social graph protocol",
+        "Create a creator monetization platform with micro-tipping",
+        "Develop a DAO governance participation reward system",
+        "Build a reputation-based social discovery app"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 2,
+        "social": 0
+      },
+      "lastUpdated": "2026-10-08T15:11:21.502Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.24,
+      "confidence": 0.12,
       "trendingKeywords": [
         "game"
       ],
       "topProjects": [
         {
-          "name": "BABBYchrist",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "pest.mom",
+          "name": "kagiboy",
           "description": "",
           "source": "github"
         }
@@ -255,39 +283,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
-        "social": 0
-      },
-      "lastUpdated": "2026-10-07T15:03:14.948Z"
-    },
-    {
-      "id": "social-consumer",
-      "name": "Social & Consumer",
-      "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
-      "trendingKeywords": [
-        "community"
-      ],
-      "topProjects": [
-        {
-          "name": "app-monorepo",
-          "description": "",
-          "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized social graph protocol",
-        "Create a creator monetization platform with micro-tipping",
-        "Develop a DAO governance participation reward system",
-        "Build a reputation-based social discovery app"
-      ],
-      "dataSources": {
-        "helius": 0,
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-10-07T15:03:14.948Z"
+      "lastUpdated": "2026-10-08T15:11:21.501Z"
     }
   ]
 }
