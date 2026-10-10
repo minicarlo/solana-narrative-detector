@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-09T14:57:00.640Z",
+  "timestamp": "2026-10-10T14:11:58.205Z",
   "narratives": [
     {
       "id": "infrastructure",
@@ -7,11 +7,12 @@
       "description": "Core blockchain infrastructure and tooling",
       "confidence": 1,
       "trendingKeywords": [
-        "bridge",
         "network",
         "node",
+        "bridge",
         "validator",
-        "indexer"
+        "indexer",
+        "oracle"
       ],
       "topProjects": [
         {
@@ -53,10 +54,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 9,
         "social": 0
       },
-      "lastUpdated": "2026-10-09T14:57:00.640Z"
+      "lastUpdated": "2026-10-10T14:11:58.204Z"
     },
     {
       "id": "ai-crypto",
@@ -66,7 +67,6 @@
       "trendingKeywords": [
         "agent",
         "bot",
-        "inference",
         "model"
       ],
       "topProjects": [
@@ -89,13 +89,12 @@
           "source": "github"
         },
         {
-          "name": "Rustchain",
+          "name": "padhan-paper-desk",
           "description": "",
-          "url": "https://github.com/Scottcjn/Rustchain",
           "source": "github"
         },
         {
-          "name": "memecoin-spy-bot",
+          "name": "solarchik-assistant",
           "description": "",
           "source": "github"
         }
@@ -108,10 +107,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 11,
+        "github": 10,
         "social": 0
       },
-      "lastUpdated": "2026-10-09T14:57:00.640Z"
+      "lastUpdated": "2026-10-10T14:11:58.205Z"
     },
     {
       "id": "dev-tools",
@@ -167,18 +166,16 @@
         "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-10-09T14:57:00.640Z"
+      "lastUpdated": "2026-10-10T14:11:58.205Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.7511200000000001,
+      "confidence": 0.6000000000000001,
       "trendingKeywords": [
         "swap",
-        "dex",
-        "farm",
-        "vault"
+        "dex"
       ],
       "topProjects": [
         {
@@ -200,13 +197,7 @@
           "source": "github"
         },
         {
-          "name": "Rustchain",
-          "description": "",
-          "url": "https://github.com/Scottcjn/Rustchain",
-          "source": "github"
-        },
-        {
-          "name": "sheaf",
+          "name": "ArbSwap",
           "description": "",
           "source": "github"
         }
@@ -219,10 +210,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-10-09T14:57:00.640Z"
+      "lastUpdated": "2026-10-10T14:11:58.204Z"
     },
     {
       "id": "social-consumer",
@@ -230,8 +221,7 @@
       "description": "Social platforms and consumer applications",
       "confidence": 0.27999999999999997,
       "trendingKeywords": [
-        "community",
-        "creator"
+        "community"
       ],
       "topProjects": [
         {
@@ -241,7 +231,7 @@
           "source": "github"
         },
         {
-          "name": "skillseal",
+          "name": "JahangirCoin",
           "description": "",
           "source": "github"
         }
@@ -257,19 +247,25 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-10-09T14:57:00.640Z"
+      "lastUpdated": "2026-10-10T14:11:58.205Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.24,
       "trendingKeywords": [
-        "game"
+        "game",
+        "world"
       ],
       "topProjects": [
         {
-          "name": "kagiboy",
+          "name": "marxy-program",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-worldsfair-2026",
           "description": "",
           "source": "github"
         }
@@ -282,10 +278,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-10-09T14:57:00.640Z"
+      "lastUpdated": "2026-10-10T14:11:58.204Z"
     }
   ]
 }
