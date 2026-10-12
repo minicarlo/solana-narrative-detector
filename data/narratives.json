@@ -1,17 +1,75 @@
 {
-  "timestamp": "2026-10-11T14:36:47.343Z",
+  "timestamp": "2026-10-12T17:19:36.430Z",
   "narratives": [
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Core blockchain infrastructure and tooling",
+      "confidence": 1,
+      "trendingKeywords": [
+        "validator",
+        "network",
+        "node",
+        "indexer",
+        "bridge",
+        "layer2"
+      ],
+      "topProjects": [
+        {
+          "name": "solana-web3.js",
+          "description": "",
+          "url": "https://github.com/solana-foundation/solana-web3.js",
+          "source": "github"
+        },
+        {
+          "name": "firedancer",
+          "description": "",
+          "url": "https://github.com/firedancer-io/firedancer",
+          "source": "github"
+        },
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "howcryptoworksbook",
+          "description": "",
+          "url": "https://github.com/lawmaster10/howcryptoworksbook",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized RPC load balancer for Solana",
+        "Create a validator performance monitoring dashboard",
+        "Develop a bridge aggregator for cross-chain transfers",
+        "Build an oracle comparison and aggregation service"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 7,
+        "social": 0
+      },
+      "lastUpdated": "2026-10-12T17:19:36.430Z"
+    },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.9183199999999999,
+      "confidence": 1,
       "trendingKeywords": [
         "deploy",
         "library",
+        "build",
         "testing",
-        "framework",
-        "build"
+        "framework"
       ],
       "topProjects": [
         {
@@ -53,130 +111,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-10-11T14:36:47.343Z"
-    },
-    {
-      "id": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.9052999999999999,
-      "trendingKeywords": [
-        "validator",
-        "indexer",
-        "node",
-        "network",
-        "bridge"
-      ],
-      "topProjects": [
-        {
-          "name": "solana-web3.js",
-          "description": "",
-          "url": "https://github.com/solana-foundation/solana-web3.js",
-          "source": "github"
-        },
-        {
-          "name": "firedancer",
-          "description": "",
-          "url": "https://github.com/firedancer-io/firedancer",
-          "source": "github"
-        },
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "jito-solana",
-          "description": "",
-          "url": "https://github.com/jito-foundation/jito-solana",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized RPC load balancer for Solana",
-        "Create a validator performance monitoring dashboard",
-        "Develop a bridge aggregator for cross-chain transfers",
-        "Build an oracle comparison and aggregation service"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 6,
-        "social": 0
-      },
-      "lastUpdated": "2026-10-11T14:36:47.343Z"
-    },
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.8,
-      "trendingKeywords": [
-        "dex",
-        "swap",
-        "stake",
-        "liquidity",
-        "lending"
-      ],
-      "topProjects": [
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "smart-money-solana",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "Vowed",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "elote-baby",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 6,
-        "social": 0
-      },
-      "lastUpdated": "2026-10-11T14:36:47.343Z"
+      "lastUpdated": "2026-10-12T17:19:36.430Z"
     },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.68,
+      "confidence": 0.9199999999999999,
       "trendingKeywords": [
         "agent",
-        "bot"
+        "bot",
+        "autonomous",
+        "inference"
       ],
       "topProjects": [
         {
@@ -192,17 +141,17 @@
           "source": "github"
         },
         {
-          "name": "Solana",
+          "name": "agentpay-x402",
           "description": "",
           "source": "github"
         },
         {
-          "name": "Solana-meme-bot",
+          "name": "space-data-rig",
           "description": "",
           "source": "github"
         },
         {
-          "name": "padhan-paper-desk",
+          "name": "sofinance-public",
           "description": "",
           "source": "github"
         }
@@ -215,19 +164,72 @@
       ],
       "dataSources": {
         "helius": 0,
+        "github": 7,
+        "social": 0
+      },
+      "lastUpdated": "2026-10-12T17:19:36.430Z"
+    },
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.68,
+      "trendingKeywords": [
+        "dex",
+        "swap",
+        "liquidity"
+      ],
+      "topProjects": [
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "pumpfun-trade-api-public",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "smart-money-solana",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "sofinance-public",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
         "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-10-11T14:36:47.343Z"
+      "lastUpdated": "2026-10-12T17:19:36.430Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.55352,
       "trendingKeywords": [
+        "vote",
         "community",
-        "vote"
+        "governance"
       ],
       "topProjects": [
         {
@@ -237,7 +239,18 @@
           "source": "github"
         },
         {
+          "name": "howcryptoworksbook",
+          "description": "",
+          "url": "https://github.com/lawmaster10/howcryptoworksbook",
+          "source": "github"
+        },
+        {
           "name": "crawl-hive",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "subzerone-launchpad",
           "description": "",
           "source": "github"
         }
@@ -250,22 +263,27 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-10-11T14:36:47.343Z"
+      "lastUpdated": "2026-10-12T17:19:36.430Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.24,
       "trendingKeywords": [
-        "world"
+        "game"
       ],
       "topProjects": [
         {
-          "name": "Solana",
+          "name": "peng-balls",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "rugrat",
           "description": "",
           "source": "github"
         }
@@ -278,10 +296,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-10-11T14:36:47.343Z"
+      "lastUpdated": "2026-10-12T17:19:36.430Z"
     }
   ]
 }
