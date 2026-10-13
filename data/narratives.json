@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-12T17:19:36.430Z",
+  "timestamp": "2026-10-13T15:32:49.415Z",
   "narratives": [
     {
       "id": "infrastructure",
@@ -7,8 +7,8 @@
       "description": "Core blockchain infrastructure and tooling",
       "confidence": 1,
       "trendingKeywords": [
-        "validator",
         "network",
+        "validator",
         "node",
         "indexer",
         "bridge",
@@ -54,30 +54,74 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-10-12T17:19:36.430Z"
+      "lastUpdated": "2026-10-13T15:32:49.415Z"
+    },
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 1,
+      "trendingKeywords": [
+        "agent",
+        "bot",
+        "autonomous"
+      ],
+      "topProjects": [
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "space-data-rig",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "hashliquid",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "padhan-paper-desk",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "agent-tollgate-engine",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 8,
+        "social": 0
+      },
+      "lastUpdated": "2026-10-13T15:32:49.415Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 1,
+      "confidence": 0.8783200000000001,
       "trendingKeywords": [
-        "deploy",
+        "framework",
         "library",
-        "build",
-        "testing",
-        "framework"
+        "deploy",
+        "build"
       ],
       "topProjects": [
-        {
-          "name": "hummingbot",
-          "description": "",
-          "url": "https://github.com/hummingbot/hummingbot",
-          "source": "github"
-        },
         {
           "name": "anchor",
           "description": "",
@@ -101,6 +145,11 @@
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
+        },
+        {
+          "name": "latch",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -111,73 +160,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-10-12T17:19:36.430Z"
-    },
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.9199999999999999,
-      "trendingKeywords": [
-        "agent",
-        "bot",
-        "autonomous",
-        "inference"
-      ],
-      "topProjects": [
-        {
-          "name": "hummingbot",
-          "description": "",
-          "url": "https://github.com/hummingbot/hummingbot",
-          "source": "github"
-        },
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "agentpay-x402",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "space-data-rig",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "sofinance-public",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 7,
-        "social": 0
-      },
-      "lastUpdated": "2026-10-12T17:19:36.430Z"
+      "lastUpdated": "2026-10-13T15:32:49.415Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.68,
+      "confidence": 0.8,
       "trendingKeywords": [
-        "dex",
         "swap",
-        "liquidity"
+        "dex",
+        "perp"
       ],
       "topProjects": [
         {
@@ -193,17 +189,17 @@
           "source": "github"
         },
         {
-          "name": "pumpfun-trade-api-public",
-          "description": "",
-          "source": "github"
-        },
-        {
           "name": "smart-money-solana",
           "description": "",
           "source": "github"
         },
         {
-          "name": "sofinance-public",
+          "name": "hashliquid",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "agent-tollgate-engine",
           "description": "",
           "source": "github"
         }
@@ -216,20 +212,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-10-12T17:19:36.430Z"
+      "lastUpdated": "2026-10-13T15:32:49.415Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.55352,
+      "confidence": 0.43352,
       "trendingKeywords": [
-        "vote",
         "community",
-        "governance"
+        "governance",
+        "social"
       ],
       "topProjects": [
         {
@@ -245,12 +241,7 @@
           "source": "github"
         },
         {
-          "name": "crawl-hive",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "subzerone-launchpad",
+          "name": "shilleX",
           "description": "",
           "source": "github"
         }
@@ -263,31 +254,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-10-12T17:19:36.430Z"
+      "lastUpdated": "2026-10-13T15:32:49.415Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.24,
+      "confidence": 0.1,
       "trendingKeywords": [
-        "game"
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "peng-balls",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "rugrat",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -296,10 +280,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-10-12T17:19:36.430Z"
+      "lastUpdated": "2026-10-13T15:32:49.415Z"
     }
   ]
 }
