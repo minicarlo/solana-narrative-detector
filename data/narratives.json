@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-13T15:32:49.415Z",
+  "timestamp": "2026-10-14T13:17:21.811Z",
   "narratives": [
     {
       "id": "infrastructure",
@@ -12,7 +12,8 @@
         "node",
         "indexer",
         "bridge",
-        "layer2"
+        "layer2",
+        "oracle"
       ],
       "topProjects": [
         {
@@ -57,7 +58,7 @@
         "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-10-13T15:32:49.415Z"
+      "lastUpdated": "2026-10-14T13:17:21.810Z"
     },
     {
       "id": "ai-crypto",
@@ -67,7 +68,8 @@
       "trendingKeywords": [
         "agent",
         "bot",
-        "autonomous"
+        "autonomous",
+        "model"
       ],
       "topProjects": [
         {
@@ -77,22 +79,22 @@
           "source": "github"
         },
         {
-          "name": "space-data-rig",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "hashliquid",
-          "description": "",
-          "source": "github"
-        },
-        {
           "name": "padhan-paper-desk",
           "description": "",
           "source": "github"
         },
         {
-          "name": "agent-tollgate-engine",
+          "name": "Solana-meme-bot",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "shinjuku-mcp",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "space-data-rig",
           "description": "",
           "source": "github"
         }
@@ -108,18 +110,17 @@
         "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-10-13T15:32:49.415Z"
+      "lastUpdated": "2026-10-14T13:17:21.810Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.8783200000000001,
+      "confidence": 0.77756,
       "trendingKeywords": [
         "framework",
         "library",
-        "deploy",
-        "build"
+        "deploy"
       ],
       "topProjects": [
         {
@@ -147,8 +148,9 @@
           "source": "github"
         },
         {
-          "name": "latch",
+          "name": "create-solana-dapp",
           "description": "",
+          "url": "https://github.com/solana-foundation/create-solana-dapp",
           "source": "github"
         }
       ],
@@ -160,20 +162,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-10-13T15:32:49.415Z"
+      "lastUpdated": "2026-10-14T13:17:21.811Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.8,
+      "confidence": 0.44000000000000006,
       "trendingKeywords": [
-        "swap",
         "dex",
-        "perp"
+        "swap"
       ],
       "topProjects": [
         {
@@ -192,16 +193,6 @@
           "name": "smart-money-solana",
           "description": "",
           "source": "github"
-        },
-        {
-          "name": "hashliquid",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "agent-tollgate-engine",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -212,10 +203,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-10-13T15:32:49.415Z"
+      "lastUpdated": "2026-10-14T13:17:21.810Z"
     },
     {
       "id": "social-consumer",
@@ -241,7 +232,7 @@
           "source": "github"
         },
         {
-          "name": "shilleX",
+          "name": "socialfi-widget",
           "description": "",
           "source": "github"
         }
@@ -257,7 +248,7 @@
         "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-10-13T15:32:49.415Z"
+      "lastUpdated": "2026-10-14T13:17:21.811Z"
     },
     {
       "id": "gaming-nft",
@@ -283,7 +274,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-10-13T15:32:49.415Z"
+      "lastUpdated": "2026-10-14T13:17:21.810Z"
     }
   ]
 }
