@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-14T13:17:21.811Z",
+  "timestamp": "2026-10-15T13:03:26.058Z",
   "narratives": [
     {
       "id": "infrastructure",
@@ -7,13 +7,12 @@
       "description": "Core blockchain infrastructure and tooling",
       "confidence": 1,
       "trendingKeywords": [
-        "network",
         "validator",
+        "network",
         "node",
         "indexer",
         "bridge",
-        "layer2",
-        "oracle"
+        "layer2"
       ],
       "topProjects": [
         {
@@ -55,10 +54,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-10-14T13:17:21.810Z"
+      "lastUpdated": "2026-10-15T13:03:26.057Z"
     },
     {
       "id": "ai-crypto",
@@ -67,11 +66,15 @@
       "confidence": 1,
       "trendingKeywords": [
         "agent",
-        "bot",
-        "autonomous",
-        "model"
+        "bot"
       ],
       "topProjects": [
+        {
+          "name": "hummingbot",
+          "description": "",
+          "url": "https://github.com/hummingbot/hummingbot",
+          "source": "github"
+        },
         {
           "name": "OctoBot",
           "description": "",
@@ -79,22 +82,17 @@
           "source": "github"
         },
         {
-          "name": "padhan-paper-desk",
+          "name": "solana-trading-bot",
           "description": "",
           "source": "github"
         },
         {
-          "name": "Solana-meme-bot",
+          "name": "solana-bot",
           "description": "",
           "source": "github"
         },
         {
-          "name": "shinjuku-mcp",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "space-data-rig",
+          "name": "payonce-prototype",
           "description": "",
           "source": "github"
         }
@@ -107,22 +105,30 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 9,
         "social": 0
       },
-      "lastUpdated": "2026-10-14T13:17:21.810Z"
+      "lastUpdated": "2026-10-15T13:03:26.057Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.77756,
+      "confidence": 1,
       "trendingKeywords": [
-        "framework",
+        "deploy",
         "library",
-        "deploy"
+        "testing",
+        "framework",
+        "build"
       ],
       "topProjects": [
+        {
+          "name": "hummingbot",
+          "description": "",
+          "url": "https://github.com/hummingbot/hummingbot",
+          "source": "github"
+        },
         {
           "name": "anchor",
           "description": "",
@@ -146,12 +152,6 @@
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
-        },
-        {
-          "name": "create-solana-dapp",
-          "description": "",
-          "url": "https://github.com/solana-foundation/create-solana-dapp",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -162,19 +162,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-10-14T13:17:21.811Z"
+      "lastUpdated": "2026-10-15T13:03:26.058Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.44000000000000006,
+      "confidence": 0.68,
       "trendingKeywords": [
         "dex",
-        "swap"
+        "swap",
+        "perp"
       ],
       "topProjects": [
         {
@@ -193,6 +194,16 @@
           "name": "smart-money-solana",
           "description": "",
           "source": "github"
+        },
+        {
+          "name": "token-sniper-bot",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "Decadent",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -203,20 +214,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-10-14T13:17:21.810Z"
+      "lastUpdated": "2026-10-15T13:03:26.057Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.43352,
+      "confidence": 0.55352,
       "trendingKeywords": [
+        "social",
         "community",
-        "governance",
-        "social"
+        "governance"
       ],
       "topProjects": [
         {
@@ -232,7 +243,12 @@
           "source": "github"
         },
         {
-          "name": "socialfi-widget",
+          "name": "shilleX",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "socialfi-thesis",
           "description": "",
           "source": "github"
         }
@@ -245,10 +261,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-10-14T13:17:21.811Z"
+      "lastUpdated": "2026-10-15T13:03:26.057Z"
     },
     {
       "id": "gaming-nft",
@@ -274,7 +290,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-10-14T13:17:21.810Z"
+      "lastUpdated": "2026-10-15T13:03:26.057Z"
     }
   ]
 }
