@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-18T12:25:42.587Z",
+  "timestamp": "2026-10-19T15:15:32.777Z",
   "narratives": [
     {
       "id": "defi-innovation",
@@ -9,8 +9,7 @@
       "trendingKeywords": [
         "swap",
         "dex",
-        "yield",
-        "vault"
+        "yield"
       ],
       "topProjects": [
         {
@@ -32,12 +31,12 @@
           "source": "github"
         },
         {
-          "name": "layerhop-rust",
+          "name": "defi-bonus-yield-radar",
           "description": "",
           "source": "github"
         },
         {
-          "name": "layerhop-go",
+          "name": "pumpfun-smart-contract-frontend-backend",
           "description": "",
           "source": "github"
         }
@@ -50,10 +49,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 12,
         "social": 0
       },
-      "lastUpdated": "2026-10-18T12:25:42.587Z"
+      "lastUpdated": "2026-10-19T15:15:32.776Z"
     },
     {
       "id": "infrastructure",
@@ -61,12 +60,11 @@
       "description": "Core blockchain infrastructure and tooling",
       "confidence": 1,
       "trendingKeywords": [
-        "node",
         "bridge",
+        "node",
         "validator",
         "indexer",
-        "network",
-        "layer2"
+        "network"
       ],
       "topProjects": [
         {
@@ -108,19 +106,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 9,
         "social": 0
       },
-      "lastUpdated": "2026-10-18T12:25:42.587Z"
+      "lastUpdated": "2026-10-19T15:15:32.777Z"
     },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 1,
+      "confidence": 0.9199999999999999,
       "trendingKeywords": [
+        "agent",
         "bot",
-        "agent"
+        "intelligence",
+        "autonomous"
       ],
       "topProjects": [
         {
@@ -141,12 +141,12 @@
           "source": "github"
         },
         {
-          "name": "mimic",
+          "name": "solana-trading-bot",
           "description": "",
           "source": "github"
         },
         {
-          "name": "wagmi_tracker-agent-api",
+          "name": "sentinel-mesh",
           "description": "",
           "source": "github"
         }
@@ -159,10 +159,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-10-18T12:25:42.587Z"
+      "lastUpdated": "2026-10-19T15:15:32.777Z"
     },
     {
       "id": "dev-tools",
@@ -171,10 +171,9 @@
       "confidence": 0.8783800000000002,
       "trendingKeywords": [
         "deploy",
-        "library",
-        "testing",
         "framework",
-        "build"
+        "library",
+        "testing"
       ],
       "topProjects": [
         {
@@ -218,33 +217,21 @@
         "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-10-18T12:25:42.587Z"
+      "lastUpdated": "2026-10-19T15:15:32.777Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.43357999999999997,
+      "confidence": 0.16,
       "trendingKeywords": [
-        "community",
-        "governance"
+        "community"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "howcryptoworksbook",
-          "description": "",
-          "url": "https://github.com/lawmaster10/howcryptoworksbook",
-          "source": "github"
-        },
-        {
-          "name": "artian-capital-group",
-          "description": "",
           "source": "github"
         }
       ],
@@ -256,24 +243,26 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-10-18T12:25:42.587Z"
+      "lastUpdated": "2026-10-19T15:15:32.777Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.1,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "game",
-        "gaming",
-        "NFT",
-        "metaverse",
-        "play-to-earn"
+        "world"
       ],
-      "topProjects": [],
+      "topProjects": [
+        {
+          "name": "SIGNIA",
+          "description": "",
+          "source": "github"
+        }
+      ],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -282,10 +271,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 0,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-10-18T12:25:42.587Z"
+      "lastUpdated": "2026-10-19T15:15:32.776Z"
     }
   ]
 }
