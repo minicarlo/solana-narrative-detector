@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-19T15:15:32.777Z",
+  "timestamp": "2026-10-20T13:18:18.145Z",
   "narratives": [
     {
       "id": "defi-innovation",
@@ -7,8 +7,9 @@
       "description": "Decentralized finance protocols and innovations",
       "confidence": 1,
       "trendingKeywords": [
-        "swap",
         "dex",
+        "swap",
+        "vault",
         "yield"
       ],
       "topProjects": [
@@ -36,7 +37,7 @@
           "source": "github"
         },
         {
-          "name": "pumpfun-smart-contract-frontend-backend",
+          "name": "WELP-UP",
           "description": "",
           "source": "github"
         }
@@ -49,19 +50,70 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 12,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-10-19T15:15:32.776Z"
+      "lastUpdated": "2026-10-20T13:18:18.144Z"
+    },
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 1,
+      "trendingKeywords": [
+        "agent",
+        "bot"
+      ],
+      "topProjects": [
+        {
+          "name": "hummingbot",
+          "description": "",
+          "url": "https://github.com/hummingbot/hummingbot",
+          "source": "github"
+        },
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "NEW-FOMO-ADVANCE-TRADING-BOT",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "dfm-agent",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solbot-2",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 11,
+        "social": 0
+      },
+      "lastUpdated": "2026-10-20T13:18:18.144Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 1,
+      "confidence": 0.94572,
       "trendingKeywords": [
-        "bridge",
         "node",
+        "bridge",
         "validator",
         "indexer",
         "network"
@@ -106,74 +158,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-10-19T15:15:32.777Z"
-    },
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.9199999999999999,
-      "trendingKeywords": [
-        "agent",
-        "bot",
-        "intelligence",
-        "autonomous"
-      ],
-      "topProjects": [
-        {
-          "name": "hummingbot",
-          "description": "",
-          "url": "https://github.com/hummingbot/hummingbot",
-          "source": "github"
-        },
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "memecoin-quant-arch",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-trading-bot",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "sentinel-mesh",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 7,
-        "social": 0
-      },
-      "lastUpdated": "2026-10-19T15:15:32.777Z"
+      "lastUpdated": "2026-10-20T13:18:18.144Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.8783800000000002,
+      "confidence": 0.6383800000000001,
       "trendingKeywords": [
         "deploy",
+        "testing",
         "framework",
-        "library",
-        "testing"
+        "library"
       ],
       "topProjects": [
         {
@@ -199,11 +198,6 @@
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
-        },
-        {
-          "name": "layerhop-go",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -214,10 +208,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-10-19T15:15:32.777Z"
+      "lastUpdated": "2026-10-20T13:18:18.145Z"
     },
     {
       "id": "social-consumer",
@@ -246,23 +240,21 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-10-19T15:15:32.777Z"
+      "lastUpdated": "2026-10-20T13:18:18.144Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.1,
       "trendingKeywords": [
-        "world"
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "SIGNIA",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -271,10 +263,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-10-19T15:15:32.776Z"
+      "lastUpdated": "2026-10-20T13:18:18.144Z"
     }
   ]
 }
