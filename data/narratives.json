@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-22T13:24:51.799Z",
+  "timestamp": "2026-10-23T13:03:05.116Z",
   "narratives": [
     {
       "id": "infrastructure",
@@ -56,17 +56,17 @@
         "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-10-22T13:24:51.798Z"
+      "lastUpdated": "2026-10-23T13:03:05.116Z"
     },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 1,
+      "confidence": 0.96,
       "trendingKeywords": [
         "bot",
         "agent",
-        "autonomous"
+        "model"
       ],
       "topProjects": [
         {
@@ -88,12 +88,12 @@
           "source": "github"
         },
         {
-          "name": "siren-autonomous-engine",
+          "name": "trenchmart",
           "description": "",
           "source": "github"
         },
         {
-          "name": "agentcraft-trading-hq-web",
+          "name": "debate-desk",
           "description": "",
           "source": "github"
         }
@@ -106,16 +106,16 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-10-22T13:24:51.798Z"
+      "lastUpdated": "2026-10-23T13:03:05.116Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.79844,
+      "confidence": 0.7985,
       "trendingKeywords": [
         "deploy",
         "library",
@@ -165,17 +165,16 @@
         "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-10-22T13:24:51.799Z"
+      "lastUpdated": "2026-10-23T13:03:05.116Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.6000000000000001,
+      "confidence": 0.7476400000000001,
       "trendingKeywords": [
         "swap",
-        "dex",
-        "yield"
+        "dex"
       ],
       "topProjects": [
         {
@@ -197,7 +196,13 @@
           "source": "github"
         },
         {
-          "name": "graveyield-console",
+          "name": "erpc",
+          "description": "",
+          "url": "https://github.com/erpc/erpc",
+          "source": "github"
+        },
+        {
+          "name": "layerhop-js",
           "description": "",
           "source": "github"
         }
@@ -210,31 +215,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-10-22T13:24:51.798Z"
+      "lastUpdated": "2026-10-23T13:03:05.116Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.16,
       "trendingKeywords": [
-        "community",
-        "content",
-        "creator"
+        "community"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "Soltube",
-          "description": "",
           "source": "github"
         }
       ],
@@ -246,10 +244,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-10-22T13:24:51.799Z"
+      "lastUpdated": "2026-10-23T13:03:05.116Z"
     },
     {
       "id": "gaming-nft",
@@ -275,7 +273,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-10-22T13:24:51.798Z"
+      "lastUpdated": "2026-10-23T13:03:05.116Z"
     }
   ]
 }
