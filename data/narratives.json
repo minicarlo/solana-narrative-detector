@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-24T12:26:06.602Z",
+  "timestamp": "2026-10-25T12:56:15.409Z",
   "narratives": [
     {
       "id": "infrastructure",
@@ -7,9 +7,9 @@
       "description": "Core blockchain infrastructure and tooling",
       "confidence": 1,
       "trendingKeywords": [
+        "network",
         "node",
         "bridge",
-        "network",
         "validator",
         "indexer"
       ],
@@ -18,12 +18,6 @@
           "name": "solana-web3.js",
           "description": "",
           "url": "https://github.com/solana-foundation/solana-web3.js",
-          "source": "github"
-        },
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
           "source": "github"
         },
         {
@@ -43,6 +37,11 @@
           "description": "",
           "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
+        },
+        {
+          "name": "agenthive",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -56,7 +55,7 @@
         "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-10-24T12:26:06.602Z"
+      "lastUpdated": "2026-10-25T12:56:15.409Z"
     },
     {
       "id": "ai-crypto",
@@ -87,12 +86,12 @@
           "source": "github"
         },
         {
-          "name": "Solana-memecoin---bot---v8-fixed",
+          "name": "debate-desk",
           "description": "",
           "source": "github"
         },
         {
-          "name": "debate-desk",
+          "name": "agenthive",
           "description": "",
           "source": "github"
         }
@@ -105,74 +104,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 12,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-10-24T12:26:06.602Z"
-    },
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.8400000000000001,
-      "trendingKeywords": [
-        "swap",
-        "dex",
-        "lending"
-      ],
-      "topProjects": [
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
-          "source": "github"
-        },
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "ciniki",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "intercom-dex",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 6,
-        "social": 0
-      },
-      "lastUpdated": "2026-10-24T12:26:06.602Z"
+      "lastUpdated": "2026-10-25T12:56:15.409Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.7985,
+      "confidence": 0.9185000000000001,
       "trendingKeywords": [
         "deploy",
         "library",
         "testing",
-        "framework"
+        "framework",
+        "build"
       ],
       "topProjects": [
         {
@@ -214,24 +161,77 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-10-24T12:26:06.602Z"
+      "lastUpdated": "2026-10-25T12:56:15.409Z"
+    },
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.46769999999999995,
+      "trendingKeywords": [
+        "dex",
+        "swap"
+      ],
+      "topProjects": [
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "erpc",
+          "description": "",
+          "url": "https://github.com/erpc/erpc",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 3,
+        "social": 0
+      },
+      "lastUpdated": "2026-10-25T12:56:15.409Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
+      "confidence": 0.4,
       "trendingKeywords": [
-        "community"
+        "community",
+        "creator"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "bbb-meme-coin",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-token-creator",
+          "description": "",
           "source": "github"
         }
       ],
@@ -243,10 +243,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-10-24T12:26:06.602Z"
+      "lastUpdated": "2026-10-25T12:56:15.409Z"
     },
     {
       "id": "gaming-nft",
@@ -258,7 +258,7 @@
       ],
       "topProjects": [
         {
-          "name": "streetmeat",
+          "name": "goldilocks",
           "description": "",
           "source": "github"
         }
@@ -274,7 +274,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-10-24T12:26:06.602Z"
+      "lastUpdated": "2026-10-25T12:56:15.409Z"
     }
   ]
 }
