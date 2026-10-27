@@ -1,22 +1,74 @@
 {
-  "timestamp": "2026-10-26T14:49:23.869Z",
+  "timestamp": "2026-10-27T13:55:44.657Z",
   "narratives": [
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Core blockchain infrastructure and tooling",
+      "confidence": 1,
+      "trendingKeywords": [
+        "validator",
+        "network",
+        "node",
+        "indexer",
+        "bridge"
+      ],
+      "topProjects": [
+        {
+          "name": "solana-web3.js",
+          "description": "",
+          "url": "https://github.com/solana-foundation/solana-web3.js",
+          "source": "github"
+        },
+        {
+          "name": "firedancer",
+          "description": "",
+          "url": "https://github.com/firedancer-io/firedancer",
+          "source": "github"
+        },
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "jito-solana",
+          "description": "",
+          "url": "https://github.com/jito-foundation/jito-solana",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized RPC load balancer for Solana",
+        "Create a validator performance monitoring dashboard",
+        "Develop a bridge aggregator for cross-chain transfers",
+        "Build an oracle comparison and aggregation service"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 7,
+        "social": 0
+      },
+      "lastUpdated": "2026-10-27T13:55:44.657Z"
+    },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 1,
+      "confidence": 0.76,
       "trendingKeywords": [
         "bot",
-        "agent"
+        "agent",
+        "model"
       ],
       "topProjects": [
-        {
-          "name": "hummingbot",
-          "description": "",
-          "url": "https://github.com/hummingbot/hummingbot",
-          "source": "github"
-        },
         {
           "name": "OctoBot",
           "description": "",
@@ -24,13 +76,17 @@
           "source": "github"
         },
         {
-          "name": "pumpfun-bonkfun-bot",
+          "name": "amm-series",
           "description": "",
-          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
           "source": "github"
         },
         {
-          "name": "solana-content-pay",
+          "name": "mosn-solana-mcp",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "sniff",
           "description": "",
           "source": "github"
         },
@@ -48,29 +104,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-10-26T14:49:23.869Z"
+      "lastUpdated": "2026-10-27T13:55:44.657Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.9185599999999999,
+      "confidence": 0.63856,
       "trendingKeywords": [
         "library",
-        "deploy",
-        "testing",
-        "framework"
+        "framework",
+        "deploy"
       ],
       "topProjects": [
-        {
-          "name": "hummingbot",
-          "description": "",
-          "url": "https://github.com/hummingbot/hummingbot",
-          "source": "github"
-        },
         {
           "name": "anchor",
           "description": "",
@@ -104,75 +153,18 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-10-26T14:49:23.869Z"
-    },
-    {
-      "id": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.76,
-      "trendingKeywords": [
-        "validator",
-        "node",
-        "indexer",
-        "network",
-        "bridge"
-      ],
-      "topProjects": [
-        {
-          "name": "solana-web3.js",
-          "description": "",
-          "url": "https://github.com/solana-foundation/solana-web3.js",
-          "source": "github"
-        },
-        {
-          "name": "firedancer",
-          "description": "",
-          "url": "https://github.com/firedancer-io/firedancer",
-          "source": "github"
-        },
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "vortex-dashboard",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized RPC load balancer for Solana",
-        "Create a validator performance monitoring dashboard",
-        "Develop a bridge aggregator for cross-chain transfers",
-        "Build an oracle comparison and aggregation service"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 5,
-        "social": 0
-      },
-      "lastUpdated": "2026-10-26T14:49:23.869Z"
+      "lastUpdated": "2026-10-27T13:55:44.657Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.7077600000000001,
+      "confidence": 0.58782,
       "trendingKeywords": [
         "dex",
-        "liquidity",
         "swap"
       ],
       "topProjects": [
@@ -195,12 +187,7 @@
           "source": "github"
         },
         {
-          "name": "lpkit",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "pumphooks",
+          "name": "mosn-solana-mcp",
           "description": "",
           "source": "github"
         }
@@ -213,30 +200,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 4,
         "social": 0
       },
-      "lastUpdated": "2026-10-26T14:49:23.869Z"
+      "lastUpdated": "2026-10-27T13:55:44.657Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.16,
       "trendingKeywords": [
-        "community",
-        "content"
+        "community"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "solana-content-pay",
-          "description": "",
           "source": "github"
         }
       ],
@@ -248,10 +229,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-10-26T14:49:23.869Z"
+      "lastUpdated": "2026-10-27T13:55:44.657Z"
     },
     {
       "id": "gaming-nft",
@@ -277,7 +258,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-10-26T14:49:23.869Z"
+      "lastUpdated": "2026-10-27T13:55:44.657Z"
     }
   ]
 }
