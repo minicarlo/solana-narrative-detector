@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T13:55:44.657Z",
+  "timestamp": "2026-10-28T14:49:38.028Z",
   "narratives": [
     {
       "id": "infrastructure",
@@ -8,16 +8,22 @@
       "confidence": 1,
       "trendingKeywords": [
         "validator",
-        "network",
         "node",
-        "indexer",
-        "bridge"
+        "bridge",
+        "network",
+        "indexer"
       ],
       "topProjects": [
         {
           "name": "solana-web3.js",
           "description": "",
           "url": "https://github.com/solana-foundation/solana-web3.js",
+          "source": "github"
+        },
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
           "source": "github"
         },
         {
@@ -37,12 +43,6 @@
           "description": "",
           "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
-        },
-        {
-          "name": "jito-solana",
-          "description": "",
-          "url": "https://github.com/jito-foundation/jito-solana",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -53,71 +53,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-10-27T13:55:44.657Z"
-    },
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.76,
-      "trendingKeywords": [
-        "bot",
-        "agent",
-        "model"
-      ],
-      "topProjects": [
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "amm-series",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "mosn-solana-mcp",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "sniff",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-paper-bot",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 6,
-        "social": 0
-      },
-      "lastUpdated": "2026-10-27T13:55:44.657Z"
+      "lastUpdated": "2026-10-28T14:49:38.028Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.63856,
+      "confidence": 0.75856,
       "trendingKeywords": [
         "library",
         "framework",
-        "deploy"
+        "deploy",
+        "compile"
       ],
       "topProjects": [
         {
@@ -143,6 +93,11 @@
           "description": "",
           "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
+        },
+        {
+          "name": "typesol",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -153,21 +108,27 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-10-27T13:55:44.657Z"
+      "lastUpdated": "2026-10-28T14:49:38.028Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.58782,
+      "confidence": 0.7478200000000002,
       "trendingKeywords": [
         "dex",
         "swap"
       ],
       "topProjects": [
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
+          "source": "github"
+        },
         {
           "name": "squid-sdk",
           "description": "",
@@ -187,7 +148,7 @@
           "source": "github"
         },
         {
-          "name": "mosn-solana-mcp",
+          "name": "dexranker",
           "description": "",
           "source": "github"
         }
@@ -200,10 +161,60 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-10-27T13:55:44.657Z"
+      "lastUpdated": "2026-10-28T14:49:38.028Z"
+    },
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 0.64,
+      "trendingKeywords": [
+        "bot",
+        "agent"
+      ],
+      "topProjects": [
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "agent-spend-console",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-paper-bot",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-sniper-bot",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-quant-bot",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 5,
+        "social": 0
+      },
+      "lastUpdated": "2026-10-28T14:49:38.028Z"
     },
     {
       "id": "social-consumer",
@@ -232,7 +243,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-10-27T13:55:44.657Z"
+      "lastUpdated": "2026-10-28T14:49:38.028Z"
     },
     {
       "id": "gaming-nft",
@@ -258,7 +269,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-10-27T13:55:44.657Z"
+      "lastUpdated": "2026-10-28T14:49:38.028Z"
     }
   ]
 }
