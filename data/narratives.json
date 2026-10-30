@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-29T14:55:34.530Z",
+  "timestamp": "2026-10-30T14:47:41.968Z",
   "narratives": [
     {
       "id": "defi-innovation",
@@ -9,9 +9,16 @@
       "trendingKeywords": [
         "swap",
         "dex",
-        "perp"
+        "liquidity",
+        "vault"
       ],
       "topProjects": [
+        {
+          "name": "solana-copy-sniper-mev-trading-bot",
+          "description": "",
+          "url": "https://github.com/mortdeus/solana-copy-sniper-mev-trading-bot",
+          "source": "github"
+        },
         {
           "name": "solana-swap-api",
           "description": "",
@@ -35,12 +42,6 @@
           "description": "",
           "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
-        },
-        {
-          "name": "erpc",
-          "description": "",
-          "url": "https://github.com/erpc/erpc",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -51,10 +52,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 10,
         "social": 0
       },
-      "lastUpdated": "2026-10-29T14:55:34.530Z"
+      "lastUpdated": "2026-10-30T14:47:41.967Z"
     },
     {
       "id": "infrastructure",
@@ -64,9 +65,10 @@
       "trendingKeywords": [
         "node",
         "bridge",
-        "validator",
         "network",
-        "indexer"
+        "validator",
+        "indexer",
+        "oracle"
       ],
       "topProjects": [
         {
@@ -108,20 +110,18 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 9,
         "social": 0
       },
-      "lastUpdated": "2026-10-29T14:55:34.530Z"
+      "lastUpdated": "2026-10-30T14:47:41.968Z"
     },
     {
       "id": "ai-crypto",
       "name": "AI x Crypto",
       "description": "Artificial intelligence meets blockchain",
-      "confidence": 1,
+      "confidence": 0.8400000000000001,
       "trendingKeywords": [
-        "bot",
-        "agent",
-        "autonomous"
+        "bot"
       ],
       "topProjects": [
         {
@@ -131,23 +131,24 @@
           "source": "github"
         },
         {
+          "name": "solana-copy-sniper-mev-trading-bot",
+          "description": "",
+          "url": "https://github.com/mortdeus/solana-copy-sniper-mev-trading-bot",
+          "source": "github"
+        },
+        {
           "name": "solana-swap-api",
           "description": "",
           "url": "https://github.com/vybenetwork/solana-swap-api",
           "source": "github"
         },
         {
-          "name": "solana-bot",
+          "name": "reverserbots",
           "description": "",
           "source": "github"
         },
         {
-          "name": "solana-arb-bot",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "fmt-plus",
+          "name": "solana-risk-bot",
           "description": "",
           "source": "github"
         }
@@ -160,10 +161,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 11,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-10-29T14:55:34.530Z"
+      "lastUpdated": "2026-10-30T14:47:41.968Z"
     },
     {
       "id": "dev-tools",
@@ -174,7 +175,7 @@
         "library",
         "framework",
         "deploy",
-        "build"
+        "testing"
       ],
       "topProjects": [
         {
@@ -202,7 +203,7 @@
           "source": "github"
         },
         {
-          "name": "nomikos",
+          "name": "Solana-testing",
           "description": "",
           "source": "github"
         }
@@ -218,21 +219,33 @@
         "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-10-29T14:55:34.530Z"
+      "lastUpdated": "2026-10-30T14:47:41.968Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
+      "confidence": 0.44000000000000006,
       "trendingKeywords": [
+        "creator",
         "community"
       ],
       "topProjects": [
         {
+          "name": "solana-copy-sniper-mev-trading-bot",
+          "description": "",
+          "url": "https://github.com/mortdeus/solana-copy-sniper-mev-trading-bot",
+          "source": "github"
+        },
+        {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "solana-risk-engine",
+          "description": "",
           "source": "github"
         }
       ],
@@ -244,10 +257,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-10-29T14:55:34.530Z"
+      "lastUpdated": "2026-10-30T14:47:41.968Z"
     },
     {
       "id": "gaming-nft",
@@ -273,7 +286,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-10-29T14:55:34.530Z"
+      "lastUpdated": "2026-10-30T14:47:41.967Z"
     }
   ]
 }
