@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-31T14:16:03.512Z",
+  "timestamp": "2026-11-01T14:42:41.974Z",
   "narratives": [
     {
       "id": "defi-innovation",
@@ -10,6 +10,7 @@
         "swap",
         "dex",
         "liquidity",
+        "perp",
         "vault"
       ],
       "topProjects": [
@@ -52,22 +53,130 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-10-31T14:16:03.512Z"
+      "lastUpdated": "2026-11-01T14:42:41.974Z"
+    },
+    {
+      "id": "dev-tools",
+      "name": "Developer Tools",
+      "description": "Tools and infrastructure for developers",
+      "confidence": 0.99874,
+      "trendingKeywords": [
+        "library",
+        "compile",
+        "framework",
+        "deploy",
+        "build"
+      ],
+      "topProjects": [
+        {
+          "name": "anchor",
+          "description": "",
+          "url": "https://github.com/otter-sec/anchor",
+          "source": "github"
+        },
+        {
+          "name": "solana-go",
+          "description": "",
+          "url": "https://github.com/solana-foundation/solana-go",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "solana-playground",
+          "description": "",
+          "url": "https://github.com/solana-playground/solana-playground",
+          "source": "github"
+        },
+        {
+          "name": "d4rth-launch-protocol",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create a Solana program testing framework with auto-generated tests",
+        "Build a no-code contract deployment platform",
+        "Develop a real-time program monitoring and alerting tool",
+        "Create an IDE extension for Solana development"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 7,
+        "social": 0
+      },
+      "lastUpdated": "2026-11-01T14:42:41.974Z"
+    },
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 0.96,
+      "trendingKeywords": [
+        "bot",
+        "agent"
+      ],
+      "topProjects": [
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "solana-copy-sniper-mev-trading-bot",
+          "description": "",
+          "url": "https://github.com/mortdeus/solana-copy-sniper-mev-trading-bot",
+          "source": "github"
+        },
+        {
+          "name": "solana-swap-api",
+          "description": "",
+          "url": "https://github.com/vybenetwork/solana-swap-api",
+          "source": "github"
+        },
+        {
+          "name": "auto-trade-solana",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-grok-bot",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 7,
+        "social": 0
+      },
+      "lastUpdated": "2026-11-01T14:42:41.974Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 1,
+      "confidence": 0.9199999999999999,
       "trendingKeywords": [
         "node",
         "bridge",
+        "validator",
         "indexer",
-        "network",
-        "validator"
+        "network"
       ],
       "topProjects": [
         {
@@ -109,122 +218,16 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-10-31T14:16:03.512Z"
-    },
-    {
-      "id": "dev-tools",
-      "name": "Developer Tools",
-      "description": "Tools and infrastructure for developers",
-      "confidence": 0.7586800000000001,
-      "trendingKeywords": [
-        "library",
-        "framework",
-        "deploy",
-        "build"
-      ],
-      "topProjects": [
-        {
-          "name": "anchor",
-          "description": "",
-          "url": "https://github.com/otter-sec/anchor",
-          "source": "github"
-        },
-        {
-          "name": "solana-go",
-          "description": "",
-          "url": "https://github.com/solana-foundation/solana-go",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "solana-playground",
-          "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
-          "source": "github"
-        },
-        {
-          "name": "Sol-of-War",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a Solana program testing framework with auto-generated tests",
-        "Build a no-code contract deployment platform",
-        "Develop a real-time program monitoring and alerting tool",
-        "Create an IDE extension for Solana development"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 5,
-        "social": 0
-      },
-      "lastUpdated": "2026-10-31T14:16:03.512Z"
-    },
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 0.7200000000000001,
-      "trendingKeywords": [
-        "bot"
-      ],
-      "topProjects": [
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "solana-copy-sniper-mev-trading-bot",
-          "description": "",
-          "url": "https://github.com/mortdeus/solana-copy-sniper-mev-trading-bot",
-          "source": "github"
-        },
-        {
-          "name": "solana-swap-api",
-          "description": "",
-          "url": "https://github.com/vybenetwork/solana-swap-api",
-          "source": "github"
-        },
-        {
-          "name": "solana-risk-bot",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "auto-trade-solana",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 5,
-        "social": 0
-      },
-      "lastUpdated": "2026-10-31T14:16:03.512Z"
+      "lastUpdated": "2026-11-01T14:42:41.974Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.56,
+      "confidence": 0.32,
       "trendingKeywords": [
         "creator",
         "community"
@@ -241,16 +244,6 @@
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
           "source": "github"
-        },
-        {
-          "name": "solana-risk-engine",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "tipjar-aurora",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -261,26 +254,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-10-31T14:16:03.512Z"
+      "lastUpdated": "2026-11-01T14:42:41.974Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.1,
       "trendingKeywords": [
-        "game"
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "Sol-of-War",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -289,10 +280,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-10-31T14:16:03.512Z"
+      "lastUpdated": "2026-11-01T14:42:41.974Z"
     }
   ]
 }
