@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-03T15:47:30.882Z",
+  "timestamp": "2026-11-04T15:56:31.024Z",
   "narratives": [
     {
       "id": "defi-innovation",
@@ -25,6 +25,12 @@
           "source": "github"
         },
         {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
+          "source": "github"
+        },
+        {
           "name": "squid-sdk",
           "description": "",
           "url": "https://github.com/subsquid/squid-sdk",
@@ -34,12 +40,6 @@
           "name": "rango-client",
           "description": "",
           "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "erpc",
-          "description": "",
-          "url": "https://github.com/erpc/erpc",
           "source": "github"
         }
       ],
@@ -51,10 +51,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-11-03T15:47:30.881Z"
+      "lastUpdated": "2026-11-04T15:56:31.024Z"
     },
     {
       "id": "infrastructure",
@@ -63,8 +63,8 @@
       "confidence": 1,
       "trendingKeywords": [
         "validator",
-        "bridge",
         "node",
+        "bridge",
         "indexer",
         "network"
       ],
@@ -73,6 +73,12 @@
           "name": "solana-web3.js",
           "description": "",
           "url": "https://github.com/solana-foundation/solana-web3.js",
+          "source": "github"
+        },
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
           "source": "github"
         },
         {
@@ -92,11 +98,6 @@
           "description": "",
           "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
-        },
-        {
-          "name": "sol2base",
-          "description": "",
-          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -110,7 +111,7 @@
         "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-11-03T15:47:30.881Z"
+      "lastUpdated": "2026-11-04T15:56:31.024Z"
     },
     {
       "id": "ai-crypto",
@@ -160,20 +161,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 11,
         "social": 0
       },
-      "lastUpdated": "2026-11-03T15:47:30.881Z"
+      "lastUpdated": "2026-11-04T15:56:31.024Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.9186799999999999,
+      "confidence": 0.7986800000000001,
       "trendingKeywords": [
         "library",
-        "compile",
         "framework",
+        "compile",
         "deploy"
       ],
       "topProjects": [
@@ -216,19 +217,19 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-11-03T15:47:30.882Z"
+      "lastUpdated": "2026-11-04T15:56:31.024Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.32,
+      "confidence": 0.44000000000000006,
       "trendingKeywords": [
-        "creator",
-        "community"
+        "community",
+        "creator"
       ],
       "topProjects": [
         {
@@ -242,6 +243,11 @@
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
           "source": "github"
+        },
+        {
+          "name": "breakpoint-apac",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -252,10 +258,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-11-03T15:47:30.881Z"
+      "lastUpdated": "2026-11-04T15:56:31.024Z"
     },
     {
       "id": "gaming-nft",
@@ -281,7 +287,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-11-03T15:47:30.881Z"
+      "lastUpdated": "2026-11-04T15:56:31.024Z"
     }
   ]
 }
