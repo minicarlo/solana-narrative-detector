@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08T14:44:34.013Z",
+  "timestamp": "2026-11-09T18:16:28.630Z",
   "narratives": [
     {
       "id": "defi-innovation",
@@ -8,10 +8,7 @@
       "confidence": 1,
       "trendingKeywords": [
         "swap",
-        "dex",
-        "lending",
-        "vault",
-        "liquidity"
+        "dex"
       ],
       "topProjects": [
         {
@@ -39,9 +36,9 @@
           "source": "github"
         },
         {
-          "name": "rango-client",
+          "name": "pumpfun-bonkfun-bot",
           "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
+          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
           "source": "github"
         }
       ],
@@ -53,10 +50,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-11-08T14:44:34.013Z"
+      "lastUpdated": "2026-11-09T18:16:28.630Z"
     },
     {
       "id": "ai-crypto",
@@ -64,22 +61,17 @@
       "description": "Artificial intelligence meets blockchain",
       "confidence": 1,
       "trendingKeywords": [
-        "bot",
         "agent",
+        "bot",
         "autonomous",
-        "intelligence"
+        "intelligence",
+        "model"
       ],
       "topProjects": [
         {
           "name": "hummingbot",
           "description": "",
           "url": "https://github.com/hummingbot/hummingbot",
-          "source": "github"
-        },
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
           "source": "github"
         },
         {
@@ -99,6 +91,11 @@
           "description": "",
           "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
           "source": "github"
+        },
+        {
+          "name": "solana-autonomous-revenue-engine",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -109,77 +106,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 12,
+        "github": 10,
         "social": 0
       },
-      "lastUpdated": "2026-11-08T14:44:34.013Z"
-    },
-    {
-      "id": "dev-tools",
-      "name": "Developer Tools",
-      "description": "Tools and infrastructure for developers",
-      "confidence": 0.95868,
-      "trendingKeywords": [
-        "deploy",
-        "library",
-        "testing",
-        "framework",
-        "compile"
-      ],
-      "topProjects": [
-        {
-          "name": "hummingbot",
-          "description": "",
-          "url": "https://github.com/hummingbot/hummingbot",
-          "source": "github"
-        },
-        {
-          "name": "anchor",
-          "description": "",
-          "url": "https://github.com/otter-sec/anchor",
-          "source": "github"
-        },
-        {
-          "name": "solana-go",
-          "description": "",
-          "url": "https://github.com/solana-foundation/solana-go",
-          "source": "github"
-        },
-        {
-          "name": "solang",
-          "description": "",
-          "url": "https://github.com/hyperledger-solang/solang",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a Solana program testing framework with auto-generated tests",
-        "Build a no-code contract deployment platform",
-        "Develop a real-time program monitoring and alerting tool",
-        "Create an IDE extension for Solana development"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 6,
-        "social": 0
-      },
-      "lastUpdated": "2026-11-08T14:44:34.013Z"
+      "lastUpdated": "2026-11-09T18:16:28.630Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.8,
+      "confidence": 0.94614,
       "trendingKeywords": [
         "node",
-        "bridge",
         "validator",
+        "bridge",
         "indexer",
         "network"
       ],
@@ -209,9 +149,9 @@
           "source": "github"
         },
         {
-          "name": "rango-client",
+          "name": "pumpfun-bonkfun-bot",
           "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
+          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
           "source": "github"
         }
       ],
@@ -223,10 +163,58 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 5,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-11-08T14:44:34.013Z"
+      "lastUpdated": "2026-11-09T18:16:28.630Z"
+    },
+    {
+      "id": "dev-tools",
+      "name": "Developer Tools",
+      "description": "Tools and infrastructure for developers",
+      "confidence": 0.5986800000000001,
+      "trendingKeywords": [
+        "testing",
+        "deploy",
+        "framework"
+      ],
+      "topProjects": [
+        {
+          "name": "hummingbot",
+          "description": "",
+          "url": "https://github.com/hummingbot/hummingbot",
+          "source": "github"
+        },
+        {
+          "name": "anchor",
+          "description": "",
+          "url": "https://github.com/otter-sec/anchor",
+          "source": "github"
+        },
+        {
+          "name": "solana-playground",
+          "description": "",
+          "url": "https://github.com/solana-playground/solana-playground",
+          "source": "github"
+        },
+        {
+          "name": "memecoin-research",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create a Solana program testing framework with auto-generated tests",
+        "Build a no-code contract deployment platform",
+        "Develop a real-time program monitoring and alerting tool",
+        "Create an IDE extension for Solana development"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 4,
+        "social": 0
+      },
+      "lastUpdated": "2026-11-09T18:16:28.630Z"
     },
     {
       "id": "social-consumer",
@@ -255,7 +243,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-11-08T14:44:34.013Z"
+      "lastUpdated": "2026-11-09T18:16:28.630Z"
     },
     {
       "id": "gaming-nft",
@@ -281,7 +269,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-11-08T14:44:34.013Z"
+      "lastUpdated": "2026-11-09T18:16:28.630Z"
     }
   ]
 }
