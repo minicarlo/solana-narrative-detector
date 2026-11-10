@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09T18:16:28.630Z",
+  "timestamp": "2026-11-10T16:03:38.859Z",
   "narratives": [
     {
       "id": "defi-innovation",
@@ -8,7 +8,8 @@
       "confidence": 1,
       "trendingKeywords": [
         "swap",
-        "dex"
+        "dex",
+        "perp"
       ],
       "topProjects": [
         {
@@ -36,9 +37,9 @@
           "source": "github"
         },
         {
-          "name": "pumpfun-bonkfun-bot",
+          "name": "rango-client",
           "description": "",
-          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
+          "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
         }
       ],
@@ -50,10 +51,67 @@
       ],
       "dataSources": {
         "helius": 0,
+        "github": 10,
+        "social": 0
+      },
+      "lastUpdated": "2026-11-10T16:03:38.859Z"
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Core blockchain infrastructure and tooling",
+      "confidence": 1,
+      "trendingKeywords": [
+        "node",
+        "bridge",
+        "validator",
+        "indexer",
+        "network"
+      ],
+      "topProjects": [
+        {
+          "name": "solana-web3.js",
+          "description": "",
+          "url": "https://github.com/solana-foundation/solana-web3.js",
+          "source": "github"
+        },
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
+          "source": "github"
+        },
+        {
+          "name": "firedancer",
+          "description": "",
+          "url": "https://github.com/firedancer-io/firedancer",
+          "source": "github"
+        },
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a decentralized RPC load balancer for Solana",
+        "Create a validator performance monitoring dashboard",
+        "Develop a bridge aggregator for cross-chain transfers",
+        "Build an oracle comparison and aggregation service"
+      ],
+      "dataSources": {
+        "helius": 0,
         "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-11-09T18:16:28.630Z"
+      "lastUpdated": "2026-11-10T16:03:38.859Z"
     },
     {
       "id": "ai-crypto",
@@ -61,11 +119,11 @@
       "description": "Artificial intelligence meets blockchain",
       "confidence": 1,
       "trendingKeywords": [
-        "agent",
         "bot",
+        "agent",
         "autonomous",
         "intelligence",
-        "model"
+        "inference"
       ],
       "topProjects": [
         {
@@ -106,76 +164,20 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 10,
+        "github": 11,
         "social": 0
       },
-      "lastUpdated": "2026-11-09T18:16:28.630Z"
-    },
-    {
-      "id": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Core blockchain infrastructure and tooling",
-      "confidence": 0.94614,
-      "trendingKeywords": [
-        "node",
-        "validator",
-        "bridge",
-        "indexer",
-        "network"
-      ],
-      "topProjects": [
-        {
-          "name": "solana-web3.js",
-          "description": "",
-          "url": "https://github.com/solana-foundation/solana-web3.js",
-          "source": "github"
-        },
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
-          "source": "github"
-        },
-        {
-          "name": "firedancer",
-          "description": "",
-          "url": "https://github.com/firedancer-io/firedancer",
-          "source": "github"
-        },
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "pumpfun-bonkfun-bot",
-          "description": "",
-          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a decentralized RPC load balancer for Solana",
-        "Create a validator performance monitoring dashboard",
-        "Develop a bridge aggregator for cross-chain transfers",
-        "Build an oracle comparison and aggregation service"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 6,
-        "social": 0
-      },
-      "lastUpdated": "2026-11-09T18:16:28.630Z"
+      "lastUpdated": "2026-11-10T16:03:38.859Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.5986800000000001,
+      "confidence": 1,
       "trendingKeywords": [
         "testing",
         "deploy",
+        "library",
         "framework"
       ],
       "topProjects": [
@@ -192,14 +194,21 @@
           "source": "github"
         },
         {
-          "name": "solana-playground",
+          "name": "solana-go",
           "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
+          "url": "https://github.com/solana-foundation/solana-go",
           "source": "github"
         },
         {
-          "name": "memecoin-research",
+          "name": "rango-client",
           "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "solana-playground",
+          "description": "",
+          "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
         }
       ],
@@ -211,17 +220,18 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-11-09T18:16:28.630Z"
+      "lastUpdated": "2026-11-10T16:03:38.859Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.16,
+      "confidence": 0.4,
       "trendingKeywords": [
+        "creator",
         "community"
       ],
       "topProjects": [
@@ -229,6 +239,16 @@
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "source": "github"
+        },
+        {
+          "name": "Payproof",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-token-creator-rs",
+          "description": "",
           "source": "github"
         }
       ],
@@ -240,10 +260,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-11-09T18:16:28.630Z"
+      "lastUpdated": "2026-11-10T16:03:38.859Z"
     },
     {
       "id": "gaming-nft",
@@ -269,7 +289,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-11-09T18:16:28.630Z"
+      "lastUpdated": "2026-11-10T16:03:38.859Z"
     }
   ]
 }
