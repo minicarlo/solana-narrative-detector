@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-10T16:03:38.859Z",
+  "timestamp": "2026-11-11T15:49:48.122Z",
   "narratives": [
     {
       "id": "defi-innovation",
@@ -7,9 +7,9 @@
       "description": "Decentralized finance protocols and innovations",
       "confidence": 1,
       "trendingKeywords": [
-        "swap",
         "dex",
-        "perp"
+        "swap",
+        "vault"
       ],
       "topProjects": [
         {
@@ -51,16 +51,71 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 10,
+        "github": 9,
         "social": 0
       },
-      "lastUpdated": "2026-11-10T16:03:38.859Z"
+      "lastUpdated": "2026-11-11T15:49:48.122Z"
+    },
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 1,
+      "trendingKeywords": [
+        "agent",
+        "bot",
+        "autonomous",
+        "intelligence"
+      ],
+      "topProjects": [
+        {
+          "name": "hummingbot",
+          "description": "",
+          "url": "https://github.com/hummingbot/hummingbot",
+          "source": "github"
+        },
+        {
+          "name": "CloddsBot",
+          "description": "",
+          "url": "https://github.com/alsk1992/CloddsBot",
+          "source": "github"
+        },
+        {
+          "name": "solana-swap-api",
+          "description": "",
+          "url": "https://github.com/vybenetwork/solana-swap-api",
+          "source": "github"
+        },
+        {
+          "name": "pumpfun-bonkfun-bot",
+          "description": "",
+          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
+          "source": "github"
+        },
+        {
+          "name": "solana-autonomous-revenue-engine",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 9,
+        "social": 0
+      },
+      "lastUpdated": "2026-11-11T15:49:48.122Z"
     },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 1,
+      "confidence": 0.96,
       "trendingKeywords": [
         "node",
         "bridge",
@@ -108,72 +163,16 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-11-10T16:03:38.859Z"
-    },
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 1,
-      "trendingKeywords": [
-        "bot",
-        "agent",
-        "autonomous",
-        "intelligence",
-        "inference"
-      ],
-      "topProjects": [
-        {
-          "name": "hummingbot",
-          "description": "",
-          "url": "https://github.com/hummingbot/hummingbot",
-          "source": "github"
-        },
-        {
-          "name": "CloddsBot",
-          "description": "",
-          "url": "https://github.com/alsk1992/CloddsBot",
-          "source": "github"
-        },
-        {
-          "name": "solana-swap-api",
-          "description": "",
-          "url": "https://github.com/vybenetwork/solana-swap-api",
-          "source": "github"
-        },
-        {
-          "name": "pumpfun-bonkfun-bot",
-          "description": "",
-          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
-          "source": "github"
-        },
-        {
-          "name": "solana-autonomous-revenue-engine",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 11,
-        "social": 0
-      },
-      "lastUpdated": "2026-11-10T16:03:38.859Z"
+      "lastUpdated": "2026-11-11T15:49:48.122Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 1,
+      "confidence": 0.91874,
       "trendingKeywords": [
         "testing",
         "deploy",
@@ -220,18 +219,17 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-11-10T16:03:38.859Z"
+      "lastUpdated": "2026-11-11T15:49:48.122Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.4,
+      "confidence": 0.16,
       "trendingKeywords": [
-        "creator",
         "community"
       ],
       "topProjects": [
@@ -239,16 +237,6 @@
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "Payproof",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-token-creator-rs",
-          "description": "",
           "source": "github"
         }
       ],
@@ -260,10 +248,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-11-10T16:03:38.859Z"
+      "lastUpdated": "2026-11-11T15:49:48.122Z"
     },
     {
       "id": "gaming-nft",
@@ -289,7 +277,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-11-10T16:03:38.859Z"
+      "lastUpdated": "2026-11-11T15:49:48.122Z"
     }
   ]
 }
