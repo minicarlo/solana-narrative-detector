@@ -1,61 +1,6 @@
 {
-  "timestamp": "2026-11-13T15:53:51.845Z",
+  "timestamp": "2026-11-14T14:44:17.535Z",
   "narratives": [
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 1,
-      "trendingKeywords": [
-        "swap",
-        "dex",
-        "vault"
-      ],
-      "topProjects": [
-        {
-          "name": "solana-swap-api",
-          "description": "",
-          "url": "https://github.com/vybenetwork/solana-swap-api",
-          "source": "github"
-        },
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
-          "source": "github"
-        },
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "pumpfun-bonkfun-bot",
-          "description": "",
-          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 7,
-        "social": 0
-      },
-      "lastUpdated": "2026-11-13T15:53:51.844Z"
-    },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
@@ -63,8 +8,8 @@
       "confidence": 1,
       "trendingKeywords": [
         "node",
-        "network",
         "bridge",
+        "network",
         "validator",
         "indexer"
       ],
@@ -108,10 +53,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-11-13T15:53:51.844Z"
+      "lastUpdated": "2026-11-14T14:44:17.535Z"
     },
     {
       "id": "ai-crypto",
@@ -119,8 +64,10 @@
       "description": "Artificial intelligence meets blockchain",
       "confidence": 1,
       "trendingKeywords": [
+        "agent",
         "bot",
-        "agent"
+        "autonomous",
+        "intelligence"
       ],
       "topProjects": [
         {
@@ -130,9 +77,9 @@
           "source": "github"
         },
         {
-          "name": "solana-swap-api",
+          "name": "CloddsBot",
           "description": "",
-          "url": "https://github.com/vybenetwork/solana-swap-api",
+          "url": "https://github.com/alsk1992/CloddsBot",
           "source": "github"
         },
         {
@@ -142,12 +89,12 @@
           "source": "github"
         },
         {
-          "name": "shadow-meme-bot",
+          "name": "serv-devcheck",
           "description": "",
           "source": "github"
         },
         {
-          "name": "burnrate-bench",
+          "name": "makefun-coin-launch",
           "description": "",
           "source": "github"
         }
@@ -160,21 +107,22 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 9,
         "social": 0
       },
-      "lastUpdated": "2026-11-13T15:53:51.844Z"
+      "lastUpdated": "2026-11-14T14:44:17.535Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.79874,
+      "confidence": 0.95874,
       "trendingKeywords": [
         "deploy",
         "library",
         "testing",
-        "framework"
+        "framework",
+        "compile"
       ],
       "topProjects": [
         {
@@ -196,15 +144,15 @@
           "source": "github"
         },
         {
-          "name": "rango-client",
+          "name": "solang",
           "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
+          "url": "https://github.com/hyperledger-solang/solang",
           "source": "github"
         },
         {
-          "name": "solana-playground",
+          "name": "rango-client",
           "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
+          "url": "https://github.com/rango-exchange/rango-client",
           "source": "github"
         }
       ],
@@ -216,10 +164,64 @@
       ],
       "dataSources": {
         "helius": 0,
+        "github": 6,
+        "social": 0
+      },
+      "lastUpdated": "2026-11-14T14:44:17.535Z"
+    },
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.8,
+      "trendingKeywords": [
+        "swap",
+        "dex"
+      ],
+      "topProjects": [
+        {
+          "name": "CloddsBot",
+          "description": "",
+          "url": "https://github.com/alsk1992/CloddsBot",
+          "source": "github"
+        },
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
+          "source": "github"
+        },
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "pumpfun-bonkfun-bot",
+          "description": "",
+          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
         "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-11-13T15:53:51.845Z"
+      "lastUpdated": "2026-11-14T14:44:17.535Z"
     },
     {
       "id": "social-consumer",
@@ -248,21 +250,23 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-11-13T15:53:51.844Z"
+      "lastUpdated": "2026-11-14T14:44:17.535Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.1,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "game",
-        "gaming",
-        "NFT",
-        "metaverse",
-        "play-to-earn"
+        "game"
       ],
-      "topProjects": [],
+      "topProjects": [
+        {
+          "name": "Solana_OS_games",
+          "description": "",
+          "source": "github"
+        }
+      ],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -271,10 +275,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 0,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-11-13T15:53:51.844Z"
+      "lastUpdated": "2026-11-14T14:44:17.535Z"
     }
   ]
 }
