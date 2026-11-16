@@ -1,6 +1,61 @@
 {
-  "timestamp": "2026-11-15T15:17:32.320Z",
+  "timestamp": "2026-11-16T17:54:14.847Z",
   "narratives": [
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 1,
+      "trendingKeywords": [
+        "dex",
+        "swap",
+        "vault",
+        "farm"
+      ],
+      "topProjects": [
+        {
+          "name": "CloddsBot",
+          "description": "",
+          "url": "https://github.com/alsk1992/CloddsBot",
+          "source": "github"
+        },
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
+          "source": "github"
+        },
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "solana-vault-week8",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 7,
+        "social": 0
+      },
+      "lastUpdated": "2026-11-16T17:54:14.846Z"
+    },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
@@ -9,9 +64,9 @@
       "trendingKeywords": [
         "node",
         "bridge",
-        "network",
         "validator",
-        "indexer"
+        "indexer",
+        "network"
       ],
       "topProjects": [
         {
@@ -53,10 +108,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-11-15T15:17:32.320Z"
+      "lastUpdated": "2026-11-16T17:54:14.846Z"
     },
     {
       "id": "ai-crypto",
@@ -66,7 +121,8 @@
       "trendingKeywords": [
         "agent",
         "bot",
-        "autonomous"
+        "autonomous",
+        "intelligence"
       ],
       "topProjects": [
         {
@@ -76,24 +132,24 @@
           "source": "github"
         },
         {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
           "name": "CloddsBot",
           "description": "",
           "url": "https://github.com/alsk1992/CloddsBot",
           "source": "github"
         },
         {
-          "name": "pumpfun-bonkfun-bot",
-          "description": "",
-          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
-          "source": "github"
-        },
-        {
-          "name": "bring-the-humans",
+          "name": "iussum-genlayer",
           "description": "",
           "source": "github"
         },
         {
-          "name": "Solana-Trading-Agent",
+          "name": "tlacuilo",
           "description": "",
           "source": "github"
         }
@@ -106,10 +162,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 10,
+        "github": 9,
         "social": 0
       },
-      "lastUpdated": "2026-11-15T15:17:32.320Z"
+      "lastUpdated": "2026-11-16T17:54:14.847Z"
     },
     {
       "id": "dev-tools",
@@ -117,12 +173,12 @@
       "description": "Tools and infrastructure for developers",
       "confidence": 1,
       "trendingKeywords": [
-        "build",
         "deploy",
-        "framework",
         "library",
         "testing",
-        "compile"
+        "framework",
+        "compile",
+        "build"
       ],
       "topProjects": [
         {
@@ -164,65 +220,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 10,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-11-15T15:17:32.320Z"
-    },
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.9199999999999999,
-      "trendingKeywords": [
-        "swap",
-        "dex",
-        "perp"
-      ],
-      "topProjects": [
-        {
-          "name": "CloddsBot",
-          "description": "",
-          "url": "https://github.com/alsk1992/CloddsBot",
-          "source": "github"
-        },
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
-          "source": "github"
-        },
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "pumpfun-bonkfun-bot",
-          "description": "",
-          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 6,
-        "social": 0
-      },
-      "lastUpdated": "2026-11-15T15:17:32.319Z"
+      "lastUpdated": "2026-11-16T17:54:14.847Z"
     },
     {
       "id": "social-consumer",
@@ -240,7 +241,7 @@
           "source": "github"
         },
         {
-          "name": "freedom-coin-website",
+          "name": "olympia-quest",
           "description": "",
           "source": "github"
         }
@@ -256,23 +257,21 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-11-15T15:17:32.320Z"
+      "lastUpdated": "2026-11-16T17:54:14.847Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.12,
+      "confidence": 0.1,
       "trendingKeywords": [
-        "game"
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "Solana_OS_games",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -281,10 +280,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 1,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-11-15T15:17:32.319Z"
+      "lastUpdated": "2026-11-16T17:54:14.846Z"
     }
   ]
 }
