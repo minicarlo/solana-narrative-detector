@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-16T17:54:14.847Z",
+  "timestamp": "2026-11-17T17:21:03.215Z",
   "narratives": [
     {
       "id": "defi-innovation",
@@ -7,12 +7,16 @@
       "description": "Decentralized finance protocols and innovations",
       "confidence": 1,
       "trendingKeywords": [
-        "dex",
         "swap",
-        "vault",
-        "farm"
+        "dex"
       ],
       "topProjects": [
+        {
+          "name": "solana-copy-sniper-mev-trading-bot",
+          "description": "",
+          "url": "https://github.com/mortdeus/solana-copy-sniper-mev-trading-bot",
+          "source": "github"
+        },
         {
           "name": "CloddsBot",
           "description": "",
@@ -32,14 +36,9 @@
           "source": "github"
         },
         {
-          "name": "rango-client",
+          "name": "pumpfun-bonkfun-bot",
           "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "solana-vault-week8",
-          "description": "",
+          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
           "source": "github"
         }
       ],
@@ -51,10 +50,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-11-16T17:54:14.846Z"
+      "lastUpdated": "2026-11-17T17:21:03.215Z"
     },
     {
       "id": "infrastructure",
@@ -64,9 +63,9 @@
       "trendingKeywords": [
         "node",
         "bridge",
+        "network",
         "validator",
-        "indexer",
-        "network"
+        "indexer"
       ],
       "topProjects": [
         {
@@ -94,9 +93,9 @@
           "source": "github"
         },
         {
-          "name": "rango-client",
+          "name": "pumpfun-bonkfun-bot",
           "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
+          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
           "source": "github"
         }
       ],
@@ -111,7 +110,7 @@
         "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-11-16T17:54:14.846Z"
+      "lastUpdated": "2026-11-17T17:21:03.215Z"
     },
     {
       "id": "ai-crypto",
@@ -119,10 +118,10 @@
       "description": "Artificial intelligence meets blockchain",
       "confidence": 1,
       "trendingKeywords": [
-        "agent",
         "bot",
-        "autonomous",
-        "intelligence"
+        "agent",
+        "intelligence",
+        "autonomous"
       ],
       "topProjects": [
         {
@@ -138,19 +137,21 @@
           "source": "github"
         },
         {
+          "name": "solana-copy-sniper-mev-trading-bot",
+          "description": "",
+          "url": "https://github.com/mortdeus/solana-copy-sniper-mev-trading-bot",
+          "source": "github"
+        },
+        {
           "name": "CloddsBot",
           "description": "",
           "url": "https://github.com/alsk1992/CloddsBot",
           "source": "github"
         },
         {
-          "name": "iussum-genlayer",
+          "name": "pumpfun-bonkfun-bot",
           "description": "",
-          "source": "github"
-        },
-        {
-          "name": "tlacuilo",
-          "description": "",
+          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
           "source": "github"
         }
       ],
@@ -165,20 +166,19 @@
         "github": 9,
         "social": 0
       },
-      "lastUpdated": "2026-11-16T17:54:14.847Z"
+      "lastUpdated": "2026-11-17T17:21:03.215Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 1,
+      "confidence": 0.79886,
       "trendingKeywords": [
         "deploy",
-        "library",
         "testing",
         "framework",
-        "compile",
-        "build"
+        "library",
+        "compile"
       ],
       "topProjects": [
         {
@@ -206,9 +206,9 @@
           "source": "github"
         },
         {
-          "name": "rango-client",
+          "name": "solana-playground",
           "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
+          "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
         }
       ],
@@ -220,20 +220,27 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 5,
         "social": 0
       },
-      "lastUpdated": "2026-11-16T17:54:14.847Z"
+      "lastUpdated": "2026-11-17T17:21:03.215Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.44000000000000006,
       "trendingKeywords": [
+        "creator",
         "community"
       ],
       "topProjects": [
+        {
+          "name": "solana-copy-sniper-mev-trading-bot",
+          "description": "",
+          "url": "https://github.com/mortdeus/solana-copy-sniper-mev-trading-bot",
+          "source": "github"
+        },
         {
           "name": "app-monorepo",
           "description": "",
@@ -241,7 +248,7 @@
           "source": "github"
         },
         {
-          "name": "olympia-quest",
+          "name": "oppi-digital-products",
           "description": "",
           "source": "github"
         }
@@ -254,10 +261,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-11-16T17:54:14.847Z"
+      "lastUpdated": "2026-11-17T17:21:03.215Z"
     },
     {
       "id": "gaming-nft",
@@ -283,7 +290,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-11-16T17:54:14.846Z"
+      "lastUpdated": "2026-11-17T17:21:03.215Z"
     }
   ]
 }
