@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-21T15:53:25.079Z",
+  "timestamp": "2026-11-22T15:54:21.129Z",
   "narratives": [
     {
       "id": "defi-innovation",
@@ -9,8 +9,9 @@
       "trendingKeywords": [
         "swap",
         "dex",
-        "liquidity",
-        "vault"
+        "vault",
+        "stake",
+        "farm"
       ],
       "topProjects": [
         {
@@ -52,10 +53,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 8,
         "social": 0
       },
-      "lastUpdated": "2026-11-21T15:53:25.079Z"
+      "lastUpdated": "2026-11-22T15:54:21.128Z"
     },
     {
       "id": "infrastructure",
@@ -64,9 +65,9 @@
       "confidence": 1,
       "trendingKeywords": [
         "node",
-        "validator",
         "bridge",
         "indexer",
+        "validator",
         "network"
       ],
       "topProjects": [
@@ -109,10 +110,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 10,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-11-21T15:53:25.079Z"
+      "lastUpdated": "2026-11-22T15:54:21.129Z"
     },
     {
       "id": "ai-crypto",
@@ -122,7 +123,7 @@
       "trendingKeywords": [
         "bot",
         "agent",
-        "intelligence"
+        "inference"
       ],
       "topProjects": [
         {
@@ -164,10 +165,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 11,
         "social": 0
       },
-      "lastUpdated": "2026-11-21T15:53:25.079Z"
+      "lastUpdated": "2026-11-22T15:54:21.129Z"
     },
     {
       "id": "dev-tools",
@@ -179,7 +180,8 @@
         "testing",
         "deploy",
         "framework",
-        "compile"
+        "compile",
+        "build"
       ],
       "topProjects": [
         {
@@ -224,17 +226,17 @@
         "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-11-21T15:53:25.079Z"
+      "lastUpdated": "2026-11-22T15:54:21.129Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.56,
+      "confidence": 0.44000000000000006,
       "trendingKeywords": [
-        "community",
         "creator",
-        "vote"
+        "community",
+        "profile"
       ],
       "topProjects": [
         {
@@ -250,12 +252,7 @@
           "source": "github"
         },
         {
-          "name": "clique",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "solana-probe",
+          "name": "Solana-SmartMoney-Paywall",
           "description": "",
           "source": "github"
         }
@@ -268,24 +265,31 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 3,
         "social": 0
       },
-      "lastUpdated": "2026-11-21T15:53:25.079Z"
+      "lastUpdated": "2026-11-22T15:54:21.129Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.1,
+      "confidence": 0.24,
       "trendingKeywords": [
-        "game",
-        "gaming",
-        "NFT",
-        "metaverse",
-        "play-to-earn"
+        "game"
       ],
-      "topProjects": [],
+      "topProjects": [
+        {
+          "name": "darkseek",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-hard-push",
+          "description": "",
+          "source": "github"
+        }
+      ],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -294,10 +298,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 0,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-11-21T15:53:25.079Z"
+      "lastUpdated": "2026-11-22T15:54:21.128Z"
     }
   ]
 }
