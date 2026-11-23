@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-22T15:54:21.129Z",
+  "timestamp": "2026-11-23T19:47:52.820Z",
   "narratives": [
     {
       "id": "defi-innovation",
@@ -9,17 +9,11 @@
       "trendingKeywords": [
         "swap",
         "dex",
-        "vault",
-        "stake",
-        "farm"
+        "perp",
+        "farm",
+        "vault"
       ],
       "topProjects": [
-        {
-          "name": "solana-copy-sniper-mev-trading-bot",
-          "description": "",
-          "url": "https://github.com/mortdeus/solana-copy-sniper-mev-trading-bot",
-          "source": "github"
-        },
         {
           "name": "rango-sdk",
           "description": "",
@@ -43,6 +37,11 @@
           "description": "",
           "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
           "source": "github"
+        },
+        {
+          "name": "liveedge-solana",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -53,10 +52,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 8,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-11-22T15:54:21.128Z"
+      "lastUpdated": "2026-11-23T19:47:52.820Z"
     },
     {
       "id": "infrastructure",
@@ -66,9 +65,10 @@
       "trendingKeywords": [
         "node",
         "bridge",
-        "indexer",
         "validator",
-        "network"
+        "indexer",
+        "network",
+        "rollup"
       ],
       "topProjects": [
         {
@@ -113,7 +113,7 @@
         "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-11-22T15:54:21.129Z"
+      "lastUpdated": "2026-11-23T19:47:52.820Z"
     },
     {
       "id": "ai-crypto",
@@ -123,7 +123,7 @@
       "trendingKeywords": [
         "bot",
         "agent",
-        "inference"
+        "model"
       ],
       "topProjects": [
         {
@@ -139,21 +139,19 @@
           "source": "github"
         },
         {
-          "name": "solana-copy-sniper-mev-trading-bot",
-          "description": "",
-          "url": "https://github.com/mortdeus/solana-copy-sniper-mev-trading-bot",
-          "source": "github"
-        },
-        {
           "name": "pumpfun-bonkfun-bot",
           "description": "",
           "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
           "source": "github"
         },
         {
-          "name": "solana-trading-bot",
+          "name": "liveedge-solana",
           "description": "",
-          "url": "https://github.com/radioman/solana-trading-bot",
+          "source": "github"
+        },
+        {
+          "name": "bloom",
+          "description": "",
           "source": "github"
         }
       ],
@@ -165,23 +163,23 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 11,
+        "github": 9,
         "social": 0
       },
-      "lastUpdated": "2026-11-22T15:54:21.129Z"
+      "lastUpdated": "2026-11-23T19:47:52.820Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 0.9199999999999999,
+      "confidence": 1,
       "trendingKeywords": [
-        "library",
-        "testing",
         "deploy",
+        "build",
+        "testing",
         "framework",
         "compile",
-        "build"
+        "library"
       ],
       "topProjects": [
         {
@@ -197,12 +195,6 @@
           "source": "github"
         },
         {
-          "name": "solana-go",
-          "description": "",
-          "url": "https://github.com/solana-foundation/solana-go",
-          "source": "github"
-        },
-        {
           "name": "solang",
           "description": "",
           "url": "https://github.com/hyperledger-solang/solang",
@@ -212,6 +204,12 @@
           "name": "rango-client",
           "description": "",
           "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "solana-playground",
+          "description": "",
+          "url": "https://github.com/solana-playground/solana-playground",
           "source": "github"
         }
       ],
@@ -223,28 +221,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 6,
+        "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-11-22T15:54:21.129Z"
+      "lastUpdated": "2026-11-23T19:47:52.820Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.44000000000000006,
+      "confidence": 0.27999999999999997,
       "trendingKeywords": [
-        "creator",
         "community",
-        "profile"
+        "creator"
       ],
       "topProjects": [
-        {
-          "name": "solana-copy-sniper-mev-trading-bot",
-          "description": "",
-          "url": "https://github.com/mortdeus/solana-copy-sniper-mev-trading-bot",
-          "source": "github"
-        },
         {
           "name": "app-monorepo",
           "description": "",
@@ -252,7 +243,7 @@
           "source": "github"
         },
         {
-          "name": "Solana-SmartMoney-Paywall",
+          "name": "bloom",
           "description": "",
           "source": "github"
         }
@@ -265,10 +256,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 3,
+        "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-11-22T15:54:21.129Z"
+      "lastUpdated": "2026-11-23T19:47:52.820Z"
     },
     {
       "id": "gaming-nft",
@@ -280,12 +271,12 @@
       ],
       "topProjects": [
         {
-          "name": "darkseek",
+          "name": "tipoff",
           "description": "",
           "source": "github"
         },
         {
-          "name": "solana-hard-push",
+          "name": "core",
           "description": "",
           "source": "github"
         }
@@ -301,7 +292,7 @@
         "github": 2,
         "social": 0
       },
-      "lastUpdated": "2026-11-22T15:54:21.128Z"
+      "lastUpdated": "2026-11-23T19:47:52.820Z"
     }
   ]
 }
