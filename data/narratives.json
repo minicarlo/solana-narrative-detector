@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-23T19:47:52.820Z",
+  "timestamp": "2026-11-24T19:18:22.542Z",
   "narratives": [
     {
       "id": "defi-innovation",
@@ -9,9 +9,9 @@
       "trendingKeywords": [
         "swap",
         "dex",
-        "perp",
-        "farm",
-        "vault"
+        "vault",
+        "liquidity",
+        "farm"
       ],
       "topProjects": [
         {
@@ -39,7 +39,7 @@
           "source": "github"
         },
         {
-          "name": "liveedge-solana",
+          "name": "base-uniswap-v4-sniper-bot",
           "description": "",
           "source": "github"
         }
@@ -52,10 +52,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 10,
         "social": 0
       },
-      "lastUpdated": "2026-11-23T19:47:52.820Z"
+      "lastUpdated": "2026-11-24T19:18:22.542Z"
     },
     {
       "id": "infrastructure",
@@ -65,10 +65,9 @@
       "trendingKeywords": [
         "node",
         "bridge",
-        "validator",
-        "indexer",
         "network",
-        "rollup"
+        "validator",
+        "indexer"
       ],
       "topProjects": [
         {
@@ -113,7 +112,7 @@
         "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-11-23T19:47:52.820Z"
+      "lastUpdated": "2026-11-24T19:18:22.542Z"
     },
     {
       "id": "ai-crypto",
@@ -122,8 +121,7 @@
       "confidence": 1,
       "trendingKeywords": [
         "bot",
-        "agent",
-        "model"
+        "agent"
       ],
       "topProjects": [
         {
@@ -145,12 +143,12 @@
           "source": "github"
         },
         {
-          "name": "liveedge-solana",
+          "name": "solana-watchbot",
           "description": "",
           "source": "github"
         },
         {
-          "name": "bloom",
+          "name": "bayarsekali",
           "description": "",
           "source": "github"
         }
@@ -163,10 +161,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 9,
+        "github": 14,
         "social": 0
       },
-      "lastUpdated": "2026-11-23T19:47:52.820Z"
+      "lastUpdated": "2026-11-24T19:18:22.542Z"
     },
     {
       "id": "dev-tools",
@@ -174,8 +172,8 @@
       "description": "Tools and infrastructure for developers",
       "confidence": 1,
       "trendingKeywords": [
-        "deploy",
         "build",
+        "deploy",
         "testing",
         "framework",
         "compile",
@@ -221,30 +219,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
+        "github": 14,
         "social": 0
       },
-      "lastUpdated": "2026-11-23T19:47:52.820Z"
+      "lastUpdated": "2026-11-24T19:18:22.542Z"
     },
     {
       "id": "social-consumer",
       "name": "Social & Consumer",
       "description": "Social platforms and consumer applications",
-      "confidence": 0.27999999999999997,
+      "confidence": 0.16,
       "trendingKeywords": [
-        "community",
-        "creator"
+        "community"
       ],
       "topProjects": [
         {
           "name": "app-monorepo",
           "description": "",
           "url": "https://github.com/OneKeyHQ/app-monorepo",
-          "source": "github"
-        },
-        {
-          "name": "bloom",
-          "description": "",
           "source": "github"
         }
       ],
@@ -256,31 +248,24 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-11-23T19:47:52.820Z"
+      "lastUpdated": "2026-11-24T19:18:22.542Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.24,
+      "confidence": 0.1,
       "trendingKeywords": [
-        "game"
+        "game",
+        "gaming",
+        "NFT",
+        "metaverse",
+        "play-to-earn"
       ],
-      "topProjects": [
-        {
-          "name": "tipoff",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "core",
-          "description": "",
-          "source": "github"
-        }
-      ],
+      "topProjects": [],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -289,10 +274,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 2,
+        "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-11-23T19:47:52.820Z"
+      "lastUpdated": "2026-11-24T19:18:22.542Z"
     }
   ]
 }
