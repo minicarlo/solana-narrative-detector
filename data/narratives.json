@@ -1,62 +1,6 @@
 {
-  "timestamp": "2026-11-24T19:18:22.542Z",
+  "timestamp": "2026-11-25T18:23:51.637Z",
   "narratives": [
-    {
-      "id": "defi-innovation",
-      "name": "DeFi Innovation",
-      "description": "Decentralized finance protocols and innovations",
-      "confidence": 1,
-      "trendingKeywords": [
-        "swap",
-        "dex",
-        "vault",
-        "liquidity",
-        "farm"
-      ],
-      "topProjects": [
-        {
-          "name": "rango-sdk",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-sdk",
-          "source": "github"
-        },
-        {
-          "name": "squid-sdk",
-          "description": "",
-          "url": "https://github.com/subsquid/squid-sdk",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "pumpfun-bonkfun-bot",
-          "description": "",
-          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
-          "source": "github"
-        },
-        {
-          "name": "base-uniswap-v4-sniper-bot",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
-        "Create a decentralized lending platform with isolated risk markets",
-        "Develop a perpetual DEX with advanced order types",
-        "Build a liquidity mining analytics dashboard"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 10,
-        "social": 0
-      },
-      "lastUpdated": "2026-11-24T19:18:22.542Z"
-    },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
@@ -65,9 +9,10 @@
       "trendingKeywords": [
         "node",
         "bridge",
-        "network",
         "validator",
-        "indexer"
+        "indexer",
+        "network",
+        "rollup"
       ],
       "topProjects": [
         {
@@ -112,7 +57,7 @@
         "github": 7,
         "social": 0
       },
-      "lastUpdated": "2026-11-24T19:18:22.542Z"
+      "lastUpdated": "2026-11-25T18:23:51.637Z"
     },
     {
       "id": "ai-crypto",
@@ -143,12 +88,12 @@
           "source": "github"
         },
         {
-          "name": "solana-watchbot",
+          "name": "dog-ate-homework",
           "description": "",
           "source": "github"
         },
         {
-          "name": "bayarsekali",
+          "name": "u-gorun-gadget-tiny-bot-easy-2-beat-a48f3ce1-entry",
           "description": "",
           "source": "github"
         }
@@ -161,22 +106,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 14,
+        "github": 16,
         "social": 0
       },
-      "lastUpdated": "2026-11-24T19:18:22.542Z"
+      "lastUpdated": "2026-11-25T18:23:51.637Z"
     },
     {
       "id": "dev-tools",
       "name": "Developer Tools",
       "description": "Tools and infrastructure for developers",
-      "confidence": 1,
+      "confidence": 0.9188000000000001,
       "trendingKeywords": [
-        "build",
         "deploy",
+        "compile",
         "testing",
         "framework",
-        "compile",
         "library"
       ],
       "topProjects": [
@@ -219,10 +163,58 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 14,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-11-24T19:18:22.542Z"
+      "lastUpdated": "2026-11-25T18:23:51.637Z"
+    },
+    {
+      "id": "defi-innovation",
+      "name": "DeFi Innovation",
+      "description": "Decentralized finance protocols and innovations",
+      "confidence": 0.64,
+      "trendingKeywords": [
+        "swap",
+        "dex"
+      ],
+      "topProjects": [
+        {
+          "name": "rango-sdk",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-sdk",
+          "source": "github"
+        },
+        {
+          "name": "squid-sdk",
+          "description": "",
+          "url": "https://github.com/subsquid/squid-sdk",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        },
+        {
+          "name": "pumpfun-bonkfun-bot",
+          "description": "",
+          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Build a yield aggregator that auto-compounds across Solana DeFi protocols",
+        "Create a decentralized lending platform with isolated risk markets",
+        "Develop a perpetual DEX with advanced order types",
+        "Build a liquidity mining analytics dashboard"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 4,
+        "social": 0
+      },
+      "lastUpdated": "2026-11-25T18:23:51.637Z"
     },
     {
       "id": "social-consumer",
@@ -251,7 +243,7 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-11-24T19:18:22.542Z"
+      "lastUpdated": "2026-11-25T18:23:51.637Z"
     },
     {
       "id": "gaming-nft",
@@ -277,7 +269,7 @@
         "github": 0,
         "social": 0
       },
-      "lastUpdated": "2026-11-24T19:18:22.542Z"
+      "lastUpdated": "2026-11-25T18:23:51.637Z"
     }
   ]
 }
