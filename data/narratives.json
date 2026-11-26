@@ -1,18 +1,128 @@
 {
-  "timestamp": "2026-11-25T18:23:51.637Z",
+  "timestamp": "2026-11-26T18:05:38.856Z",
   "narratives": [
+    {
+      "id": "ai-crypto",
+      "name": "AI x Crypto",
+      "description": "Artificial intelligence meets blockchain",
+      "confidence": 1,
+      "trendingKeywords": [
+        "bot",
+        "agent",
+        "autonomous",
+        "intelligence"
+      ],
+      "topProjects": [
+        {
+          "name": "hummingbot",
+          "description": "",
+          "url": "https://github.com/hummingbot/hummingbot",
+          "source": "github"
+        },
+        {
+          "name": "OctoBot",
+          "description": "",
+          "url": "https://github.com/Drakkar-Software/OctoBot",
+          "source": "github"
+        },
+        {
+          "name": "pumpfun-bonkfun-bot",
+          "description": "",
+          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
+          "source": "github"
+        },
+        {
+          "name": "SOLPRINT",
+          "description": "",
+          "source": "github"
+        },
+        {
+          "name": "solana-paper-bot",
+          "description": "",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create an AI-powered trading assistant with on-chain execution",
+        "Build a decentralized model marketplace for AI agents",
+        "Develop an autonomous agent for DeFi yield optimization",
+        "Create an AI content moderator for DAO governance"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 8,
+        "social": 0
+      },
+      "lastUpdated": "2026-11-26T18:05:38.856Z"
+    },
+    {
+      "id": "dev-tools",
+      "name": "Developer Tools",
+      "description": "Tools and infrastructure for developers",
+      "confidence": 1,
+      "trendingKeywords": [
+        "testing",
+        "deploy",
+        "library",
+        "framework",
+        "compile"
+      ],
+      "topProjects": [
+        {
+          "name": "hummingbot",
+          "description": "",
+          "url": "https://github.com/hummingbot/hummingbot",
+          "source": "github"
+        },
+        {
+          "name": "anchor",
+          "description": "",
+          "url": "https://github.com/otter-sec/anchor",
+          "source": "github"
+        },
+        {
+          "name": "solana-go",
+          "description": "",
+          "url": "https://github.com/solana-foundation/solana-go",
+          "source": "github"
+        },
+        {
+          "name": "solang",
+          "description": "",
+          "url": "https://github.com/hyperledger-solang/solang",
+          "source": "github"
+        },
+        {
+          "name": "rango-client",
+          "description": "",
+          "url": "https://github.com/rango-exchange/rango-client",
+          "source": "github"
+        }
+      ],
+      "projectIdeas": [
+        "Create a Solana program testing framework with auto-generated tests",
+        "Build a no-code contract deployment platform",
+        "Develop a real-time program monitoring and alerting tool",
+        "Create an IDE extension for Solana development"
+      ],
+      "dataSources": {
+        "helius": 0,
+        "github": 7,
+        "social": 0
+      },
+      "lastUpdated": "2026-11-26T18:05:38.856Z"
+    },
     {
       "id": "infrastructure",
       "name": "Infrastructure",
       "description": "Core blockchain infrastructure and tooling",
-      "confidence": 1,
+      "confidence": 0.96,
       "trendingKeywords": [
         "node",
         "bridge",
         "validator",
         "indexer",
-        "network",
-        "rollup"
+        "network"
       ],
       "topProjects": [
         {
@@ -54,128 +164,21 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 7,
-        "social": 0
-      },
-      "lastUpdated": "2026-11-25T18:23:51.637Z"
-    },
-    {
-      "id": "ai-crypto",
-      "name": "AI x Crypto",
-      "description": "Artificial intelligence meets blockchain",
-      "confidence": 1,
-      "trendingKeywords": [
-        "bot",
-        "agent"
-      ],
-      "topProjects": [
-        {
-          "name": "hummingbot",
-          "description": "",
-          "url": "https://github.com/hummingbot/hummingbot",
-          "source": "github"
-        },
-        {
-          "name": "OctoBot",
-          "description": "",
-          "url": "https://github.com/Drakkar-Software/OctoBot",
-          "source": "github"
-        },
-        {
-          "name": "pumpfun-bonkfun-bot",
-          "description": "",
-          "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
-          "source": "github"
-        },
-        {
-          "name": "dog-ate-homework",
-          "description": "",
-          "source": "github"
-        },
-        {
-          "name": "u-gorun-gadget-tiny-bot-easy-2-beat-a48f3ce1-entry",
-          "description": "",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create an AI-powered trading assistant with on-chain execution",
-        "Build a decentralized model marketplace for AI agents",
-        "Develop an autonomous agent for DeFi yield optimization",
-        "Create an AI content moderator for DAO governance"
-      ],
-      "dataSources": {
-        "helius": 0,
-        "github": 16,
-        "social": 0
-      },
-      "lastUpdated": "2026-11-25T18:23:51.637Z"
-    },
-    {
-      "id": "dev-tools",
-      "name": "Developer Tools",
-      "description": "Tools and infrastructure for developers",
-      "confidence": 0.9188000000000001,
-      "trendingKeywords": [
-        "deploy",
-        "compile",
-        "testing",
-        "framework",
-        "library"
-      ],
-      "topProjects": [
-        {
-          "name": "hummingbot",
-          "description": "",
-          "url": "https://github.com/hummingbot/hummingbot",
-          "source": "github"
-        },
-        {
-          "name": "anchor",
-          "description": "",
-          "url": "https://github.com/otter-sec/anchor",
-          "source": "github"
-        },
-        {
-          "name": "solang",
-          "description": "",
-          "url": "https://github.com/hyperledger-solang/solang",
-          "source": "github"
-        },
-        {
-          "name": "rango-client",
-          "description": "",
-          "url": "https://github.com/rango-exchange/rango-client",
-          "source": "github"
-        },
-        {
-          "name": "solana-playground",
-          "description": "",
-          "url": "https://github.com/solana-playground/solana-playground",
-          "source": "github"
-        }
-      ],
-      "projectIdeas": [
-        "Create a Solana program testing framework with auto-generated tests",
-        "Build a no-code contract deployment platform",
-        "Develop a real-time program monitoring and alerting tool",
-        "Create an IDE extension for Solana development"
-      ],
-      "dataSources": {
-        "helius": 0,
         "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-11-25T18:23:51.637Z"
+      "lastUpdated": "2026-11-26T18:05:38.856Z"
     },
     {
       "id": "defi-innovation",
       "name": "DeFi Innovation",
       "description": "Decentralized finance protocols and innovations",
-      "confidence": 0.64,
+      "confidence": 0.8800000000000001,
       "trendingKeywords": [
         "swap",
-        "dex"
+        "dex",
+        "perp",
+        "yield"
       ],
       "topProjects": [
         {
@@ -201,6 +204,11 @@
           "description": "",
           "url": "https://github.com/chainstacklabs/pumpfun-bonkfun-bot",
           "source": "github"
+        },
+        {
+          "name": "pulseodds-solana",
+          "description": "",
+          "source": "github"
         }
       ],
       "projectIdeas": [
@@ -211,10 +219,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 4,
+        "github": 6,
         "social": 0
       },
-      "lastUpdated": "2026-11-25T18:23:51.637Z"
+      "lastUpdated": "2026-11-26T18:05:38.856Z"
     },
     {
       "id": "social-consumer",
@@ -243,21 +251,23 @@
         "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-11-25T18:23:51.637Z"
+      "lastUpdated": "2026-11-26T18:05:38.856Z"
     },
     {
       "id": "gaming-nft",
       "name": "Gaming & NFT",
       "description": "Blockchain gaming and NFT ecosystems",
-      "confidence": 0.1,
+      "confidence": 0.12,
       "trendingKeywords": [
-        "game",
-        "gaming",
-        "NFT",
-        "metaverse",
-        "play-to-earn"
+        "game"
       ],
-      "topProjects": [],
+      "topProjects": [
+        {
+          "name": "LootORLoose",
+          "description": "",
+          "source": "github"
+        }
+      ],
       "projectIdeas": [
         "Create a no-code NFT collection launcher with built-in marketplace",
         "Build a gaming guild management platform with scholarship tracking",
@@ -266,10 +276,10 @@
       ],
       "dataSources": {
         "helius": 0,
-        "github": 0,
+        "github": 1,
         "social": 0
       },
-      "lastUpdated": "2026-11-25T18:23:51.637Z"
+      "lastUpdated": "2026-11-26T18:05:38.856Z"
     }
   ]
 }
